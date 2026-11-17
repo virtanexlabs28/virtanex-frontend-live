@@ -1,0 +1,81 @@
+{
+  "intro": {
+    "kicker": "Solution Blueprints",
+    "title": "The kinds of systems we build.",
+    "description": "Four representative solution designs showing how we approach architecture, delivery, and outcomes. They illustrate our capabilities and are not client case studies."
+  },
+  "items": [
+    {
+      "id": "ai-knowledge-platform",
+      "title": "AI Knowledge & Document Platform",
+      "category": "Enterprise AI & Workflow",
+      "service": "ai-ml",
+      "description": "A retrieval-augmented assistant and document-processing pipeline that turns contracts, manuals, and reports into answers teams can trust.",
+      "tags": ["LLM Integration", "RAG", "Python / NestJS", "Vector Search"],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Teams lose hours searching across documents. This blueprint ingests files from existing storage, extracts and indexes their content, and exposes a conversational interface that cites its sources, with role-based access so people only see what they are permitted to.",
+      "challenge": "Information scattered across shared drives, email attachments, and legacy systems, with no reliable way to search or summarize it.",
+      "approach": [
+        "Ingestion pipeline with OCR and structured extraction",
+        "Hybrid keyword and vector retrieval with citations",
+        "Evaluation set to measure answer quality over time",
+        "Role-based access and full audit logging"
+      ],
+      "outcomes": ["Faster answers from internal documents", "Traceable, source-cited responses", "Controlled access to sensitive content"]
+    },
+    {
+      "id": "saas-platform",
+      "title": "Multi-Tenant SaaS Platform",
+      "category": "Digital Product & SaaS",
+      "service": "digital-product",
+      "description": "A subscription-based platform with tenant isolation, role-based access, billing, and an admin console, ready to scale from MVP to production.",
+      "tags": ["Next.js", "NestJS", "PostgreSQL", "Subscriptions"],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "overview": "A reference architecture for turning a product idea into a billable SaaS. It covers tenant data isolation, user and permission management, subscription plans, usage tracking, and the operational tooling needed to run the product day to day.",
+      "challenge": "Launching quickly without painting the product into an architectural corner that blocks multi-tenancy, billing, or enterprise features later.",
+      "approach": [
+        "Tenant-aware data model and access layer",
+        "Subscription and billing provider integration",
+        "Admin console for support and operations",
+        "CI/CD with staging and production environments"
+      ],
+      "outcomes": ["MVP in market quickly", "Architecture that scales with customers", "Clean base for new features"]
+    },
+    {
+      "id": "data-reporting",
+      "title": "Unified Data & Reporting Platform",
+      "category": "Data Engineering & Analytics",
+      "service": "data-engineering",
+      "description": "Automated pipelines that consolidate data from finance, sales, and operations systems into one trusted model with live dashboards.",
+      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Dashboards"],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Reporting often means manual exports and conflicting spreadsheets. This blueprint pulls from each source system on a schedule, validates and reconciles the data, and publishes a single source of truth with dashboards leaders can rely on.",
+      "challenge": "Multiple systems, inconsistent definitions, and manual month-end reporting that is slow and error-prone.",
+      "approach": [
+        "Source connectors with incremental loading",
+        "Transformation layer with documented business rules",
+        "Automated data quality checks and alerts",
+        "Dashboards and scheduled report delivery"
+      ],
+      "outcomes": ["One consistent view of the business", "Less manual reporting effort", "Early warning on data problems"]
+    },
+    {
+      "id": "iot-monitoring",
+      "title": "IoT Monitoring & Alerting System",
+      "category": "IoT & Industrial Software",
+      "service": "iot-industrial",
+      "description": "Real-time telemetry ingestion, dashboards, and anomaly alerts for connected equipment, with a path towards predictive maintenance.",
+      "tags": ["IoT", "Real-time", "Anomaly Detection", "Python / Node.js"],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Connected equipment generates data that rarely reaches the people who can act on it. This blueprint ingests device telemetry, stores it efficiently, visualizes live status, and raises alerts when readings drift outside expected behavior.",
+      "challenge": "Equipment health is invisible until something fails, and device data is locked in proprietary tools.",
+      "approach": [
+        "Device and gateway integration over standard protocols",
+        "Time-series storage and processing pipeline",
+        "Live dashboards by site, asset, and sensor",
+        "Threshold and statistical anomaly alerting"
+      ],
+      "outcomes": ["Real-time visibility of assets", "Earlier detection of faults", "Foundation for predictive maintenance"]
+    }
+  ]
+}

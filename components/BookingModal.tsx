@@ -1,220 +1,155 @@
 'use client';
 
 import React, { useState } from 'react';
-import { X, Calendar, Clock, Check, ArrowRight, Sparkles } from 'lucide-react';
+import { ArrowRight, Calendar, Check } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import {
+  Dialog,
+  DialogContent,
+  DialogDescription,
+  DialogHeader,
+  DialogTitle,
+} from '@/components/ui/dialog';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { services, site } from '@/lib/content';
+import { buildMailto } from '@/lib/mailto';
+import { cn } from '@/lib/utils';
 
 interface BookingModalProps {
   isOpen: boolean;
   onClose: () => void;
 }
 
+const TOPICS = [...services.slice(0, 6).map((s) => s.short), ...site.booking.extraTopics];
+
 export function BookingModal({ isOpen, onClose }: BookingModalProps) {
-  const [step, setStep] = useState<number>(1);
-  const [selectedSlot, setSelectedSlot] = useState<string>('Tue 14:00 (Helsinki / EEST)');
-  const [selectedService, setSelectedService] = useState<string>('Custom Software / Platform');
-  const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    company: '',
-    notes: '',
-  });
-  const [confirmed, setConfirmed] = useState(false);
+  const [topic, setTopic] = useState(TOPICS[0]);
+  const [slot, setSlot] = useState(site.booking.slots[0]);
+  const [form, setForm] = useState({ name: '', email: '', notes: '' });
+  const [sent, setSent] = useState(false);
 
-  if (!isOpen) return null;
-
-  const timeSlots = [
-    'Tue 14:00 (Helsinki / EEST)',
-    'Wed 11:30 (Helsinki / EEST)',
-    'Wed 16:00 (Helsinki / EEST)',
-    'Thu 13:00 (Helsinki / EEST)',
-    'Thu 17:30 (Helsinki / EEST)',
-    'Fri 15:00 (Helsinki / EEST)',
-  ];
-
-  const services = [
-    'Custom Software / Platform',
-    'AI / LLM Integration & RAG',
-    'Data Engineering & Analytics',
-    'Brand Identity & Design System',
-    'Cloud & DevOps Engineering',
-    'Technical Advisory & Architecture',
-  ];
-
-  const handleBookingSubmit = (e: React.FormEvent) => {
-    e.preventDefault();
-    if (!formData.name || !formData.email) return;
-    setConfirmed(true);
-  };
-
-  const handleResetAndClose = () => {
-    setConfirmed(false);
-    setStep(1);
+  const close = () => {
+    setSent(false);
     onClose();
   };
 
-  return (
-    <div
-      className="fixed inset-0 z-[200] bg-black/85 backdrop-blur-md flex items-center justify-center p-4 sm:p-6"
-      role="dialog"
-      aria-modal="true"
-      aria-label="Book a Discovery Call"
-    >
-      <div className="bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-2xl max-w-xl w-full p-6 sm:p-8 shadow-2xl relative animate-fade-in text-[#E8E0D0]">
-        {/* Close Button */}
-        <button
-          onClick={handleResetAndClose}
-          className="absolute top-6 right-6 w-9 h-9 rounded-full bg-[#E8E0D0]/10 border border-[#E8E0D0]/15 flex items-center justify-center text-[#E8E0D0] hover:bg-[#B87333] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-          aria-label="Close booking modal"
-        >
-          <X className="w-4 h-4" />
-        </button>
+  const submit = (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!form.name || !form.email) return;
+    window.location.href = buildMailto(site.contact.email, `Discovery call request from ${form.name}`, {
+      Name: form.name,
+      Email: form.email,
+      Topic: topic,
+      'Preferred window': slot,
+      Notes: form.notes,
+    });
+    setSent(true);
+  };
 
-        {confirmed ? (
-          <div className="py-8 text-center space-y-5 animate-fade-in">
-            <div className="w-16 h-16 rounded-full bg-[#B87333]/20 border border-[#B87333] flex items-center justify-center mx-auto text-[#B87333]">
-              <Check className="w-8 h-8" />
+  return (
+    <Dialog open={isOpen} onOpenChange={(open) => !open && close()}>
+      <DialogContent className="max-h-[92vh] overflow-y-auto rounded-2xl border-border bg-background p-6 sm:max-w-xl sm:p-8">
+        {sent ? (
+          <div className="animate-fade-in space-y-5 py-6 text-center">
+            <div className="mx-auto flex size-16 items-center justify-center rounded-full border border-accent bg-accent/20 text-accent">
+              <Check className="size-8" aria-hidden="true" />
             </div>
-            <div>
-              <span className="text-xs uppercase tracking-widest text-[#B87333]">
-                Session Reserved
-              </span>
-              <h3 className="font-fraunces text-2xl sm:text-3xl font-medium mt-1">
-                Discovery Call Confirmed
-              </h3>
-            </div>
-            <p className="text-sm text-[#E8E0D0]/70 leading-relaxed max-w-sm mx-auto">
-              We have dispatched calendar invites and meeting links to{' '}
-              <strong className="text-[#E8E0D0]">{formData.email}</strong> for {selectedSlot}.
+            <DialogHeader className="items-center text-center">
+              <p className="text-xs uppercase tracking-widest text-accent">Almost done</p>
+              <DialogTitle className="font-fraunces text-2xl font-normal sm:text-3xl">Your request is ready to send</DialogTitle>
+              <DialogDescription className="mx-auto max-w-sm text-sm leading-relaxed">
+                We opened your email app with your details and preferred window ({slot}). Press send and we will
+                confirm a time by email {site.contact.responseTime}.
+              </DialogDescription>
+            </DialogHeader>
+            <p className="text-xs text-muted-foreground">
+              Nothing opened? Email{' '}
+              <a className="text-accent underline" href={`mailto:${site.contact.email}`}>
+                {site.contact.email}
+              </a>
+              .
             </p>
-            <div className="p-4 rounded-xl bg-[#E8E0D0]/5 border border-[#E8E0D0]/10 text-xs text-left max-w-md mx-auto space-y-1">
-              <div className="text-[#E8E0D0]/50 font-mono">AGENDA:</div>
-              <div className="text-[#E8E0D0] font-medium">30-min Technical Discovery & Scope Alignment</div>
-              <div className="text-[#E8E0D0]/60">Virtanex Labs Technical Direction · Helsinki Base</div>
-            </div>
-            <button
-              onClick={handleResetAndClose}
-              className="bg-[#E8E0D0] text-[#0C0A09] px-6 py-2.5 rounded-full text-sm font-semibold hover:bg-[#B87333] hover:text-[#E8E0D0] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-            >
+            <Button onClick={close} className="rounded-full px-6 hover:bg-accent hover:text-accent-foreground">
               Done
-            </button>
+            </Button>
           </div>
         ) : (
-          <form onSubmit={handleBookingSubmit} className="space-y-6">
-            <div>
-              <div className="flex items-center gap-2 text-xs uppercase tracking-widest text-[#B87333]">
-                <Calendar className="w-3.5 h-3.5" />
-                <span>Virtanex Labs · Finland Base</span>
-              </div>
-              <h3 className="font-fraunces text-2xl sm:text-3xl font-medium mt-1">
-                Book a Technical Discovery Call
-              </h3>
-              <p className="text-xs text-[#E8E0D0]/55 mt-1">
-                30-minute direct consultation with our technical and design leads.
+          <form onSubmit={submit} className="space-y-6">
+            <DialogHeader className="text-left">
+              <p className="flex items-center gap-2 text-xs uppercase tracking-widest text-accent">
+                <Calendar className="size-3.5" aria-hidden="true" />
+                {site.name} · Finland
               </p>
-            </div>
+              <DialogTitle className="font-fraunces text-2xl font-normal sm:text-3xl">{site.booking.title}</DialogTitle>
+              <DialogDescription className="text-sm">{site.booking.subtitle}</DialogDescription>
+            </DialogHeader>
 
-            {/* Service Focus */}
-            <div>
-              <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-2">
-                Discipline of Interest
-              </label>
+            <fieldset>
+              <legend className="mb-2 text-xs uppercase tracking-wider text-foreground/60">Topic of interest</legend>
               <div className="grid grid-cols-2 gap-2">
-                {services.map((srv) => (
-                  <button
-                    key={srv}
-                    type="button"
-                    onClick={() => setSelectedService(srv)}
-                    className={`p-2.5 rounded-xl border text-xs text-left transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333] ${
-                      selectedService === srv
-                        ? 'border-[#B87333] bg-[#B87333]/15 text-[#E8E0D0] font-medium'
-                        : 'border-[#E8E0D0]/10 text-[#E8E0D0]/65 hover:bg-[#E8E0D0]/5'
-                    }`}
-                  >
-                    {srv}
-                  </button>
+                {TOPICS.map((t) => (
+                  <ChoiceButton key={t} selected={topic === t} onClick={() => setTopic(t)}>
+                    {t}
+                  </ChoiceButton>
                 ))}
               </div>
-            </div>
+            </fieldset>
 
-            {/* Available Time Slots */}
-            <div>
-              <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-2">
-                Select Preferred Meeting Window
-              </label>
+            <fieldset>
+              <legend className="mb-2 text-xs uppercase tracking-wider text-foreground/60">Preferred meeting window</legend>
               <div className="grid grid-cols-2 gap-2">
-                {timeSlots.map((slot) => (
-                  <button
-                    key={slot}
-                    type="button"
-                    onClick={() => setSelectedSlot(slot)}
-                    className={`p-2.5 rounded-xl border text-xs text-left flex items-center justify-between transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333] ${
-                      selectedSlot === slot
-                        ? 'border-[#B87333] bg-[#B87333]/15 text-[#E8E0D0] font-medium'
-                        : 'border-[#E8E0D0]/10 text-[#E8E0D0]/65 hover:bg-[#E8E0D0]/5'
-                    }`}
-                  >
-                    <span>{slot}</span>
-                    {selectedSlot === slot && <Check className="w-3.5 h-3.5 text-[#B87333]" />}
-                  </button>
+                {site.booking.slots.map((s) => (
+                  <ChoiceButton key={s} selected={slot === s} onClick={() => setSlot(s)}>
+                    {s}
+                  </ChoiceButton>
                 ))}
               </div>
-            </div>
+            </fieldset>
 
-            {/* Contact Details */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
-              <div>
-                <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-1">
-                  Your Name
-                </label>
-                <input
-                  type="text"
-                  required
-                  value={formData.name}
-                  onChange={(e) => setFormData({ ...formData, name: e.target.value })}
-                  placeholder="Full name"
-                  className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-3.5 py-2.5 text-xs text-[#E8E0D0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                />
+            <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+              <div className="space-y-2">
+                <Label htmlFor="b-name" className="text-xs uppercase tracking-wider text-foreground/60">Your name</Label>
+                <Input id="b-name" required value={form.name} onChange={(e) => setForm({ ...form, name: e.target.value })} placeholder="Full name" className="rounded-xl" />
               </div>
-              <div>
-                <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-1">
-                  Work Email
-                </label>
-                <input
-                  type="email"
-                  required
-                  value={formData.email}
-                  onChange={(e) => setFormData({ ...formData, email: e.target.value })}
-                  placeholder="name@company.com"
-                  className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-3.5 py-2.5 text-xs text-[#E8E0D0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                />
+              <div className="space-y-2">
+                <Label htmlFor="b-email" className="text-xs uppercase tracking-wider text-foreground/60">Work email</Label>
+                <Input id="b-email" type="email" required value={form.email} onChange={(e) => setForm({ ...form, email: e.target.value })} placeholder="name@company.com" className="rounded-xl" />
               </div>
             </div>
 
-            <div>
-              <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-1">
-                Company / Project Notes (Optional)
-              </label>
-              <input
-                type="text"
-                value={formData.notes}
-                onChange={(e) => setFormData({ ...formData, notes: e.target.value })}
-                placeholder="Brief objective, technology questions, or launch goals"
-                className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-3.5 py-2.5 text-xs text-[#E8E0D0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-              />
+            <div className="space-y-2">
+              <Label htmlFor="b-notes" className="text-xs uppercase tracking-wider text-foreground/60">Project notes (optional)</Label>
+              <Input id="b-notes" value={form.notes} onChange={(e) => setForm({ ...form, notes: e.target.value })} placeholder="Brief objective or questions" className="rounded-xl" />
             </div>
 
-            <div className="pt-2">
-              <button
-                type="submit"
-                className="w-full bg-[#E8E0D0] text-[#0C0A09] py-3 rounded-full text-sm font-semibold hover:bg-[#B87333] hover:text-[#E8E0D0] transition-colors flex items-center justify-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333]"
-              >
-                <span>Confirm Call Reservation</span>
-                <ArrowRight className="w-4 h-4" />
-              </button>
-            </div>
+            <Button type="submit" size="lg" className="w-full rounded-full hover:bg-accent hover:text-accent-foreground">
+              Request this call
+              <ArrowRight className="size-4" aria-hidden="true" />
+            </Button>
+            <p className="text-center text-xs text-muted-foreground">{site.booking.agenda}</p>
           </form>
         )}
-      </div>
-    </div>
+      </DialogContent>
+    </Dialog>
+  );
+}
+
+function ChoiceButton({ selected, onClick, children }: { selected: boolean; onClick: () => void; children: React.ReactNode }) {
+  return (
+    <button
+      type="button"
+      onClick={onClick}
+      aria-pressed={selected}
+      className={cn(
+        'flex items-center justify-between gap-2 rounded-xl border p-2.5 text-left text-xs transition-colors outline-none focus-visible:ring-2 focus-visible:ring-ring',
+        selected
+          ? 'border-accent bg-accent/15 font-medium text-foreground'
+          : 'border-border text-foreground/65 hover:bg-foreground/5',
+      )}
+    >
+      <span>{children}</span>
+      {selected && <Check className="size-3.5 shrink-0 text-accent" aria-hidden="true" />}
+    </button>
   );
 }

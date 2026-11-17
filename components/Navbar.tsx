@@ -1,177 +1,125 @@
 'use client';
 
-import React, { useState, useEffect } from 'react';
-import { Menu, X, ArrowUpRight } from 'lucide-react';
+import React, { useEffect, useState } from 'react';
+import Link from 'next/link';
+import { usePathname } from 'next/navigation';
+import { ArrowUpRight, Menu } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Sheet, SheetClose, SheetContent, SheetDescription, SheetTitle, SheetTrigger } from '@/components/ui/sheet';
+import { useBooking } from '@/components/BookingProvider';
+import { Logo } from '@/components/Logo';
+import { site } from '@/lib/content';
+import { cn } from '@/lib/utils';
 
-interface NavbarProps {
-  onOpenBooking?: () => void;
-  onNavigate?: (sectionId: string) => void;
-}
-
-export function Navbar({ onOpenBooking, onNavigate }: NavbarProps) {
+export function Navbar() {
+  const pathname = usePathname();
+  const { openBooking } = useBooking();
   const [mounted, setMounted] = useState(false);
-  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+  const [open, setOpen] = useState(false);
 
   useEffect(() => {
-    // Apply opacity-100 on mount as specified
-    const timer = setTimeout(() => {
-      setMounted(true);
-    }, 50);
+    const timer = setTimeout(() => setMounted(true), 50);
     return () => clearTimeout(timer);
   }, []);
 
-  const navLinks = [
-    { label: 'Work', id: 'work' },
-    { label: 'Studio', id: 'studio' },
-    { label: 'Process', id: 'process' },
-    { label: 'Journal', id: 'journal' },
-    { label: 'Contact', id: 'contact' },
-  ];
-
-  const handleLinkClick = (id: string) => {
-    setMobileMenuOpen(false);
-    if (onNavigate) {
-      onNavigate(id);
-    } else {
-      const el = document.getElementById(id);
-      if (el) {
-        el.scrollIntoView({ behavior: 'smooth' });
-      }
-    }
-  };
+  const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
 
   return (
-    <>
-      <nav
-        className={`fixed top-0 left-0 right-0 z-[100] flex items-center justify-between px-5 sm:px-7 py-5 transition-opacity duration-[600ms] delay-200 ${
-          mounted ? 'opacity-100' : 'opacity-0'
-        }`}
-        aria-label="Main Navigation"
+    <nav
+      className={cn(
+        'fixed left-0 right-0 top-0 z-[100] flex items-center justify-between px-5 py-5 transition-opacity delay-200 duration-[600ms] sm:px-7',
+        mounted ? 'opacity-100' : 'opacity-0',
+      )}
+      aria-label="Main Navigation"
+    >
+      <Link
+        href="/"
+        className="group flex items-center rounded-lg text-left focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent"
+        aria-label={`${site.name} home`}
       >
-        {/* Left: Logo & Brand */}
-        <button
-          onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-          className="flex items-center text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333] rounded-lg group"
-          aria-label="Virtanex Labs Home"
-        >
-          {/* Inline SVG Logo (24x24, outer ring 1px stroke text-cream, inner filled circle text-copper) */}
-          <svg
-            className="w-6 h-6 shrink-0 transition-transform duration-300 group-hover:scale-105"
-            viewBox="0 0 24 24"
-            fill="none"
-            aria-hidden="true"
-          >
-            <circle
-              cx="12"
-              cy="12"
-              r="10"
-              stroke="#E8E0D0"
-              strokeWidth="1"
-              strokeOpacity="0.85"
-            />
-            <circle
-              cx="12"
-              cy="12"
-              r="4.5"
-              fill="#B87333"
-            />
-          </svg>
-          <span className="ml-2 font-fraunces text-[#E8E0D0] text-lg font-medium tracking-tight">
-            Virtanex Labs
-          </span>
-        </button>
+        <Logo className="h-9 w-auto text-foreground transition-transform duration-300 group-hover:scale-[1.03] sm:h-10" />
+      </Link>
 
-        {/* Centre Pill (Desktop) */}
-        <div className="hidden md:flex absolute left-1/2 -translate-x-1/2 bg-[#E8E0D0]/10 backdrop-blur-md border border-[#E8E0D0]/15 rounded-full px-2 py-1.5 items-center gap-1 shadow-lg shadow-black/20">
-          {navLinks.map((link) => (
-            <button
-              key={link.id}
-              onClick={() => handleLinkClick(link.id)}
-              className="px-4 py-1.5 rounded-full text-sm font-medium text-[#E8E0D0]/75 hover:bg-[#E8E0D0]/15 hover:text-[#E8E0D0] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333]"
+      {/* Desktop pill */}
+      <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 rounded-full border border-foreground/15 bg-foreground/10 px-2 py-1.5 shadow-lg shadow-black/20 backdrop-blur-md lg:flex">
+        {site.nav.map((link) => (
+          <li key={link.href}>
+            <Link
+              href={link.href}
+              aria-current={isActive(link.href) ? 'page' : undefined}
+              className={cn(
+                'block rounded-full px-4 py-1.5 text-sm font-medium transition-colors focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-accent',
+                isActive(link.href)
+                  ? 'bg-foreground/20 text-foreground'
+                  : 'text-foreground/75 hover:bg-foreground/15 hover:text-foreground',
+              )}
             >
               {link.label}
-            </button>
-          ))}
-        </div>
+            </Link>
+          </li>
+        ))}
+      </ul>
 
-        {/* Right (Desktop CTA) */}
-        <div className="hidden md:inline-flex items-center">
-          <button
-            onClick={onOpenBooking}
-            className="bg-[#E8E0D0] text-[#0C0A09] text-sm font-semibold px-5 py-2.5 rounded-full hover:bg-[#B87333] hover:text-[#E8E0D0] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333] shadow-md shadow-black/30"
+      <Button
+        onClick={openBooking}
+        className="hidden rounded-full px-5 font-semibold shadow-md shadow-black/30 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground lg:inline-flex"
+      >
+        Book a call
+      </Button>
+
+      {/* Mobile menu */}
+      <Sheet open={open} onOpenChange={setOpen}>
+        <SheetTrigger asChild>
+          <Button
+            variant="outline"
+            size="icon"
+            className="rounded-full border-foreground/20 bg-foreground/10 text-foreground hover:bg-foreground/20 lg:hidden"
+            aria-label="Open navigation menu"
           >
-            Book a call
-          </button>
-        </div>
+            <Menu className="size-4" />
+          </Button>
+        </SheetTrigger>
+        <SheetContent side="right" className="w-full gap-0 border-border bg-background/95 p-7 backdrop-blur-xl sm:max-w-sm">
+          <SheetTitle className="flex items-center">
+            <Logo className="h-9 w-auto text-foreground" />
+          </SheetTitle>
+          <SheetDescription className="sr-only">Site navigation</SheetDescription>
 
-        {/* Mobile Hamburger Button */}
-        <button
-          onClick={() => setMobileMenuOpen(true)}
-          className="md:hidden ml-auto w-9 h-9 rounded-full bg-[#E8E0D0]/10 border border-[#E8E0D0]/20 flex items-center justify-center text-[#E8E0D0] hover:bg-[#E8E0D0]/20 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333]"
-          aria-label="Open mobile navigation menu"
-        >
-          <Menu className="w-4 h-4" />
-        </button>
-      </nav>
-
-      {/* Mobile Drawer (Full-screen overlay) */}
-      {mobileMenuOpen && (
-        <div
-          className="fixed inset-0 z-[120] bg-[#0C0A09]/95 backdrop-blur-xl flex flex-col justify-between p-7 md:hidden animate-fade-in"
-          role="dialog"
-          aria-modal="true"
-          aria-label="Mobile Navigation Drawer"
-        >
-          <div className="flex items-center justify-between">
-            <div className="flex items-center">
-              <svg className="w-6 h-6" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" stroke="#E8E0D0" strokeWidth="1" strokeOpacity="0.85" />
-                <circle cx="12" cy="12" r="4.5" fill="#B87333" />
-              </svg>
-              <span className="ml-2 font-fraunces text-[#E8E0D0] text-xl font-medium">Virtanex Labs</span>
-            </div>
-            <button
-              onClick={() => setMobileMenuOpen(false)}
-              className="w-10 h-10 rounded-full bg-[#E8E0D0]/10 border border-[#E8E0D0]/20 flex items-center justify-center text-[#E8E0D0] hover:bg-[#E8E0D0]/20 transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333]"
-              aria-label="Close menu"
-            >
-              <X className="w-5 h-5" />
-            </button>
-          </div>
-
-          <div className="flex flex-col gap-6 my-auto">
-            {navLinks.map((link, idx) => (
-              <button
-                key={link.id}
-                onClick={() => handleLinkClick(link.id)}
-                className="text-left font-fraunces text-3xl font-medium text-[#E8E0D0] hover:text-[#B87333] transition-colors py-1 flex items-center justify-between border-b border-[#E8E0D0]/10 pb-4 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333]"
-                style={{ animationDelay: `${idx * 60}ms` }}
-              >
-                <span>{link.label}</span>
-                <span className="text-xs uppercase tracking-widest text-[#E8E0D0]/40 font-sans">
-                  0{idx + 1}
-                </span>
-              </button>
+          <div className="my-auto flex flex-col gap-2">
+            {site.nav.map((link, idx) => (
+              <SheetClose key={link.href} asChild>
+                <Link
+                  href={link.href}
+                  className={cn(
+                    'flex items-center justify-between border-b border-border py-4 font-fraunces text-3xl font-medium transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-accent',
+                    isActive(link.href) ? 'text-accent' : 'text-foreground',
+                  )}
+                >
+                  <span>{link.label}</span>
+                  <span className="text-xs uppercase tracking-widest text-foreground/40">{String(idx + 1).padStart(2, '0')}</span>
+                </Link>
+              </SheetClose>
             ))}
           </div>
 
-          <div className="flex flex-col gap-4 pt-6 border-t border-[#E8E0D0]/15">
-            <button
+          <div className="flex flex-col gap-4 border-t border-border pt-6">
+            <Button
+              size="lg"
               onClick={() => {
-                setMobileMenuOpen(false);
-                if (onOpenBooking) onOpenBooking();
+                setOpen(false);
+                openBooking();
               }}
-              className="w-full bg-[#E8E0D0] text-[#0C0A09] text-base font-semibold py-3.5 rounded-full hover:bg-[#B87333] hover:text-[#E8E0D0] transition-colors flex items-center justify-center gap-2 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333]"
+              className="w-full rounded-full font-semibold hover:bg-accent hover:text-accent-foreground"
             >
-              <span>Book a call</span>
-              <ArrowUpRight className="w-4 h-4" />
-            </button>
-            <p className="text-xs text-center text-[#E8E0D0]/40 tracking-wider">
-              HELSINKI · REMOTE · EST. 2026
+              Book a call
+              <ArrowUpRight className="size-4" />
+            </Button>
+            <p className="text-center text-xs tracking-wider text-foreground/40">
+              FINLAND · REMOTE · EST. {site.founded}
             </p>
           </div>
-        </div>
-      )}
-    </>
+        </SheetContent>
+      </Sheet>
+    </nav>
   );
 }

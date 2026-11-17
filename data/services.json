@@ -1,0 +1,309 @@
+{
+  "intro": {
+    "kicker": "Service Catalog",
+    "title": "Ten Disciplines of Technical Excellence",
+    "description": "From standalone SaaS products to AI pipelines and industrial telemetry, one team covers the full path from idea to production, and keeps it running afterwards."
+  },
+  "services": [
+    {
+      "id": "custom-software",
+      "number": "01",
+      "icon": "Code2",
+      "title": "Custom Software Development",
+      "short": "Custom Software",
+      "summary": "We design and develop custom software applications that address specific operational and business requirements.",
+      "overview": "Off-the-shelf tools rarely fit how a business really works. We build web applications, internal platforms, and backend systems around your workflows, with clean architecture that stays maintainable as requirements change.",
+      "capabilities": [
+        "Custom web application development",
+        "Enterprise software development",
+        "SaaS platform development",
+        "Business management systems",
+        "Customer and employee portals",
+        "Backend application development",
+        "REST API development",
+        "Microservices architecture",
+        "Application modernization",
+        "Ongoing software maintenance"
+      ],
+      "deliverables": [
+        "Production-ready application with source code ownership",
+        "Documented REST APIs and data models",
+        "Automated test suite and CI pipeline",
+        "Deployment and handover documentation"
+      ],
+      "technologies": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "PostgreSQL"],
+      "idealFor": "Organizations replacing spreadsheets, legacy tools, or manual processes with software tailored to how they operate.",
+      "engagement": "Project-based or dedicated team"
+    },
+    {
+      "id": "ai-ml",
+      "number": "02",
+      "icon": "Cpu",
+      "title": "Artificial Intelligence & Machine Learning",
+      "short": "AI & Machine Learning",
+      "summary": "We help businesses integrate artificial intelligence into their products, services, and internal operations.",
+      "overview": "We focus on AI that solves a concrete problem: assistants grounded in your own documents, workflows that read and route information, and models that predict or flag what matters. Every solution is built with evaluation, guardrails, and cost control in mind.",
+      "capabilities": [
+        "AI-powered application development",
+        "AI assistants and conversational systems",
+        "Large Language Model (LLM) integration",
+        "Retrieval-Augmented Generation (RAG)",
+        "Intelligent workflow development",
+        "Document processing and information extraction",
+        "Machine learning integration",
+        "Predictive analytics",
+        "Anomaly detection",
+        "AI-powered business automation"
+      ],
+      "deliverables": [
+        "Working AI feature integrated into your product or process",
+        "Evaluation set and quality benchmarks",
+        "Prompt, retrieval, and guardrail documentation",
+        "Usage monitoring and cost controls"
+      ],
+      "technologies": ["LLM APIs", "RAG pipelines", "Python", "Vector databases", "Node.js", "PostgreSQL"],
+      "idealFor": "Teams that want to add assistants, document understanding, or prediction to a product or internal process without a research project.",
+      "engagement": "Project-based or technical consulting"
+    },
+    {
+      "id": "data-engineering",
+      "number": "03",
+      "icon": "Database",
+      "title": "Data Engineering & Analytics",
+      "short": "Data & Analytics",
+      "summary": "We develop data solutions that help organizations collect, process, organize, and understand information.",
+      "overview": "Reliable decisions need reliable data. We build the pipelines, storage layers, and dashboards that turn scattered sources into a single trustworthy picture, with validation built in so problems surface early.",
+      "capabilities": [
+        "Data pipeline development",
+        "Data ingestion and transformation",
+        "ETL and ELT workflows",
+        "Database architecture",
+        "Data integration",
+        "Data processing automation",
+        "Business intelligence dashboards",
+        "Data visualization",
+        "Reporting systems",
+        "Data quality validation"
+      ],
+      "deliverables": [
+        "Automated, monitored data pipelines",
+        "Designed and documented data models",
+        "Dashboards and scheduled reports",
+        "Data quality checks and alerting"
+      ],
+      "technologies": ["Python", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Docker"],
+      "idealFor": "Companies whose data lives in many systems and who need dependable reporting, analytics, or an AI-ready foundation.",
+      "engagement": "Project-based"
+    },
+    {
+      "id": "system-integration",
+      "number": "04",
+      "icon": "GitMerge",
+      "title": "Enterprise System Integration",
+      "short": "System Integration",
+      "summary": "We connect business applications, platforms, databases, and external services to create unified technology environments.",
+      "overview": "Most businesses run on a patchwork of tools. We connect them through robust, observable integrations so data flows once, stays consistent, and teams stop re-typing information between systems.",
+      "capabilities": [
+        "Third-party API integrations",
+        "ERP integrations",
+        "CRM integrations",
+        "Payment gateway integrations",
+        "Enterprise application integration",
+        "Database synchronization",
+        "Webhook development",
+        "Legacy system integration",
+        "Cross-platform data exchange",
+        "Integration testing"
+      ],
+      "deliverables": [
+        "Tested, documented integrations with retry and error handling",
+        "Data mapping specifications",
+        "Monitoring and failure alerts",
+        "Runbooks for operations teams"
+      ],
+      "technologies": ["REST & webhooks", "Node.js", "NestJS", "Python", "PostgreSQL", "n8n"],
+      "idealFor": "Organizations connecting ERP, CRM, payments, and internal tools, or bridging legacy systems with modern platforms.",
+      "engagement": "Project-based or long-term partnership"
+    },
+    {
+      "id": "process-automation",
+      "number": "05",
+      "icon": "Workflow",
+      "title": "Business Process Automation",
+      "short": "Process Automation",
+      "summary": "We help organizations reduce repetitive manual work through intelligent automation and connected workflows.",
+      "overview": "We map the work your team repeats every day, then automate the parts that do not need human judgment. AI is used where it genuinely helps, such as reading documents or classifying requests, and plain rules where they are enough.",
+      "capabilities": [
+        "Business workflow automation",
+        "Approval and notification systems",
+        "Automated reporting",
+        "Document processing workflows",
+        "Email automation",
+        "CRM automation",
+        "Data synchronization",
+        "AI-powered workflows",
+        "API-based automation",
+        "Process optimization"
+      ],
+      "deliverables": [
+        "Automated workflows with audit trails",
+        "Process maps before and after automation",
+        "Exception handling and human-in-the-loop steps",
+        "Team training and documentation"
+      ],
+      "technologies": ["n8n", "Webhooks & APIs", "Node.js", "Python", "LLM APIs", "PostgreSQL"],
+      "idealFor": "Operations, finance, and sales teams spending hours on repetitive reporting, data entry, and approvals.",
+      "engagement": "Project-based"
+    },
+    {
+      "id": "cloud-devops",
+      "number": "06",
+      "icon": "Cloud",
+      "title": "Cloud & DevOps Engineering",
+      "short": "Cloud & DevOps",
+      "summary": "We build and manage reliable infrastructure that supports modern applications and business operations.",
+      "overview": "Good software needs dependable infrastructure behind it. We set up repeatable deployments, monitoring, and recovery so releases are routine, outages are rare, and problems are visible before customers notice.",
+      "capabilities": [
+        "Cloud infrastructure setup",
+        "Docker and containerization",
+        "Docker Compose deployments",
+        "CI/CD pipeline development",
+        "Linux server management",
+        "Application deployment",
+        "Database deployment and management",
+        "Infrastructure monitoring",
+        "Logging and observability",
+        "Backup and recovery planning",
+        "Application performance optimization"
+      ],
+      "deliverables": [
+        "Automated build, test, and deploy pipelines",
+        "Containerized, reproducible environments",
+        "Monitoring dashboards and alerting",
+        "Backup and disaster recovery plan"
+      ],
+      "technologies": ["Docker & Compose", "CI/CD pipelines", "Linux / VPS", "PostgreSQL", "Redis"],
+      "idealFor": "Teams moving from manual deployments to automated pipelines, or needing someone to own infrastructure reliability.",
+      "engagement": "Project-based or ongoing support"
+    },
+    {
+      "id": "digital-product",
+      "number": "07",
+      "icon": "Layers",
+      "title": "Digital Product & SaaS Engineering",
+      "short": "Product & SaaS",
+      "summary": "We help businesses and entrepreneurs turn product concepts into functional, scalable digital platforms.",
+      "overview": "We work like a product-minded engineering partner: sharpening scope, choosing a pragmatic architecture, and shipping an MVP that real users can try, then evolving it with billing, multi-tenancy, and the features that follow.",
+      "capabilities": [
+        "SaaS product development",
+        "Minimum Viable Product (MVP) development",
+        "Product architecture and planning",
+        "Subscription-based platforms",
+        "Multi-tenant applications",
+        "User and access management",
+        "Subscription and billing integrations",
+        "Product feature development",
+        "Product maintenance",
+        "Technical product support"
+      ],
+      "deliverables": [
+        "Scoped MVP with a prioritized roadmap",
+        "Multi-tenant architecture with role-based access",
+        "Billing and subscription integration",
+        "Technical documentation for future teams"
+      ],
+      "technologies": ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Docker & Compose", "Figma"],
+      "idealFor": "Founders and product teams who need a dependable engineering partner from first prototype to scaled platform.",
+      "engagement": "Project-based or long-term partnership"
+    },
+    {
+      "id": "ui-ux",
+      "number": "08",
+      "icon": "Palette",
+      "title": "UI/UX & Digital Product Design",
+      "short": "UI/UX Design",
+      "summary": "We design intuitive digital experiences that balance usability, functionality, and visual quality.",
+      "overview": "Design and engineering work side by side here. We turn requirements into clear user journeys, interactive prototypes, and design systems that developers can implement faithfully and teams can extend consistently.",
+      "capabilities": [
+        "User interface design",
+        "User experience design",
+        "Web application design",
+        "Dashboard and admin panel design",
+        "Responsive interface design",
+        "Design systems",
+        "Interactive prototypes",
+        "User journey planning",
+        "Product interface improvements"
+      ],
+      "deliverables": [
+        "User flows and wireframes",
+        "High-fidelity, responsive interface designs",
+        "Reusable design system and component library",
+        "Clickable prototypes for early validation"
+      ],
+      "technologies": ["Figma", "Tailwind CSS", "React", "Next.js", "TypeScript"],
+      "idealFor": "Teams with a working product that feels clunky, or a new product that needs a clear, credible interface from day one.",
+      "engagement": "Project-based or dedicated team"
+    },
+    {
+      "id": "qa-testing",
+      "number": "09",
+      "icon": "CheckCircle2",
+      "title": "Software Testing & Quality Assurance",
+      "short": "Testing & QA",
+      "summary": "We help ensure software products operate reliably through structured testing and quality assurance.",
+      "overview": "Quality is designed in, not inspected at the end. We combine exploratory manual testing with automated suites that run on every change, so regressions are caught in minutes instead of by customers.",
+      "capabilities": [
+        "Manual software testing",
+        "Automated testing",
+        "API testing",
+        "Integration testing",
+        "End-to-end testing",
+        "Performance testing",
+        "Regression testing",
+        "Functional testing",
+        "Quality assurance processes",
+        "Test documentation"
+      ],
+      "deliverables": [
+        "Test strategy and coverage plan",
+        "Automated test suites wired into CI",
+        "Defect reports with reproduction steps",
+        "Performance baselines and findings"
+      ],
+      "technologies": ["TypeScript", "Python", "CI/CD pipelines", "Docker & Compose"],
+      "idealFor": "Teams shipping fast who need confidence in every release, or an independent quality check before launch.",
+      "engagement": "Project-based or dedicated team"
+    },
+    {
+      "id": "iot-industrial",
+      "number": "10",
+      "icon": "Radio",
+      "title": "IoT & Industrial Software Solutions",
+      "short": "IoT & Industrial",
+      "summary": "We develop software solutions that connect devices, process operational data, and provide visibility into connected systems.",
+      "overview": "We build the software layer around connected equipment: ingesting sensor and telemetry data, visualizing it in real time, and alerting teams to anomalies, with a path towards predictive maintenance.",
+      "capabilities": [
+        "IoT application development",
+        "Sensor and device integrations",
+        "Real-time monitoring dashboards",
+        "Telemetry data processing",
+        "Industrial data visualization",
+        "Equipment monitoring applications",
+        "Predictive maintenance prototypes",
+        "Anomaly detection systems",
+        "IoT platform integrations",
+        "Data collection and alerting systems"
+      ],
+      "deliverables": [
+        "Telemetry ingestion and storage pipeline",
+        "Real-time monitoring dashboards",
+        "Threshold and anomaly alerting",
+        "Integration with existing devices and platforms"
+      ],
+      "technologies": ["Python", "Node.js", "PostgreSQL", "Redis", "Docker & Compose", "Machine Learning"],
+      "idealFor": "Manufacturing, energy, and equipment businesses that want visibility into connected assets and early warning of failures.",
+      "engagement": "Project-based or long-term partnership"
+    }
+  ]
+}

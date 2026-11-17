@@ -1,0 +1,131 @@
+{
+  "values": {
+    "kicker": "Foundational Principles",
+    "title": "Our Core Values",
+    "items": [
+      { "title": "Innovation", "desc": "We continuously explore modern technologies and better approaches to solving complex problems." },
+      { "title": "Engineering Excellence", "desc": "We prioritize clean architecture, maintainable code, reliability, security, and quality." },
+      { "title": "Collaboration", "desc": "Successful technology solutions come from communication, teamwork, and shared objectives." },
+      { "title": "Transparency", "desc": "We value honest communication, realistic commitments, and clear project expectations." },
+      { "title": "Accountability", "desc": "We take responsibility for our work, technical decisions, and delivery commitments." },
+      { "title": "Continuous Learning", "desc": "We encourage experimentation, knowledge sharing, and relentless technical improvement." },
+      { "title": "Customer Focus", "desc": "We aim to understand each client's business objectives and deliver solutions that create practical value." }
+    ]
+  },
+  "industries": {
+    "kicker": "Sector Specialization",
+    "title": "Industries We Serve",
+    "description": "Our engineering fundamentals transfer across sectors. These are the areas where we apply them most often.",
+    "items": [
+      { "icon": "Landmark", "name": "Financial Services", "desc": "Financial applications, payment integrations, real-time analytics, and regulatory reporting.", "focus": ["Payments", "Reporting", "Analytics"] },
+      { "icon": "Factory", "name": "Manufacturing & Industrial", "desc": "Industrial monitoring applications, IoT sensor integrations, telemetry, and predictive maintenance.", "focus": ["IoT", "Telemetry", "Maintenance"] },
+      { "icon": "Zap", "name": "Energy & Utilities", "desc": "Monitoring platforms, operational reporting, and automated infrastructure applications.", "focus": ["Monitoring", "Reporting", "Automation"] },
+      { "icon": "HeartPulse", "name": "Healthcare", "desc": "Healthcare management applications, administrative workflow automation, and clinical data solutions.", "focus": ["Workflows", "Data", "Admin systems"] },
+      { "icon": "ShoppingBag", "name": "Retail & E-commerce", "desc": "E-commerce platforms, inventory and order management, and automated payment systems.", "focus": ["Commerce", "Inventory", "Payments"] },
+      { "icon": "Laptop", "name": "Technology & Software", "desc": "SaaS development, enterprise platforms, product engineering, AI integrations, and cloud architecture.", "focus": ["SaaS", "AI", "Cloud"] },
+      { "icon": "Briefcase", "name": "Professional Services", "desc": "Business management platforms, CRM solutions, client portals, and automated workflows.", "focus": ["CRM", "Portals", "Workflows"] }
+    ]
+  },
+  "engagement": {
+    "kicker": "Flexible Collaboration",
+    "title": "Our Engagement Models",
+    "description": "Four ways to work with us, so the structure fits the project rather than the other way around.",
+    "items": [
+      {
+        "title": "Project-Based Development",
+        "badge": "Fixed scope",
+        "desc": "Clearly defined projects with agreed deliverables, milestones, timelines, and technical requirements.",
+        "bestFor": "Custom applications, SaaS products, business platforms, API integrations, and automation projects.",
+        "includes": ["Agreed scope and milestones", "Defined deliverables", "Regular progress demos", "Structured handover"]
+      },
+      {
+        "title": "Dedicated Development Teams",
+        "badge": "Capacity expansion",
+        "desc": "Remote engineering resources that collaborate with a client's existing technical team.",
+        "bestFor": "Supporting ongoing development, building new features, frontend and backend engineering, and long-term technical projects.",
+        "includes": ["Developers matched to your stack", "Embedded in your workflow", "Flexible scaling up or down", "Shared tooling and rituals"]
+      },
+      {
+        "title": "Long-Term Technology Partnership",
+        "badge": "Continuous evolution",
+        "desc": "Ongoing relationships to support software development, maintenance, integrations, and technical architecture.",
+        "bestFor": "Technology companies, software product businesses, and growing startups that need continuous engineering support.",
+        "includes": ["Ongoing roadmap delivery", "Maintenance and support", "Architecture guidance", "Priority access to the team"]
+      },
+      {
+        "title": "Technical Consulting",
+        "badge": "Strategic guidance",
+        "desc": "Advisory and architecture support to help leadership make sound, future-proof technology decisions.",
+        "bestFor": "Software architecture planning, technology assessments, application modernization, and infrastructure strategy.",
+        "includes": ["Architecture and code reviews", "Technology assessments", "Modernization roadmaps", "Written recommendations"]
+      }
+    ]
+  },
+  "security": {
+    "kicker": "Trust & Reliability",
+    "title": "Security, Quality & Working Model",
+    "items": [
+      {
+        "icon": "ShieldCheck",
+        "title": "Security & Quality Commitment",
+        "body": "Security, reliability, and data protection are part of how we design every system, not an afterthought. We apply secure credential management, encrypted communication, controlled access, and continuous testing.",
+        "points": ["Role-based authentication and access", "Encrypted API traffic", "Secrets kept out of source code", "Regular validation testing", "Backup and disaster recovery planning", "Confidentiality and NDA on request"]
+      },
+      {
+        "icon": "Globe2",
+        "title": "Remote Working Model",
+        "body": "We operate remote-first from Finland and collaborate with clients and talent across time zones, using structured project management and transparent Git-based workflows.",
+        "points": ["40-hour standard week", "5 working days, 8 hours per day", "Overlap windows agreed per client", "Digital task coordination", "Transparent Git workflows", "Regular demos and written updates"]
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Organization Structure",
+    "title": "Team & Leadership",
+    "description": "A collaborative structure combining business strategy, technical leadership, senior engineering, design, and operational excellence.",
+    "groups": [
+      {
+        "icon": "Building2",
+        "title": "Business & Management",
+        "desc": "Strategic alignment, client relationships, realistic commitments, and international operations.",
+        "roles": ["Founder / Chief Executive Officer", "Business Development Manager", "Sales and Strategic Partnerships", "Finance and Administration"]
+      },
+      {
+        "icon": "Code2",
+        "title": "Technology & Engineering",
+        "desc": "Clean architecture, distributed systems, machine learning, and automated quality assurance.",
+        "featured": true,
+        "roles": ["Chief Technology Officer", "Full-Stack Developers", "Frontend Developers", "Backend Developers", "AI / ML Engineers", "Data Engineers", "DevOps Engineers", "Software QA Engineers"]
+      },
+      {
+        "icon": "Palette",
+        "title": "Design & Marketing",
+        "desc": "Usability, design systems, interactive prototypes, and product communication.",
+        "roles": ["UI/UX Designers", "Digital Product Designers", "Marketing Specialists", "Social Media & Content Leads"]
+      }
+    ]
+  },
+  "partnerships": {
+    "kicker": "Collaboration",
+    "title": "Partnership Opportunities",
+    "description": "Virtanex Labs welcomes collaboration with technology providers, consultancies, agencies, and scaling product companies.",
+    "items": [
+      { "title": "Software & IT Consultancies", "desc": "Subcontracting and dedicated development teams to expand delivery capacity." },
+      { "title": "Digital Transformation Agencies", "desc": "Deep technical implementation for complex web applications, microservices, and legacy modernization." },
+      { "title": "AI & SaaS Companies", "desc": "RAG pipelines, AI feature integration, and scalable multi-tenant architectures." },
+      { "title": "Startups & Entrepreneurs", "desc": "End-to-end co-development, MVP architecture, and long-term technical partnership." }
+    ]
+  },
+  "why": {
+    "kicker": "Why Virtanex Labs",
+    "title": "Why Work With Us?",
+    "items": [
+      { "title": "Flexible Engineering Capacity", "desc": "Adaptable development support matched to your project requirements, timelines, and scaling phases." },
+      { "title": "Modern Technology", "desc": "Contemporary frameworks, cloud-native infrastructure, and proven tooling that avoids technical debt." },
+      { "title": "AI-Driven Approach", "desc": "We look for practical opportunities to integrate AI into real software and operational workflows." },
+      { "title": "Scalable Solutions", "desc": "Maintainable architectures that can evolve alongside growing business volume." },
+      { "title": "Collaborative Delivery", "desc": "Direct, transparent communication and structured Git management alongside your leadership." },
+      { "title": "Long-Term Perspective", "desc": "We aim to build enduring relationships rather than transactional handoffs." }
+    ]
+  }
+}

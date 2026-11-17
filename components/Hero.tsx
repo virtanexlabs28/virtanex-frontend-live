@@ -3,12 +3,11 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { MagneticWord } from './MagneticWord';
+import { site } from '@/lib/content';
+import { useBooking } from '@/components/BookingProvider';
 
-interface HeroProps {
-  onStartProject?: () => void;
-}
-
-export function Hero({ onStartProject }: HeroProps) {
+export function Hero() {
+  const { openBooking: onStartProject } = useBooking();
   const BG_IMAGE =
     'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80';
 
@@ -16,7 +15,7 @@ export function Hero({ onStartProject }: HeroProps) {
     <section
       className="relative w-full overflow-hidden bg-[#0C0A09]"
       style={{ height: '100dvh' }}
-      aria-label="Halcyon° Hero"
+      aria-label={`${site.name} hero`}
     >
       {/* 1. Background Image (z-10) with breathing animation */}
       <div
@@ -69,7 +68,7 @@ export function Hero({ onStartProject }: HeroProps) {
           className="font-fraunces italic font-normal text-[#E8E0D0]/70 text-base sm:text-xl md:text-2xl text-center max-w-2xl anim-fade-up"
           style={{ animationDelay: '1.1s' }}
         >
-          Engineering Intelligent Digital Solutions.
+          {site.hero.subheadline}
         </p>
       </div>
 
@@ -79,8 +78,7 @@ export function Hero({ onStartProject }: HeroProps) {
         style={{ animationDelay: '1.35s' }}
       >
         <p className="text-sm text-[#E8E0D0]/60 leading-relaxed">
-          We build intelligent software, AI-powered solutions, and scalable digital products for
-          ambitious companies. Reliable technology, engineered thoughtfully, shipped boldly.
+          {site.hero.descriptor}
         </p>
       </div>
 
@@ -90,14 +88,14 @@ export function Hero({ onStartProject }: HeroProps) {
         style={{ animationDelay: '1.5s' }}
       >
         <p className="text-xs uppercase tracking-[0.25em] text-[#E8E0D0]/40">
-          BOOKING SUMMER &apos;26
+          {site.availability.badge}
         </p>
 
         <button
           onClick={onStartProject}
           className="group inline-flex items-center bg-[#E8E0D0] text-[#0C0A09] rounded-full pl-5 pr-1 py-1 text-sm font-medium hover:bg-[#B87333] hover:text-[#E8E0D0] transition-colors duration-300 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333] shadow-lg shadow-black/40"
         >
-          <span>Start a project</span>
+          <span>{site.hero.cta}</span>
           <span
             className="w-9 h-9 rounded-full bg-[#B87333] flex items-center justify-center ml-3 transition-transform duration-300 group-hover:rotate-45 text-[#E8E0D0]"
             aria-hidden="true"

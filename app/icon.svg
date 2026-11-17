@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="165 335 400 400">
+<defs>
+<radialGradient id="gl" gradientUnits="userSpaceOnUse" cx="585" cy="300" r="340" gradientTransform="translate(585 300) scale(1 1.1) translate(-585 -300)"><stop offset="0" stop-color="#6a19fc"/><stop offset="0.45" stop-color="#5a1ae0" stop-opacity="0.75"/><stop offset="1" stop-color="#6a19fc" stop-opacity="0"/></radialGradient>
+<radialGradient id="gr" gradientUnits="userSpaceOnUse" cx="560" cy="500" r="240"><stop offset="0" stop-color="#6a19fc"/><stop offset="0.4" stop-color="#5a1ae0" stop-opacity="0.8"/><stop offset="1" stop-color="#6a19fc" stop-opacity="0"/></radialGradient>
+<path id="shapeL" d="M105 690 Q60 690 85 645 L270 305 Q295 240 350 240 L600 240 L372 668 Q350 700 315 700 L120 700 Q95 700 105 690 Z"/>
+<clipPath id="clipL"><use href="#shapeL"/></clipPath>
+</defs>
+<rect x="165" y="335" width="400" height="400" rx="84" fill="#0c0a09"/>
+<g transform="translate(190 410) scale(0.33333)">
+<path d="M300 262 Q320 240 360 240 L560 240 Q590 240 580 270 L455 490 Q450 505 475 505 L730 505 L560 505 L300 262 Z" fill="#6a19fc"/>
+<path d="M285 300 Q300 240 360 240 L560 240 Q588 240 578 268 L462 492 Q455 505 480 505 L700 505 L520 505 Z" fill="#6a19fc"/>
+<use href="#shapeL" fill="#121317"/>
+<rect x="0" y="230" width="700" height="480" fill="url(#gl)" clip-path="url(#clipL)"/>
+<path d="M755 48 L940 48 Q985 52 968 100 L795 440 Q760 505 695 505 L470 505 Q452 505 460 488 L688 78 Q705 48 755 48 Z" fill="#121317"/>
+<path d="M755 48 L940 48 Q985 52 968 100 L795 440 Q760 505 695 505 L470 505 Q452 505 460 488 L688 78 Q705 48 755 48 Z" fill="url(#gr)"/>
+</g>
+</svg>

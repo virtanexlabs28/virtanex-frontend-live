@@ -1,0 +1,29 @@
+{
+  "intro": {
+    "kicker": "Research & Innovation",
+    "title": "Where We're Looking",
+    "description": "The technical areas we invest in and keep learning about, so client work benefits from current, practical thinking."
+  },
+  "items": [
+    {
+      "icon": "Bot",
+      "title": "Reliable LLM Agents",
+      "desc": "Designing multi-step AI workflows with evaluation, guardrails, and human review so they behave predictably in business settings."
+    },
+    {
+      "icon": "SearchCheck",
+      "title": "Retrieval Quality",
+      "desc": "Improving RAG systems through better chunking, hybrid search, and measurable evaluation instead of guesswork."
+    },
+    {
+      "icon": "Activity",
+      "title": "Real-Time Telemetry",
+      "desc": "Low-latency pipelines for sensor and event data, from edge ingestion to dashboards and alerting."
+    },
+    {
+      "icon": "Boxes",
+      "title": "Pragmatic Architecture",
+      "desc": "Choosing the simplest architecture that scales: modular monoliths first, microservices where they truly earn their cost."
+    }
+  ]
+}

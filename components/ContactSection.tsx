@@ -1,233 +1,210 @@
 'use client';
 
 import React, { useState } from 'react';
-import { ArrowUpRight, Check, Mail, MapPin, Globe, Sparkles } from 'lucide-react';
+import { ArrowUpRight, Check, Globe, Mail, MapPin } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Card } from '@/components/ui/card';
+import { Input } from '@/components/ui/input';
+import { Label } from '@/components/ui/label';
+import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
+import { Textarea } from '@/components/ui/textarea';
+import { services, site } from '@/lib/content';
+import { buildMailto } from '@/lib/mailto';
 
-interface ContactSectionProps {
-  onStartProject?: () => void;
-}
+const EMPTY = {
+  name: '',
+  email: '',
+  company: '',
+  service: services[0].id,
+  timeline: site.inquiry.timelines[0],
+  message: '',
+};
 
-export function ContactSection({ onStartProject }: ContactSectionProps) {
-  const [formState, setFormState] = useState({
-    name: '',
-    email: '',
-    service: 'custom-software',
-    timeline: "Summer '26",
-    message: '',
-  });
+export function ContactSection() {
+  const [form, setForm] = useState(EMPTY);
   const [submitted, setSubmitted] = useState(false);
+  const set = (key: keyof typeof EMPTY) => (value: string) => setForm((f) => ({ ...f, [key]: value }));
 
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    if (!formState.name || !formState.email) return;
+    if (!form.name || !form.email) return;
+    const service = services.find((s) => s.id === form.service)?.title ?? form.service;
+    window.location.href = buildMailto(site.contact.email, `Project inquiry from ${form.name}`, {
+      Name: form.name,
+      Email: form.email,
+      Company: form.company,
+      'Service required': service,
+      Timeline: form.timeline,
+      'Project overview': form.message,
+    });
     setSubmitted(true);
   };
 
   return (
     <section
       id="contact"
-      className="scroll-mt-20 py-24 px-5 sm:px-10 md:px-14 bg-[#0C0A09] border-t border-[#E8E0D0]/10"
+      className="scroll-mt-20 border-t border-border px-5 py-20 sm:px-10 sm:py-28 md:px-14"
       aria-label="Contact and Inquiries"
     >
-      <div className="max-w-7xl mx-auto">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
-          {/* Left Column: Direct Inquiries and studio info */}
-          <div className="lg:col-span-5 space-y-8">
-            <div>
-              <div className="flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-[#B87333] mb-3">
-                <span>Inquiries & Booking</span>
-                <span aria-hidden="true">·</span>
-                <span>Summer &apos;26</span>
-              </div>
-              <h2 className="font-fraunces text-3xl sm:text-4xl md:text-5xl text-[#E8E0D0] font-normal tracking-tight">
-                Let&apos;s build work that lasts.
-              </h2>
-            </div>
-
-            <p className="text-sm sm:text-base text-[#E8E0D0]/70 leading-relaxed">
-              We welcome new client partnerships, dedicated engineering collaborations, and
-              exploratory technical consultations.
+      <div className="mx-auto grid max-w-7xl grid-cols-1 items-start gap-12 lg:grid-cols-12">
+        <div className="space-y-8 lg:col-span-5">
+          <div>
+            <p className="mb-3 flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-accent">
+              <span>Inquiries &amp; Booking</span>
+              <span aria-hidden="true">·</span>
+              <span>{site.availability.season}</span>
             </p>
-
-            <div className="space-y-4 pt-4 border-t border-[#E8E0D0]/10 text-sm">
-              <div className="flex items-center gap-3 text-[#E8E0D0]/80">
-                <Mail className="w-4 h-4 text-[#B87333]" />
-                <a
-                  href="mailto:contact@virtanexlabs.com"
-                  className="hover:text-[#B87333] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                >
-                  contact@virtanexlabs.com
-                </a>
-              </div>
-
-              <div className="flex items-center gap-3 text-[#E8E0D0]/80">
-                <MapPin className="w-4 h-4 text-[#B87333]" />
-                <span>Finland (Remote / International Collaboration)</span>
-              </div>
-
-              <div className="flex items-center gap-3 text-[#E8E0D0]/80">
-                <Globe className="w-4 h-4 text-[#B87333]" />
-                <a
-                  href="https://virtanexlabs.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#B87333] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                >
-                  https://virtanexlabs.com
-                </a>
-              </div>
-            </div>
-
-            <div className="p-6 rounded-2xl bg-[#E8E0D0]/[0.02] border border-[#E8E0D0]/10">
-              <span className="text-xs uppercase tracking-wider text-[#B87333] font-medium">
-                Current Studio Availability
-              </span>
-              <p className="text-sm text-[#E8E0D0]/80 mt-2">
-                Now accepting select engineering and identity commissions for{' '}
-                <strong className="text-[#E8E0D0]">Summer &apos;26</strong>. Inquire early to reserve studio capacity.
-              </p>
-            </div>
+            <h2 className="font-fraunces text-3xl font-normal tracking-tight sm:text-4xl md:text-5xl">
+              Let&apos;s build work that lasts.
+            </h2>
           </div>
 
-          {/* Right Column: Project Inquiry Form */}
-          <div className="lg:col-span-7 bg-[#E8E0D0]/[0.02] border border-[#E8E0D0]/15 rounded-2xl p-6 sm:p-10">
-            {submitted ? (
-              <div className="py-12 text-center space-y-4 animate-fade-in">
-                <div className="w-14 h-14 rounded-full bg-[#B87333]/20 border border-[#B87333] flex items-center justify-center mx-auto text-[#B87333]">
-                  <Check className="w-7 h-7" />
-                </div>
-                <h3 className="font-fraunces text-2xl sm:text-3xl text-[#E8E0D0] font-normal">
-                  Inquiry Received
-                </h3>
-                <p className="text-sm text-[#E8E0D0]/70 max-w-md mx-auto leading-relaxed">
-                  Thank you, {formState.name}. Our technical directors will review your project brief
-                  and reply within 24 hours to schedule our discovery discussion.
-                </p>
-                <div className="pt-4">
-                  <button
-                    onClick={() => {
-                      setSubmitted(false);
-                      setFormState({
-                        name: '',
-                        email: '',
-                        service: 'custom-software',
-                        timeline: "Summer '26",
-                        message: '',
-                      });
-                    }}
-                    className="text-xs text-[#B87333] uppercase tracking-wider underline hover:text-[#E8E0D0] transition-colors"
-                  >
-                    Submit another message
-                  </button>
-                </div>
-              </div>
-            ) : (
-              <form onSubmit={handleSubmit} className="space-y-6">
-                <div>
-                  <h3 className="font-fraunces text-xl sm:text-2xl text-[#E8E0D0] font-normal mb-1">
-                    Start a Conversation
-                  </h3>
-                  <p className="text-xs text-[#E8E0D0]/50">
-                    Tell us about your organization and technical requirements.
-                  </p>
-                </div>
+          <p className="text-sm leading-relaxed text-foreground/70 sm:text-base">
+            We welcome new client partnerships, dedicated engineering collaborations, and exploratory technical
+            consultations.
+          </p>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-2">
-                      Your Name
-                    </label>
-                    <input
-                      type="text"
-                      required
-                      value={formState.name}
-                      onChange={(e) => setFormState({ ...formState, name: e.target.value })}
-                      placeholder="e.g. Elena Rostova"
-                      className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-4 py-3 text-sm text-[#E8E0D0] placeholder:text-[#E8E0D0]/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                    />
-                  </div>
-                  <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-2">
-                      Email Address
-                    </label>
-                    <input
-                      type="email"
-                      required
-                      value={formState.email}
-                      onChange={(e) => setFormState({ ...formState, email: e.target.value })}
-                      placeholder="elena@company.com"
-                      className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-4 py-3 text-sm text-[#E8E0D0] placeholder:text-[#E8E0D0]/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                    />
-                  </div>
-                </div>
+          <ul className="space-y-4 border-t border-border pt-6 text-sm text-foreground/80">
+            <li className="flex items-center gap-3">
+              <Mail className="size-4 text-accent" aria-hidden="true" />
+              <a href={`mailto:${site.contact.email}`} className="transition-colors hover:text-accent">
+                {site.contact.email}
+              </a>
+            </li>
+            <li className="flex items-center gap-3">
+              <MapPin className="size-4 text-accent" aria-hidden="true" />
+              <span>{site.contact.location}</span>
+            </li>
+            <li className="flex items-center gap-3">
+              <Globe className="size-4 text-accent" aria-hidden="true" />
+              <a
+                href={site.contact.website}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="transition-colors hover:text-accent"
+              >
+                {site.contact.website}
+              </a>
+            </li>
+          </ul>
 
-                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                  <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-2">
-                      Primary Service Required
-                    </label>
-                    <select
-                      value={formState.service}
-                      onChange={(e) => setFormState({ ...formState, service: e.target.value })}
-                      className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-4 py-3 text-sm text-[#E8E0D0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                    >
-                      <option value="custom-software">Custom Software & Web Apps</option>
-                      <option value="ai-ml">AI, ML & Autonomous Workflows</option>
-                      <option value="data-engineering">Data Pipelines & Analytics</option>
-                      <option value="system-integration">System Integration & APIs</option>
-                      <option value="cloud-devops">Cloud & DevOps Engineering</option>
-                      <option value="digital-product">SaaS & Product Architecture</option>
-                      <option value="ui-ux">UI/UX & Design Systems</option>
-                      <option value="iot-industrial">IoT & Industrial Telemetry</option>
-                    </select>
-                  </div>
-                  <div>
-                    <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-2">
-                      Target Timeline
-                    </label>
-                    <select
-                      value={formState.timeline}
-                      onChange={(e) => setFormState({ ...formState, timeline: e.target.value })}
-                      className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-4 py-3 text-sm text-[#E8E0D0] focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-                    >
-                      <option value="Summer '26">Summer &apos;26 (Preferred)</option>
-                      <option value="Q3/Q4 '26">Autumn / Winter &apos;26</option>
-                      <option value="Immediate">Immediate / Within 30 days</option>
-                      <option value="Exploratory">Exploratory / Feasibility Study</option>
-                    </select>
-                  </div>
-                </div>
-
-                <div>
-                  <label className="block text-xs uppercase tracking-wider text-[#E8E0D0]/60 mb-2">
-                    Project Narrative / Overview
-                  </label>
-                  <textarea
-                    rows={4}
-                    value={formState.message}
-                    onChange={(e) => setFormState({ ...formState, message: e.target.value })}
-                    placeholder="Tell us about the challenges you are addressing and the solution you envision..."
-                    className="w-full bg-[#0C0A09] border border-[#E8E0D0]/20 rounded-xl px-4 py-3 text-sm text-[#E8E0D0] placeholder:text-[#E8E0D0]/30 focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333] resize-none"
-                  />
-                </div>
-
-                <div className="flex flex-col sm:flex-row items-center justify-between gap-4 pt-2">
-                  <p className="text-xs text-[#E8E0D0]/40">
-                    Strict NDA honored. Response within 24h.
-                  </p>
-                  <button
-                    type="submit"
-                    className="w-full sm:w-auto inline-flex items-center justify-center bg-[#E8E0D0] text-[#0C0A09] rounded-full px-7 py-3 text-sm font-semibold hover:bg-[#B87333] hover:text-[#E8E0D0] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-[#B87333]"
-                  >
-                    <span>Send Project Inquiry</span>
-                    <ArrowUpRight className="w-4 h-4 ml-2" />
-                  </button>
-                </div>
-              </form>
-            )}
-          </div>
+          <Card className="gap-2 rounded-2xl border-border bg-card p-6">
+            <span className="text-xs font-medium uppercase tracking-wider text-accent">Current availability</span>
+            <p className="text-sm font-medium text-foreground">{site.availability.headline}</p>
+            <p className="text-sm text-foreground/65">{site.availability.detail}</p>
+          </Card>
         </div>
+
+        <Card className="gap-0 rounded-2xl border-border bg-card p-6 sm:p-10 lg:col-span-7">
+          {submitted ? (
+            <div className="animate-fade-in space-y-4 py-10 text-center">
+              <div className="mx-auto flex size-14 items-center justify-center rounded-full border border-accent bg-accent/20 text-accent">
+                <Check className="size-7" aria-hidden="true" />
+              </div>
+              <h3 className="font-fraunces text-2xl font-normal sm:text-3xl">Your email is ready to send</h3>
+              <p className="mx-auto max-w-md text-sm leading-relaxed text-foreground/70">
+                Thanks, {form.name}. We opened your email app with the inquiry prefilled, so just press send. If
+                nothing opened, write to us directly at{' '}
+                <a className="text-accent underline" href={`mailto:${site.contact.email}`}>
+                  {site.contact.email}
+                </a>
+                . We reply {site.contact.responseTime}.
+              </p>
+              <Button
+                variant="link"
+                onClick={() => {
+                  setSubmitted(false);
+                  setForm(EMPTY);
+                }}
+                className="text-xs uppercase tracking-wider text-accent"
+              >
+                Start another inquiry
+              </Button>
+            </div>
+          ) : (
+            <form onSubmit={handleSubmit} className="space-y-6">
+              <div>
+                <h3 className="mb-1 font-fraunces text-xl font-normal sm:text-2xl">{site.inquiry.title}</h3>
+                <p className="text-sm text-muted-foreground">{site.inquiry.subtitle}</p>
+              </div>
+
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <Field id="c-name" label="Your name">
+                  <Input id="c-name" required value={form.name} onChange={(e) => set('name')(e.target.value)} placeholder="Full name" className="h-11 rounded-xl bg-background" />
+                </Field>
+                <Field id="c-email" label="Email address">
+                  <Input id="c-email" type="email" required value={form.email} onChange={(e) => set('email')(e.target.value)} placeholder="name@company.com" className="h-11 rounded-xl bg-background" />
+                </Field>
+              </div>
+
+              <Field id="c-company" label="Company (optional)">
+                <Input id="c-company" value={form.company} onChange={(e) => set('company')(e.target.value)} placeholder="Organization name" className="h-11 rounded-xl bg-background" />
+              </Field>
+
+              <div className="grid grid-cols-1 gap-4 sm:grid-cols-2">
+                <Field id="c-service" label="Service required">
+                  <Select value={form.service} onValueChange={set('service')}>
+                    <SelectTrigger id="c-service" className="h-11 w-full rounded-xl bg-background">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {services.map((s) => (
+                        <SelectItem key={s.id} value={s.id}>
+                          {s.short}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </Field>
+                <Field id="c-timeline" label="Target timeline">
+                  <Select value={form.timeline} onValueChange={set('timeline')}>
+                    <SelectTrigger id="c-timeline" className="h-11 w-full rounded-xl bg-background">
+                      <SelectValue />
+                    </SelectTrigger>
+                    <SelectContent>
+                      {site.inquiry.timelines.map((t) => (
+                        <SelectItem key={t} value={t}>
+                          {t}
+                        </SelectItem>
+                      ))}
+                    </SelectContent>
+                  </Select>
+                </Field>
+              </div>
+
+              <Field id="c-message" label="Project overview">
+                <Textarea
+                  id="c-message"
+                  rows={4}
+                  value={form.message}
+                  onChange={(e) => set('message')(e.target.value)}
+                  placeholder="Tell us about the challenge you are addressing and the solution you envision..."
+                  className="resize-none rounded-xl bg-background"
+                />
+              </Field>
+
+              <div className="flex flex-col items-center justify-between gap-4 pt-2 sm:flex-row">
+                <p className="text-xs text-foreground/50">{site.inquiry.note}</p>
+                <Button type="submit" size="lg" className="w-full rounded-full px-7 hover:bg-accent hover:text-accent-foreground sm:w-auto">
+                  Send project inquiry
+                  <ArrowUpRight className="size-4" aria-hidden="true" />
+                </Button>
+              </div>
+            </form>
+          )}
+        </Card>
       </div>
     </section>
+  );
+}
+
+function Field({ id, label, children }: { id: string; label: string; children: React.ReactNode }) {
+  return (
+    <div className="space-y-2">
+      <Label htmlFor={id} className="text-xs uppercase tracking-wider text-foreground/60">
+        {label}
+      </Label>
+      {children}
+    </div>
   );
 }

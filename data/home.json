@@ -1,0 +1,49 @@
+{
+  "marquee": {
+    "kicker": "Our toolbox",
+    "title": "Built with tools we trust"
+  },
+  "services": {
+    "kicker": "What We Do",
+    "title": "Ten disciplines, one accountable team.",
+    "description": "Everything from first prototype to production infrastructure, and the support that keeps it running.",
+    "cta": "Explore every service"
+  },
+  "process": {
+    "kicker": "How We Work",
+    "title": "From first call to production in seven steps.",
+    "description": "A transparent lifecycle with clear deliverables at every stage, so you always know what is happening and what comes next.",
+    "cta": "See the full process"
+  },
+  "work": {
+    "kicker": "Solution Blueprints",
+    "title": "What we can build for you.",
+    "description": "Representative solution designs that show how we approach architecture, delivery, and outcomes.",
+    "cta": "View all blueprints"
+  },
+  "industries": {
+    "kicker": "Sectors",
+    "title": "Engineering that travels across industries.",
+    "description": "The fundamentals of good software transfer. These are the sectors where we apply them most often.",
+    "cta": "See how we work in each sector"
+  },
+  "why": {
+    "kicker": "Why Virtanex Labs",
+    "title": "A technology partner, not just a vendor.",
+    "description": "We combine senior engineering, modern tooling, and honest communication, and we stay for the long run.",
+    "cta": "Meet the team"
+  },
+  "faq": {
+    "kicker": "Quick Answers",
+    "title": "Questions we hear most.",
+    "cta": "Read all questions"
+  },
+  "cta": {
+    "kicker": "Let's Talk",
+    "title": "Have a project in mind?",
+    "description": "Tell us what you are trying to build. We will come back within 24 hours with honest feedback and a clear next step.",
+    "primary": "Book a discovery call",
+    "secondary": "Send a project brief",
+    "assurances": ["NDA available on request", "Reply within 24 hours", "Senior engineers from day one"]
+  }
+}

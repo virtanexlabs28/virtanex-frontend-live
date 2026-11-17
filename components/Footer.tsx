@@ -1,349 +1,136 @@
 'use client';
 
 import React from 'react';
-import { ArrowUp, ArrowUpRight, Mail, Globe, MapPin, Shield, CheckCircle2 } from 'lucide-react';
+import Link from 'next/link';
+import { ArrowUp, ArrowUpRight, Globe, Mail, MapPin, Shield } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+import { Separator } from '@/components/ui/separator';
+import { useBooking } from '@/components/BookingProvider';
+import { Logo } from '@/components/Logo';
+import { services, site } from '@/lib/content';
 
-interface FooterProps {
-  onStartProject?: () => void;
-  onNavigate?: (id: string) => void;
-}
+const COMPANY_LINKS = [
+  { label: 'Home', href: '/' },
+  { label: 'Services', href: '/services' },
+  { label: 'Technology Stack', href: '/services#technology' },
+  { label: 'Engineering Process', href: '/process' },
+  { label: 'Engagement Models', href: '/process#engagement' },
+  { label: 'Security & Remote Model', href: '/process#security' },
+  { label: 'Solution Blueprints', href: '/work' },
+  { label: 'Industries', href: '/work#industries' },
+  { label: 'Team & Values', href: '/team' },
+  { label: 'FAQ', href: '/faq' },
+  { label: 'Contact', href: '/contact' },
+];
 
-export function Footer({ onStartProject, onNavigate }: FooterProps) {
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: 'smooth' });
-  };
+const linkClass =
+  'text-left text-foreground/70 transition-colors hover:text-accent focus-visible:outline-2 focus-visible:outline-accent';
 
-  const handleNav = (id: string) => {
-    if (onNavigate) {
-      onNavigate(id);
-    } else {
-      const el = document.getElementById(id);
-      if (el) el.scrollIntoView({ behavior: 'smooth' });
-    }
-  };
+export function Footer() {
+  const { openBooking: onStartProject } = useBooking();
+  const toTop = () => window.scrollTo({ top: 0, behavior: 'smooth' });
 
   return (
     <footer
-      className="bg-[#0C0A09] text-[#E8E0D0] border-t border-[#E8E0D0]/10 pt-20 pb-12 px-5 sm:px-10 md:px-14 selection:bg-[#B87333]/30"
-      aria-label="Virtanex Labs Footer"
+      className="border-t border-border bg-background px-5 pb-12 pt-20 sm:px-10 md:px-14"
+      aria-label={`${site.name} footer`}
     >
-      <div className="max-w-7xl mx-auto space-y-16">
-        {/* Top Callout Strip */}
-        <div className="p-8 sm:p-12 rounded-2xl bg-[#E8E0D0]/[0.02] border border-[#E8E0D0]/10 flex flex-col lg:flex-row lg:items-center justify-between gap-8">
+      <div className="mx-auto max-w-7xl space-y-16">
+        {/* CTA strip */}
+        <div className="flex flex-col justify-between gap-8 rounded-2xl border border-border bg-foreground/[0.02] p-8 sm:p-12 lg:flex-row lg:items-center">
           <div>
-            <div className="flex items-center gap-2 text-xs uppercase tracking-[0.25em] text-[#B87333] mb-2 font-medium">
-              <span>Virtanex Labs</span>
-              <span aria-hidden="true">·</span>
-              <span>Finland Base</span>
-            </div>
-            <h2 className="font-fraunces text-2xl sm:text-3xl lg:text-4xl text-[#E8E0D0] font-normal tracking-tight">
-              Engineering Intelligent Digital Solutions.
-            </h2>
-            <p className="text-sm text-[#E8E0D0]/65 mt-2 max-w-xl">
-              Transforming complex business challenges into practical, maintainable digital products.
-              Now accepting select commissions for Summer &apos;26.
+            <p className="mb-2 text-xs font-medium uppercase tracking-[0.25em] text-accent">
+              {site.name} · Finland
+            </p>
+            <h2 className="font-fraunces text-2xl font-normal tracking-tight sm:text-3xl lg:text-4xl">{site.tagline}</h2>
+            <p className="mt-2 max-w-xl text-sm text-foreground/65">
+              Transforming complex business challenges into practical, maintainable digital products.{' '}
+              {site.availability.headline}.
             </p>
           </div>
-
-          <div className="flex flex-wrap items-center gap-4 shrink-0">
-            <button
-              onClick={onStartProject}
-              className="inline-flex items-center bg-[#E8E0D0] text-[#0C0A09] px-6 py-3 rounded-full text-xs font-semibold hover:bg-[#B87333] hover:text-[#E8E0D0] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333] shadow-md shadow-black/30"
-            >
-              <span>Start a Project</span>
-              <ArrowUpRight className="w-3.5 h-3.5 ml-2" />
-            </button>
-            <a
-              href="mailto:contact@virtanexlabs.com"
-              className="inline-flex items-center border border-[#E8E0D0]/20 text-[#E8E0D0] px-6 py-3 rounded-full text-xs font-semibold hover:border-[#B87333] hover:text-[#B87333] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-            >
-              <Mail className="w-3.5 h-3.5 mr-2" />
-              <span>contact@virtanexlabs.com</span>
-            </a>
+          <div className="flex shrink-0 flex-wrap items-center gap-4">
+            <Button onClick={onStartProject} size="lg" className="rounded-full px-6 hover:bg-accent hover:text-accent-foreground">
+              Start a project
+              <ArrowUpRight className="size-4" aria-hidden="true" />
+            </Button>
+            <Button asChild variant="outline" size="lg" className="rounded-full border-foreground/20 bg-transparent px-6 hover:border-accent hover:bg-transparent hover:text-accent">
+              <a href={`mailto:${site.contact.email}`}>
+                <Mail className="size-4" aria-hidden="true" />
+                {site.contact.email}
+              </a>
+            </Button>
           </div>
         </div>
 
-        {/* 4-Column Navigation & Corporate Architecture */}
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 lg:gap-8 pt-4">
-          {/* Column 1: Brand & Overview (4 cols) */}
-          <div className="lg:col-span-4 space-y-6">
-            <button
-              onClick={scrollToTop}
-              className="flex items-center text-left focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333] rounded-lg group"
-              aria-label="Back to top"
-            >
-              <svg className="w-6 h-6 shrink-0 transition-transform duration-300 group-hover:scale-105" viewBox="0 0 24 24" fill="none" aria-hidden="true">
-                <circle cx="12" cy="12" r="10" stroke="#E8E0D0" strokeWidth="1" strokeOpacity="0.85" />
-                <circle cx="12" cy="12" r="4.5" fill="#B87333" />
-              </svg>
-              <span className="ml-2 font-fraunces text-[#E8E0D0] text-xl font-medium tracking-tight">
-                Virtanex Labs
-              </span>
+        <div className="grid grid-cols-1 gap-10 md:grid-cols-2 lg:grid-cols-12 lg:gap-8">
+          <div className="space-y-6 lg:col-span-4">
+            <button onClick={toTop} className="group flex items-center rounded-lg text-left" aria-label="Back to top">
+              <Logo className="h-12 w-auto text-foreground transition-transform duration-300 group-hover:scale-[1.03]" />
             </button>
-
-            <p className="text-sm text-[#E8E0D0]/70 leading-relaxed">
-              A Finland-based remote technology company focused on building intelligent software,
-              AI-powered solutions, and scalable digital products.
-            </p>
-
-            <div className="space-y-2 text-xs text-[#E8E0D0]/60">
-              <div className="flex items-center gap-2">
-                <MapPin className="w-3.5 h-3.5 text-[#B87333]" />
-                <span>Base: Finland (UTC+2)</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Globe className="w-3.5 h-3.5 text-[#B87333]" />
-                <span>Model: Remote / International Collaboration</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Shield className="w-3.5 h-3.5 text-[#B87333]" />
-                <span>Industry: Information Technology & Software Development</span>
-              </div>
-            </div>
-
-            <div className="pt-2 text-xs text-[#E8E0D0]/40 font-mono">
-              CORPORATE PROFILE YEAR: 2026
-            </div>
-          </div>
-
-          {/* Column 2: 10 Core Services (3 cols) */}
-          <div className="lg:col-span-3 space-y-4">
-            <h3 className="text-xs uppercase tracking-[0.2em] text-[#B87333] font-medium">
-              Core Services
-            </h3>
-            <ul className="space-y-2 text-xs text-[#E8E0D0]/70">
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Custom Software Development
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Artificial Intelligence & ML
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Data Engineering & Analytics
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Enterprise System Integration
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Business Process Automation
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Cloud & DevOps Engineering
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Digital Product & SaaS Engineering
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  UI/UX & Digital Product Design
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Software Testing & QA
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('services')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  IoT & Industrial Software Solutions
-                </button>
-              </li>
+            <p className="text-sm leading-relaxed text-foreground/70">{site.description}</p>
+            <ul className="space-y-2 text-xs text-foreground/60">
+              <li className="flex items-center gap-2"><MapPin className="size-3.5 text-accent" aria-hidden="true" />Base: Finland ({site.contact.timezone})</li>
+              <li className="flex items-center gap-2"><Globe className="size-3.5 text-accent" aria-hidden="true" />Remote-first, international collaboration</li>
+              <li className="flex items-center gap-2"><Shield className="size-3.5 text-accent" aria-hidden="true" />IT &amp; software development</li>
             </ul>
           </div>
 
-          {/* Column 3: Corporate Profile & Approach (3 cols) */}
-          <div className="lg:col-span-3 space-y-4">
-            <h3 className="text-xs uppercase tracking-[0.2em] text-[#B87333] font-medium">
-              Studio & Approach
-            </h3>
-            <ul className="space-y-2 text-xs text-[#E8E0D0]/70">
-              <li>
-                <button
-                  onClick={() => handleNav('studio')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  About Us & Philosophy
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('studio')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Mission & Vision
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('studio')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Seven Core Values
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('process')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  7-Phase Engineering Lifecycle
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('studio')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Security & Quality Commitment
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('studio')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Remote Working Model (40h/wk)
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('team')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Team & Organization Structure
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('journal')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Emerging Systems Journal
-                </button>
-              </li>
-              <li>
-                <button
-                  onClick={() => handleNav('work')}
-                  className="hover:text-[#B87333] transition-colors text-left"
-                >
-                  Selected Client Case Studies
-                </button>
-              </li>
+          <nav className="space-y-4 lg:col-span-4" aria-label="Services">
+            <h3 className="text-xs font-medium uppercase tracking-[0.2em] text-accent">Services</h3>
+            <ul className="grid gap-2 text-sm">
+              {services.map((s) => (
+                <li key={s.id}>
+                  <Link href="/services" className={linkClass}>{s.title}</Link>
+                </li>
+              ))}
             </ul>
-          </div>
+          </nav>
 
-          {/* Column 4: Contact & Inquiries (2 cols) */}
-          <div className="lg:col-span-2 space-y-4">
-            <h3 className="text-xs uppercase tracking-[0.2em] text-[#B87333] font-medium">
-              Direct Contact
-            </h3>
-            <div className="space-y-3 text-xs text-[#E8E0D0]/75">
+          <nav className="space-y-4 lg:col-span-2" aria-label="Company">
+            <h3 className="text-xs font-medium uppercase tracking-[0.2em] text-accent">Company</h3>
+            <ul className="grid gap-2 text-sm">
+              {COMPANY_LINKS.map((l) => (
+                <li key={l.label}>
+                  <Link href={l.href} className={linkClass}>{l.label}</Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
+
+          <div className="space-y-4 lg:col-span-2">
+            <h3 className="text-xs font-medium uppercase tracking-[0.2em] text-accent">Contact</h3>
+            <div className="space-y-3 text-sm text-foreground/75">
               <div>
-                <span className="text-[#E8E0D0]/40 block mb-1">General Inquiries</span>
-                <a
-                  href="mailto:contact@virtanexlabs.com"
-                  className="hover:text-[#B87333] transition-colors font-medium break-all"
-                >
-                  contact@virtanexlabs.com
-                </a>
+                <span className="mb-1 block text-xs text-foreground/40">General inquiries</span>
+                <a href={`mailto:${site.contact.email}`} className="break-all font-medium transition-colors hover:text-accent">{site.contact.email}</a>
               </div>
-
               <div>
-                <span className="text-[#E8E0D0]/40 block mb-1">Official Website</span>
-                <a
-                  href="https://virtanexlabs.com"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="hover:text-[#B87333] transition-colors font-medium"
-                >
-                  virtanexlabs.com
-                </a>
+                <span className="mb-1 block text-xs text-foreground/40">Website</span>
+                <a href={site.contact.website} target="_blank" rel="noopener noreferrer" className="font-medium transition-colors hover:text-accent">{site.contact.websiteLabel}</a>
               </div>
-
               <div>
-                <span className="text-[#E8E0D0]/40 block mb-1">Location</span>
-                <span className="text-[#E8E0D0]">Finland / International</span>
+                <span className="mb-1 block text-xs text-foreground/40">Location</span>
+                <span>{site.contact.locationShort}</span>
               </div>
-
-              <div className="p-3 rounded-xl bg-[#E8E0D0]/5 border border-[#E8E0D0]/10">
-                <span className="text-[11px] text-[#B87333] block font-semibold mb-0.5">
-                  BOOKING SUMMER &apos;26
-                </span>
-                <span className="text-[11px] text-[#E8E0D0]/60">
-                  Select openings for technical advisory and full-cycle engineering.
-                </span>
+              <div className="rounded-xl border border-border bg-foreground/5 p-3">
+                <span className="mb-0.5 block text-[11px] font-semibold text-accent">{site.availability.badge}</span>
+                <span className="text-[11px] text-foreground/60">Select openings for advisory and full-cycle engineering.</span>
               </div>
             </div>
           </div>
         </div>
 
-        {/* Bottom Bar */}
-        <div className="pt-8 border-t border-[#E8E0D0]/10 flex flex-col md:flex-row items-center justify-between gap-4 text-xs text-[#E8E0D0]/50 font-sans">
-          <div className="flex flex-wrap items-center gap-2 text-center md:text-left">
-            <span className="font-fraunces text-sm text-[#E8E0D0] font-normal">Virtanex Labs</span>
-            <span aria-hidden="true">·</span>
-            <span>Building Technology. Enabling Possibilities.</span>
-            <span aria-hidden="true">·</span>
-            <span>© 2026 Virtanex Labs. All rights reserved.</span>
-          </div>
+        <Separator className="bg-border" />
 
-          <div className="flex items-center gap-6">
-            <span>Finland Base</span>
-            <span aria-hidden="true">·</span>
-            <span>Remote-First</span>
-            <button
-              onClick={scrollToTop}
-              className="inline-flex items-center gap-1.5 text-[#E8E0D0]/70 hover:text-[#B87333] transition-colors focus-visible:outline focus-visible:outline-2 focus-visible:outline-[#B87333]"
-              aria-label="Scroll back to top"
-            >
-              <span>Back to Top</span>
-              <ArrowUp className="w-3.5 h-3.5" />
-            </button>
-          </div>
+        <div className="flex flex-col items-center justify-between gap-4 text-xs text-foreground/50 md:flex-row">
+          <p className="text-center md:text-left">
+            <span className="font-fraunces text-sm text-foreground">{site.name}</span> · {site.motto} · © {site.founded}{' '}
+            {site.name}. All rights reserved.
+          </p>
+          <Button variant="ghost" size="sm" onClick={toTop} className="text-foreground/70 hover:bg-transparent hover:text-accent" aria-label="Scroll back to top">
+            Back to top
+            <ArrowUp className="size-3.5" aria-hidden="true" />
+          </Button>
         </div>
       </div>
     </footer>
