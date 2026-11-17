@@ -1,0 +1,6 @@
+{
+  "name": "Virtanex Labs",
+  "description": "Virtanex Labs is a Finland-based remote technology company focused on building intelligent software, AI-powered solutions, and scalable digital products.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

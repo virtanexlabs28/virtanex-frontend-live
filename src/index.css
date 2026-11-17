@@ -1,0 +1,66 @@
+body {
+  font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
+  background-color: #0C0A09;
+  color: #E8E0D0;
+}
+
+.font-fraunces {
+  font-family: 'Fraunces', 'Times New Roman', serif;
+  font-optical-sizing: auto;
+}
+
+@keyframes hero-breathe {
+  0%, 100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.04);
+  }
+}
+
+@keyframes hero-letter-rise {
+  0% {
+    opacity: 0;
+    transform: translateY(38px);
+    filter: blur(10px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+    filter: blur(0);
+  }
+}
+
+@keyframes hero-fade-up {
+  0% {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.anim-breathe {
+  animation: hero-breathe 18s ease-in-out infinite;
+}
+
+.anim-letter {
+  opacity: 0;
+  animation: hero-letter-rise 0.9s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.anim-fade-up {
+  opacity: 0;
+  animation: hero-fade-up 1s cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-breathe,
+  .anim-letter,
+  .anim-fade-up {
+    animation: none !important;
+    opacity: 1 !important;
+  }
+}
