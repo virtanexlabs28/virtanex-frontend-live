@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "kicker": "Kysymykset",
+    "title": "Usein kysytyt kysymykset",
+    "description": "Suoria vastauksia siihen, miten työskentelemme. Jos kysymyksesi ei ole tässä, kysy meiltä suoraan."
+  },
+  "items": [
+    {
+      "q": "Millaisiin projekteihin tartutte?",
+      "a": "Räätälöityihin ohjelmistoihin ja verkkosovelluksiin, SaaS-tuotteisiin, tekoäly- ja LLM-integraatioihin, dataputkistoihin, järjestelmäintegraatioihin, prosessien automaatioon, pilvi- ja DevOps-työhön, UI/UX-suunnitteluun, laadunvarmistukseen sekä IoT- ja teollisuusohjelmistoihin. Jos et ole varma, sopiiko projektisi meille, lyhyt kartoituspuhelu selventää asian meille molemmille."
+    },
+    {
+      "q": "Miten projekti käynnistyy?",
+      "a": "Kartoituskeskustelulla. Perehdymme tavoitteisiisi, rajoitteisiisi ja nykyisiin järjestelmiisi ja lähetämme sen jälkeen ehdotuksen laajuudesta, toteutustavasta ja aikataulusta. Mitään ei rakenneta ennen kuin laajuus ja välitavoitteet on sovittu."
+    },
+    {
+      "q": "Miten hinnoittelu on rakennettu?",
+      "a": "Se riippuu yhteistyömallista. Määritellyt projektit hinnoitellaan sovittujen välitavoitteiden mukaan, kun taas omistautuneet tiimit ja pitkäaikaiset kumppanuudet sovitaan tyypillisesti ajan ja kapasiteetin perusteella. Annamme selkeän arvion ennen työn aloittamista."
+    },
+    {
+      "q": "Kenelle koodi ja data kuuluvat?",
+      "a": "Sinulle. Projektiasi varten luotu lähdekoodi, suunnitelmat ja data ovat omaisuuttasi, ja luovutamme kaiken dokumentaation kera, jotta et jää koskaan lukkiutuneeksi."
+    },
+    {
+      "q": "Miten työskentelette eri aikavyöhykkeillä?",
+      "a": "Työskentelemme ensisijaisesti etänä Suomesta käsin (UTC+2) 40 tunnin vakiotyöviikolla. Sovimme jokaisen asiakkaan kanssa yhteiset työajat, jaamme kirjalliset päivitykset ja esittelemme edistymisen säännöllisesti, jotta tiedät aina, missä mennään."
+    },
+    {
+      "q": "Miten hoidatte tietoturvan ja luottamuksellisuuden?",
+      "a": "Käytämme roolipohjaista käyttöoikeuksien hallintaa, salattua viestintää ja asianmukaista salaisuuksien hallintaa, ja allekirjoitamme mielellämme salassapitosopimuksen (NDA) ennen projektisi käsittelyä. Tietoturva otetaan huomioon arkkitehtuurissa ja testauksessa alusta alkaen."
+    },
+    {
+      "q": "Tarjoatteko tukea julkaisun jälkeen?",
+      "a": "Kyllä. Ylläpito ja kehittäminen on elinkaaremme seitsemäs vaihe: virheiden korjaukset, tietoturvapäivitykset, suorituskyvyn optimointi ja ominaisuuksien jatkokehitys tuki- tai kumppanuussopimuksen puitteissa."
+    },
+    {
+      "q": "Voitteko työskennellä nykyisen tiimimme tai koodikantamme kanssa?",
+      "a": "Ehdottomasti. Omistautuneen tiimin mallimme on suunniteltu sulautumaan insinöörienne, työkalujenne ja toimintatapojenne joukkoon. Teemme myös nykyisten sovellusten modernisointia."
+    }
+  ]
+}

@@ -1,0 +1,309 @@
+{
+  "intro": {
+    "kicker": "Tjänsteutbud",
+    "title": "Tio områden med teknisk spetskompetens",
+    "description": "Från fristående SaaS-produkter till AI-pipelines och industriell telemetri: ett team täcker hela vägen från idé till produktion, och håller det igång efteråt."
+  },
+  "services": [
+    {
+      "id": "custom-software",
+      "number": "01",
+      "icon": "Code2",
+      "title": "Skräddarsydd mjukvaruutveckling",
+      "short": "Skräddarsydd mjukvara",
+      "summary": "Vi utformar och utvecklar skräddarsydda mjukvaruapplikationer som möter specifika operativa och affärsmässiga behov.",
+      "overview": "Färdiga verktyg passar sällan hur en verksamhet faktiskt arbetar. Vi bygger webbapplikationer, interna plattformar och backend-system utifrån era arbetsflöden, med ren arkitektur som förblir underhållbar när kraven förändras.",
+      "capabilities": [
+        "Utveckling av skräddarsydda webbapplikationer",
+        "Utveckling av företagsmjukvara",
+        "Utveckling av SaaS-plattformar",
+        "System för affärsstyrning",
+        "Kund- och medarbetarportaler",
+        "Utveckling av backend-applikationer",
+        "Utveckling av REST-API:er",
+        "Mikrotjänstarkitektur",
+        "Modernisering av applikationer",
+        "Löpande mjukvaruunderhåll"
+      ],
+      "deliverables": [
+        "Produktionsklar applikation med äganderätt till källkoden",
+        "Dokumenterade REST-API:er och datamodeller",
+        "Automatiserad testsvit och CI-pipeline",
+        "Dokumentation för driftsättning och överlämning"
+      ],
+      "technologies": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "PostgreSQL"],
+      "idealFor": "Organisationer som ersätter kalkylblad, äldre verktyg eller manuella processer med mjukvara anpassad efter hur de arbetar.",
+      "engagement": "Projektbaserat eller dedikerat team"
+    },
+    {
+      "id": "ai-ml",
+      "number": "02",
+      "icon": "Cpu",
+      "title": "Artificiell intelligens och maskininlärning",
+      "short": "AI och maskininlärning",
+      "summary": "Vi hjälper företag att integrera artificiell intelligens i sina produkter, tjänster och interna verksamhet.",
+      "overview": "Vi fokuserar på AI som löser ett konkret problem: assistenter som utgår från era egna dokument, arbetsflöden som läser och dirigerar information, samt modeller som förutspår eller flaggar det som är viktigt. Varje lösning byggs med utvärdering, skyddsräcken och kostnadskontroll i åtanke.",
+      "capabilities": [
+        "Utveckling av AI-drivna applikationer",
+        "AI-assistenter och konversationssystem",
+        "Integration av stora språkmodeller (LLM)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Utveckling av intelligenta arbetsflöden",
+        "Dokumentbearbetning och informationsextraktion",
+        "Integration av maskininlärning",
+        "Prediktiv analys",
+        "Avvikelsedetektering",
+        "AI-driven affärsautomatisering"
+      ],
+      "deliverables": [
+        "Fungerande AI-funktion integrerad i er produkt eller process",
+        "Utvärderingsset och kvalitetsmått",
+        "Dokumentation av prompts, informationsåtervinning och skyddsräcken",
+        "Användningsövervakning och kostnadskontroller"
+      ],
+      "technologies": ["LLM APIs", "RAG pipelines", "Python", "Vector databases", "Node.js", "PostgreSQL"],
+      "idealFor": "Team som vill lägga till assistenter, dokumentförståelse eller prediktion i en produkt eller intern process utan att starta ett forskningsprojekt.",
+      "engagement": "Projektbaserat eller teknisk rådgivning"
+    },
+    {
+      "id": "data-engineering",
+      "number": "03",
+      "icon": "Database",
+      "title": "Datateknik och analys",
+      "short": "Data och analys",
+      "summary": "Vi utvecklar datalösningar som hjälper organisationer att samla in, bearbeta, organisera och förstå information.",
+      "overview": "Pålitliga beslut kräver pålitlig data. Vi bygger de pipelines, lagringslager och dashboards som förvandlar spridda källor till en enda tillförlitlig helhetsbild, med inbyggd validering så att problem upptäcks tidigt.",
+      "capabilities": [
+        "Utveckling av datapipelines",
+        "Datainhämtning och transformation",
+        "ETL- och ELT-flöden",
+        "Databasarkitektur",
+        "Dataintegration",
+        "Automatisering av databearbetning",
+        "Dashboards för business intelligence",
+        "Datavisualisering",
+        "Rapporteringssystem",
+        "Validering av datakvalitet"
+      ],
+      "deliverables": [
+        "Automatiserade, övervakade datapipelines",
+        "Utformade och dokumenterade datamodeller",
+        "Dashboards och schemalagda rapporter",
+        "Datakvalitetskontroller och varningar"
+      ],
+      "technologies": ["Python", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Docker"],
+      "idealFor": "Företag vars data finns i många system och som behöver tillförlitlig rapportering, analys eller en AI-redo grund.",
+      "engagement": "Projektbaserat"
+    },
+    {
+      "id": "system-integration",
+      "number": "04",
+      "icon": "GitMerge",
+      "title": "Integration av företagssystem",
+      "short": "Systemintegration",
+      "summary": "Vi kopplar samman affärsapplikationer, plattformar, databaser och externa tjänster till enhetliga teknikmiljöer.",
+      "overview": "De flesta företag drivs av en lapptäckeskombination av verktyg. Vi kopplar ihop dem genom robusta, observerbara integrationer så att data flödar en gång, förblir konsekvent och teamen slipper skriva in samma information på nytt mellan systemen.",
+      "capabilities": [
+        "Integrationer med tredjeparts-API:er",
+        "ERP-integrationer",
+        "CRM-integrationer",
+        "Integrationer med betalningsgateways",
+        "Integration av företagsapplikationer",
+        "Synkronisering av databaser",
+        "Utveckling av webhooks",
+        "Integration av äldre system",
+        "Datautbyte mellan plattformar",
+        "Integrationstestning"
+      ],
+      "deliverables": [
+        "Testade, dokumenterade integrationer med omförsök och felhantering",
+        "Specifikationer för datamappning",
+        "Övervakning och felvarningar",
+        "Driftinstruktioner för driftteam"
+      ],
+      "technologies": ["REST & webhooks", "Node.js", "NestJS", "Python", "PostgreSQL", "n8n"],
+      "idealFor": "Organisationer som kopplar ihop ERP, CRM, betalningar och interna verktyg, eller överbryggar äldre system och moderna plattformar.",
+      "engagement": "Projektbaserat eller långsiktigt partnerskap"
+    },
+    {
+      "id": "process-automation",
+      "number": "05",
+      "icon": "Workflow",
+      "title": "Automatisering av affärsprocesser",
+      "short": "Processautomatisering",
+      "summary": "Vi hjälper organisationer att minska repetitivt manuellt arbete genom intelligent automatisering och sammankopplade arbetsflöden.",
+      "overview": "Vi kartlägger det arbete som ert team upprepar varje dag och automatiserar de delar som inte kräver mänskligt omdöme. AI används där det verkligen hjälper, till exempel för att läsa dokument eller klassificera ärenden, och enkla regler där de räcker.",
+      "capabilities": [
+        "Automatisering av affärsarbetsflöden",
+        "System för godkännanden och notifieringar",
+        "Automatiserad rapportering",
+        "Arbetsflöden för dokumentbearbetning",
+        "E-postautomatisering",
+        "CRM-automatisering",
+        "Datasynkronisering",
+        "AI-drivna arbetsflöden",
+        "API-baserad automatisering",
+        "Processoptimering"
+      ],
+      "deliverables": [
+        "Automatiserade arbetsflöden med spårbarhet",
+        "Processkartor före och efter automatisering",
+        "Undantagshantering och steg med människan i loopen",
+        "Utbildning och dokumentation för teamet"
+      ],
+      "technologies": ["n8n", "Webhooks & APIs", "Node.js", "Python", "LLM APIs", "PostgreSQL"],
+      "idealFor": "Drift-, ekonomi- och säljteam som lägger timmar på repetitiv rapportering, datainmatning och godkännanden.",
+      "engagement": "Projektbaserat"
+    },
+    {
+      "id": "cloud-devops",
+      "number": "06",
+      "icon": "Cloud",
+      "title": "Moln- och DevOps-teknik",
+      "short": "Moln och DevOps",
+      "summary": "Vi bygger och driftar tillförlitlig infrastruktur som stödjer moderna applikationer och affärsverksamhet.",
+      "overview": "Bra mjukvara behöver pålitlig infrastruktur bakom sig. Vi sätter upp repeterbara driftsättningar, övervakning och återställning så att releaser blir rutin, avbrott blir sällsynta och problem syns innan kunderna märker dem.",
+      "capabilities": [
+        "Uppsättning av molninfrastruktur",
+        "Docker och containerisering",
+        "Driftsättning med Docker Compose",
+        "Utveckling av CI/CD-pipelines",
+        "Hantering av Linux-servrar",
+        "Driftsättning av applikationer",
+        "Driftsättning och hantering av databaser",
+        "Infrastrukturövervakning",
+        "Loggning och observerbarhet",
+        "Planering av säkerhetskopiering och återställning",
+        "Optimering av applikationsprestanda"
+      ],
+      "deliverables": [
+        "Automatiserade pipelines för bygge, test och driftsättning",
+        "Containeriserade, reproducerbara miljöer",
+        "Övervakningsdashboards och varningar",
+        "Plan för säkerhetskopiering och katastrofåterställning"
+      ],
+      "technologies": ["Docker & Compose", "CI/CD pipelines", "Linux / VPS", "PostgreSQL", "Redis"],
+      "idealFor": "Team som går från manuella driftsättningar till automatiserade pipelines, eller behöver någon som tar ansvar för infrastrukturens tillförlitlighet.",
+      "engagement": "Projektbaserat eller löpande support"
+    },
+    {
+      "id": "digital-product",
+      "number": "07",
+      "icon": "Layers",
+      "title": "Utveckling av digitala produkter och SaaS",
+      "short": "Produkt och SaaS",
+      "summary": "Vi hjälper företag och entreprenörer att förvandla produktkoncept till fungerande, skalbara digitala plattformar.",
+      "overview": "Vi arbetar som en produktmedveten utvecklingspartner: vi skärper omfattningen, väljer en pragmatisk arkitektur och levererar en MVP som riktiga användare kan prova, och utvecklar den sedan vidare med fakturering, multi-tenancy och de funktioner som följer.",
+      "capabilities": [
+        "Utveckling av SaaS-produkter",
+        "Utveckling av MVP (Minimum Viable Product)",
+        "Produktarkitektur och planering",
+        "Prenumerationsbaserade plattformar",
+        "Multi-tenant-applikationer",
+        "Hantering av användare och åtkomst",
+        "Integrationer för prenumeration och fakturering",
+        "Utveckling av produktfunktioner",
+        "Produktunderhåll",
+        "Tekniskt produktstöd"
+      ],
+      "deliverables": [
+        "Avgränsad MVP med prioriterad färdplan",
+        "Multi-tenant-arkitektur med rollbaserad åtkomst",
+        "Integration av fakturering och prenumerationer",
+        "Teknisk dokumentation för framtida team"
+      ],
+      "technologies": ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Docker & Compose", "Figma"],
+      "idealFor": "Grundare och produktteam som behöver en pålitlig utvecklingspartner från första prototyp till skalad plattform.",
+      "engagement": "Projektbaserat eller långsiktigt partnerskap"
+    },
+    {
+      "id": "ui-ux",
+      "number": "08",
+      "icon": "Palette",
+      "title": "UI/UX och design av digitala produkter",
+      "short": "UI/UX-design",
+      "summary": "Vi utformar intuitiva digitala upplevelser som balanserar användbarhet, funktionalitet och visuell kvalitet.",
+      "overview": "Här arbetar design och utveckling sida vid sida. Vi förvandlar krav till tydliga användarresor, interaktiva prototyper och designsystem som utvecklare kan implementera troget och som team kan bygga vidare på med konsekvens.",
+      "capabilities": [
+        "Design av användargränssnitt",
+        "Design av användarupplevelse",
+        "Design av webbapplikationer",
+        "Design av dashboards och adminpaneler",
+        "Design av responsiva gränssnitt",
+        "Designsystem",
+        "Interaktiva prototyper",
+        "Planering av användarresor",
+        "Förbättringar av produktgränssnitt"
+      ],
+      "deliverables": [
+        "Användarflöden och wireframes",
+        "Responsiva gränssnittsdesigner i hög detaljnivå",
+        "Återanvändbart designsystem och komponentbibliotek",
+        "Klickbara prototyper för tidig validering"
+      ],
+      "technologies": ["Figma", "Tailwind CSS", "React", "Next.js", "TypeScript"],
+      "idealFor": "Team med en fungerande produkt som känns otymplig, eller en ny produkt som behöver ett tydligt, trovärdigt gränssnitt från dag ett.",
+      "engagement": "Projektbaserat eller dedikerat team"
+    },
+    {
+      "id": "qa-testing",
+      "number": "09",
+      "icon": "CheckCircle2",
+      "title": "Mjukvarutestning och kvalitetssäkring",
+      "short": "Testning och QA",
+      "summary": "Vi hjälper till att säkerställa att mjukvaruprodukter fungerar tillförlitligt genom strukturerad testning och kvalitetssäkring.",
+      "overview": "Kvalitet byggs in, den inspekteras inte fram i slutet. Vi kombinerar utforskande manuell testning med automatiserade sviter som körs vid varje ändring, så att regressioner fångas på minuter i stället för av kunderna.",
+      "capabilities": [
+        "Manuell mjukvarutestning",
+        "Automatiserad testning",
+        "API-testning",
+        "Integrationstestning",
+        "Helhetstestning (end-to-end)",
+        "Prestandatestning",
+        "Regressionstestning",
+        "Funktionstestning",
+        "Processer för kvalitetssäkring",
+        "Testdokumentation"
+      ],
+      "deliverables": [
+        "Teststrategi och täckningsplan",
+        "Automatiserade testsviter inkopplade i CI",
+        "Felrapporter med steg för att återskapa felen",
+        "Prestandabaslinjer och resultat"
+      ],
+      "technologies": ["TypeScript", "Python", "CI/CD pipelines", "Docker & Compose"],
+      "idealFor": "Team som levererar snabbt och behöver trygghet inför varje release, eller en oberoende kvalitetskontroll före lansering.",
+      "engagement": "Projektbaserat eller dedikerat team"
+    },
+    {
+      "id": "iot-industrial",
+      "number": "10",
+      "icon": "Radio",
+      "title": "IoT och industriella mjukvarulösningar",
+      "short": "IoT och industri",
+      "summary": "Vi utvecklar mjukvarulösningar som kopplar ihop enheter, bearbetar operativ data och ger insyn i uppkopplade system.",
+      "overview": "Vi bygger mjukvaruskiktet kring uppkopplad utrustning: tar emot sensor- och telemetridata, visualiserar den i realtid och varnar team för avvikelser, med en väg mot prediktivt underhåll.",
+      "capabilities": [
+        "Utveckling av IoT-applikationer",
+        "Integrationer med sensorer och enheter",
+        "Övervakningsdashboards i realtid",
+        "Bearbetning av telemetridata",
+        "Visualisering av industriell data",
+        "Applikationer för utrustningsövervakning",
+        "Prototyper för prediktivt underhåll",
+        "System för avvikelsedetektering",
+        "Integrationer med IoT-plattformar",
+        "System för datainsamling och varningar"
+      ],
+      "deliverables": [
+        "Pipeline för inhämtning och lagring av telemetri",
+        "Övervakningsdashboards i realtid",
+        "Varningar baserade på tröskelvärden och avvikelser",
+        "Integration med befintliga enheter och plattformar"
+      ],
+      "technologies": ["Python", "Node.js", "PostgreSQL", "Redis", "Docker & Compose", "Machine Learning"],
+      "idealFor": "Tillverknings-, energi- och utrustningsföretag som vill ha insyn i uppkopplade tillgångar och tidig varning för fel.",
+      "engagement": "Projektbaserat eller långsiktigt partnerskap"
+    }
+  ]
+}

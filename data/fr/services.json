@@ -1,0 +1,375 @@
+{
+  "intro": {
+    "kicker": "Catalogue de services",
+    "title": "Dix disciplines d'excellence technique",
+    "description": "Des produits SaaS autonomes aux pipelines d'IA et à la télémétrie industrielle, une seule équipe couvre tout le chemin de l'idée à la production, et assure ensuite la continuité."
+  },
+  "services": [
+    {
+      "id": "custom-software",
+      "number": "01",
+      "icon": "Code2",
+      "title": "Développement de logiciels sur mesure",
+      "short": "Logiciel sur mesure",
+      "summary": "Nous concevons et développons des applications logicielles sur mesure qui répondent à des besoins opérationnels et métier précis.",
+      "overview": "Les outils standards correspondent rarement à la façon dont une entreprise fonctionne réellement. Nous construisons des applications web, des plateformes internes et des systèmes backend autour de vos processus, avec une architecture propre qui reste maintenable à mesure que les besoins évoluent.",
+      "capabilities": [
+        "Développement d'applications web sur mesure",
+        "Développement de logiciels d'entreprise",
+        "Développement de plateformes SaaS",
+        "Systèmes de gestion d'entreprise",
+        "Portails clients et collaborateurs",
+        "Développement d'applications backend",
+        "Développement d'API REST",
+        "Architecture microservices",
+        "Modernisation d'applications",
+        "Maintenance logicielle continue"
+      ],
+      "deliverables": [
+        "Application prête pour la production, avec propriété du code source",
+        "API REST et modèles de données documentés",
+        "Suite de tests automatisés et pipeline CI",
+        "Documentation de déploiement et de passation"
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Node.js",
+        "NestJS",
+        "PostgreSQL"
+      ],
+      "idealFor": "Les organisations qui remplacent des tableurs, des outils hérités ou des processus manuels par un logiciel adapté à leur façon de fonctionner.",
+      "engagement": "Au forfait ou équipe dédiée"
+    },
+    {
+      "id": "ai-ml",
+      "number": "02",
+      "icon": "Cpu",
+      "title": "Intelligence artificielle et apprentissage automatique",
+      "short": "IA et apprentissage automatique",
+      "summary": "Nous aidons les entreprises à intégrer l'intelligence artificielle dans leurs produits, leurs services et leurs opérations internes.",
+      "overview": "Nous nous concentrons sur une IA qui résout un problème concret : des assistants ancrés dans vos propres documents, des workflows qui lisent et acheminent l'information, et des modèles qui prédisent ou signalent ce qui compte. Chaque solution est conçue avec évaluation, garde-fous et maîtrise des coûts à l'esprit.",
+      "capabilities": [
+        "Développement d'applications pilotées par l'IA",
+        "Assistants d'IA et systèmes conversationnels",
+        "Intégration de grands modèles de langage (LLM)",
+        "Génération augmentée par la recherche (RAG)",
+        "Développement de workflows intelligents",
+        "Traitement de documents et extraction d'informations",
+        "Intégration de l'apprentissage automatique",
+        "Analytique prédictive",
+        "Détection d'anomalies",
+        "Automatisation métier pilotée par l'IA"
+      ],
+      "deliverables": [
+        "Fonctionnalité d'IA opérationnelle, intégrée à votre produit ou à votre processus",
+        "Jeu d'évaluation et indicateurs de référence de qualité",
+        "Documentation des prompts, de la recherche et des garde-fous",
+        "Suivi de l'usage et maîtrise des coûts"
+      ],
+      "technologies": [
+        "LLM APIs",
+        "RAG pipelines",
+        "Python",
+        "Vector databases",
+        "Node.js",
+        "PostgreSQL"
+      ],
+      "idealFor": "Les équipes qui veulent ajouter des assistants, de la compréhension de documents ou de la prédiction à un produit ou à un processus interne, sans lancer un projet de recherche.",
+      "engagement": "Au forfait ou conseil technique"
+    },
+    {
+      "id": "data-engineering",
+      "number": "03",
+      "icon": "Database",
+      "title": "Ingénierie des données et analytique",
+      "short": "Données et analytique",
+      "summary": "Nous développons des solutions de données qui aident les organisations à collecter, traiter, organiser et comprendre l'information.",
+      "overview": "Des décisions fiables exigent des données fiables. Nous construisons les pipelines, les couches de stockage et les tableaux de bord qui transforment des sources dispersées en une vision unique et digne de confiance, avec une validation intégrée pour que les problèmes apparaissent tôt.",
+      "capabilities": [
+        "Développement de pipelines de données",
+        "Ingestion et transformation de données",
+        "Workflows ETL et ELT",
+        "Architecture de bases de données",
+        "Intégration de données",
+        "Automatisation du traitement des données",
+        "Tableaux de bord de business intelligence",
+        "Visualisation de données",
+        "Systèmes de reporting",
+        "Validation de la qualité des données"
+      ],
+      "deliverables": [
+        "Pipelines de données automatisés et supervisés",
+        "Modèles de données conçus et documentés",
+        "Tableaux de bord et rapports planifiés",
+        "Contrôles de qualité des données et alertes"
+      ],
+      "technologies": [
+        "Python",
+        "PostgreSQL",
+        "MySQL",
+        "MongoDB",
+        "Redis",
+        "Docker"
+      ],
+      "idealFor": "Les entreprises dont les données sont réparties dans de nombreux systèmes et qui ont besoin d'un reporting fiable, d'analytique ou d'une base prête pour l'IA.",
+      "engagement": "Au forfait"
+    },
+    {
+      "id": "system-integration",
+      "number": "04",
+      "icon": "GitMerge",
+      "title": "Intégration de systèmes d'entreprise",
+      "short": "Intégration de systèmes",
+      "summary": "Nous connectons applications métier, plateformes, bases de données et services externes pour créer des environnements technologiques unifiés.",
+      "overview": "La plupart des entreprises reposent sur un patchwork d'outils. Nous les relions par des intégrations robustes et observables, pour que la donnée circule une seule fois, reste cohérente et que les équipes cessent de ressaisir des informations d'un système à l'autre.",
+      "capabilities": [
+        "Intégrations d'API tierces",
+        "Intégrations ERP",
+        "Intégrations CRM",
+        "Intégrations de passerelles de paiement",
+        "Intégration d'applications d'entreprise",
+        "Synchronisation de bases de données",
+        "Développement de webhooks",
+        "Intégration de systèmes hérités",
+        "Échange de données entre plateformes",
+        "Tests d'intégration"
+      ],
+      "deliverables": [
+        "Intégrations testées et documentées, avec reprise et gestion des erreurs",
+        "Spécifications de mapping des données",
+        "Supervision et alertes en cas d'échec",
+        "Procédures d'exploitation pour les équipes opérationnelles"
+      ],
+      "technologies": [
+        "REST & webhooks",
+        "Node.js",
+        "NestJS",
+        "Python",
+        "PostgreSQL",
+        "n8n"
+      ],
+      "idealFor": "Les organisations qui connectent ERP, CRM, paiements et outils internes, ou qui relient des systèmes hérités à des plateformes modernes.",
+      "engagement": "Au forfait ou partenariat de long terme"
+    },
+    {
+      "id": "process-automation",
+      "number": "05",
+      "icon": "Workflow",
+      "title": "Automatisation des processus métier",
+      "short": "Automatisation de processus",
+      "summary": "Nous aidons les organisations à réduire le travail manuel répétitif grâce à une automatisation intelligente et à des workflows connectés.",
+      "overview": "Nous cartographions le travail que votre équipe répète chaque jour, puis automatisons ce qui ne requiert pas de jugement humain. L'IA est utilisée là où elle apporte vraiment quelque chose, comme lire des documents ou classer des demandes, et de simples règles là où elles suffisent.",
+      "capabilities": [
+        "Automatisation des workflows métier",
+        "Systèmes d'approbation et de notification",
+        "Reporting automatisé",
+        "Workflows de traitement de documents",
+        "Automatisation des e-mails",
+        "Automatisation du CRM",
+        "Synchronisation de données",
+        "Workflows pilotés par l'IA",
+        "Automatisation par API",
+        "Optimisation des processus"
+      ],
+      "deliverables": [
+        "Workflows automatisés avec pistes d'audit",
+        "Cartographies de processus avant et après automatisation",
+        "Gestion des exceptions et étapes avec intervention humaine",
+        "Formation des équipes et documentation"
+      ],
+      "technologies": [
+        "n8n",
+        "Webhooks & APIs",
+        "Node.js",
+        "Python",
+        "LLM APIs",
+        "PostgreSQL"
+      ],
+      "idealFor": "Les équipes opérations, finance et ventes qui passent des heures sur du reporting, de la saisie de données et des validations répétitifs.",
+      "engagement": "Au forfait"
+    },
+    {
+      "id": "cloud-devops",
+      "number": "06",
+      "icon": "Cloud",
+      "title": "Ingénierie cloud et DevOps",
+      "short": "Cloud et DevOps",
+      "summary": "Nous construisons et gérons une infrastructure fiable qui soutient les applications modernes et les opérations de l'entreprise.",
+      "overview": "Un bon logiciel a besoin d'une infrastructure solide derrière lui. Nous mettons en place des déploiements reproductibles, de la supervision et des mécanismes de reprise, pour que les mises en production deviennent routinières, les pannes rares et les problèmes visibles avant que les clients ne les remarquent.",
+      "capabilities": [
+        "Mise en place d'infrastructure cloud",
+        "Docker et conteneurisation",
+        "Déploiements Docker Compose",
+        "Développement de pipelines CI/CD",
+        "Administration de serveurs Linux",
+        "Déploiement d'applications",
+        "Déploiement et gestion de bases de données",
+        "Supervision de l'infrastructure",
+        "Journalisation et observabilité",
+        "Planification des sauvegardes et de la reprise",
+        "Optimisation des performances applicatives"
+      ],
+      "deliverables": [
+        "Pipelines automatisés de build, de test et de déploiement",
+        "Environnements conteneurisés et reproductibles",
+        "Tableaux de bord de supervision et alertes",
+        "Plan de sauvegarde et de reprise après sinistre"
+      ],
+      "technologies": [
+        "Docker & Compose",
+        "CI/CD pipelines",
+        "Linux / VPS",
+        "PostgreSQL",
+        "Redis"
+      ],
+      "idealFor": "Les équipes qui passent de déploiements manuels à des pipelines automatisés, ou qui ont besoin de quelqu'un pour garantir la fiabilité de l'infrastructure.",
+      "engagement": "Au forfait ou support continu"
+    },
+    {
+      "id": "digital-product",
+      "number": "07",
+      "icon": "Layers",
+      "title": "Ingénierie de produits numériques et SaaS",
+      "short": "Produit et SaaS",
+      "summary": "Nous aidons les entreprises et les entrepreneurs à transformer des concepts de produit en plateformes numériques fonctionnelles et évolutives.",
+      "overview": "Nous agissons en partenaire d'ingénierie doté d'un esprit produit : affiner le périmètre, choisir une architecture pragmatique et livrer un MVP que de vrais utilisateurs peuvent essayer, puis le faire évoluer avec la facturation, le multi-tenant et les fonctionnalités qui suivent.",
+      "capabilities": [
+        "Développement de produits SaaS",
+        "Développement de produit minimum viable (MVP)",
+        "Architecture et planification produit",
+        "Plateformes par abonnement",
+        "Applications multi-tenant",
+        "Gestion des utilisateurs et des accès",
+        "Intégrations d'abonnement et de facturation",
+        "Développement de fonctionnalités produit",
+        "Maintenance produit",
+        "Support technique produit"
+      ],
+      "deliverables": [
+        "MVP cadré avec feuille de route priorisée",
+        "Architecture multi-tenant avec accès par rôle",
+        "Intégration de la facturation et des abonnements",
+        "Documentation technique pour les équipes futures"
+      ],
+      "technologies": [
+        "Next.js",
+        "TypeScript",
+        "NestJS",
+        "PostgreSQL",
+        "Docker & Compose",
+        "Figma"
+      ],
+      "idealFor": "Les fondateurs et les équipes produit qui ont besoin d'un partenaire d'ingénierie fiable, du premier prototype à la plateforme à grande échelle.",
+      "engagement": "Au forfait ou partenariat de long terme"
+    },
+    {
+      "id": "ui-ux",
+      "number": "08",
+      "icon": "Palette",
+      "title": "Design UI/UX et de produits numériques",
+      "short": "Design UI/UX",
+      "summary": "Nous concevons des expériences numériques intuitives qui concilient utilisabilité, fonctionnalité et qualité visuelle.",
+      "overview": "Ici, le design et l'ingénierie travaillent côte à côte. Nous transformons les besoins en parcours utilisateurs clairs, en prototypes interactifs et en design systems que les développeurs peuvent implémenter fidèlement et que les équipes peuvent étendre de façon cohérente.",
+      "capabilities": [
+        "Design d'interfaces utilisateur",
+        "Design de l'expérience utilisateur",
+        "Design d'applications web",
+        "Design de tableaux de bord et de panneaux d'administration",
+        "Design d'interfaces responsives",
+        "Design systems",
+        "Prototypes interactifs",
+        "Planification des parcours utilisateurs",
+        "Amélioration d'interfaces produit"
+      ],
+      "deliverables": [
+        "Parcours utilisateurs et wireframes",
+        "Maquettes d'interface haute fidélité et responsives",
+        "Design system réutilisable et bibliothèque de composants",
+        "Prototypes cliquables pour une validation précoce"
+      ],
+      "technologies": [
+        "Figma",
+        "Tailwind CSS",
+        "React",
+        "Next.js",
+        "TypeScript"
+      ],
+      "idealFor": "Les équipes dont le produit fonctionne mais paraît lourd, ou dont le nouveau produit a besoin d'une interface claire et crédible dès le premier jour.",
+      "engagement": "Au forfait ou équipe dédiée"
+    },
+    {
+      "id": "qa-testing",
+      "number": "09",
+      "icon": "CheckCircle2",
+      "title": "Tests logiciels et assurance qualité",
+      "short": "Tests et QA",
+      "summary": "Nous aidons à garantir le bon fonctionnement des produits logiciels grâce à des tests structurés et à l'assurance qualité.",
+      "overview": "La qualité se conçoit, elle ne se contrôle pas à la fin. Nous associons des tests manuels exploratoires à des suites automatisées exécutées à chaque modification, pour que les régressions soient détectées en quelques minutes plutôt que par les clients.",
+      "capabilities": [
+        "Tests logiciels manuels",
+        "Tests automatisés",
+        "Tests d'API",
+        "Tests d'intégration",
+        "Tests de bout en bout",
+        "Tests de performance",
+        "Tests de non-régression",
+        "Tests fonctionnels",
+        "Processus d'assurance qualité",
+        "Documentation de test"
+      ],
+      "deliverables": [
+        "Stratégie de test et plan de couverture",
+        "Suites de tests automatisés intégrées à la CI",
+        "Rapports de défauts avec étapes de reproduction",
+        "Références de performance et constats"
+      ],
+      "technologies": [
+        "TypeScript",
+        "Python",
+        "CI/CD pipelines",
+        "Docker & Compose"
+      ],
+      "idealFor": "Les équipes qui livrent vite et veulent être sereines à chaque mise en production, ou qui souhaitent un contrôle qualité indépendant avant le lancement.",
+      "engagement": "Au forfait ou équipe dédiée"
+    },
+    {
+      "id": "iot-industrial",
+      "number": "10",
+      "icon": "Radio",
+      "title": "Solutions logicielles IoT et industrielles",
+      "short": "IoT et industrie",
+      "summary": "Nous développons des solutions logicielles qui connectent les appareils, traitent les données opérationnelles et offrent de la visibilité sur les systèmes connectés.",
+      "overview": "Nous construisons la couche logicielle autour des équipements connectés : ingestion des données de capteurs et de télémétrie, visualisation en temps réel et alertes des équipes en cas d'anomalie, avec une trajectoire vers la maintenance prédictive.",
+      "capabilities": [
+        "Développement d'applications IoT",
+        "Intégrations de capteurs et d'appareils",
+        "Tableaux de bord de supervision en temps réel",
+        "Traitement des données de télémétrie",
+        "Visualisation de données industrielles",
+        "Applications de supervision d'équipements",
+        "Prototypes de maintenance prédictive",
+        "Systèmes de détection d'anomalies",
+        "Intégrations de plateformes IoT",
+        "Systèmes de collecte de données et d'alerte"
+      ],
+      "deliverables": [
+        "Pipeline d'ingestion et de stockage de télémétrie",
+        "Tableaux de bord de supervision en temps réel",
+        "Alertes par seuils et par détection d'anomalies",
+        "Intégration avec les appareils et plateformes existants"
+      ],
+      "technologies": [
+        "Python",
+        "Node.js",
+        "PostgreSQL",
+        "Redis",
+        "Docker & Compose",
+        "Machine Learning"
+      ],
+      "idealFor": "Les industriels, les acteurs de l'énergie et les entreprises d'équipements qui souhaitent de la visibilité sur leurs actifs connectés et une alerte précoce en cas de défaillance.",
+      "engagement": "Au forfait ou partenariat de long terme"
+    }
+  ]
+}

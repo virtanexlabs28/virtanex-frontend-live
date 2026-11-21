@@ -3,10 +3,12 @@
 import React from 'react';
 import { ArrowUpRight } from 'lucide-react';
 import { MagneticWord } from './MagneticWord';
-import { site } from '@/lib/content';
 import { useBooking } from '@/components/BookingProvider';
+import { useContent } from '@/components/ContentProvider';
+import { fmt } from '@/lib/format';
 
 export function Hero() {
+  const { site, ui } = useContent();
   const { openBooking: onStartProject } = useBooking();
   const BG_IMAGE =
     'https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=1600&q=80';
@@ -15,14 +17,14 @@ export function Hero() {
     <section
       className="relative w-full overflow-hidden bg-[#0C0A09]"
       style={{ height: '100dvh' }}
-      aria-label={`${site.name} hero`}
+      aria-label={fmt(ui.hero.aria, { name: site.name })}
     >
       {/* 1. Background Image (z-10) with breathing animation */}
       <div
         className="absolute inset-0 bg-center bg-cover bg-no-repeat anim-breathe z-10 will-change-transform"
         style={{ backgroundImage: `url('${BG_IMAGE}')` }}
         role="img"
-        aria-label="Misty valley with pine trees at dusk, the sky glowing amber"
+        aria-label={ui.hero.imageAlt}
       />
 
       {/* 2. Atmospheric Overlay (z-20): 35% flat wash + directional gradient */}

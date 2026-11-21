@@ -1,0 +1,53 @@
+{
+  "marquee": {
+    "kicker": "Notre boîte à outils",
+    "title": "Conçu avec des outils en lesquels nous avons confiance"
+  },
+  "services": {
+    "kicker": "Ce que nous faisons",
+    "title": "Dix disciplines, une seule équipe responsable.",
+    "description": "De la première maquette à l'infrastructure de production, et le support qui permet de tout faire tourner.",
+    "cta": "Découvrir tous les services"
+  },
+  "process": {
+    "kicker": "Notre façon de travailler",
+    "title": "Du premier appel à la production en sept étapes.",
+    "description": "Un cycle de vie transparent, avec des livrables clairs à chaque étape, pour que vous sachiez toujours où en sont les choses et ce qui vient ensuite.",
+    "cta": "Voir le processus complet"
+  },
+  "work": {
+    "kicker": "Plans de solution",
+    "title": "Ce que nous pouvons construire pour vous.",
+    "description": "Des conceptions de solutions représentatives qui montrent notre approche de l'architecture, de la livraison et des résultats.",
+    "cta": "Voir tous les plans de solution"
+  },
+  "industries": {
+    "kicker": "Secteurs",
+    "title": "Une ingénierie qui s'adapte à tous les secteurs.",
+    "description": "Les fondamentaux d'un bon logiciel sont transposables. Voici les secteurs où nous les appliquons le plus souvent.",
+    "cta": "Découvrir notre approche par secteur"
+  },
+  "why": {
+    "kicker": "Pourquoi Virtanex Labs",
+    "title": "Un partenaire technologique, pas simplement un prestataire.",
+    "description": "Nous associons ingénierie senior, outils modernes et communication honnête, et nous restons sur la durée.",
+    "cta": "Rencontrer l'équipe"
+  },
+  "faq": {
+    "kicker": "Réponses rapides",
+    "title": "Les questions que l'on nous pose le plus.",
+    "cta": "Lire toutes les questions"
+  },
+  "cta": {
+    "kicker": "Parlons-en",
+    "title": "Un projet en tête ?",
+    "description": "Dites-nous ce que vous cherchez à construire. Nous reviendrons vers vous sous 24 heures avec un retour franc et une prochaine étape claire.",
+    "primary": "Réserver un appel de découverte",
+    "secondary": "Envoyer un brief de projet",
+    "assurances": [
+      "NDA disponible sur demande",
+      "Réponse sous 24 heures",
+      "Des ingénieurs seniors dès le premier jour"
+    ]
+  }
+}

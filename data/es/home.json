@@ -1,0 +1,49 @@
+{
+  "marquee": {
+    "kicker": "Nuestro conjunto de herramientas",
+    "title": "Construido con herramientas en las que confiamos"
+  },
+  "services": {
+    "kicker": "Qué hacemos",
+    "title": "Diez disciplinas, un único equipo responsable.",
+    "description": "Todo, desde el primer prototipo hasta la infraestructura de producción, y el soporte que lo mantiene en funcionamiento.",
+    "cta": "Explorar todos los servicios"
+  },
+  "process": {
+    "kicker": "Cómo trabajamos",
+    "title": "De la primera llamada a producción en siete pasos.",
+    "description": "Un ciclo de vida transparente con entregables claros en cada etapa, para que siempre sepa qué está ocurriendo y qué viene a continuación.",
+    "cta": "Ver el proceso completo"
+  },
+  "work": {
+    "kicker": "Planos de solución",
+    "title": "Lo que podemos construir para usted.",
+    "description": "Diseños de solución representativos que muestran cómo abordamos la arquitectura, la entrega y los resultados.",
+    "cta": "Ver todos los planos"
+  },
+  "industries": {
+    "kicker": "Sectores",
+    "title": "Una ingeniería que funciona en cualquier sector.",
+    "description": "Los fundamentos del buen software son transferibles. Estos son los sectores en los que más los aplicamos.",
+    "cta": "Ver cómo trabajamos en cada sector"
+  },
+  "why": {
+    "kicker": "Por qué Virtanex Labs",
+    "title": "Un socio tecnológico, no solo un proveedor.",
+    "description": "Combinamos ingeniería sénior, herramientas modernas y comunicación honesta, y permanecemos a su lado a largo plazo.",
+    "cta": "Conozca al equipo"
+  },
+  "faq": {
+    "kicker": "Respuestas rápidas",
+    "title": "Las preguntas que más recibimos.",
+    "cta": "Leer todas las preguntas"
+  },
+  "cta": {
+    "kicker": "Hablemos",
+    "title": "¿Tiene un proyecto en mente?",
+    "description": "Cuéntenos qué desea construir. Le responderemos en un plazo de 24 horas con una opinión honesta y un siguiente paso claro.",
+    "primary": "Reservar una llamada de descubrimiento",
+    "secondary": "Enviar un resumen del proyecto",
+    "assurances": ["NDA disponible bajo petición", "Respuesta en un plazo de 24 horas", "Ingenieros sénior desde el primer día"]
+  }
+}

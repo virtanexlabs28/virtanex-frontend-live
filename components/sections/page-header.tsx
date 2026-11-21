@@ -1,20 +1,26 @@
-import { site } from '@/lib/content';
+'use client';
 
-type PageKey = keyof typeof site.pages;
+import { useContent } from '@/components/ContentProvider';
 
-/** Banner for inner pages: each page has its own image, title, and description from data/site.json. */
+type PageKey = 'services' | 'process' | 'work' | 'team' | 'faq' | 'contact';
+
+/**
+ * Banner for inner pages: each page has its own image, title, and description from data/site.json.
+ * Like the home hero it is a dark photo banner in both themes (`dark` swaps the tokens inside it),
+ * so the image stays clearly visible and the text stays readable in light mode too.
+ */
 export function PageHeader({ page }: { page: PageKey }) {
-  const p = site.pages[page];
+  const p = useContent().site.pages[page];
   return (
-    <header className="relative isolate flex min-h-[52vh] items-end overflow-hidden bg-background px-5 pb-14 pt-36 sm:px-10 sm:pb-20 md:px-14">
+    <header className="dark relative isolate flex min-h-[52vh] items-end overflow-hidden bg-background px-5 pb-14 pt-36 sm:px-10 sm:pb-20 md:px-14">
       <div
         className="absolute inset-0 -z-20 bg-cover bg-center"
         style={{ backgroundImage: `url('${p.image}')` }}
         role="img"
         aria-label={p.imageAlt}
       />
-      <div className="absolute inset-0 -z-10 bg-background/55" />
-      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/40 via-background/30 to-background" />
+      <div className="absolute inset-0 -z-10 bg-background/40" />
+      <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/30 via-transparent to-background/90" />
       <div className="mx-auto w-full max-w-7xl">
         <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-accent">{p.kicker}</p>
         <h1 className="max-w-4xl font-fraunces text-4xl font-normal leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">

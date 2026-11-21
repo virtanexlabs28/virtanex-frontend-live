@@ -1,9 +1,11 @@
-import Link from 'next/link';
+'use client';
+
 import { ArrowRight, ArrowUpRight, CheckCircle2 } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
-import { company, faq, home, processContent, services, work } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
+import { Link } from '@/components/LocaleLink';
 import { getIcon } from '@/lib/icons';
 import { Reveal } from '@/components/Reveal';
 import { Section, SectionHeader } from './section';
@@ -22,6 +24,7 @@ function TextLink({ href, children }: { href: string; children: React.ReactNode 
 
 /** All ten services as icon cards, each with a one-line summary. */
 export function ServicesOverview() {
+  const { home, services } = useContent();
   const c = home.services;
   return (
     <Section id="services-overview">
@@ -61,6 +64,7 @@ export function ServicesOverview() {
 
 /** The seven-phase lifecycle as a compact timeline. */
 export function ProcessPreview() {
+  const { home, processContent } = useContent();
   const c = home.process;
   const phases = processContent.phases;
   return (
@@ -94,6 +98,7 @@ export function ProcessPreview() {
 
 /** Four solution blueprints with imagery. */
 export function WorkPreview() {
+  const { home, work } = useContent();
   const c = home.work;
   return (
     <Section id="work-preview">
@@ -143,6 +148,7 @@ export function WorkPreview() {
 
 /** Industries as an icon row. */
 export function IndustriesPreview() {
+  const { home, company } = useContent();
   const c = home.industries;
   return (
     <Section id="industries-preview">
@@ -176,6 +182,7 @@ export function IndustriesPreview() {
 
 /** Why-us statement on the left, reasons on the right. */
 export function WhyPreview() {
+  const { home, company } = useContent();
   const c = home.why;
   return (
     <Section id="why-preview">
@@ -206,6 +213,7 @@ export function WhyPreview() {
 
 /** First four FAQ entries with a link to the full page. */
 export function FaqPreview() {
+  const { home, faq } = useContent();
   const c = home.faq;
   return (
     <Section id="faq-preview">

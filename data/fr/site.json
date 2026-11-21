@@ -1,0 +1,218 @@
+{
+  "name": "Virtanex Labs",
+  "tagline": "Ingénierie de solutions numériques intelligentes.",
+  "motto": "Construire la technologie. Ouvrir le champ des possibles.",
+  "description": "Virtanex Labs est une entreprise technologique finlandaise, 100 % à distance, spécialisée dans la conception de logiciels intelligents, de solutions fondées sur l'IA et de produits numériques évolutifs.",
+  "founded": "2026",
+  "contact": {
+    "email": "contact@virtanexlabs.com",
+    "website": "https://virtanexlabs.com",
+    "websiteLabel": "virtanexlabs.com",
+    "location": "Finlande (à distance / collaboration internationale)",
+    "locationShort": "Finlande / International",
+    "timezone": "UTC+2 (Helsinki)",
+    "responseTime": "sous 24 heures"
+  },
+  "availability": {
+    "badge": "RÉSERVATIONS ÉTÉ '26",
+    "season": "Été '26",
+    "headline": "Nous acceptons dès maintenant une sélection de missions pour l'été '26",
+    "detail": "Nous prenons en charge un nombre limité de projets à la fois afin que chaque client bénéficie de l'attention de profils seniors. Contactez-nous tôt pour réserver de la capacité."
+  },
+  "hero": {
+    "subheadline": "Ingénierie de solutions numériques intelligentes.",
+    "descriptor": "Nous concevons des logiciels intelligents, des solutions fondées sur l'IA et des produits numériques évolutifs pour des entreprises ambitieuses. Une technologie fiable, pensée avec soin, livrée avec audace.",
+    "cta": "Lancer un projet"
+  },
+  "booking": {
+    "title": "Réserver un appel de découverte technique",
+    "subtitle": "Une conversation de 30 minutes avec notre responsable technique pour comprendre vos objectifs et esquisser la marche à suivre.",
+    "agenda": "30 minutes de découverte technique et d'alignement sur le périmètre",
+    "slots": [
+      "mar. 14:00 (heure d'Helsinki)",
+      "mer. 11:30 (heure d'Helsinki)",
+      "mer. 16:00 (heure d'Helsinki)",
+      "jeu. 13:00 (heure d'Helsinki)",
+      "jeu. 17:30 (heure d'Helsinki)",
+      "ven. 15:00 (heure d'Helsinki)"
+    ],
+    "extraTopics": [
+      "Conseil technique et architecture",
+      "Je ne sais pas encore"
+    ]
+  },
+  "inquiry": {
+    "title": "Engager la conversation",
+    "subtitle": "Présentez-nous votre organisation et vos besoins techniques.",
+    "timelines": [
+      "Été '26 (privilégié)",
+      "Automne / hiver '26",
+      "Immédiat, sous 30 jours",
+      "Exploratoire / étude de faisabilité"
+    ],
+    "note": "Accord de confidentialité (NDA) sur demande. Nous répondons sous 24 heures."
+  },
+  "nav": [
+    {
+      "label": "Services",
+      "href": "/services"
+    },
+    {
+      "label": "Méthode",
+      "href": "/process"
+    },
+    {
+      "label": "Réalisations",
+      "href": "/work"
+    },
+    {
+      "label": "Équipe",
+      "href": "/team"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "label": "Contact",
+      "href": "/contact"
+    }
+  ],
+  "stats": [
+    {
+      "value": "10",
+      "label": "Disciplines de service",
+      "detail": "Du logiciel sur mesure à l'IoT industriel"
+    },
+    {
+      "value": "7",
+      "label": "Phases de livraison",
+      "detail": "De la découverte à l'amélioration continue"
+    },
+    {
+      "value": "40h",
+      "label": "Semaine de travail standard",
+      "detail": "5 jours, 8 heures, plages de recouvrement claires"
+    },
+    {
+      "value": "24h",
+      "label": "Réponse à chaque demande",
+      "detail": "Examinée par un responsable technique"
+    }
+  ],
+  "overview": {
+    "kicker": [
+      "Virtanex Labs",
+      "Profil de l'entreprise",
+      "Finlande"
+    ],
+    "title": "Ingénierie de solutions numériques intelligentes.",
+    "paragraphs": [
+      "Virtanex Labs est une entreprise technologique finlandaise, 100 % à distance, spécialisée dans la conception de logiciels intelligents, de solutions fondées sur l'IA et de produits numériques évolutifs.",
+      "Nous aidons les entreprises, les startups et les organisations établies à transformer des idées complexes en solutions numériques concrètes, grâce à l'ingénierie logicielle moderne, à l'intelligence artificielle, aux technologies de la donnée, à l'automatisation et à l'infrastructure cloud."
+    ],
+    "facts": [
+      {
+        "label": "Implantation",
+        "value": "Finlande (UTC+2)"
+      },
+      {
+        "label": "Modèle",
+        "value": "100 % à distance"
+      },
+      {
+        "label": "Fondée en",
+        "value": "2026"
+      },
+      {
+        "label": "Secteur",
+        "value": "Informatique et développement logiciel"
+      }
+    ]
+  },
+  "missionVision": [
+    {
+      "kicker": "Notre mission",
+      "title": "Une intelligence pragmatique, une valeur accessible",
+      "body": "Donner aux entreprises les moyens d'agir grâce à une technologie intelligente, à une ingénierie logicielle innovante et à des solutions numériques fiables, qui transforment les frictions opérationnelles en expériences numériques fluides."
+    },
+    {
+      "kicker": "Notre vision",
+      "title": "Excellence d'ingénierie et impact durable",
+      "body": "Devenir un partenaire technologique international de confiance, reconnu pour son excellence d'ingénierie, ses solutions intelligentes et une innovation numérique porteuse de sens et qui dure."
+    }
+  ],
+  "commitment": {
+    "kicker": "Notre engagement",
+    "quote": "Chaque entreprise a ses propres défis et objectifs. Nous abordons chaque projet avec curiosité, sens des responsabilités et rigueur technique.",
+    "body": "Nous concevons des solutions qui ne sont pas seulement fonctionnelles, mais aussi fiables, maintenables et alignées sur les besoins réels de l'entreprise. L'innovation utile naît de la rencontre des bonnes personnes, de la bonne technologie et d'une compréhension claire du problème."
+  },
+  "pages": {
+    "services": {
+      "href": "/services",
+      "kicker": "Ce que nous faisons",
+      "title": "Des services pensés autour de votre activité.",
+      "description": "Dix disciplines d'ingénierie, une seule équipe responsable. Du logiciel sur mesure et de l'IA à l'infrastructure cloud et à l'IoT industriel.",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Développeur travaillant sur du code sur un ordinateur portable",
+      "blurb": "Dix disciplines, du logiciel sur mesure à l'IoT industriel.",
+      "metaTitle": "Services",
+      "metaDescription": "Logiciel sur mesure, IA, ingénierie des données, intégration, automatisation, cloud, produit, design, QA et IoT, livrés par une seule équipe responsable."
+    },
+    "process": {
+      "href": "/process",
+      "kicker": "Notre façon de travailler",
+      "title": "Un processus visible, en lequel avoir confiance.",
+      "description": "Un cycle de vie transparent en sept phases, des modèles de collaboration flexibles et des pratiques de sécurité intégrées dès le premier jour.",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Notes de planification disposées sur un mur",
+      "blurb": "Sept phases, quatre modèles de collaboration, une sécurité intégrée.",
+      "metaTitle": "Méthode",
+      "metaDescription": "Notre cycle d'ingénierie en sept phases, nos modèles de collaboration flexibles, ainsi que nos pratiques de sécurité et de travail à distance."
+    },
+    "work": {
+      "href": "/work",
+      "kicker": "Réalisations choisies",
+      "title": "Les systèmes que nous concevons, et ceux pour qui nous les concevons.",
+      "description": "Des plans de solution, les secteurs que nous servons et les domaines de recherche dans lesquels nous continuons d'investir.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Tableau de bord analytique sur l'écran d'un ordinateur portable",
+      "blurb": "Plans de solution, secteurs et axes de recherche.",
+      "metaTitle": "Réalisations",
+      "metaDescription": "Des plans de solution, les secteurs que nous servons et les domaines techniques dans lesquels nous investissons."
+    },
+    "team": {
+      "href": "/team",
+      "kicker": "L'entreprise",
+      "title": "Des personnes, des principes et des partenariats.",
+      "description": "Qui nous sommes, ce qui compte pour nous et la manière dont nous collaborons avec les clients, les agences et les éditeurs de produits.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Une équipe collaborant autour d'une table",
+      "blurb": "Notre équipe, nos valeurs et nos opportunités de partenariat.",
+      "metaTitle": "Équipe",
+      "metaDescription": "L'équipe de Virtanex Labs, nos valeurs fondamentales et nos opportunités de partenariat."
+    },
+    "faq": {
+      "href": "/faq",
+      "kicker": "Questions",
+      "title": "Des réponses avant même que vous ne demandiez.",
+      "description": "Comment démarrent les projets, comment nous fixons nos tarifs, à qui appartient le code et comment nous travaillons à travers les fuseaux horaires.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Carnet et stylo posés sur un bureau",
+      "blurb": "Des réponses directes sur notre façon de travailler.",
+      "metaTitle": "FAQ",
+      "metaDescription": "Des réponses sur le démarrage des projets, les tarifs, la propriété du code, les fuseaux horaires, la sécurité et le support."
+    },
+    "contact": {
+      "href": "/contact",
+      "kicker": "Prendre contact",
+      "title": "Parlons de ce que vous construisez.",
+      "description": "Réservez un appel de découverte ou envoyez-nous un brief de projet. Nous répondons sous 24 heures.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Espace de bureau moderne et lumineux",
+      "blurb": "Réservez un appel ou envoyez un brief de projet.",
+      "metaTitle": "Contact",
+      "metaDescription": "Réservez un appel de découverte ou envoyez un brief de projet à Virtanex Labs. Nous répondons sous 24 heures."
+    }
+  }
+}

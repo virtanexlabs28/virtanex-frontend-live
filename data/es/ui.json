@@ -1,0 +1,161 @@
+{
+  "language": {
+    "label": "Idioma",
+    "switch": "Cambiar de idioma"
+  },
+  "theme": {
+    "toggle": "Cambiar entre modo claro y oscuro",
+    "toDark": "Modo oscuro",
+    "toLight": "Modo claro"
+  },
+  "nav": {
+    "aria": "Navegación principal",
+    "home": "Inicio de {name}",
+    "bookCall": "Reservar llamada",
+    "openMenu": "Abrir el menú de navegación",
+    "menuDescription": "Navegación del sitio",
+    "mobileFooter": "FINLANDIA · REMOTO · DESDE {founded}"
+  },
+  "hero": {
+    "imageAlt": "Valle brumoso con pinos al anochecer, con el cielo teñido de ámbar",
+    "aria": "Portada de {name}"
+  },
+  "common": {
+    "startProject": "Iniciar un proyecto",
+    "bestFor": "Ideal para:",
+    "askDirectly": "Consúltenos directamente"
+  },
+  "footer": {
+    "aria": "Pie de página de {name}",
+    "kicker": "{name} · Finlandia",
+    "pitch": "Transformamos desafíos empresariales complejos en productos digitales prácticos y mantenibles.",
+    "base": "Sede: Finlandia ({timezone})",
+    "remote": "Remote-first, colaboración internacional",
+    "field": "TI y desarrollo de software",
+    "servicesHeading": "Servicios",
+    "companyHeading": "Empresa",
+    "contactHeading": "Contacto",
+    "generalInquiries": "Consultas generales",
+    "website": "Sitio web",
+    "location": "Ubicación",
+    "openings": "Disponibilidad selecta para asesoramiento e ingeniería de ciclo completo.",
+    "rights": "Todos los derechos reservados.",
+    "backToTop": "Volver arriba",
+    "scrollToTop": "Volver al inicio de la página",
+    "links": [
+      {
+        "label": "Inicio",
+        "href": "/"
+      },
+      {
+        "label": "Servicios",
+        "href": "/services"
+      },
+      {
+        "label": "Stack tecnológico",
+        "href": "/services#technology"
+      },
+      {
+        "label": "Proceso de ingeniería",
+        "href": "/process"
+      },
+      {
+        "label": "Modelos de colaboración",
+        "href": "/process#engagement"
+      },
+      {
+        "label": "Seguridad y modelo remoto",
+        "href": "/process#security"
+      },
+      {
+        "label": "Planos de solución",
+        "href": "/work"
+      },
+      {
+        "label": "Sectores",
+        "href": "/work#industries"
+      },
+      {
+        "label": "Equipo y valores",
+        "href": "/team"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Contacto",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "aria": "Contacto y consultas",
+    "kicker": "Consultas y reservas",
+    "title": "Construyamos un trabajo que perdure.",
+    "intro": "Damos la bienvenida a nuevas alianzas con clientes, colaboraciones de ingeniería dedicadas y consultas técnicas exploratorias.",
+    "availabilityLabel": "Disponibilidad actual",
+    "name": "Su nombre",
+    "namePlaceholder": "Nombre completo",
+    "email": "Correo electrónico",
+    "emailPlaceholder": "nombre@empresa.com",
+    "company": "Empresa (opcional)",
+    "companyPlaceholder": "Nombre de la organización",
+    "service": "Servicio requerido",
+    "timeline": "Plazo previsto",
+    "message": "Resumen del proyecto",
+    "messagePlaceholder": "Cuéntenos el desafío que desea abordar y la solución que imagina...",
+    "submit": "Enviar consulta de proyecto",
+    "sending": "Enviando…",
+    "successTitle": "Mensaje enviado",
+    "successBody": "Gracias, {name}. Su consulta está en manos de nuestro equipo y le responderemos a {email} {responseTime}.",
+    "another": "Iniciar otra consulta"
+  },
+  "booking": {
+    "kicker": "{name} · Finlandia",
+    "topic": "Tema de interés",
+    "window": "Franja horaria preferida para la reunión",
+    "name": "Su nombre",
+    "namePlaceholder": "Nombre completo",
+    "email": "Correo electrónico de trabajo",
+    "emailPlaceholder": "nombre@empresa.com",
+    "notes": "Notas del proyecto (opcional)",
+    "notesPlaceholder": "Breve objetivo o preguntas",
+    "submit": "Solicitar esta llamada",
+    "sending": "Enviando…",
+    "doneKicker": "Casi listo",
+    "doneTitle": "Solicitud recibida",
+    "doneBody": "Hemos recibido sus datos y su franja preferida ({slot}). Le confirmaremos la hora por correo electrónico {responseTime}.",
+    "done": "Hecho"
+  },
+  "errors": {
+    "invalid": "Indique su nombre y una dirección de correo electrónico válida.",
+    "rate": "Demasiadas solicitudes. Inténtelo de nuevo en unos minutos.",
+    "send": "No hemos podido enviar su mensaje. Escriba directamente a {email}.",
+    "network": "Error de red. Compruebe su conexión e inténtelo de nuevo.",
+    "generic": "Algo ha salido mal. Inténtelo de nuevo."
+  },
+  "services": {
+    "choose": "Elija un servicio",
+    "serviceLabel": "Servicio {number}",
+    "whatWeDo": "Qué hacemos",
+    "whatYouReceive": "Qué recibe",
+    "typicalStack": "Stack habitual",
+    "idealFor": "Ideal para",
+    "engagement": "Modelo de colaboración",
+    "wantThis": "¿Desea contar con esta capacidad en su proyecto?",
+    "discuss": "Hablar de este servicio"
+  },
+  "process": {
+    "inFocus": "{phase} en detalle",
+    "activities": "Actividades clave",
+    "outputs": "Qué obtiene"
+  },
+  "work": {
+    "viewBlueprint": "Ver plano: {title}",
+    "challenge": "El desafío",
+    "approach": "Nuestro enfoque",
+    "outcomes": "Resultados previstos",
+    "similar": "¿Necesita algo similar?"
+  }
+}

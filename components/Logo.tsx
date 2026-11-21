@@ -1,6 +1,5 @@
 import { useId, type SVGProps } from 'react';
-import { LOGO_VIEWBOX, MARK_VIEWBOX, logoMarkup, markMarkup } from '@/lib/logo';
-import { site } from '@/lib/content';
+import { BRAND_NAME, LOGO_VIEWBOX, MARK_VIEWBOX, logoMarkup, markMarkup } from '@/lib/logo';
 
 interface LogoProps extends Omit<SVGProps<SVGSVGElement>, 'children' | 'viewBox'> {
   /** `full` is emblem + wordmark, `mark` is the emblem alone. */
@@ -21,11 +20,11 @@ export function Logo({ variant = 'full', className, ...props }: LogoProps) {
       xmlns="http://www.w3.org/2000/svg"
       viewBox={full ? LOGO_VIEWBOX : MARK_VIEWBOX}
       role="img"
-      aria-label={`${site.name} logo`}
+      aria-label={`${BRAND_NAME} logo`}
       className={className}
       {...props}
       // The markup is a constant defined in lib/logo.ts, never user input.
-      dangerouslySetInnerHTML={{ __html: `<title>${site.name}</title>${full ? logoMarkup(idPrefix) : markMarkup(idPrefix)}` }}
+      dangerouslySetInnerHTML={{ __html: `<title>${BRAND_NAME}</title>${full ? logoMarkup(idPrefix) : markMarkup(idPrefix)}` }}
     />
   );
 }

@@ -1,9 +1,11 @@
+'use client';
+
 import { Card } from '@/components/ui/card';
-import { site } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
 import { Section } from './section';
 
 export function AboutSection() {
-  const { overview, stats, missionVision } = site;
+  const { overview, stats, missionVision } = useContent().site;
 
   return (
     <Section id="studio">

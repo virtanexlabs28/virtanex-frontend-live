@@ -1,0 +1,81 @@
+{
+  "intro": {
+    "kicker": "Lösungskonzepte",
+    "title": "Die Art von Systemen, die wir bauen.",
+    "description": "Vier repräsentative Lösungsentwürfe, die zeigen, wie wir Architektur, Umsetzung und Ergebnisse angehen. Sie veranschaulichen unsere Fähigkeiten und sind keine Kundenreferenzen."
+  },
+  "items": [
+    {
+      "id": "ai-knowledge-platform",
+      "title": "KI-Wissens- und Dokumentenplattform",
+      "category": "Enterprise-KI & Workflow",
+      "service": "ai-ml",
+      "description": "Ein Retrieval-Augmented-Assistent mit Dokumentenverarbeitungs-Pipeline, der Verträge, Handbücher und Berichte in Antworten verwandelt, auf die sich Teams verlassen können.",
+      "tags": ["LLM-Integration", "RAG", "Python / NestJS", "Vektorsuche"],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Teams verlieren Stunden mit der Suche in Dokumenten. Dieses Konzept übernimmt Dateien aus bestehenden Ablagen, extrahiert und indexiert deren Inhalte und stellt eine Dialogschnittstelle bereit, die ihre Quellen belegt – mit rollenbasierten Zugriffen, sodass jeder nur sieht, was er sehen darf.",
+      "challenge": "Informationen sind über Netzlaufwerke, E-Mail-Anhänge und Altsysteme verstreut, ohne verlässliche Möglichkeit, sie zu durchsuchen oder zusammenzufassen.",
+      "approach": [
+        "Ingestion-Pipeline mit OCR und strukturierter Extraktion",
+        "Hybrides Retrieval aus Stichwort- und Vektorsuche mit Quellenangaben",
+        "Evaluierungsdatensatz zur Messung der Antwortqualität im Zeitverlauf",
+        "Rollenbasierte Zugriffe und vollständiges Audit-Logging"
+      ],
+      "outcomes": ["Schnellere Antworten aus internen Dokumenten", "Nachvollziehbare Antworten mit Quellenangaben", "Kontrollierter Zugriff auf sensible Inhalte"]
+    },
+    {
+      "id": "saas-platform",
+      "title": "Mandantenfähige SaaS-Plattform",
+      "category": "Digitales Produkt & SaaS",
+      "service": "digital-product",
+      "description": "Eine abonnementbasierte Plattform mit Mandantentrennung, rollenbasierten Zugriffen, Abrechnung und Admin-Konsole, bereit zur Skalierung vom MVP bis in die Produktion.",
+      "tags": ["Next.js", "NestJS", "PostgreSQL", "Abonnements"],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Eine Referenzarchitektur, um aus einer Produktidee ein abrechenbares SaaS zu machen. Sie umfasst die Datentrennung zwischen Mandanten, Benutzer- und Rechteverwaltung, Abonnementpläne, Nutzungserfassung und die operativen Werkzeuge, die für den täglichen Betrieb des Produkts nötig sind.",
+      "challenge": "Schnell starten, ohne das Produkt architektonisch in eine Sackgasse zu manövrieren, die später Mandantenfähigkeit, Abrechnung oder Enterprise-Funktionen blockiert.",
+      "approach": [
+        "Mandantenfähiges Datenmodell und Zugriffsschicht",
+        "Integration von Abonnement- und Abrechnungsanbietern",
+        "Admin-Konsole für Support und Betrieb",
+        "CI/CD mit Staging- und Produktionsumgebungen"
+      ],
+      "outcomes": ["MVP schnell am Markt", "Architektur, die mit den Kunden mitwächst", "Saubere Basis für neue Funktionen"]
+    },
+    {
+      "id": "data-reporting",
+      "title": "Einheitliche Daten- und Reporting-Plattform",
+      "category": "Data Engineering & Analytics",
+      "service": "data-engineering",
+      "description": "Automatisierte Pipelines, die Daten aus Finanz-, Vertriebs- und Betriebssystemen in einem verlässlichen Modell mit Live-Dashboards zusammenführen.",
+      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Dashboards"],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Reporting bedeutet oft manuelle Exporte und widersprüchliche Tabellen. Dieses Konzept bezieht Daten zeitgesteuert aus jedem Quellsystem, validiert und gleicht sie ab und stellt eine einheitliche, verlässliche Datenbasis mit Dashboards bereit, auf die sich Führungskräfte stützen können.",
+      "challenge": "Mehrere Systeme, uneinheitliche Definitionen und ein manueller Monatsabschluss, der langsam und fehleranfällig ist.",
+      "approach": [
+        "Quell-Konnektoren mit inkrementellem Laden",
+        "Transformationsschicht mit dokumentierten Geschäftsregeln",
+        "Automatisierte Datenqualitätsprüfungen und Alarme",
+        "Dashboards und zeitgesteuerte Berichtsauslieferung"
+      ],
+      "outcomes": ["Eine konsistente Sicht auf das Unternehmen", "Weniger manueller Reporting-Aufwand", "Frühwarnung bei Datenproblemen"]
+    },
+    {
+      "id": "iot-monitoring",
+      "title": "IoT-Monitoring- und Alarmierungssystem",
+      "category": "IoT & Industriesoftware",
+      "service": "iot-industrial",
+      "description": "Echtzeit-Erfassung von Telemetriedaten, Dashboards und Anomalie-Alarme für vernetzte Anlagen, mit einem Weg hin zur vorausschauenden Wartung.",
+      "tags": ["IoT", "Echtzeit", "Anomalieerkennung", "Python / Node.js"],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Vernetzte Anlagen erzeugen Daten, die selten bei denen ankommen, die darauf reagieren können. Dieses Konzept nimmt Gerätetelemetrie auf, speichert sie effizient, visualisiert den Live-Status und löst Alarme aus, wenn Messwerte vom erwarteten Verhalten abweichen.",
+      "challenge": "Der Zustand der Anlagen ist unsichtbar, bis etwas ausfällt, und Gerätedaten sind in proprietären Werkzeugen eingeschlossen.",
+      "approach": [
+        "Anbindung von Geräten und Gateways über Standardprotokolle",
+        "Zeitreihenspeicherung und Verarbeitungspipeline",
+        "Live-Dashboards nach Standort, Anlage und Sensor",
+        "Alarmierung über Schwellenwerte und statistische Anomalieerkennung"
+      ],
+      "outcomes": ["Echtzeit-Transparenz über Anlagen", "Frühere Erkennung von Störungen", "Grundlage für vorausschauende Wartung"]
+    }
+  ]
+}

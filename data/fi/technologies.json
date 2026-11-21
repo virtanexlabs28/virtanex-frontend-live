@@ -1,0 +1,175 @@
+{
+  "intro": {
+    "kicker": "Nykyaikaiset työkalut",
+    "title": "Teknologia ja tekninen pino",
+    "description": "Hyväksi todettuja ja hyvin tuettuja työkaluja, jotka on valittu ylläpidettävyyden perusteella. Sovitamme teknologiapinon ongelmaan, emme päinvastoin."
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "Kaikki"
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend"
+    },
+    {
+      "id": "backend",
+      "label": "Backend"
+    },
+    {
+      "id": "database",
+      "label": "Tietokannat"
+    },
+    {
+      "id": "ai-data",
+      "label": "Tekoäly ja data"
+    },
+    {
+      "id": "cloud",
+      "label": "Pilvi"
+    },
+    {
+      "id": "automation",
+      "label": "Automaatio"
+    },
+    {
+      "id": "design",
+      "label": "Suunnittelu"
+    }
+  ],
+  "items": [
+    {
+      "category": "frontend",
+      "name": "Next.js",
+      "type": "Full-stack React-kehys",
+      "icon": "brand:siNextdotjs"
+    },
+    {
+      "category": "frontend",
+      "name": "React",
+      "type": "Käyttöliittymäkirjasto",
+      "icon": "brand:siReact"
+    },
+    {
+      "category": "frontend",
+      "name": "TypeScript",
+      "type": "Tyyppiturvallinen JavaScript",
+      "icon": "brand:siTypescript"
+    },
+    {
+      "category": "frontend",
+      "name": "Tailwind CSS",
+      "type": "Apuluokkapohjainen tyylittely",
+      "icon": "brand:siTailwindcss"
+    },
+    {
+      "category": "backend",
+      "name": "Node.js",
+      "type": "Palvelinympäristö",
+      "icon": "brand:siNodedotjs"
+    },
+    {
+      "category": "backend",
+      "name": "NestJS",
+      "type": "Backend-kehys yrityskäyttöön",
+      "icon": "brand:siNestjs"
+    },
+    {
+      "category": "backend",
+      "name": "Express.js",
+      "type": "REST-reititys",
+      "icon": "brand:siExpress"
+    },
+    {
+      "category": "backend",
+      "name": "Python",
+      "type": "Palvelut, data ja koneoppiminen",
+      "icon": "brand:siPython"
+    },
+    {
+      "category": "database",
+      "name": "PostgreSQL",
+      "type": "Relaatiotietokanta",
+      "icon": "brand:siPostgresql"
+    },
+    {
+      "category": "database",
+      "name": "MySQL",
+      "type": "Relaatiotietokanta",
+      "icon": "brand:siMysql"
+    },
+    {
+      "category": "database",
+      "name": "MongoDB",
+      "type": "Dokumenttitietokanta",
+      "icon": "brand:siMongodb"
+    },
+    {
+      "category": "database",
+      "name": "Redis",
+      "type": "Välimuisti ja jonot",
+      "icon": "brand:siRedis"
+    },
+    {
+      "category": "ai-data",
+      "name": "LLM APIs",
+      "type": "Kielimallien integrointi",
+      "icon": "lucide:Sparkles"
+    },
+    {
+      "category": "ai-data",
+      "name": "RAG pipelines",
+      "type": "Lähteisiin perustuvat tekoälyvastaukset",
+      "icon": "lucide:SearchCheck"
+    },
+    {
+      "category": "ai-data",
+      "name": "Vector databases",
+      "type": "Semanttinen haku",
+      "icon": "lucide:Database"
+    },
+    {
+      "category": "ai-data",
+      "name": "Machine Learning",
+      "type": "Ennustavat mallit",
+      "icon": "lucide:Brain"
+    },
+    {
+      "category": "cloud",
+      "name": "Docker & Compose",
+      "type": "Konttiteknologia",
+      "icon": "brand:siDocker"
+    },
+    {
+      "category": "cloud",
+      "name": "CI/CD pipelines",
+      "type": "Automatisoitu toimitus",
+      "icon": "brand:siGithubactions"
+    },
+    {
+      "category": "cloud",
+      "name": "Linux / VPS",
+      "type": "Palvelininfrastruktuuri",
+      "icon": "brand:siLinux"
+    },
+    {
+      "category": "automation",
+      "name": "n8n",
+      "type": "Työnkulkujen orkestrointi",
+      "icon": "brand:siN8n"
+    },
+    {
+      "category": "automation",
+      "name": "Webhooks & APIs",
+      "type": "Järjestelmäintegraatio",
+      "icon": "lucide:Webhook"
+    },
+    {
+      "category": "design",
+      "name": "Figma",
+      "type": "Suunnittelu ja prototypointi",
+      "icon": "brand:siFigma"
+    }
+  ]
+}

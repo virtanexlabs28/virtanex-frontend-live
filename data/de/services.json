@@ -1,0 +1,309 @@
+{
+  "intro": {
+    "kicker": "Leistungskatalog",
+    "title": "Zehn Disziplinen technischer Exzellenz",
+    "description": "Von eigenständigen SaaS-Produkten über KI-Pipelines bis zur industriellen Telemetrie: Ein Team deckt den gesamten Weg von der Idee bis zur Produktion ab – und sorgt danach für den laufenden Betrieb."
+  },
+  "services": [
+    {
+      "id": "custom-software",
+      "number": "01",
+      "icon": "Code2",
+      "title": "Individuelle Softwareentwicklung",
+      "short": "Individualsoftware",
+      "summary": "Wir konzipieren und entwickeln individuelle Softwareanwendungen, die auf spezifische betriebliche und geschäftliche Anforderungen zugeschnitten sind.",
+      "overview": "Standardwerkzeuge passen selten dazu, wie ein Unternehmen tatsächlich arbeitet. Wir entwickeln Webanwendungen, interne Plattformen und Backend-Systeme rund um Ihre Abläufe – mit sauberer Architektur, die auch bei sich ändernden Anforderungen wartbar bleibt.",
+      "capabilities": [
+        "Entwicklung individueller Webanwendungen",
+        "Entwicklung von Unternehmenssoftware",
+        "Entwicklung von SaaS-Plattformen",
+        "Systeme für das Unternehmensmanagement",
+        "Kunden- und Mitarbeiterportale",
+        "Backend-Anwendungsentwicklung",
+        "Entwicklung von REST-APIs",
+        "Microservices-Architektur",
+        "Modernisierung von Anwendungen",
+        "Laufende Softwarewartung"
+      ],
+      "deliverables": [
+        "Produktionsreife Anwendung mit Eigentum am Quellcode",
+        "Dokumentierte REST-APIs und Datenmodelle",
+        "Automatisierte Testsuite und CI-Pipeline",
+        "Deployment- und Übergabedokumentation"
+      ],
+      "technologies": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "PostgreSQL"],
+      "idealFor": "Organisationen, die Tabellen, Altwerkzeuge oder manuelle Prozesse durch Software ersetzen möchten, die genau auf ihre Arbeitsweise zugeschnitten ist.",
+      "engagement": "Projektbasiert oder dediziertes Team"
+    },
+    {
+      "id": "ai-ml",
+      "number": "02",
+      "icon": "Cpu",
+      "title": "Künstliche Intelligenz & Machine Learning",
+      "short": "KI & Machine Learning",
+      "summary": "Wir unterstützen Unternehmen dabei, künstliche Intelligenz in ihre Produkte, Services und internen Abläufe zu integrieren.",
+      "overview": "Wir konzentrieren uns auf KI, die ein konkretes Problem löst: Assistenten, die auf Ihren eigenen Dokumenten basieren, Workflows, die Informationen lesen und weiterleiten, und Modelle, die vorhersagen oder markieren, worauf es ankommt. Jede Lösung wird mit Evaluierung, Guardrails und Kostenkontrolle im Blick entwickelt.",
+      "capabilities": [
+        "Entwicklung KI-gestützter Anwendungen",
+        "KI-Assistenten und Dialogsysteme",
+        "Integration von Large Language Models (LLM)",
+        "Retrieval-Augmented Generation (RAG)",
+        "Entwicklung intelligenter Workflows",
+        "Dokumentenverarbeitung und Informationsextraktion",
+        "Integration von Machine Learning",
+        "Predictive Analytics",
+        "Anomalieerkennung",
+        "KI-gestützte Geschäftsautomatisierung"
+      ],
+      "deliverables": [
+        "Funktionierende KI-Funktion, integriert in Ihr Produkt oder Ihren Prozess",
+        "Evaluierungsdatensatz und Qualitäts-Benchmarks",
+        "Dokumentation zu Prompts, Retrieval und Guardrails",
+        "Nutzungsmonitoring und Kostenkontrollen"
+      ],
+      "technologies": ["LLM APIs", "RAG pipelines", "Python", "Vector databases", "Node.js", "PostgreSQL"],
+      "idealFor": "Teams, die einem Produkt oder internen Prozess Assistenten, Dokumentenverständnis oder Prognosen hinzufügen möchten, ohne ein Forschungsprojekt zu starten.",
+      "engagement": "Projektbasiert oder technische Beratung"
+    },
+    {
+      "id": "data-engineering",
+      "number": "03",
+      "icon": "Database",
+      "title": "Data Engineering & Analytics",
+      "short": "Daten & Analytics",
+      "summary": "Wir entwickeln Datenlösungen, mit denen Organisationen Informationen erfassen, verarbeiten, ordnen und verstehen können.",
+      "overview": "Verlässliche Entscheidungen brauchen verlässliche Daten. Wir bauen die Pipelines, Speicherschichten und Dashboards, die verstreute Quellen zu einem einzigen vertrauenswürdigen Gesamtbild zusammenführen – mit integrierter Validierung, damit Probleme früh sichtbar werden.",
+      "capabilities": [
+        "Entwicklung von Datenpipelines",
+        "Datenerfassung und -transformation",
+        "ETL- und ELT-Workflows",
+        "Datenbankarchitektur",
+        "Datenintegration",
+        "Automatisierung der Datenverarbeitung",
+        "Business-Intelligence-Dashboards",
+        "Datenvisualisierung",
+        "Reporting-Systeme",
+        "Validierung der Datenqualität"
+      ],
+      "deliverables": [
+        "Automatisierte, überwachte Datenpipelines",
+        "Konzipierte und dokumentierte Datenmodelle",
+        "Dashboards und zeitgesteuerte Berichte",
+        "Datenqualitätsprüfungen und Alarmierung"
+      ],
+      "technologies": ["Python", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Docker"],
+      "idealFor": "Unternehmen, deren Daten in vielen Systemen liegen und die verlässliches Reporting, Analytics oder eine KI-taugliche Grundlage benötigen.",
+      "engagement": "Projektbasiert"
+    },
+    {
+      "id": "system-integration",
+      "number": "04",
+      "icon": "GitMerge",
+      "title": "Unternehmensweite Systemintegration",
+      "short": "Systemintegration",
+      "summary": "Wir verbinden Geschäftsanwendungen, Plattformen, Datenbanken und externe Dienste zu einheitlichen Technologieumgebungen.",
+      "overview": "Die meisten Unternehmen arbeiten mit einem Flickenteppich aus Werkzeugen. Wir verbinden sie durch robuste, nachvollziehbar überwachte Integrationen, sodass Daten nur einmal erfasst werden, konsistent bleiben und Teams Informationen nicht länger zwischen Systemen abtippen müssen.",
+      "capabilities": [
+        "Integrationen von Drittanbieter-APIs",
+        "ERP-Integrationen",
+        "CRM-Integrationen",
+        "Integrationen von Zahlungsgateways",
+        "Enterprise Application Integration",
+        "Datenbanksynchronisation",
+        "Entwicklung von Webhooks",
+        "Integration von Altsystemen",
+        "Plattformübergreifender Datenaustausch",
+        "Integrationstests"
+      ],
+      "deliverables": [
+        "Getestete, dokumentierte Integrationen mit Retry- und Fehlerbehandlung",
+        "Spezifikationen für das Daten-Mapping",
+        "Monitoring und Störungsalarme",
+        "Runbooks für Betriebsteams"
+      ],
+      "technologies": ["REST & webhooks", "Node.js", "NestJS", "Python", "PostgreSQL", "n8n"],
+      "idealFor": "Organisationen, die ERP, CRM, Zahlungsabwicklung und interne Werkzeuge verbinden oder Altsysteme mit modernen Plattformen verknüpfen möchten.",
+      "engagement": "Projektbasiert oder langfristige Partnerschaft"
+    },
+    {
+      "id": "process-automation",
+      "number": "05",
+      "icon": "Workflow",
+      "title": "Automatisierung von Geschäftsprozessen",
+      "short": "Prozessautomatisierung",
+      "summary": "Wir helfen Organisationen, wiederkehrende manuelle Arbeit durch intelligente Automatisierung und vernetzte Workflows zu reduzieren.",
+      "overview": "Wir erfassen die Arbeit, die Ihr Team jeden Tag wiederholt, und automatisieren die Teile, die kein menschliches Urteil erfordern. KI kommt dort zum Einsatz, wo sie wirklich hilft, etwa beim Lesen von Dokumenten oder der Klassifizierung von Anfragen, und einfache Regeln dort, wo sie genügen.",
+      "capabilities": [
+        "Automatisierung von Geschäfts-Workflows",
+        "Freigabe- und Benachrichtigungssysteme",
+        "Automatisiertes Reporting",
+        "Workflows zur Dokumentenverarbeitung",
+        "E-Mail-Automatisierung",
+        "CRM-Automatisierung",
+        "Datensynchronisation",
+        "KI-gestützte Workflows",
+        "API-basierte Automatisierung",
+        "Prozessoptimierung"
+      ],
+      "deliverables": [
+        "Automatisierte Workflows mit Audit-Trails",
+        "Prozesslandkarten vor und nach der Automatisierung",
+        "Ausnahmebehandlung und Human-in-the-Loop-Schritte",
+        "Teamschulung und Dokumentation"
+      ],
+      "technologies": ["n8n", "Webhooks & APIs", "Node.js", "Python", "LLM APIs", "PostgreSQL"],
+      "idealFor": "Operations-, Finanz- und Vertriebsteams, die Stunden mit wiederkehrendem Reporting, Dateneingabe und Freigaben verbringen.",
+      "engagement": "Projektbasiert"
+    },
+    {
+      "id": "cloud-devops",
+      "number": "06",
+      "icon": "Cloud",
+      "title": "Cloud- & DevOps-Engineering",
+      "short": "Cloud & DevOps",
+      "summary": "Wir bauen und betreiben zuverlässige Infrastruktur, die moderne Anwendungen und Geschäftsabläufe trägt.",
+      "overview": "Gute Software braucht eine verlässliche Infrastruktur im Hintergrund. Wir richten wiederholbare Deployments, Monitoring und Wiederherstellung ein, damit Releases Routine sind, Ausfälle selten bleiben und Probleme sichtbar werden, bevor Kunden sie bemerken.",
+      "capabilities": [
+        "Einrichtung von Cloud-Infrastruktur",
+        "Docker und Containerisierung",
+        "Docker-Compose-Deployments",
+        "Entwicklung von CI/CD-Pipelines",
+        "Verwaltung von Linux-Servern",
+        "Anwendungs-Deployment",
+        "Bereitstellung und Verwaltung von Datenbanken",
+        "Infrastruktur-Monitoring",
+        "Logging und Observability",
+        "Backup- und Wiederherstellungsplanung",
+        "Optimierung der Anwendungsperformance"
+      ],
+      "deliverables": [
+        "Automatisierte Build-, Test- und Deploy-Pipelines",
+        "Containerisierte, reproduzierbare Umgebungen",
+        "Monitoring-Dashboards und Alarmierung",
+        "Backup- und Disaster-Recovery-Plan"
+      ],
+      "technologies": ["Docker & Compose", "CI/CD pipelines", "Linux / VPS", "PostgreSQL", "Redis"],
+      "idealFor": "Teams, die von manuellen Deployments auf automatisierte Pipelines umsteigen oder jemanden suchen, der die Zuverlässigkeit der Infrastruktur verantwortet.",
+      "engagement": "Projektbasiert oder laufender Support"
+    },
+    {
+      "id": "digital-product",
+      "number": "07",
+      "icon": "Layers",
+      "title": "Digitale Produkte & SaaS-Engineering",
+      "short": "Produkt & SaaS",
+      "summary": "Wir unterstützen Unternehmen und Gründer dabei, Produktkonzepte in funktionale, skalierbare digitale Plattformen zu verwandeln.",
+      "overview": "Wir arbeiten wie ein produktorientierter Engineering-Partner: Wir schärfen den Umfang, wählen eine pragmatische Architektur und liefern ein MVP, das echte Nutzer ausprobieren können. Anschließend entwickeln wir es weiter – mit Abrechnung, Mandantenfähigkeit und den Funktionen, die danach folgen.",
+      "capabilities": [
+        "Entwicklung von SaaS-Produkten",
+        "Entwicklung von Minimum Viable Products (MVP)",
+        "Produktarchitektur und -planung",
+        "Abonnementbasierte Plattformen",
+        "Mandantenfähige Anwendungen",
+        "Benutzer- und Zugriffsverwaltung",
+        "Integration von Abonnement und Abrechnung",
+        "Entwicklung von Produktfunktionen",
+        "Produktwartung",
+        "Technischer Produktsupport"
+      ],
+      "deliverables": [
+        "Abgegrenztes MVP mit priorisierter Roadmap",
+        "Mandantenfähige Architektur mit rollenbasierten Zugriffen",
+        "Integration von Abrechnung und Abonnements",
+        "Technische Dokumentation für künftige Teams"
+      ],
+      "technologies": ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Docker & Compose", "Figma"],
+      "idealFor": "Gründer und Produktteams, die vom ersten Prototyp bis zur skalierten Plattform einen verlässlichen Engineering-Partner brauchen.",
+      "engagement": "Projektbasiert oder langfristige Partnerschaft"
+    },
+    {
+      "id": "ui-ux",
+      "number": "08",
+      "icon": "Palette",
+      "title": "UI/UX- & digitales Produktdesign",
+      "short": "UI/UX-Design",
+      "summary": "Wir gestalten intuitive digitale Erlebnisse, die Usability, Funktionalität und visuelle Qualität in Einklang bringen.",
+      "overview": "Design und Engineering arbeiten hier Hand in Hand. Wir übersetzen Anforderungen in klare User Journeys, interaktive Prototypen und Designsysteme, die Entwickler originalgetreu umsetzen und Teams konsistent erweitern können.",
+      "capabilities": [
+        "Gestaltung von Benutzeroberflächen",
+        "User-Experience-Design",
+        "Design von Webanwendungen",
+        "Design von Dashboards und Admin-Oberflächen",
+        "Responsives Interface-Design",
+        "Designsysteme",
+        "Interaktive Prototypen",
+        "Planung von User Journeys",
+        "Verbesserung von Produktoberflächen"
+      ],
+      "deliverables": [
+        "User Flows und Wireframes",
+        "Hochauflösende, responsive Oberflächendesigns",
+        "Wiederverwendbares Designsystem und Komponentenbibliothek",
+        "Klickbare Prototypen zur frühen Validierung"
+      ],
+      "technologies": ["Figma", "Tailwind CSS", "React", "Next.js", "TypeScript"],
+      "idealFor": "Teams mit einem funktionierenden Produkt, das sich sperrig anfühlt, oder mit einem neuen Produkt, das von Anfang an eine klare, glaubwürdige Oberfläche braucht.",
+      "engagement": "Projektbasiert oder dediziertes Team"
+    },
+    {
+      "id": "qa-testing",
+      "number": "09",
+      "icon": "CheckCircle2",
+      "title": "Softwaretest & Qualitätssicherung",
+      "short": "Test & QA",
+      "summary": "Wir sorgen durch strukturiertes Testen und Qualitätssicherung dafür, dass Softwareprodukte zuverlässig laufen.",
+      "overview": "Qualität wird von Anfang an eingebaut und nicht erst am Ende geprüft. Wir verbinden exploratives manuelles Testen mit automatisierten Suiten, die bei jeder Änderung laufen, damit Regressionen in Minuten auffallen und nicht erst durch Kunden.",
+      "capabilities": [
+        "Manuelles Softwaretesten",
+        "Automatisiertes Testen",
+        "API-Tests",
+        "Integrationstests",
+        "End-to-End-Tests",
+        "Performance-Tests",
+        "Regressionstests",
+        "Funktionale Tests",
+        "Qualitätssicherungsprozesse",
+        "Testdokumentation"
+      ],
+      "deliverables": [
+        "Teststrategie und Abdeckungsplan",
+        "Automatisierte Testsuiten, in CI eingebunden",
+        "Fehlerberichte mit Schritten zur Reproduktion",
+        "Performance-Baselines und Erkenntnisse"
+      ],
+      "technologies": ["TypeScript", "Python", "CI/CD pipelines", "Docker & Compose"],
+      "idealFor": "Teams, die schnell ausliefern und Sicherheit bei jedem Release brauchen, oder eine unabhängige Qualitätsprüfung vor dem Launch.",
+      "engagement": "Projektbasiert oder dediziertes Team"
+    },
+    {
+      "id": "iot-industrial",
+      "number": "10",
+      "icon": "Radio",
+      "title": "IoT- & Industriesoftware-Lösungen",
+      "short": "IoT & Industrie",
+      "summary": "Wir entwickeln Softwarelösungen, die Geräte verbinden, Betriebsdaten verarbeiten und Transparenz über vernetzte Systeme schaffen.",
+      "overview": "Wir bauen die Softwareschicht rund um vernetzte Anlagen: Sensor- und Telemetriedaten erfassen, in Echtzeit visualisieren und Teams bei Anomalien alarmieren – mit einem Weg hin zur vorausschauenden Wartung.",
+      "capabilities": [
+        "Entwicklung von IoT-Anwendungen",
+        "Sensor- und Geräteintegrationen",
+        "Echtzeit-Monitoring-Dashboards",
+        "Verarbeitung von Telemetriedaten",
+        "Visualisierung industrieller Daten",
+        "Anwendungen zur Anlagenüberwachung",
+        "Prototypen für vorausschauende Wartung",
+        "Systeme zur Anomalieerkennung",
+        "Integrationen von IoT-Plattformen",
+        "Systeme für Datenerfassung und Alarmierung"
+      ],
+      "deliverables": [
+        "Pipeline für Erfassung und Speicherung von Telemetrie",
+        "Echtzeit-Monitoring-Dashboards",
+        "Alarmierung bei Schwellenwerten und Anomalien",
+        "Integration in bestehende Geräte und Plattformen"
+      ],
+      "technologies": ["Python", "Node.js", "PostgreSQL", "Redis", "Docker & Compose", "Machine Learning"],
+      "idealFor": "Unternehmen aus Fertigung, Energie und Anlagenbau, die Transparenz über vernetzte Anlagen und Frühwarnung bei Ausfällen wünschen.",
+      "engagement": "Projektbasiert oder langfristige Partnerschaft"
+    }
+  ]
+}

@@ -1,0 +1,298 @@
+{
+  "values": {
+    "kicker": "Principes fondateurs",
+    "title": "Nos valeurs fondamentales",
+    "items": [
+      {
+        "title": "Innovation",
+        "desc": "Nous explorons en permanence les technologies modernes et de meilleures approches pour résoudre des problèmes complexes."
+      },
+      {
+        "title": "Excellence d'ingénierie",
+        "desc": "Nous privilégions une architecture propre, un code maintenable, la fiabilité, la sécurité et la qualité."
+      },
+      {
+        "title": "Collaboration",
+        "desc": "Les solutions technologiques réussies naissent de la communication, du travail d'équipe et d'objectifs partagés."
+      },
+      {
+        "title": "Transparence",
+        "desc": "Nous tenons à une communication honnête, à des engagements réalistes et à des attentes de projet claires."
+      },
+      {
+        "title": "Responsabilité",
+        "desc": "Nous assumons notre travail, nos décisions techniques et nos engagements de livraison."
+      },
+      {
+        "title": "Apprentissage continu",
+        "desc": "Nous encourageons l'expérimentation, le partage des connaissances et une amélioration technique sans relâche."
+      },
+      {
+        "title": "Orientation client",
+        "desc": "Nous cherchons à comprendre les objectifs métier de chaque client et à livrer des solutions qui créent une valeur concrète."
+      }
+    ]
+  },
+  "industries": {
+    "kicker": "Spécialisation sectorielle",
+    "title": "Les secteurs que nous servons",
+    "description": "Nos fondamentaux d'ingénierie se transposent d'un secteur à l'autre. Voici les domaines où nous les appliquons le plus souvent.",
+    "items": [
+      {
+        "icon": "Landmark",
+        "name": "Services financiers",
+        "desc": "Applications financières, intégrations de paiement, analytique en temps réel et reporting réglementaire.",
+        "focus": [
+          "Paiements",
+          "Reporting",
+          "Analytique"
+        ]
+      },
+      {
+        "icon": "Factory",
+        "name": "Industrie et production",
+        "desc": "Applications de supervision industrielle, intégrations de capteurs IoT, télémétrie et maintenance prédictive.",
+        "focus": [
+          "IoT",
+          "Télémétrie",
+          "Maintenance"
+        ]
+      },
+      {
+        "icon": "Zap",
+        "name": "Énergie et services publics",
+        "desc": "Plateformes de supervision, reporting opérationnel et applications d'infrastructure automatisées.",
+        "focus": [
+          "Supervision",
+          "Reporting",
+          "Automatisation"
+        ]
+      },
+      {
+        "icon": "HeartPulse",
+        "name": "Santé",
+        "desc": "Applications de gestion de santé, automatisation des flux administratifs et solutions de données cliniques.",
+        "focus": [
+          "Flux de travail",
+          "Données",
+          "Systèmes administratifs"
+        ]
+      },
+      {
+        "icon": "ShoppingBag",
+        "name": "Commerce et e-commerce",
+        "desc": "Plateformes e-commerce, gestion des stocks et des commandes, et systèmes de paiement automatisés.",
+        "focus": [
+          "Commerce",
+          "Stocks",
+          "Paiements"
+        ]
+      },
+      {
+        "icon": "Laptop",
+        "name": "Technologie et logiciel",
+        "desc": "Développement SaaS, plateformes d'entreprise, ingénierie produit, intégrations d'IA et architecture cloud.",
+        "focus": [
+          "SaaS",
+          "IA",
+          "Cloud"
+        ]
+      },
+      {
+        "icon": "Briefcase",
+        "name": "Services professionnels",
+        "desc": "Plateformes de gestion d'entreprise, solutions CRM, portails clients et flux de travail automatisés.",
+        "focus": [
+          "CRM",
+          "Portails",
+          "Flux de travail"
+        ]
+      }
+    ]
+  },
+  "engagement": {
+    "kicker": "Collaboration flexible",
+    "title": "Nos modèles de collaboration",
+    "description": "Quatre façons de travailler avec nous, pour que la structure s'adapte au projet et non l'inverse.",
+    "items": [
+      {
+        "title": "Développement au forfait",
+        "badge": "Périmètre fixe",
+        "desc": "Des projets clairement définis, avec des livrables, des jalons, des délais et des exigences techniques convenus.",
+        "bestFor": "Applications sur mesure, produits SaaS, plateformes métier, intégrations d'API et projets d'automatisation.",
+        "includes": [
+          "Périmètre et jalons convenus",
+          "Livrables définis",
+          "Démonstrations régulières de l'avancement",
+          "Passation structurée"
+        ]
+      },
+      {
+        "title": "Équipes de développement dédiées",
+        "badge": "Extension de capacité",
+        "desc": "Des ressources d'ingénierie à distance qui collaborent avec l'équipe technique existante du client.",
+        "bestFor": "Soutenir un développement en cours, créer de nouvelles fonctionnalités, ingénierie frontend et backend, et projets techniques de long terme.",
+        "includes": [
+          "Développeurs adaptés à votre stack",
+          "Intégrés à votre mode de travail",
+          "Montée ou baisse en charge flexible",
+          "Outils et rituels partagés"
+        ]
+      },
+      {
+        "title": "Partenariat technologique de long terme",
+        "badge": "Évolution continue",
+        "desc": "Des relations durables pour accompagner le développement logiciel, la maintenance, les intégrations et l'architecture technique.",
+        "bestFor": "Entreprises technologiques, éditeurs de logiciels et startups en croissance qui ont besoin d'un soutien d'ingénierie continu.",
+        "includes": [
+          "Livraison continue de la feuille de route",
+          "Maintenance et support",
+          "Accompagnement en architecture",
+          "Accès prioritaire à l'équipe"
+        ]
+      },
+      {
+        "title": "Conseil technique",
+        "badge": "Accompagnement stratégique",
+        "desc": "Un appui en conseil et en architecture pour aider les dirigeants à prendre des décisions technologiques solides et pérennes.",
+        "bestFor": "Planification d'architecture logicielle, audits technologiques, modernisation d'applications et stratégie d'infrastructure.",
+        "includes": [
+          "Revues d'architecture et de code",
+          "Audits technologiques",
+          "Feuilles de route de modernisation",
+          "Recommandations écrites"
+        ]
+      }
+    ]
+  },
+  "security": {
+    "kicker": "Confiance et fiabilité",
+    "title": "Sécurité, qualité et mode de travail",
+    "items": [
+      {
+        "icon": "ShieldCheck",
+        "title": "Engagement sécurité et qualité",
+        "body": "La sécurité, la fiabilité et la protection des données font partie de la conception de chacun de nos systèmes, et non d'une réflexion tardive. Nous appliquons une gestion sécurisée des identifiants, des communications chiffrées, des accès contrôlés et des tests continus.",
+        "points": [
+          "Authentification et accès par rôle",
+          "Trafic d'API chiffré",
+          "Secrets tenus hors du code source",
+          "Tests de validation réguliers",
+          "Planification des sauvegardes et de la reprise après sinistre",
+          "Confidentialité et NDA sur demande"
+        ]
+      },
+      {
+        "icon": "Globe2",
+        "title": "Mode de travail à distance",
+        "body": "Nous fonctionnons 100 % à distance depuis la Finlande et collaborons avec des clients et des talents à travers les fuseaux horaires, grâce à une gestion de projet structurée et à des workflows Git transparents.",
+        "points": [
+          "Semaine standard de 40 heures",
+          "5 jours ouvrés, 8 heures par jour",
+          "Plages de recouvrement convenues avec chaque client",
+          "Coordination numérique des tâches",
+          "Workflows Git transparents",
+          "Démonstrations régulières et comptes rendus écrits"
+        ]
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Organisation",
+    "title": "Équipe et direction",
+    "description": "Une structure collaborative qui réunit stratégie d'entreprise, leadership technique, ingénierie senior, design et excellence opérationnelle.",
+    "groups": [
+      {
+        "icon": "Building2",
+        "title": "Business et direction",
+        "desc": "Alignement stratégique, relations clients, engagements réalistes et opérations internationales.",
+        "roles": [
+          "Fondateur / Directeur général",
+          "Responsable du développement commercial",
+          "Ventes et partenariats stratégiques",
+          "Finance et administration"
+        ]
+      },
+      {
+        "icon": "Code2",
+        "title": "Technologie et ingénierie",
+        "desc": "Architecture propre, systèmes distribués, apprentissage automatique et assurance qualité automatisée.",
+        "featured": true,
+        "roles": [
+          "Directeur technique (CTO)",
+          "Développeurs full-stack",
+          "Développeurs frontend",
+          "Développeurs backend",
+          "Ingénieurs IA / ML",
+          "Ingénieurs données",
+          "Ingénieurs DevOps",
+          "Ingénieurs QA logiciel"
+        ]
+      },
+      {
+        "icon": "Palette",
+        "title": "Design et marketing",
+        "desc": "Utilisabilité, design systems, prototypes interactifs et communication produit.",
+        "roles": [
+          "Designers UI/UX",
+          "Designers de produits numériques",
+          "Spécialistes marketing",
+          "Responsables réseaux sociaux et contenus"
+        ]
+      }
+    ]
+  },
+  "partnerships": {
+    "kicker": "Collaboration",
+    "title": "Opportunités de partenariat",
+    "description": "Virtanex Labs est ouverte à la collaboration avec des fournisseurs de technologies, des cabinets de conseil, des agences et des éditeurs de produits en croissance.",
+    "items": [
+      {
+        "title": "Cabinets de conseil logiciel et IT",
+        "desc": "Sous-traitance et équipes de développement dédiées pour étendre votre capacité de livraison."
+      },
+      {
+        "title": "Agences de transformation numérique",
+        "desc": "Une implémentation technique approfondie pour des applications web complexes, des microservices et la modernisation de systèmes hérités."
+      },
+      {
+        "title": "Entreprises d'IA et de SaaS",
+        "desc": "Pipelines RAG, intégration de fonctionnalités d'IA et architectures multi-tenant évolutives."
+      },
+      {
+        "title": "Startups et entrepreneurs",
+        "desc": "Co-développement de bout en bout, architecture de MVP et partenariat technique de long terme."
+      }
+    ]
+  },
+  "why": {
+    "kicker": "Pourquoi Virtanex Labs",
+    "title": "Pourquoi travailler avec nous ?",
+    "items": [
+      {
+        "title": "Capacité d'ingénierie flexible",
+        "desc": "Un soutien au développement adaptable, ajusté aux exigences, aux délais et aux phases de montée en charge de votre projet."
+      },
+      {
+        "title": "Technologies modernes",
+        "desc": "Des frameworks contemporains, une infrastructure cloud-native et des outils éprouvés qui évitent la dette technique."
+      },
+      {
+        "title": "Une approche pilotée par l'IA",
+        "desc": "Nous recherchons des opportunités concrètes d'intégrer l'IA aux logiciels et aux flux opérationnels réels."
+      },
+      {
+        "title": "Solutions évolutives",
+        "desc": "Des architectures maintenables, capables d'évoluer au rythme de la croissance de votre activité."
+      },
+      {
+        "title": "Livraison collaborative",
+        "desc": "Une communication directe et transparente, et une gestion Git structurée, aux côtés de votre direction."
+      },
+      {
+        "title": "Vision à long terme",
+        "desc": "Nous visons des relations durables plutôt que des transmissions ponctuelles."
+      }
+    ]
+  }
+}

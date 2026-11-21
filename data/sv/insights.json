@@ -1,0 +1,29 @@
+{
+  "intro": {
+    "kicker": "Forskning och innovation",
+    "title": "Vart vi blickar",
+    "description": "De tekniska områden vi investerar i och fortsätter att lära oss om, så att kundprojekt drar nytta av aktuellt, praktiskt tänkande."
+  },
+  "items": [
+    {
+      "icon": "Bot",
+      "title": "Pålitliga LLM-agenter",
+      "desc": "Design av AI-arbetsflöden i flera steg med utvärdering, skyddsräcken och mänsklig granskning, så att de beter sig förutsägbart i affärsmiljöer."
+    },
+    {
+      "icon": "SearchCheck",
+      "title": "Kvalitet i informationsåtervinning",
+      "desc": "Bättre RAG-system genom smartare uppdelning av dokument, hybridsökning och mätbar utvärdering i stället för gissningar."
+    },
+    {
+      "icon": "Activity",
+      "title": "Telemetri i realtid",
+      "desc": "Pipelines med låg latens för sensor- och händelsedata, från inhämtning vid nätverkets kant till dashboards och varningar."
+    },
+    {
+      "icon": "Boxes",
+      "title": "Pragmatisk arkitektur",
+      "desc": "Att välja den enklaste arkitektur som skalar: modulära monoliter först, mikrotjänster där de verkligen är värda sin kostnad."
+    }
+  ]
+}

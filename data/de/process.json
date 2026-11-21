@@ -1,0 +1,65 @@
+{
+  "intro": {
+    "kicker": "Methodik",
+    "title": "Unser Engineering-Lebenszyklus in 7 Phasen",
+    "description": "Ein strukturierter, transparenter Prozess, der die Lieferung planbar und die Qualität hoch hält – vom ersten Gespräch bis zur langfristigen Weiterentwicklung."
+  },
+  "phases": [
+    {
+      "phase": "Phase 01",
+      "title": "Discovery & Anforderungen",
+      "duration": "In der Regel 1 bis 2 Wochen",
+      "detail": "Wir analysieren Ihre Geschäftsziele, operativen Herausforderungen, Projekterwartungen und technische Landschaft, um ein solides Fundament zu schaffen.",
+      "activities": ["Stakeholder-Interviews", "Anforderungserhebung", "Analyse bestehender Systeme", "Erfassung von Risiken und Rahmenbedingungen"],
+      "outputs": ["Zusammenfassung der Anforderungen", "Erfolgskriterien", "Erster Umfang und Risiken"]
+    },
+    {
+      "phase": "Phase 02",
+      "title": "Planung & Architektur",
+      "duration": "In der Regel 1 bis 2 Wochen",
+      "detail": "Wir definieren Projektumfang, technische Architektur, Entwicklungsmeilensteine, Technologie-Stack und Lieferstrategie.",
+      "activities": ["Lösungsarchitektur", "Technologieauswahl", "Meilenstein- und Release-Planung", "Aufwandsschätzung und Ressourcenplanung"],
+      "outputs": ["Architekturdokument", "Liefer-Roadmap", "Vereinbarter Umfang und Meilensteine"]
+    },
+    {
+      "phase": "Phase 03",
+      "title": "Design & Prototyping",
+      "duration": "Läuft parallel zu Planung und frühem Aufbau",
+      "detail": "Wir gestalten Benutzeroberflächen, Designsysteme, technische Spezifikationen und interaktive Prototypen zur frühen Validierung.",
+      "activities": ["Planung der User Journeys", "Wireframes und visuelles Design", "Definition des Designsystems", "Klickbare Prototypen"],
+      "outputs": ["Oberflächendesigns", "Designsystem", "Validierter Prototyp"]
+    },
+    {
+      "phase": "Phase 04",
+      "title": "Engineering & Entwicklung",
+      "duration": "Iterative Sprints mit regelmäßigen Demos",
+      "detail": "Unser verteiltes Engineering-Team baut die Lösung mit modernen Frameworks, sauberen Coding-Praktiken und modularen Mustern.",
+      "activities": ["Sprint-basierte Umsetzung", "Code-Review bei jeder Änderung", "Continuous Integration", "Regelmäßige Demos und Feedback"],
+      "outputs": ["Lauffähige Inkremente", "Geprüfter, getesteter Quellcode", "Fortschrittsberichte"]
+    },
+    {
+      "phase": "Phase 05",
+      "title": "Test & Qualitätssicherung",
+      "duration": "Kontinuierlich, mit einer gesonderten Prüfung vor dem Release",
+      "detail": "Gründliche automatisierte und manuelle Tests validieren Funktionalität, Performance, Sicherheit und Zuverlässigkeit in Grenzfällen.",
+      "activities": ["Automatisierte Unit- und Integrationstests", "End-to-End- und Regressionstests", "Performance-Prüfungen", "Sicherheitsprüfung"],
+      "outputs": ["Testberichte", "Liste behobener Fehler", "Freigabe der Release-Reife"]
+    },
+    {
+      "phase": "Phase 06",
+      "title": "Deployment & Übergabe",
+      "duration": "In der Regel wenige Tage, vorab geplant",
+      "detail": "Wir konfigurieren die Produktionsinfrastruktur, containerisierte Deployments und Monitoring-Pipelines und schließen anschließend die vereinbarte Übergabe ab.",
+      "activities": ["Einrichtung der Produktionsumgebung", "Automatisiertes Deployment", "Monitoring und Alarmierung", "Wissenstransfer"],
+      "outputs": ["Produktivsystem im Livebetrieb", "Betriebsdokumentation", "Übergabe-Session"]
+    },
+    {
+      "phase": "Phase 07",
+      "title": "Wartung & Weiterentwicklung",
+      "duration": "Fortlaufend, nach Vereinbarung",
+      "detail": "Wir sorgen für laufende Verbesserungen, technischen Support, Sicherheitspatches und Skalierungsoptimierungen, während sich Ihre Anforderungen weiterentwickeln.",
+      "activities": ["Fehlerbehebung und Support", "Updates von Abhängigkeiten und Sicherheit", "Performance-Optimierung", "Umsetzung von Roadmap-Funktionen"],
+      "outputs": ["Regelmäßige Wartungs-Releases", "Berichte zu Zustand und Nutzung", "Aktualisierte Roadmap"]
+    }
+  ]
+}

@@ -1,16 +1,17 @@
 'use client';
 
-import Link from 'next/link';
 import { ArrowUpRight, CheckCircle2, Mail } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useBooking } from '@/components/BookingProvider';
+import { useContent } from '@/components/ContentProvider';
+import { Link } from '@/components/LocaleLink';
 import { Reveal } from '@/components/Reveal';
-import { home, site } from '@/lib/content';
 import { Section } from './section';
 
 /** Closing call to action for the landing page. */
 export function CtaBand() {
   const { openBooking } = useBooking();
+  const { home, site } = useContent();
   const c = home.cta;
 
   return (

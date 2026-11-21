@@ -1,0 +1,131 @@
+{
+  "values": {
+    "kicker": "Grundprinzipien",
+    "title": "Unsere Grundwerte",
+    "items": [
+      { "title": "Innovation", "desc": "Wir erkunden fortlaufend moderne Technologien und bessere Ansätze, um komplexe Probleme zu lösen." },
+      { "title": "Technische Exzellenz", "desc": "Wir legen Wert auf saubere Architektur, wartbaren Code, Zuverlässigkeit, Sicherheit und Qualität." },
+      { "title": "Zusammenarbeit", "desc": "Erfolgreiche Technologielösungen entstehen aus Kommunikation, Teamarbeit und gemeinsamen Zielen." },
+      { "title": "Transparenz", "desc": "Wir schätzen ehrliche Kommunikation, realistische Zusagen und klare Erwartungen im Projekt." },
+      { "title": "Verantwortung", "desc": "Wir stehen für unsere Arbeit, unsere technischen Entscheidungen und unsere Lieferzusagen ein." },
+      { "title": "Kontinuierliches Lernen", "desc": "Wir fördern Experimentierfreude, Wissensaustausch und unermüdliche technische Weiterentwicklung." },
+      { "title": "Kundenorientierung", "desc": "Wir möchten die Geschäftsziele jedes Kunden verstehen und Lösungen liefern, die praktischen Mehrwert schaffen." }
+    ]
+  },
+  "industries": {
+    "kicker": "Branchenfokus",
+    "title": "Branchen, für die wir arbeiten",
+    "description": "Unsere technischen Grundlagen lassen sich branchenübergreifend übertragen. In diesen Bereichen setzen wir sie am häufigsten ein.",
+    "items": [
+      { "icon": "Landmark", "name": "Finanzdienstleistungen", "desc": "Finanzanwendungen, Zahlungsintegrationen, Echtzeit-Analysen und regulatorisches Reporting.", "focus": ["Zahlungen", "Reporting", "Analytics"] },
+      { "icon": "Factory", "name": "Fertigung & Industrie", "desc": "Anwendungen zur Industrieüberwachung, IoT-Sensorintegrationen, Telemetrie und vorausschauende Wartung.", "focus": ["IoT", "Telemetrie", "Wartung"] },
+      { "icon": "Zap", "name": "Energie & Versorgung", "desc": "Monitoring-Plattformen, operatives Reporting und automatisierte Infrastrukturanwendungen.", "focus": ["Monitoring", "Reporting", "Automatisierung"] },
+      { "icon": "HeartPulse", "name": "Gesundheitswesen", "desc": "Anwendungen für das Gesundheitsmanagement, Automatisierung administrativer Abläufe und Lösungen für klinische Daten.", "focus": ["Workflows", "Daten", "Verwaltungssysteme"] },
+      { "icon": "ShoppingBag", "name": "Handel & E-Commerce", "desc": "E-Commerce-Plattformen, Bestands- und Bestellverwaltung sowie automatisierte Zahlungssysteme.", "focus": ["Commerce", "Bestand", "Zahlungen"] },
+      { "icon": "Laptop", "name": "Technologie & Software", "desc": "SaaS-Entwicklung, Unternehmensplattformen, Produktentwicklung, KI-Integrationen und Cloud-Architektur.", "focus": ["SaaS", "KI", "Cloud"] },
+      { "icon": "Briefcase", "name": "Professionelle Dienstleistungen", "desc": "Plattformen für Unternehmenssteuerung, CRM-Lösungen, Kundenportale und automatisierte Workflows.", "focus": ["CRM", "Portale", "Workflows"] }
+    ]
+  },
+  "engagement": {
+    "kicker": "Flexible Zusammenarbeit",
+    "title": "Unsere Zusammenarbeitsmodelle",
+    "description": "Vier Wege, mit uns zu arbeiten – damit sich die Struktur dem Projekt anpasst und nicht umgekehrt.",
+    "items": [
+      {
+        "title": "Projektbasierte Entwicklung",
+        "badge": "Fester Umfang",
+        "desc": "Klar definierte Projekte mit vereinbarten Liefergegenständen, Meilensteinen, Zeitplänen und technischen Anforderungen.",
+        "bestFor": "Individualanwendungen, SaaS-Produkte, Unternehmensplattformen, API-Integrationen und Automatisierungsprojekte.",
+        "includes": ["Vereinbarter Umfang und Meilensteine", "Definierte Liefergegenstände", "Regelmäßige Fortschrittsdemos", "Strukturierte Übergabe"]
+      },
+      {
+        "title": "Dedizierte Entwicklungsteams",
+        "badge": "Kapazitätserweiterung",
+        "desc": "Remote arbeitende Engineering-Ressourcen, die mit dem bestehenden technischen Team des Kunden zusammenarbeiten.",
+        "bestFor": "Unterstützung bei laufender Entwicklung, Aufbau neuer Funktionen, Frontend- und Backend-Entwicklung sowie langfristige technische Projekte.",
+        "includes": ["Entwickler passend zu Ihrem Stack", "Eingebunden in Ihren Workflow", "Flexibel hoch- oder herunterskalierbar", "Gemeinsame Tools und Rituale"]
+      },
+      {
+        "title": "Langfristige Technologiepartnerschaft",
+        "badge": "Kontinuierliche Weiterentwicklung",
+        "desc": "Dauerhafte Zusammenarbeit zur Unterstützung von Softwareentwicklung, Wartung, Integrationen und technischer Architektur.",
+        "bestFor": "Technologieunternehmen, Softwareproduktfirmen und wachsende Start-ups, die kontinuierliche Engineering-Unterstützung benötigen.",
+        "includes": ["Fortlaufende Umsetzung der Roadmap", "Wartung und Support", "Architekturberatung", "Bevorzugter Zugang zum Team"]
+      },
+      {
+        "title": "Technische Beratung",
+        "badge": "Strategische Orientierung",
+        "desc": "Beratung und Architekturunterstützung, damit die Führungsebene fundierte, zukunftssichere Technologieentscheidungen treffen kann.",
+        "bestFor": "Planung der Softwarearchitektur, Technologiebewertungen, Modernisierung von Anwendungen und Infrastrukturstrategie.",
+        "includes": ["Architektur- und Code-Reviews", "Technologiebewertungen", "Modernisierungs-Roadmaps", "Schriftliche Empfehlungen"]
+      }
+    ]
+  },
+  "security": {
+    "kicker": "Vertrauen & Verlässlichkeit",
+    "title": "Sicherheit, Qualität & Arbeitsmodell",
+    "items": [
+      {
+        "icon": "ShieldCheck",
+        "title": "Unser Anspruch an Sicherheit und Qualität",
+        "body": "Sicherheit, Zuverlässigkeit und Datenschutz gehören bei uns zum Design jedes Systems und sind kein nachträglicher Gedanke. Wir setzen auf sicheres Credential-Management, verschlüsselte Kommunikation, kontrollierte Zugriffe und kontinuierliches Testen.",
+        "points": ["Rollenbasierte Authentifizierung und Zugriffe", "Verschlüsselter API-Datenverkehr", "Geheimnisse außerhalb des Quellcodes", "Regelmäßige Validierungstests", "Planung von Backup und Disaster Recovery", "Vertraulichkeit und NDA auf Anfrage"]
+      },
+      {
+        "icon": "Globe2",
+        "title": "Remote-Arbeitsmodell",
+        "body": "Wir arbeiten Remote-first von Finnland aus und kooperieren mit Kunden und Talenten über Zeitzonen hinweg – mit strukturiertem Projektmanagement und transparenten, Git-basierten Workflows.",
+        "points": ["40-Stunden-Standardwoche", "5 Arbeitstage, 8 Stunden pro Tag", "Mit jedem Kunden abgestimmte Überschneidungszeiten", "Digitale Aufgabenkoordination", "Transparente Git-Workflows", "Regelmäßige Demos und schriftliche Updates"]
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Organisationsstruktur",
+    "title": "Team & Führung",
+    "description": "Eine kooperative Struktur, die Geschäftsstrategie, technische Führung, erfahrenes Engineering, Design und operative Exzellenz verbindet.",
+    "groups": [
+      {
+        "icon": "Building2",
+        "title": "Business & Management",
+        "desc": "Strategische Ausrichtung, Kundenbeziehungen, realistische Zusagen und internationale Geschäftstätigkeit.",
+        "roles": ["Gründer / Geschäftsführer (CEO)", "Business Development Manager", "Vertrieb und strategische Partnerschaften", "Finanzen und Verwaltung"]
+      },
+      {
+        "icon": "Code2",
+        "title": "Technologie & Engineering",
+        "desc": "Saubere Architektur, verteilte Systeme, maschinelles Lernen und automatisierte Qualitätssicherung.",
+        "featured": true,
+        "roles": ["Chief Technology Officer (CTO)", "Full-Stack-Entwickler", "Frontend-Entwickler", "Backend-Entwickler", "KI-/ML-Ingenieure", "Data Engineers", "DevOps-Ingenieure", "Software-QA-Ingenieure"]
+      },
+      {
+        "icon": "Palette",
+        "title": "Design & Marketing",
+        "desc": "Usability, Designsysteme, interaktive Prototypen und Produktkommunikation.",
+        "roles": ["UI/UX-Designer", "Digital Product Designer", "Marketing-Spezialisten", "Leitung Social Media & Content"]
+      }
+    ]
+  },
+  "partnerships": {
+    "kicker": "Kooperation",
+    "title": "Partnerschaftsmöglichkeiten",
+    "description": "Virtanex Labs freut sich über die Zusammenarbeit mit Technologieanbietern, Beratungen, Agenturen und wachsenden Produktunternehmen.",
+    "items": [
+      { "title": "Software- & IT-Beratungen", "desc": "Subunternehmerleistungen und dedizierte Entwicklungsteams zur Erweiterung Ihrer Lieferkapazität." },
+      { "title": "Agenturen für digitale Transformation", "desc": "Tiefgehende technische Umsetzung für komplexe Webanwendungen, Microservices und die Modernisierung von Altsystemen." },
+      { "title": "KI- & SaaS-Unternehmen", "desc": "RAG-Pipelines, Integration von KI-Funktionen und skalierbare Multi-Tenant-Architekturen." },
+      { "title": "Start-ups & Gründer", "desc": "Gemeinsame Entwicklung von Anfang bis Ende, MVP-Architektur und langfristige technische Partnerschaft." }
+    ]
+  },
+  "why": {
+    "kicker": "Warum Virtanex Labs",
+    "title": "Warum mit uns zusammenarbeiten?",
+    "items": [
+      { "title": "Flexible Engineering-Kapazität", "desc": "Anpassungsfähige Entwicklungsunterstützung, abgestimmt auf Ihre Projektanforderungen, Zeitpläne und Skalierungsphasen." },
+      { "title": "Moderne Technologie", "desc": "Zeitgemäße Frameworks, Cloud-native Infrastruktur und bewährte Werkzeuge, die technische Schulden vermeiden." },
+      { "title": "KI-getriebener Ansatz", "desc": "Wir suchen gezielt nach praktischen Möglichkeiten, KI in reale Software und operative Abläufe zu integrieren." },
+      { "title": "Skalierbare Lösungen", "desc": "Wartbare Architekturen, die mit wachsendem Geschäftsvolumen mitwachsen können." },
+      { "title": "Kooperative Umsetzung", "desc": "Direkte, transparente Kommunikation und strukturiertes Git-Management an der Seite Ihrer Führungsebene." },
+      { "title": "Langfristige Perspektive", "desc": "Wir streben dauerhafte Beziehungen an statt reiner Auftragsabwicklung." }
+    ]
+  }
+}

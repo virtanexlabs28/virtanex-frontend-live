@@ -17,6 +17,7 @@ import {
   siTailwindcss,
   siTypescript,
 } from 'simple-icons';
+import type React from 'react';
 import { Brain, Database, SearchCheck, Sparkles, Webhook, type LucideIcon } from 'lucide-react';
 
 /** Only the logos we use are imported, so the client bundle stays small. */
@@ -42,11 +43,15 @@ const BRANDS: Record<string, { path: string; hex: string }> = {
 
 const LUCIDE: Record<string, LucideIcon> = { Brain, Database, SearchCheck, Sparkles, Webhook };
 
-/** Brand colours that are too dark to read on the dark theme fall back to cream. */
-function readableColor(hex: string): string {
+/** Brand colours that would vanish on the current background fall back to the text colour. */
+function brandColors(hex: string) {
   const n = parseInt(hex, 16);
   const luminance = (0.299 * ((n >> 16) & 255) + 0.587 * ((n >> 8) & 255) + 0.114 * (n & 255)) / 255;
-  return luminance < 0.3 ? '#E8E0D0' : `#${hex}`;
+  const brand = `#${hex}`;
+  return {
+    light: luminance > 0.7 ? '#1c1612' : brand,
+    dark: luminance < 0.3 ? '#e8e0d0' : brand,
+  };
 }
 
 /**
@@ -59,8 +64,14 @@ export function TechIcon({ icon, className = 'size-8' }: { icon: string; classNa
   if (kind === 'brand') {
     const brand = BRANDS[name];
     if (brand) {
+      const { light, dark } = brandColors(brand.hex);
       return (
-        <svg viewBox="0 0 24 24" className={className} fill={readableColor(brand.hex)} aria-hidden="true">
+        <svg
+          viewBox="0 0 24 24"
+          className={`${className} fill-[var(--icon-light)] dark:fill-[var(--icon-dark)]`}
+          style={{ '--icon-light': light, '--icon-dark': dark } as React.CSSProperties}
+          aria-hidden="true"
+        >
           <path d={brand.path} />
         </svg>
       );

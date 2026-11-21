@@ -1,0 +1,161 @@
+{
+  "language": {
+    "label": "Sprache",
+    "switch": "Sprache wechseln"
+  },
+  "theme": {
+    "toggle": "Zwischen hellem und dunklem Modus wechseln",
+    "toDark": "Dunkler Modus",
+    "toLight": "Heller Modus"
+  },
+  "nav": {
+    "aria": "Hauptnavigation",
+    "home": "{name} Startseite",
+    "bookCall": "Gespräch buchen",
+    "openMenu": "Navigationsmenü öffnen",
+    "menuDescription": "Seitennavigation",
+    "mobileFooter": "FINNLAND · REMOTE · SEIT {founded}"
+  },
+  "hero": {
+    "imageAlt": "Nebliges Tal mit Kiefern in der Dämmerung, der Himmel glüht bernsteinfarben",
+    "aria": "{name} Hero-Bereich"
+  },
+  "common": {
+    "startProject": "Projekt starten",
+    "bestFor": "Ideal für:",
+    "askDirectly": "Fragen Sie uns direkt"
+  },
+  "footer": {
+    "aria": "{name} Fußbereich",
+    "kicker": "{name} · Finnland",
+    "pitch": "Wir verwandeln komplexe geschäftliche Herausforderungen in praxistaugliche, wartbare digitale Produkte.",
+    "base": "Standort: Finnland ({timezone})",
+    "remote": "Remote-first, internationale Zusammenarbeit",
+    "field": "IT & Softwareentwicklung",
+    "servicesHeading": "Leistungen",
+    "companyHeading": "Unternehmen",
+    "contactHeading": "Kontakt",
+    "generalInquiries": "Allgemeine Anfragen",
+    "website": "Website",
+    "location": "Standort",
+    "openings": "Ausgewählte freie Kapazitäten für Beratung und Full-Cycle-Engineering.",
+    "rights": "Alle Rechte vorbehalten.",
+    "backToTop": "Nach oben",
+    "scrollToTop": "Zurück zum Seitenanfang scrollen",
+    "links": [
+      {
+        "label": "Startseite",
+        "href": "/"
+      },
+      {
+        "label": "Leistungen",
+        "href": "/services"
+      },
+      {
+        "label": "Technologie-Stack",
+        "href": "/services#technology"
+      },
+      {
+        "label": "Engineering-Prozess",
+        "href": "/process"
+      },
+      {
+        "label": "Zusammenarbeitsmodelle",
+        "href": "/process#engagement"
+      },
+      {
+        "label": "Sicherheit & Remote-Modell",
+        "href": "/process#security"
+      },
+      {
+        "label": "Lösungskonzepte",
+        "href": "/work"
+      },
+      {
+        "label": "Branchen",
+        "href": "/work#industries"
+      },
+      {
+        "label": "Team & Werte",
+        "href": "/team"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "aria": "Kontakt und Anfragen",
+    "kicker": "Anfragen & Buchung",
+    "title": "Lassen Sie uns Lösungen entwickeln, die Bestand haben.",
+    "intro": "Wir freuen uns über neue Kundenpartnerschaften, dedizierte Engineering-Kooperationen und unverbindliche technische Beratungsgespräche.",
+    "availabilityLabel": "Aktuelle Verfügbarkeit",
+    "name": "Ihr Name",
+    "namePlaceholder": "Vollständiger Name",
+    "email": "E-Mail-Adresse",
+    "emailPlaceholder": "name@firma.de",
+    "company": "Unternehmen (optional)",
+    "companyPlaceholder": "Name der Organisation",
+    "service": "Gewünschte Leistung",
+    "timeline": "Gewünschter Zeitrahmen",
+    "message": "Projektüberblick",
+    "messagePlaceholder": "Beschreiben Sie uns die Herausforderung, die Sie angehen möchten, und die Lösung, die Sie sich vorstellen ...",
+    "submit": "Projektanfrage senden",
+    "sending": "Wird gesendet…",
+    "successTitle": "Nachricht gesendet",
+    "successBody": "Vielen Dank, {name}. Ihre Anfrage liegt unserem Team vor, und wir melden uns {responseTime} unter {email} bei Ihnen.",
+    "another": "Weitere Anfrage stellen"
+  },
+  "booking": {
+    "kicker": "{name} · Finnland",
+    "topic": "Gesprächsthema",
+    "window": "Bevorzugter Zeitraum",
+    "name": "Ihr Name",
+    "namePlaceholder": "Vollständiger Name",
+    "email": "Geschäftliche E-Mail",
+    "emailPlaceholder": "name@firma.de",
+    "notes": "Projekthinweise (optional)",
+    "notesPlaceholder": "Kurzes Ziel oder Fragen",
+    "submit": "Gespräch anfragen",
+    "sending": "Wird gesendet…",
+    "doneKicker": "Fast geschafft",
+    "doneTitle": "Anfrage eingegangen",
+    "doneBody": "Ihre Angaben und Ihr bevorzugter Zeitraum ({slot}) liegen uns vor. Wir bestätigen Ihnen per E-Mail {responseTime} einen Termin.",
+    "done": "Fertig"
+  },
+  "errors": {
+    "invalid": "Bitte geben Sie Ihren Namen und eine gültige E-Mail-Adresse an.",
+    "rate": "Zu viele Anfragen. Bitte versuchen Sie es in einigen Minuten erneut.",
+    "send": "Wir konnten Ihre Nachricht nicht senden. Bitte schreiben Sie uns direkt per E-Mail an {email}.",
+    "network": "Netzwerkfehler. Bitte prüfen Sie Ihre Verbindung und versuchen Sie es erneut.",
+    "generic": "Etwas ist schiefgelaufen. Bitte versuchen Sie es erneut."
+  },
+  "services": {
+    "choose": "Leistung auswählen",
+    "serviceLabel": "Leistung {number}",
+    "whatWeDo": "Was wir tun",
+    "whatYouReceive": "Was Sie erhalten",
+    "typicalStack": "Typischer Stack",
+    "idealFor": "Ideal für",
+    "engagement": "Zusammenarbeit",
+    "wantThis": "Möchten Sie diese Kompetenz in Ihrem Projekt nutzen?",
+    "discuss": "Diese Leistung besprechen"
+  },
+  "process": {
+    "inFocus": "{phase} im Fokus",
+    "activities": "Zentrale Aktivitäten",
+    "outputs": "Was Sie erhalten"
+  },
+  "work": {
+    "viewBlueprint": "Lösungskonzept ansehen: {title}",
+    "challenge": "Die Herausforderung",
+    "approach": "Unser Vorgehen",
+    "outcomes": "Angestrebte Ergebnisse",
+    "similar": "Sie benötigen etwas Ähnliches?"
+  }
+}

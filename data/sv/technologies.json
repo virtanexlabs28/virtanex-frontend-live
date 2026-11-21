@@ -1,0 +1,175 @@
+{
+  "intro": {
+    "kicker": "Modern teknik",
+    "title": "Teknik och teknisk stack",
+    "description": "Beprövade, väl underhållna verktyg valda för långsiktig hållbarhet. Vi anpassar teknikstacken efter problemet, inte tvärtom."
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "Alla"
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend"
+    },
+    {
+      "id": "backend",
+      "label": "Backend"
+    },
+    {
+      "id": "database",
+      "label": "Databaser"
+    },
+    {
+      "id": "ai-data",
+      "label": "AI och data"
+    },
+    {
+      "id": "cloud",
+      "label": "Moln"
+    },
+    {
+      "id": "automation",
+      "label": "Automatisering"
+    },
+    {
+      "id": "design",
+      "label": "Design"
+    }
+  ],
+  "items": [
+    {
+      "category": "frontend",
+      "name": "Next.js",
+      "type": "Fullstackramverk för React",
+      "icon": "brand:siNextdotjs"
+    },
+    {
+      "category": "frontend",
+      "name": "React",
+      "type": "UI-bibliotek",
+      "icon": "brand:siReact"
+    },
+    {
+      "category": "frontend",
+      "name": "TypeScript",
+      "type": "Typsäker JavaScript",
+      "icon": "brand:siTypescript"
+    },
+    {
+      "category": "frontend",
+      "name": "Tailwind CSS",
+      "type": "Utility-first-formgivning",
+      "icon": "brand:siTailwindcss"
+    },
+    {
+      "category": "backend",
+      "name": "Node.js",
+      "type": "Serverkörmiljö",
+      "icon": "brand:siNodedotjs"
+    },
+    {
+      "category": "backend",
+      "name": "NestJS",
+      "type": "Backendramverk för företag",
+      "icon": "brand:siNestjs"
+    },
+    {
+      "category": "backend",
+      "name": "Express.js",
+      "type": "REST-routing",
+      "icon": "brand:siExpress"
+    },
+    {
+      "category": "backend",
+      "name": "Python",
+      "type": "Tjänster, data och ML",
+      "icon": "brand:siPython"
+    },
+    {
+      "category": "database",
+      "name": "PostgreSQL",
+      "type": "Relationsdatabas",
+      "icon": "brand:siPostgresql"
+    },
+    {
+      "category": "database",
+      "name": "MySQL",
+      "type": "Relationsdatabas",
+      "icon": "brand:siMysql"
+    },
+    {
+      "category": "database",
+      "name": "MongoDB",
+      "type": "Dokumentdatabas",
+      "icon": "brand:siMongodb"
+    },
+    {
+      "category": "database",
+      "name": "Redis",
+      "type": "Cache och köer",
+      "icon": "brand:siRedis"
+    },
+    {
+      "category": "ai-data",
+      "name": "LLM APIs",
+      "type": "Integration av språkmodeller",
+      "icon": "lucide:Sparkles"
+    },
+    {
+      "category": "ai-data",
+      "name": "RAG pipelines",
+      "type": "Förankrade AI-svar",
+      "icon": "lucide:SearchCheck"
+    },
+    {
+      "category": "ai-data",
+      "name": "Vector databases",
+      "type": "Semantisk sökning",
+      "icon": "lucide:Database"
+    },
+    {
+      "category": "ai-data",
+      "name": "Machine Learning",
+      "type": "Prediktiva modeller",
+      "icon": "lucide:Brain"
+    },
+    {
+      "category": "cloud",
+      "name": "Docker & Compose",
+      "type": "Containerisering",
+      "icon": "brand:siDocker"
+    },
+    {
+      "category": "cloud",
+      "name": "CI/CD pipelines",
+      "type": "Automatiserad leverans",
+      "icon": "brand:siGithubactions"
+    },
+    {
+      "category": "cloud",
+      "name": "Linux / VPS",
+      "type": "Serverinfrastruktur",
+      "icon": "brand:siLinux"
+    },
+    {
+      "category": "automation",
+      "name": "n8n",
+      "type": "Orkestrering av arbetsflöden",
+      "icon": "brand:siN8n"
+    },
+    {
+      "category": "automation",
+      "name": "Webhooks & APIs",
+      "type": "Systemintegration",
+      "icon": "lucide:Webhook"
+    },
+    {
+      "category": "design",
+      "name": "Figma",
+      "type": "Design och prototyper",
+      "icon": "brand:siFigma"
+    }
+  ]
+}

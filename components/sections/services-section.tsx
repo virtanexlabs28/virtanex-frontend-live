@@ -9,10 +9,13 @@ import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { useBooking } from '@/components/BookingProvider';
 import { getIcon } from '@/lib/icons';
-import { services, servicesContent } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
+import { fmt } from '@/lib/format';
 import { Section, SectionHeader } from './section';
 
 export function ServicesSection() {
+  const { services, servicesContent, ui } = useContent();
+  const t = ui.services;
   const { openBooking } = useBooking();
   const [active, setActive] = useState(services[0].id);
 
@@ -23,7 +26,7 @@ export function ServicesSection() {
       {/* Mobile / tablet selector */}
       <div className="mb-6 lg:hidden">
         <Select value={active} onValueChange={setActive}>
-          <SelectTrigger className="h-12 w-full rounded-xl border-border bg-card text-sm" aria-label="Choose a service">
+          <SelectTrigger className="h-12 w-full rounded-xl border-border bg-card text-sm" aria-label={t.choose}>
             <SelectValue />
           </SelectTrigger>
           <SelectContent>
@@ -73,7 +76,7 @@ export function ServicesSection() {
                 <Card className="gap-0 rounded-2xl border-border bg-card p-6 sm:p-9">
                   <div className="mb-6 flex items-start justify-between gap-4 border-b border-border pb-6">
                     <div>
-                      <p className="text-xs uppercase tracking-widest text-accent">Service {s.number}</p>
+                      <p className="text-xs uppercase tracking-widest text-accent">{fmt(t.serviceLabel, { number: s.number })}</p>
                       <h3 className="mt-1 font-fraunces text-2xl font-normal text-foreground sm:text-3xl">{s.title}</h3>
                     </div>
                     <div className="flex size-12 shrink-0 items-center justify-center rounded-full border border-accent/30 bg-accent/15 text-accent">
@@ -86,7 +89,7 @@ export function ServicesSection() {
 
                   <div className="mt-8 grid gap-8 md:grid-cols-2">
                     <div>
-                      <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">What we do</h4>
+                      <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">{t.whatWeDo}</h4>
                       <ul className="space-y-2.5">
                         {s.capabilities.map((c) => (
                           <li key={c} className="flex items-start gap-2.5 text-sm text-foreground/75">
@@ -97,7 +100,7 @@ export function ServicesSection() {
                       </ul>
                     </div>
                     <div>
-                      <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">What you receive</h4>
+                      <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">{t.whatYouReceive}</h4>
                       <ul className="space-y-2.5">
                         {s.deliverables.map((d) => (
                           <li key={d} className="flex items-start gap-2.5 text-sm text-foreground/75">
@@ -110,7 +113,7 @@ export function ServicesSection() {
                   </div>
 
                   <div className="mt-8">
-                    <h4 className="mb-3 text-xs uppercase tracking-[0.2em] text-foreground/40">Typical stack</h4>
+                    <h4 className="mb-3 text-xs uppercase tracking-[0.2em] text-foreground/40">{t.typicalStack}</h4>
                     <div className="flex flex-wrap gap-2">
                       {s.technologies.map((t) => (
                         <Badge key={t} variant="outline" className="rounded-full border-border bg-foreground/5 px-3 py-1 text-xs font-normal text-foreground/80">
@@ -124,23 +127,23 @@ export function ServicesSection() {
                     <div className="flex items-start gap-3">
                       <Target className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden="true" />
                       <div>
-                        <p className="text-xs uppercase tracking-wider text-foreground/40">Ideal for</p>
+                        <p className="text-xs uppercase tracking-wider text-foreground/40">{t.idealFor}</p>
                         <p className="mt-1 text-foreground/80">{s.idealFor}</p>
                       </div>
                     </div>
                     <div className="flex items-start gap-3">
                       <Clock className="mt-0.5 size-4 shrink-0 text-accent" aria-hidden="true" />
                       <div>
-                        <p className="text-xs uppercase tracking-wider text-foreground/40">Engagement</p>
+                        <p className="text-xs uppercase tracking-wider text-foreground/40">{t.engagement}</p>
                         <p className="mt-1 text-foreground/80">{s.engagement}</p>
                       </div>
                     </div>
                   </div>
 
                   <div className="mt-8 flex flex-col gap-3 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">
-                    <span className="text-sm text-muted-foreground">Want this capability on your project?</span>
+                    <span className="text-sm text-muted-foreground">{t.wantThis}</span>
                     <Button onClick={openBooking} className="rounded-full bg-primary px-6 text-primary-foreground hover:bg-accent hover:text-accent-foreground">
-                      Discuss this service
+                      {t.discuss}
                       <ArrowRight className="size-4" aria-hidden="true" />
                     </Button>
                   </div>

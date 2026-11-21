@@ -1,0 +1,218 @@
+{
+  "name": "Virtanex Labs",
+  "tagline": "Älykkäitä digitaalisia ratkaisuja huolella suunniteltuna.",
+  "motto": "Rakennamme teknologiaa. Avaamme mahdollisuuksia.",
+  "description": "Virtanex Labs on suomalainen etänä toimiva teknologiayhtiö, joka rakentaa älykkäitä ohjelmistoja, tekoälyratkaisuja ja skaalautuvia digitaalisia tuotteita.",
+  "founded": "2026",
+  "contact": {
+    "email": "contact@virtanexlabs.com",
+    "website": "https://virtanexlabs.com",
+    "websiteLabel": "virtanexlabs.com",
+    "location": "Suomi (etätyö / kansainvälinen yhteistyö)",
+    "locationShort": "Suomi / kansainvälinen",
+    "timezone": "UTC+2 (Helsinki)",
+    "responseTime": "24 tunnin kuluessa"
+  },
+  "availability": {
+    "badge": "VARAUKSET KESÄLLE '26",
+    "season": "Kesä '26",
+    "headline": "Otamme vastaan valikoituja toimeksiantoja kesälle '26",
+    "detail": "Otamme kerrallaan vain rajatun määrän projekteja, jotta jokainen asiakas saa kokeneiden asiantuntijoiden huomion. Ota yhteyttä ajoissa, niin varaamme kapasiteettia sinulle."
+  },
+  "hero": {
+    "subheadline": "Älykkäitä digitaalisia ratkaisuja huolella suunniteltuna.",
+    "descriptor": "Rakennamme älykkäitä ohjelmistoja, tekoälyratkaisuja ja skaalautuvia digitaalisia tuotteita kunnianhimoisille yrityksille. Luotettavaa teknologiaa, harkiten suunniteltuna ja rohkeasti toteutettuna.",
+    "cta": "Aloita projekti"
+  },
+  "booking": {
+    "title": "Varaa tekninen kartoituspuhelu",
+    "subtitle": "30 minuutin keskustelu teknisen johtajamme kanssa, jossa ymmärrämme tavoitteesi ja hahmottelemme tien eteenpäin.",
+    "agenda": "30 minuutin tekninen kartoitus ja laajuuden yhteensovitus",
+    "slots": [
+      "Ti 14:00 (Helsingin aikaa)",
+      "Ke 11:30 (Helsingin aikaa)",
+      "Ke 16:00 (Helsingin aikaa)",
+      "To 13:00 (Helsingin aikaa)",
+      "To 17:30 (Helsingin aikaa)",
+      "Pe 15:00 (Helsingin aikaa)"
+    ],
+    "extraTopics": [
+      "Tekninen konsultointi ja arkkitehtuuri",
+      "En ole vielä varma"
+    ]
+  },
+  "inquiry": {
+    "title": "Aloita keskustelu",
+    "subtitle": "Kerro meille organisaatiostasi ja teknisistä tarpeistasi.",
+    "timelines": [
+      "Kesä '26 (ensisijainen)",
+      "Syksy / talvi '26",
+      "Heti, 30 päivän sisällä",
+      "Selvitys / toteutettavuustutkimus"
+    ],
+    "note": "Salassapitosopimus (NDA) pyynnöstä. Vastaamme 24 tunnin kuluessa."
+  },
+  "nav": [
+    {
+      "label": "Palvelut",
+      "href": "/services"
+    },
+    {
+      "label": "Prosessi",
+      "href": "/process"
+    },
+    {
+      "label": "Työt",
+      "href": "/work"
+    },
+    {
+      "label": "Tiimi",
+      "href": "/team"
+    },
+    {
+      "label": "UKK",
+      "href": "/faq"
+    },
+    {
+      "label": "Yhteystiedot",
+      "href": "/contact"
+    }
+  ],
+  "stats": [
+    {
+      "value": "10",
+      "label": "Palvelualuetta",
+      "detail": "Räätälöidyistä ohjelmistoista teollisuuden IoT-ratkaisuihin"
+    },
+    {
+      "value": "7",
+      "label": "Toimituksen vaihetta",
+      "detail": "Kartoituksesta jatkuvaan kehittämiseen"
+    },
+    {
+      "value": "40h",
+      "label": "Vakiotyöviikko",
+      "detail": "5 päivää, 8 tuntia, selkeät yhteiset työajat"
+    },
+    {
+      "value": "24h",
+      "label": "Vastaus jokaiseen yhteydenottoon",
+      "detail": "Teknisen johtajan arvioima"
+    }
+  ],
+  "overview": {
+    "kicker": [
+      "Virtanex Labs",
+      "Yritysesittely",
+      "Suomi"
+    ],
+    "title": "Älykkäitä digitaalisia ratkaisuja huolella suunniteltuna.",
+    "paragraphs": [
+      "Virtanex Labs on suomalainen etänä toimiva teknologiayhtiö, joka rakentaa älykkäitä ohjelmistoja, tekoälyratkaisuja ja skaalautuvia digitaalisia tuotteita.",
+      "Autamme yrityksiä, startup-yrityksiä ja vakiintuneita organisaatioita muuttamaan monimutkaiset ideat käytännön digitaalisiksi ratkaisuiksi nykyaikaisen ohjelmistotuotannon, tekoälyn, datateknologioiden, automaation ja pilvi-infrastruktuurin avulla."
+    ],
+    "facts": [
+      {
+        "label": "Kotipaikka",
+        "value": "Suomi (UTC+2)"
+      },
+      {
+        "label": "Toimintamalli",
+        "value": "Etätyö ensin"
+      },
+      {
+        "label": "Perustettu",
+        "value": "2026"
+      },
+      {
+        "label": "Toimiala",
+        "value": "IT ja ohjelmistokehitys"
+      }
+    ]
+  },
+  "missionVision": [
+    {
+      "kicker": "Missiomme",
+      "title": "Käytännöllistä älykkyyttä, saavutettavaa arvoa",
+      "body": "Vahvistamme yrityksiä älykkään teknologian, innovatiivisen ohjelmistotuotannon ja luotettavien digitaalisten ratkaisujen avulla, jotka muuttavat toiminnan kitkan sujuviksi digitaalisiksi kokemuksiksi."
+    },
+    {
+      "kicker": "Visiomme",
+      "title": "Insinööritaitoa ja kestävää vaikutusta",
+      "body": "Haluamme olla luotettu kansainvälinen teknologiakumppani, joka tunnetaan korkeatasoisesta insinööriosaamisesta, älykkäistä ratkaisuista ja merkityksellisestä, pitkäikäisestä digitaalisesta innovaatiosta."
+    }
+  ],
+  "commitment": {
+    "kicker": "Sitoumuksemme",
+    "quote": "Jokaisella yrityksellä on omat haasteensa ja tavoitteensa. Lähestymme jokaista projektia uteliaisuudella, vastuullisuudella ja tekniikan vaatimalla kurinalaisuudella.",
+    "body": "Rakennamme ratkaisuja, jotka eivät ole vain toimivia vaan myös luotettavia, ylläpidettäviä ja todellisten liiketoimintatarpeiden mukaisia. Merkityksellinen innovaatio syntyy, kun oikeat ihmiset, oikea teknologia ja selkeä ymmärrys ongelmasta tulevat yhteen."
+  },
+  "pages": {
+    "services": {
+      "href": "/services",
+      "kicker": "Mitä teemme",
+      "title": "Palvelut, jotka on rakennettu liiketoimintasi ympärille.",
+      "description": "Kymmenen osaamisaluetta, yksi vastuullinen tiimi. Räätälöidyistä ohjelmistoista ja tekoälystä pilvi-infrastruktuuriin ja teollisuuden IoT-ratkaisuihin.",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Kehittäjä työskentelee koodin parissa kannettavalla tietokoneella",
+      "blurb": "Kymmenen osaamisaluetta räätälöidyistä ohjelmistoista teollisuuden IoT-ratkaisuihin.",
+      "metaTitle": "Palvelut",
+      "metaDescription": "Räätälöidyt ohjelmistot, tekoäly, datatekniikka, integraatiot, automaatio, pilvi, tuotekehitys, suunnittelu, laadunvarmistus ja IoT yhdeltä vastuulliselta tiimiltä."
+    },
+    "process": {
+      "href": "/process",
+      "kicker": "Miten työskentelemme",
+      "title": "Prosessi, jonka näet ja johon voit luottaa.",
+      "description": "Läpinäkyvä seitsemänvaiheinen elinkaari, joustavat yhteistyömallit ja alusta asti mukana kulkevat tietoturvakäytännöt.",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Suunnittelumuistiinpanoja asetettuna seinälle",
+      "blurb": "Seitsemän vaihetta, neljä yhteistyömallia ja sisäänrakennettu tietoturva.",
+      "metaTitle": "Prosessi",
+      "metaDescription": "Seitsemänvaiheinen ohjelmistotuotannon elinkaarimme, joustavat yhteistyömallit sekä tietoturva- ja etätyökäytännöt."
+    },
+    "work": {
+      "href": "/work",
+      "kicker": "Valittuja töitä",
+      "title": "Järjestelmät, joita rakennamme, ja ne, joille niitä rakennamme.",
+      "description": "Ratkaisumallit, palvelemamme toimialat ja tutkimusalueet, joihin jatkuvasti panostamme.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Analytiikkanäkymä kannettavan tietokoneen näytöllä",
+      "blurb": "Ratkaisumallit, toimialat ja tutkimuksen painopisteet.",
+      "metaTitle": "Työt",
+      "metaDescription": "Ratkaisumallit, palvelemamme toimialat ja tekniset osaamisalueet, joihin panostamme."
+    },
+    "team": {
+      "href": "/team",
+      "kicker": "Yritys",
+      "title": "Ihmiset, periaatteet ja kumppanuudet.",
+      "description": "Keitä olemme, mitä arvostamme ja miten teemme yhteistyötä asiakkaiden, toimistojen ja tuoteyritysten kanssa.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Tiimi työskentelee yhdessä pöydän ääressä",
+      "blurb": "Tiimimme, arvomme ja kumppanuusmahdollisuudet.",
+      "metaTitle": "Tiimi",
+      "metaDescription": "Virtanex Labsin tiimi, perusarvomme ja kumppanuusmahdollisuudet."
+    },
+    "faq": {
+      "href": "/faq",
+      "kicker": "Kysymykset",
+      "title": "Vastaukset ennen kuin kysyt.",
+      "description": "Miten projektit alkavat, miten hinnoittelemme, kenelle koodi kuuluu ja miten työskentelemme eri aikavyöhykkeillä.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Muistikirja ja kynä työpöydällä",
+      "blurb": "Suoria vastauksia siihen, miten työskentelemme.",
+      "metaTitle": "UKK",
+      "metaDescription": "Vastauksia siihen, miten projektit alkavat, hinnoittelusta, koodin omistajuudesta, aikavyöhykkeistä, tietoturvasta ja tuesta."
+    },
+    "contact": {
+      "href": "/contact",
+      "kicker": "Ota yhteyttä",
+      "title": "Puhutaan siitä, mitä olet rakentamassa.",
+      "description": "Varaa kartoituspuhelu tai lähetä meille projektikuvaus. Vastaamme 24 tunnin kuluessa.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Valoisa moderni toimistotila",
+      "blurb": "Varaa puhelu tai lähetä projektikuvaus.",
+      "metaTitle": "Yhteystiedot",
+      "metaDescription": "Varaa kartoituspuhelu tai lähetä Virtanex Labsille projektikuvaus. Vastaamme 24 tunnin kuluessa."
+    }
+  }
+}

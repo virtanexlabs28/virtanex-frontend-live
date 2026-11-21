@@ -3,9 +3,33 @@
 
 @custom-variant dark (&:is(.dark *));
 
-/* Virtanex Labs palette mapped onto shadcn/ui design tokens (dark-only site) */
+/* Virtanex Labs palette mapped onto shadcn/ui design tokens.
+   Light is the default; the .dark class (set by the theme toggle) switches to the dark palette. */
 :root {
+  color-scheme: light;
   --radius: 0.75rem;
+  --background: #f8f4ed;
+  --foreground: #1c1612;
+  --card: #fffdf9;
+  --card-foreground: #1c1612;
+  --popover: #fffdf9;
+  --popover-foreground: #1c1612;
+  --primary: #1c1612;
+  --primary-foreground: #f8f4ed;
+  --secondary: #efe8db;
+  --secondary-foreground: #1c1612;
+  --muted: #eee6d8;
+  --muted-foreground: rgba(28, 22, 18, 0.62);
+  --accent: #9a5a1f;
+  --accent-foreground: #fff8ee;
+  --destructive: #b91c1c;
+  --border: rgba(28, 22, 18, 0.12);
+  --input: rgba(28, 22, 18, 0.2);
+  --ring: #9a5a1f;
+}
+
+.dark {
+  color-scheme: dark;
   --background: #0c0a09;
   --foreground: #e8e0d0;
   --card: #120f0d;
@@ -79,8 +103,8 @@ html {
 
 body {
   font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, sans-serif;
-  background-color: #0C0A09;
-  color: #E8E0D0;
+  background-color: var(--background);
+  color: var(--foreground);
 }
 
 .font-fraunces {
@@ -203,12 +227,12 @@ body {
   width: 6px;
 }
 ::-webkit-scrollbar-track {
-  background: #0C0A09;
+  background: var(--background);
 }
 ::-webkit-scrollbar-thumb {
-  background: rgba(232, 224, 208, 0.2);
+  background: var(--input);
   border-radius: 9999px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #B87333;
+  background: var(--accent);
 }

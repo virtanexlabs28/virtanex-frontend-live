@@ -1,0 +1,161 @@
+{
+  "language": {
+    "label": "Langue",
+    "switch": "Changer de langue"
+  },
+  "theme": {
+    "toggle": "Basculer entre le mode clair et le mode sombre",
+    "toDark": "Mode sombre",
+    "toLight": "Mode clair"
+  },
+  "nav": {
+    "aria": "Navigation principale",
+    "home": "Accueil {name}",
+    "bookCall": "Réserver un appel",
+    "openMenu": "Ouvrir le menu de navigation",
+    "menuDescription": "Navigation du site",
+    "mobileFooter": "FINLANDE · À DISTANCE · DEPUIS {founded}"
+  },
+  "hero": {
+    "imageAlt": "Vallée brumeuse parsemée de pins au crépuscule, le ciel embrasé d'ambre",
+    "aria": "Bandeau d'accueil {name}"
+  },
+  "common": {
+    "startProject": "Lancer un projet",
+    "bestFor": "Idéal pour :",
+    "askDirectly": "Posez-nous directement la question"
+  },
+  "footer": {
+    "aria": "Pied de page {name}",
+    "kicker": "{name} · Finlande",
+    "pitch": "Transformer des défis d'entreprise complexes en produits numériques concrets et maintenables.",
+    "base": "Implantation : Finlande ({timezone})",
+    "remote": "100 % à distance, collaboration internationale",
+    "field": "Informatique et développement logiciel",
+    "servicesHeading": "Services",
+    "companyHeading": "Entreprise",
+    "contactHeading": "Contact",
+    "generalInquiries": "Demandes générales",
+    "website": "Site web",
+    "location": "Localisation",
+    "openings": "Quelques disponibilités pour du conseil et de l'ingénierie sur l'ensemble du cycle.",
+    "rights": "Tous droits réservés.",
+    "backToTop": "Retour en haut",
+    "scrollToTop": "Revenir en haut de la page",
+    "links": [
+      {
+        "label": "Accueil",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Stack technologique",
+        "href": "/services#technology"
+      },
+      {
+        "label": "Processus d'ingénierie",
+        "href": "/process"
+      },
+      {
+        "label": "Modèles de collaboration",
+        "href": "/process#engagement"
+      },
+      {
+        "label": "Sécurité et travail à distance",
+        "href": "/process#security"
+      },
+      {
+        "label": "Plans de solution",
+        "href": "/work"
+      },
+      {
+        "label": "Secteurs",
+        "href": "/work#industries"
+      },
+      {
+        "label": "Équipe et valeurs",
+        "href": "/team"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "aria": "Contact et demandes",
+    "kicker": "Demandes et réservations",
+    "title": "Construisons un travail qui dure.",
+    "intro": "Nous accueillons volontiers de nouveaux partenariats clients, des collaborations d'ingénierie dédiées et des consultations techniques exploratoires.",
+    "availabilityLabel": "Disponibilités actuelles",
+    "name": "Votre nom",
+    "namePlaceholder": "Nom complet",
+    "email": "Adresse e-mail",
+    "emailPlaceholder": "nom@entreprise.com",
+    "company": "Entreprise (facultatif)",
+    "companyPlaceholder": "Nom de l'organisation",
+    "service": "Service souhaité",
+    "timeline": "Calendrier visé",
+    "message": "Présentation du projet",
+    "messagePlaceholder": "Décrivez-nous le défi que vous souhaitez relever et la solution que vous envisagez...",
+    "submit": "Envoyer la demande de projet",
+    "sending": "Envoi en cours…",
+    "successTitle": "Message envoyé",
+    "successBody": "Merci, {name}. Votre demande est entre les mains de notre équipe et nous vous répondrons à l'adresse {email} {responseTime}.",
+    "another": "Envoyer une autre demande"
+  },
+  "booking": {
+    "kicker": "{name} · Finlande",
+    "topic": "Sujet d'intérêt",
+    "window": "Créneau souhaité",
+    "name": "Votre nom",
+    "namePlaceholder": "Nom complet",
+    "email": "E-mail professionnel",
+    "emailPlaceholder": "nom@entreprise.com",
+    "notes": "Notes sur le projet (facultatif)",
+    "notesPlaceholder": "Objectif en quelques mots ou questions",
+    "submit": "Demander cet appel",
+    "sending": "Envoi en cours…",
+    "doneKicker": "Presque terminé",
+    "doneTitle": "Demande reçue",
+    "doneBody": "Nous avons bien reçu vos coordonnées et votre créneau souhaité ({slot}). Nous vous confirmerons un horaire par e-mail {responseTime}.",
+    "done": "Terminé"
+  },
+  "errors": {
+    "invalid": "Veuillez indiquer votre nom et une adresse e-mail valide.",
+    "rate": "Trop de requêtes. Veuillez réessayer dans quelques minutes.",
+    "send": "Nous n'avons pas pu envoyer votre message. Veuillez écrire directement à {email}.",
+    "network": "Erreur réseau. Veuillez vérifier votre connexion et réessayer.",
+    "generic": "Une erreur s'est produite. Veuillez réessayer."
+  },
+  "services": {
+    "choose": "Choisir un service",
+    "serviceLabel": "Service {number}",
+    "whatWeDo": "Ce que nous faisons",
+    "whatYouReceive": "Ce que vous recevez",
+    "typicalStack": "Stack type",
+    "idealFor": "Idéal pour",
+    "engagement": "Collaboration",
+    "wantThis": "Vous souhaitez cette expertise sur votre projet ?",
+    "discuss": "Discuter de ce service"
+  },
+  "process": {
+    "inFocus": "{phase} en détail",
+    "activities": "Activités clés",
+    "outputs": "Ce que vous obtenez"
+  },
+  "work": {
+    "viewBlueprint": "Voir le plan de solution : {title}",
+    "challenge": "Le défi",
+    "approach": "Notre approche",
+    "outcomes": "Résultats visés",
+    "similar": "Besoin d'une solution similaire ?"
+  }
+}

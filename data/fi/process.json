@@ -1,0 +1,65 @@
+{
+  "intro": {
+    "kicker": "Menetelmä",
+    "title": "7-vaiheinen ohjelmistotuotannon elinkaarimme",
+    "description": "Jäsennelty ja läpinäkyvä prosessi, joka pitää toimitukset ennustettavina ja laadun korkeana ensimmäisestä keskustelusta pitkäjänteiseen kehittämiseen."
+  },
+  "phases": [
+    {
+      "phase": "Vaihe 01",
+      "title": "Kartoitus ja vaatimusmäärittely",
+      "duration": "Tyypillisesti 1–2 viikkoa",
+      "detail": "Analysoimme liiketoimintatavoitteesi, toiminnalliset haasteesi, projektille asettamasi odotukset ja teknisen toimintaympäristösi vankan perustan luomiseksi.",
+      "activities": ["Sidosryhmähaastattelut", "Vaatimusten kerääminen", "Nykyisten järjestelmien läpikäynti", "Riskien ja rajoitteiden kartoitus"],
+      "outputs": ["Yhteenveto vaatimuksista", "Onnistumisen kriteerit", "Alustava laajuus ja riskit"]
+    },
+    {
+      "phase": "Vaihe 02",
+      "title": "Suunnittelu ja arkkitehtuuri",
+      "duration": "Tyypillisesti 1–2 viikkoa",
+      "detail": "Määrittelemme projektin laajuuden, teknisen arkkitehtuurin, kehityksen välitavoitteet, teknologiapinon ja toimitusstrategian.",
+      "activities": ["Ratkaisuarkkitehtuuri", "Teknologioiden valinta", "Välitavoitteiden ja julkaisujen suunnittelu", "Arviointi ja resursointi"],
+      "outputs": ["Arkkitehtuuridokumentti", "Toimitussuunnitelma", "Sovittu laajuus ja välitavoitteet"]
+    },
+    {
+      "phase": "Vaihe 03",
+      "title": "Suunnittelu ja prototypointi",
+      "duration": "Etenee suunnittelun ja varhaisen toteutuksen rinnalla",
+      "detail": "Laadimme käyttöliittymät, suunnittelujärjestelmät, tekniset määrittelyt ja interaktiiviset prototyypit varhaista validointia varten.",
+      "activities": ["Käyttäjäpolkujen kartoitus", "Rautalankamallit ja visuaalinen suunnittelu", "Suunnittelujärjestelmän määrittely", "Klikattavat prototyypit"],
+      "outputs": ["Käyttöliittymäsuunnitelmat", "Suunnittelujärjestelmä", "Validoitu prototyyppi"]
+    },
+    {
+      "phase": "Vaihe 04",
+      "title": "Ohjelmistotuotanto ja kehitys",
+      "duration": "Iteratiiviset sprintit ja säännölliset demot",
+      "detail": "Hajautettu kehitystiimimme rakentaa ratkaisun nykyaikaisilla kehyksillä, puhtailla koodauskäytännöillä ja modulaarisilla rakenteilla.",
+      "activities": ["Sprinteihin perustuva toteutus", "Koodikatselmointi jokaiselle muutokselle", "Jatkuva integraatio", "Säännölliset demot ja palaute"],
+      "outputs": ["Toimivat lisäykset", "Katselmoitu ja testattu lähdekoodi", "Edistymisraportit"]
+    },
+    {
+      "phase": "Vaihe 05",
+      "title": "Testaus ja laadunvarmistus",
+      "duration": "Jatkuvaa, lisäksi erillinen julkaisua edeltävä testauskierros",
+      "detail": "Perusteellinen automaattinen ja manuaalinen testaus varmistaa toiminnallisuuden, suorituskyvyn, tietoturvan ja reunatapausten luotettavuuden.",
+      "activities": ["Automatisoidut yksikkö- ja integraatiotestit", "End-to-end- ja regressiotestaus", "Suorituskykytarkistukset", "Tietoturvakatselmointi"],
+      "outputs": ["Testiraportit", "Ratkaistut virheet -luettelo", "Julkaisuvalmiuden hyväksyntä"]
+    },
+    {
+      "phase": "Vaihe 06",
+      "title": "Käyttöönotto ja toimitus",
+      "duration": "Tyypillisesti muutama päivä, suunniteltu etukäteen",
+      "detail": "Määritämme tuotantoinfrastruktuurin, konttipohjaiset käyttöönotot ja valvontaputkistot ja toteutamme sovitun luovutuksen.",
+      "activities": ["Tuotantoympäristön pystytys", "Automatisoitu käyttöönotto", "Valvonta ja hälytykset", "Tiedonsiirto"],
+      "outputs": ["Käytössä oleva tuotantojärjestelmä", "Käyttö- ja ylläpitodokumentaatio", "Luovutustilaisuus"]
+    },
+    {
+      "phase": "Vaihe 07",
+      "title": "Ylläpito ja kehittäminen",
+      "duration": "Jatkuvaa, sopimuksen mukaan",
+      "detail": "Tarjoamme jatkuvia parannuksia, teknistä tukea, tietoturvapäivityksiä ja skaalautuvuuden optimointeja tarpeidesi kehittyessä.",
+      "activities": ["Virheiden korjaus ja tuki", "Riippuvuuksien ja tietoturvan päivitykset", "Suorituskyvyn optimointi", "Kehityssuunnitelman mukaisten ominaisuuksien toimitus"],
+      "outputs": ["Säännölliset ylläpitojulkaisut", "Kunto- ja käyttöraportit", "Päivitetty kehityssuunnitelma"]
+    }
+  ]
+}

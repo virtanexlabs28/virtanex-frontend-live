@@ -1,8 +1,11 @@
-import { home, technologies } from '@/lib/content';
+'use client';
+
+import { useContent } from '@/components/ContentProvider';
 import { TechIcon } from './tech-icon';
 
 /** Endlessly scrolling strip of technology icons, moving left to right. Pauses on hover. */
 export function TechMarquee() {
+  const { home, technologies } = useContent();
   const items = technologies.items;
 
   // Two identical groups; the second is hidden from assistive tech.

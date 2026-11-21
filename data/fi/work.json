@@ -1,0 +1,81 @@
+{
+  "intro": {
+    "kicker": "Ratkaisumallit",
+    "title": "Järjestelmät, joita rakennamme.",
+    "description": "Neljä edustavaa ratkaisusuunnitelmaa, jotka näyttävät, miten lähestymme arkkitehtuuria, toteutusta ja tuloksia. Ne havainnollistavat osaamistamme, eivätkä ole asiakastapauksia."
+  },
+  "items": [
+    {
+      "id": "ai-knowledge-platform",
+      "title": "Tekoälypohjainen tieto- ja dokumenttialusta",
+      "category": "Yritystekoäly ja työnkulut",
+      "service": "ai-ml",
+      "description": "Hakuun perustuva (RAG) avustaja ja dokumenttien käsittelyputkisto, joka muuttaa sopimukset, käsikirjat ja raportit vastauksiksi, joihin tiimit voivat luottaa.",
+      "tags": ["LLM-integraatio", "RAG", "Python / NestJS", "Vektorihaku"],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Tiimit menettävät tunteja dokumenttien etsimiseen. Tämä ratkaisumalli tuo tiedostot nykyisistä tallennustiloista, poimii ja indeksoi niiden sisällön ja tarjoaa keskustelukäyttöliittymän, joka viittaa lähteisiinsä. Roolipohjaiset käyttöoikeudet varmistavat, että ihmiset näkevät vain sen, mihin heillä on oikeus.",
+      "challenge": "Tieto on hajallaan jaetuilla levyillä, sähköpostiliitteissä ja vanhoissa järjestelmissä, eikä sen hakemiseen tai tiivistämiseen ole luotettavaa tapaa.",
+      "approach": [
+        "Tiedonsyöttöputkisto tekstintunnistuksella (OCR) ja jäsennellyllä poiminnalla",
+        "Hybridihaku avainsanoilla ja vektoreilla sekä lähdeviitteet",
+        "Arviointiaineisto vastausten laadun mittaamiseen ajan yli",
+        "Roolipohjaiset käyttöoikeudet ja täydellinen auditointiloki"
+      ],
+      "outcomes": ["Nopeammat vastaukset sisäisistä dokumenteista", "Jäljitettävät, lähteisiin viittaavat vastaukset", "Hallittu pääsy arkaluonteiseen sisältöön"]
+    },
+    {
+      "id": "saas-platform",
+      "title": "Monivuokralainen SaaS-alusta",
+      "category": "Digitaaliset tuotteet ja SaaS",
+      "service": "digital-product",
+      "description": "Tilauspohjainen alusta, jossa on vuokralaisten eristys, roolipohjaiset käyttöoikeudet, laskutus ja hallintakonsoli, valmiina skaalautumaan MVP:stä tuotantoon.",
+      "tags": ["Next.js", "NestJS", "PostgreSQL", "Tilaukset"],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Referenssiarkkitehtuuri, jolla tuoteidea muuttuu laskutettavaksi SaaS-palveluksi. Se kattaa vuokralaisten datan eristyksen, käyttäjä- ja oikeushallinnan, tilausmallit, käytön seurannan sekä työkalut, joita tuotteen päivittäiseen pyörittämiseen tarvitaan.",
+      "challenge": "Tuotteen nopea lanseeraus ilman, että se ajautuu arkkitehtuurilliseen umpikujaan, joka estää monivuokralaisuuden, laskutuksen tai yritysominaisuudet myöhemmin.",
+      "approach": [
+        "Vuokralaiset huomioiva tietomalli ja käyttöoikeuskerros",
+        "Tilaus- ja laskutuspalvelun integraatio",
+        "Hallintakonsoli tukea ja operatiivista toimintaa varten",
+        "CI/CD sekä testi- ja tuotantoympäristöt"
+      ],
+      "outcomes": ["MVP markkinoille nopeasti", "Arkkitehtuuri, joka skaalautuu asiakkaiden mukana", "Puhdas pohja uusille ominaisuuksille"]
+    },
+    {
+      "id": "data-reporting",
+      "title": "Yhtenäinen data- ja raportointialusta",
+      "category": "Datatekniikka ja analytiikka",
+      "service": "data-engineering",
+      "description": "Automatisoidut putkistot, jotka kokoavat talous-, myynti- ja toimintajärjestelmien datan yhdeksi luotettavaksi malliksi ja reaaliaikaisiksi kojetauluiksi.",
+      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Kojetaulut"],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Raportointi tarkoittaa usein manuaalisia vientejä ja keskenään ristiriitaisia taulukkolaskentatiedostoja. Tämä ratkaisumalli hakee tiedot jokaisesta lähdejärjestelmästä aikataulutetusti, validoi ja täsmäyttää ne sekä julkaisee yhden totuuden lähteen ja kojetaulut, joihin johto voi luottaa.",
+      "challenge": "Useita järjestelmiä, epäyhtenäisiä määritelmiä ja manuaalinen kuukausiraportointi, joka on hidasta ja virhealtista.",
+      "approach": [
+        "Lähdeliittymät ja inkrementaalinen lataus",
+        "Muunnoskerros dokumentoiduin liiketoimintasäännöin",
+        "Automaattiset datan laadun tarkistukset ja hälytykset",
+        "Kojetaulut ja ajastettu raporttien toimitus"
+      ],
+      "outcomes": ["Yksi yhtenäinen näkymä liiketoimintaan", "Vähemmän manuaalista raportointityötä", "Varhainen varoitus dataongelmista"]
+    },
+    {
+      "id": "iot-monitoring",
+      "title": "IoT-valvonta- ja hälytysjärjestelmä",
+      "category": "IoT ja teollisuusohjelmistot",
+      "service": "iot-industrial",
+      "description": "Reaaliaikainen telemetrian keräys, kojetaulut ja poikkeamahälytykset verkkoon liitetyille laitteille sekä polku kohti ennakoivaa kunnossapitoa.",
+      "tags": ["IoT", "Reaaliaikaisuus", "Poikkeamien tunnistus", "Python / Node.js"],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Verkkoon liitetyt laitteet tuottavat dataa, joka harvoin tavoittaa ihmiset, jotka voisivat toimia sen perusteella. Tämä ratkaisumalli kerää laitteiden telemetrian, tallentaa sen tehokkaasti, visualisoi reaaliaikaisen tilan ja antaa hälytyksiä, kun mittaukset poikkeavat odotetusta käyttäytymisestä.",
+      "challenge": "Laitteiden kunto ei näy ennen kuin jokin menee rikki, ja laitedata on lukittuna valmistajakohtaisiin työkaluihin.",
+      "approach": [
+        "Laite- ja yhdyskäytäväintegraatio standardiprotokollilla",
+        "Aikasarjatallennus ja käsittelyputkisto",
+        "Reaaliaikaiset kojetaulut kohteen, laitteen ja anturin mukaan",
+        "Raja-arvo- ja tilastollinen poikkeamahälytys"
+      ],
+      "outcomes": ["Reaaliaikainen näkyvyys laitteisiin", "Vikojen aikaisempi havaitseminen", "Perusta ennakoivalle kunnossapidolle"]
+    }
+  ]
+}

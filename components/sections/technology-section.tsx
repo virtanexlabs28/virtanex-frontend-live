@@ -3,11 +3,12 @@
 import { useState } from 'react';
 import { Card } from '@/components/ui/card';
 import { Tabs, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { technologies } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
 import { Section, SectionHeader } from './section';
 import { TechIcon } from './tech-icon';
 
 export function TechnologySection() {
+  const { technologies } = useContent();
   const [category, setCategory] = useState('all');
   const items =
     category === 'all' ? technologies.items : technologies.items.filter((t) => t.category === category);

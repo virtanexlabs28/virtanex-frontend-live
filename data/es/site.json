@@ -1,0 +1,218 @@
+{
+  "name": "Virtanex Labs",
+  "tagline": "Ingeniería de soluciones digitales inteligentes.",
+  "motto": "Construimos tecnología. Hacemos posible lo posible.",
+  "description": "Virtanex Labs es una empresa tecnológica remota con sede en Finlandia, especializada en crear software inteligente, soluciones impulsadas por IA y productos digitales escalables.",
+  "founded": "2026",
+  "contact": {
+    "email": "contact@virtanexlabs.com",
+    "website": "https://virtanexlabs.com",
+    "websiteLabel": "virtanexlabs.com",
+    "location": "Finlandia (remoto / colaboración internacional)",
+    "locationShort": "Finlandia / Internacional",
+    "timezone": "UTC+2 (Helsinki)",
+    "responseTime": "en un plazo de 24 horas"
+  },
+  "availability": {
+    "badge": "RESERVAS VERANO '26",
+    "season": "Verano '26",
+    "headline": "Aceptamos ya proyectos selectos para el verano de 2026",
+    "detail": "Asumimos un número limitado de proyectos a la vez para que cada cliente reciba atención sénior. Contacte con antelación para reservar capacidad."
+  },
+  "hero": {
+    "subheadline": "Ingeniería de soluciones digitales inteligentes.",
+    "descriptor": "Creamos software inteligente, soluciones impulsadas por IA y productos digitales escalables para empresas ambiciosas. Tecnología fiable, diseñada con criterio y entregada con determinación.",
+    "cta": "Iniciar un proyecto"
+  },
+  "booking": {
+    "title": "Reserve una llamada técnica de descubrimiento",
+    "subtitle": "Una conversación de 30 minutos con nuestro responsable técnico para comprender sus objetivos y esbozar el camino a seguir.",
+    "agenda": "Descubrimiento técnico y alineación del alcance en 30 minutos",
+    "slots": [
+      "mar 14:00 (hora de Helsinki)",
+      "mié 11:30 (hora de Helsinki)",
+      "mié 16:00 (hora de Helsinki)",
+      "jue 13:00 (hora de Helsinki)",
+      "jue 17:30 (hora de Helsinki)",
+      "vie 15:00 (hora de Helsinki)"
+    ],
+    "extraTopics": [
+      "Asesoramiento técnico y arquitectura",
+      "Aún no lo sé"
+    ]
+  },
+  "inquiry": {
+    "title": "Iniciemos una conversación",
+    "subtitle": "Cuéntenos sobre su organización y sus requisitos técnicos.",
+    "timelines": [
+      "Verano '26 (preferido)",
+      "Otoño / invierno '26",
+      "Inmediato, en un plazo de 30 días",
+      "Exploratorio / estudio de viabilidad"
+    ],
+    "note": "NDA disponible bajo petición. Respondemos en un plazo de 24 horas."
+  },
+  "nav": [
+    {
+      "label": "Servicios",
+      "href": "/services"
+    },
+    {
+      "label": "Proceso",
+      "href": "/process"
+    },
+    {
+      "label": "Proyectos",
+      "href": "/work"
+    },
+    {
+      "label": "Equipo",
+      "href": "/team"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "label": "Contacto",
+      "href": "/contact"
+    }
+  ],
+  "stats": [
+    {
+      "value": "10",
+      "label": "Disciplinas de servicio",
+      "detail": "Del software a medida al IoT industrial"
+    },
+    {
+      "value": "7",
+      "label": "Fases en el ciclo de entrega",
+      "detail": "Del descubrimiento a la mejora continua"
+    },
+    {
+      "value": "40h",
+      "label": "Semana laboral estándar",
+      "detail": "5 días, 8 horas, franjas de coincidencia claras"
+    },
+    {
+      "value": "24h",
+      "label": "Respuesta a cada consulta",
+      "detail": "Revisada por un responsable técnico"
+    }
+  ],
+  "overview": {
+    "kicker": [
+      "Virtanex Labs",
+      "Perfil corporativo",
+      "Finlandia"
+    ],
+    "title": "Ingeniería de soluciones digitales inteligentes.",
+    "paragraphs": [
+      "Virtanex Labs es una empresa tecnológica remota con sede en Finlandia, especializada en crear software inteligente, soluciones impulsadas por IA y productos digitales escalables.",
+      "Ayudamos a empresas, startups y organizaciones consolidadas a convertir ideas complejas en soluciones digitales prácticas mediante ingeniería de software moderna, inteligencia artificial, tecnologías de datos, automatización e infraestructura cloud."
+    ],
+    "facts": [
+      {
+        "label": "Sede",
+        "value": "Finlandia (UTC+2)"
+      },
+      {
+        "label": "Modelo",
+        "value": "Remote-first"
+      },
+      {
+        "label": "Fundación",
+        "value": "2026"
+      },
+      {
+        "label": "Sector",
+        "value": "TI y desarrollo de software"
+      }
+    ]
+  },
+  "missionVision": [
+    {
+      "kicker": "Nuestra misión",
+      "title": "Inteligencia práctica, valor accesible",
+      "body": "Impulsar a las empresas mediante tecnología inteligente, ingeniería de software innovadora y soluciones digitales fiables que conviertan la fricción operativa en experiencias digitales fluidas."
+    },
+    {
+      "kicker": "Nuestra visión",
+      "title": "Excelencia en ingeniería e impacto duradero",
+      "body": "Convertirnos en un socio tecnológico internacional de confianza, reconocido por su excelencia en ingeniería, sus soluciones inteligentes y una innovación digital significativa que perdure."
+    }
+  ],
+  "commitment": {
+    "kicker": "Nuestro compromiso",
+    "quote": "Cada empresa tiene desafíos y objetivos únicos. Abordamos cada proyecto con curiosidad, responsabilidad y disciplina técnica.",
+    "body": "Construimos soluciones que no solo son funcionales, sino también fiables, mantenibles y alineadas con las necesidades reales del negocio. La innovación con sentido surge de combinar a las personas adecuadas, la tecnología adecuada y una comprensión clara del problema."
+  },
+  "pages": {
+    "services": {
+      "href": "/services",
+      "kicker": "Qué hacemos",
+      "title": "Servicios diseñados en torno a su negocio.",
+      "description": "Diez disciplinas de ingeniería, un único equipo responsable. Del software a medida y la IA a la infraestructura cloud y el IoT industrial.",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Desarrollador trabajando con código en un portátil",
+      "blurb": "Diez disciplinas, del software a medida al IoT industrial.",
+      "metaTitle": "Servicios",
+      "metaDescription": "Software a medida, IA, ingeniería de datos, integración, automatización, cloud, producto, diseño, QA e IoT, entregados por un único equipo responsable."
+    },
+    "process": {
+      "href": "/process",
+      "kicker": "Cómo trabajamos",
+      "title": "Un proceso que usted puede ver y en el que puede confiar.",
+      "description": "Un ciclo de vida transparente de siete fases, modelos de colaboración flexibles y prácticas de seguridad integradas desde el primer día.",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Notas de planificación dispuestas en una pared",
+      "blurb": "Siete fases, cuatro modelos de colaboración, seguridad integrada.",
+      "metaTitle": "Proceso",
+      "metaDescription": "Nuestro ciclo de vida de ingeniería de siete fases, modelos de colaboración flexibles y prácticas de seguridad y trabajo remoto."
+    },
+    "work": {
+      "href": "/work",
+      "kicker": "Trabajo destacado",
+      "title": "Los sistemas que construimos y para quién los construimos.",
+      "description": "Planos de solución, los sectores a los que servimos y las áreas de investigación en las que seguimos invirtiendo.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Panel de analítica en la pantalla de un portátil",
+      "blurb": "Planos de solución, sectores y líneas de investigación.",
+      "metaTitle": "Proyectos",
+      "metaDescription": "Planos de solución, los sectores a los que servimos y las áreas técnicas en las que invertimos."
+    },
+    "team": {
+      "href": "/team",
+      "kicker": "La empresa",
+      "title": "Personas, principios y alianzas.",
+      "description": "Quiénes somos, qué valoramos y cómo colaboramos con clientes, agencias y empresas de producto.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Equipo colaborando alrededor de una mesa",
+      "blurb": "Nuestro equipo, nuestros valores y oportunidades de alianza.",
+      "metaTitle": "Equipo",
+      "metaDescription": "El equipo de Virtanex Labs, nuestros valores esenciales y oportunidades de alianza."
+    },
+    "faq": {
+      "href": "/faq",
+      "kicker": "Preguntas",
+      "title": "Respuestas antes de que pregunte.",
+      "description": "Cómo comienzan los proyectos, cómo fijamos los precios, a quién pertenece el código y cómo trabajamos con distintos husos horarios.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Cuaderno y bolígrafo sobre un escritorio",
+      "blurb": "Respuestas directas sobre nuestra forma de trabajar.",
+      "metaTitle": "FAQ",
+      "metaDescription": "Respuestas sobre cómo comienzan los proyectos, precios, propiedad del código, husos horarios, seguridad y soporte."
+    },
+    "contact": {
+      "href": "/contact",
+      "kicker": "Póngase en contacto",
+      "title": "Hablemos de lo que está construyendo.",
+      "description": "Reserve una llamada de descubrimiento o envíenos un resumen del proyecto. Respondemos en un plazo de 24 horas.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Espacio de oficina moderno y luminoso",
+      "blurb": "Reserve una llamada o envíe un resumen del proyecto.",
+      "metaTitle": "Contacto",
+      "metaDescription": "Reserve una llamada de descubrimiento o envíe un resumen del proyecto a Virtanex Labs. Respondemos en un plazo de 24 horas."
+    }
+  }
+}

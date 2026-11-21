@@ -1,0 +1,29 @@
+{
+  "intro": {
+    "kicker": "Recherche et innovation",
+    "title": "Là où nous portons notre regard",
+    "description": "Les domaines techniques dans lesquels nous investissons et que nous continuons d'étudier, afin que les projets de nos clients profitent d'une réflexion actuelle et concrète."
+  },
+  "items": [
+    {
+      "icon": "Bot",
+      "title": "Agents LLM fiables",
+      "desc": "Conception de workflows d'IA en plusieurs étapes, dotés d'évaluation, de garde-fous et de relecture humaine, pour qu'ils se comportent de manière prévisible en contexte professionnel."
+    },
+    {
+      "icon": "SearchCheck",
+      "title": "Qualité de la recherche d'information",
+      "desc": "Amélioration des systèmes RAG grâce à un meilleur découpage des documents, à la recherche hybride et à une évaluation mesurable, plutôt qu'à l'intuition."
+    },
+    {
+      "icon": "Activity",
+      "title": "Télémétrie en temps réel",
+      "desc": "Pipelines à faible latence pour les données de capteurs et d'événements, de l'ingestion en périphérie jusqu'aux tableaux de bord et aux alertes."
+    },
+    {
+      "icon": "Boxes",
+      "title": "Architecture pragmatique",
+      "desc": "Choisir l'architecture la plus simple qui passe à l'échelle : des monolithes modulaires d'abord, des microservices là où ils justifient vraiment leur coût."
+    }
+  ]
+}

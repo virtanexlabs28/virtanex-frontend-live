@@ -1,0 +1,161 @@
+{
+  "language": {
+    "label": "Language",
+    "switch": "Change language"
+  },
+  "theme": {
+    "toggle": "Switch between light and dark mode",
+    "toDark": "Dark mode",
+    "toLight": "Light mode"
+  },
+  "nav": {
+    "aria": "Main navigation",
+    "home": "{name} home",
+    "bookCall": "Book a call",
+    "openMenu": "Open navigation menu",
+    "menuDescription": "Site navigation",
+    "mobileFooter": "FINLAND · REMOTE · EST. {founded}"
+  },
+  "hero": {
+    "imageAlt": "Misty valley with pine trees at dusk, the sky glowing amber",
+    "aria": "{name} hero"
+  },
+  "common": {
+    "startProject": "Start a project",
+    "bestFor": "Best for:",
+    "askDirectly": "Ask us directly"
+  },
+  "footer": {
+    "aria": "{name} footer",
+    "kicker": "{name} · Finland",
+    "pitch": "Transforming complex business challenges into practical, maintainable digital products.",
+    "base": "Base: Finland ({timezone})",
+    "remote": "Remote-first, international collaboration",
+    "field": "IT & software development",
+    "servicesHeading": "Services",
+    "companyHeading": "Company",
+    "contactHeading": "Contact",
+    "generalInquiries": "General inquiries",
+    "website": "Website",
+    "location": "Location",
+    "openings": "Select openings for advisory and full-cycle engineering.",
+    "rights": "All rights reserved.",
+    "backToTop": "Back to top",
+    "scrollToTop": "Scroll back to top",
+    "links": [
+      {
+        "label": "Home",
+        "href": "/"
+      },
+      {
+        "label": "Services",
+        "href": "/services"
+      },
+      {
+        "label": "Technology Stack",
+        "href": "/services#technology"
+      },
+      {
+        "label": "Engineering Process",
+        "href": "/process"
+      },
+      {
+        "label": "Engagement Models",
+        "href": "/process#engagement"
+      },
+      {
+        "label": "Security & Remote Model",
+        "href": "/process#security"
+      },
+      {
+        "label": "Solution Blueprints",
+        "href": "/work"
+      },
+      {
+        "label": "Industries",
+        "href": "/work#industries"
+      },
+      {
+        "label": "Team & Values",
+        "href": "/team"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Contact",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "aria": "Contact and inquiries",
+    "kicker": "Inquiries & Booking",
+    "title": "Let's build work that lasts.",
+    "intro": "We welcome new client partnerships, dedicated engineering collaborations, and exploratory technical consultations.",
+    "availabilityLabel": "Current availability",
+    "name": "Your name",
+    "namePlaceholder": "Full name",
+    "email": "Email address",
+    "emailPlaceholder": "name@company.com",
+    "company": "Company (optional)",
+    "companyPlaceholder": "Organization name",
+    "service": "Service required",
+    "timeline": "Target timeline",
+    "message": "Project overview",
+    "messagePlaceholder": "Tell us about the challenge you are addressing and the solution you envision...",
+    "submit": "Send project inquiry",
+    "sending": "Sending…",
+    "successTitle": "Message sent",
+    "successBody": "Thanks, {name}. Your inquiry is with our team and we will reply to {email} {responseTime}.",
+    "another": "Start another inquiry"
+  },
+  "booking": {
+    "kicker": "{name} · Finland",
+    "topic": "Topic of interest",
+    "window": "Preferred meeting window",
+    "name": "Your name",
+    "namePlaceholder": "Full name",
+    "email": "Work email",
+    "emailPlaceholder": "name@company.com",
+    "notes": "Project notes (optional)",
+    "notesPlaceholder": "Brief objective or questions",
+    "submit": "Request this call",
+    "sending": "Sending…",
+    "doneKicker": "Almost done",
+    "doneTitle": "Request received",
+    "doneBody": "We have your details and preferred window ({slot}). We will confirm a time by email {responseTime}.",
+    "done": "Done"
+  },
+  "errors": {
+    "invalid": "Please provide your name and a valid email address.",
+    "rate": "Too many requests. Please try again in a few minutes.",
+    "send": "We could not send your message. Please email {email} directly.",
+    "network": "Network error. Please check your connection and try again.",
+    "generic": "Something went wrong. Please try again."
+  },
+  "services": {
+    "choose": "Choose a service",
+    "serviceLabel": "Service {number}",
+    "whatWeDo": "What we do",
+    "whatYouReceive": "What you receive",
+    "typicalStack": "Typical stack",
+    "idealFor": "Ideal for",
+    "engagement": "Engagement",
+    "wantThis": "Want this capability on your project?",
+    "discuss": "Discuss this service"
+  },
+  "process": {
+    "inFocus": "{phase} in focus",
+    "activities": "Key activities",
+    "outputs": "What you get"
+  },
+  "work": {
+    "viewBlueprint": "View blueprint: {title}",
+    "challenge": "The challenge",
+    "approach": "Our approach",
+    "outcomes": "Intended outcomes",
+    "similar": "Need something similar?"
+  }
+}

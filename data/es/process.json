@@ -1,0 +1,65 @@
+{
+  "intro": {
+    "kicker": "Metodología",
+    "title": "Nuestro ciclo de vida de ingeniería en 7 fases",
+    "description": "Un proceso estructurado y transparente que mantiene la entrega predecible y la calidad alta, desde la primera conversación hasta la mejora a largo plazo."
+  },
+  "phases": [
+    {
+      "phase": "Fase 01",
+      "title": "Descubrimiento y requisitos",
+      "duration": "Normalmente de 1 a 2 semanas",
+      "detail": "Analizamos sus objetivos de negocio, desafíos operativos, expectativas del proyecto y panorama técnico para sentar unas bases sólidas.",
+      "activities": ["Entrevistas con las partes interesadas", "Recopilación de requisitos", "Revisión de los sistemas existentes", "Mapa de riesgos y restricciones"],
+      "outputs": ["Resumen de requisitos", "Criterios de éxito", "Alcance y riesgos iniciales"]
+    },
+    {
+      "phase": "Fase 02",
+      "title": "Planificación y arquitectura",
+      "duration": "Normalmente de 1 a 2 semanas",
+      "detail": "Definimos el alcance del proyecto, la arquitectura técnica, los hitos de desarrollo, el stack tecnológico y la estrategia de entrega.",
+      "activities": ["Arquitectura de la solución", "Selección de tecnologías", "Planificación de hitos y lanzamientos", "Estimación y dotación de equipo"],
+      "outputs": ["Documento de arquitectura", "Hoja de ruta de entrega", "Alcance e hitos acordados"]
+    },
+    {
+      "phase": "Fase 03",
+      "title": "Diseño y prototipado",
+      "duration": "En paralelo a la planificación y al inicio del desarrollo",
+      "detail": "Diseñamos interfaces de usuario, sistemas de diseño, especificaciones técnicas y prototipos interactivos para una validación temprana.",
+      "activities": ["Mapa de recorridos de usuario", "Wireframes y diseño visual", "Definición del sistema de diseño", "Prototipos interactivos"],
+      "outputs": ["Diseños de interfaz", "Sistema de diseño", "Prototipo validado"]
+    },
+    {
+      "phase": "Fase 04",
+      "title": "Ingeniería y desarrollo",
+      "duration": "Sprints iterativos con demostraciones periódicas",
+      "detail": "Nuestro equipo de ingeniería distribuido construye la solución con frameworks modernos, buenas prácticas de código limpio y patrones modulares.",
+      "activities": ["Implementación por sprints", "Revisión de código en cada cambio", "Integración continua", "Demostraciones y feedback periódicos"],
+      "outputs": ["Incrementos funcionales", "Código fuente revisado y probado", "Informes de avance"]
+    },
+    {
+      "phase": "Fase 05",
+      "title": "Pruebas y garantía de calidad",
+      "duration": "Continuo, con una revisión específica previa al lanzamiento",
+      "detail": "Pruebas automatizadas y manuales rigurosas validan la funcionalidad, el rendimiento, la seguridad y la fiabilidad en casos límite.",
+      "activities": ["Pruebas unitarias y de integración automatizadas", "Pruebas de extremo a extremo y de regresión", "Comprobaciones de rendimiento", "Revisión de seguridad"],
+      "outputs": ["Informes de pruebas", "Lista de defectos resueltos", "Aprobación de preparación para el lanzamiento"]
+    },
+    {
+      "phase": "Fase 06",
+      "title": "Despliegue y entrega",
+      "duration": "Normalmente unos días, planificados con antelación",
+      "detail": "Configuramos la infraestructura de producción, los despliegues en contenedores y los pipelines de monitorización, y completamos el traspaso acordado.",
+      "activities": ["Configuración del entorno de producción", "Despliegue automatizado", "Monitorización y alertas", "Transferencia de conocimiento"],
+      "outputs": ["Sistema en producción operativo", "Documentación de operaciones", "Sesión de traspaso"]
+    },
+    {
+      "phase": "Fase 07",
+      "title": "Mantenimiento y mejora",
+      "duration": "Continuo, según lo acordado",
+      "detail": "Ofrecemos mejoras continuas, soporte técnico, parches de seguridad y optimizaciones de escalado a medida que evolucionan sus necesidades.",
+      "activities": ["Corrección de errores y soporte", "Actualizaciones de dependencias y de seguridad", "Optimización del rendimiento", "Entrega de funcionalidades de la hoja de ruta"],
+      "outputs": ["Versiones de mantenimiento periódicas", "Informes de estado y de uso", "Hoja de ruta actualizada"]
+    }
+  ]
+}

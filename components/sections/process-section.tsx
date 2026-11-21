@@ -4,10 +4,12 @@ import { useState } from 'react';
 import { CheckCircle2, Clock, FileCheck2 } from 'lucide-react';
 import { Card } from '@/components/ui/card';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
-import { processContent as process } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
+import { fmt } from '@/lib/format';
 import { Section, SectionHeader } from './section';
 
 export function ProcessSection() {
+  const { processContent: process, ui } = useContent();
   const [active, setActive] = useState(process.phases[0].phase);
 
   return (
@@ -32,7 +34,7 @@ export function ProcessSection() {
           <TabsContent key={p.phase} value={p.phase} className="animate-fade-in">
             <Card className="gap-0 rounded-2xl border-border bg-card p-6 sm:p-9">
               <div className="flex flex-wrap items-center justify-between gap-3">
-                <span className="font-mono text-xs uppercase text-accent">{p.phase} in focus</span>
+                <span className="font-mono text-xs uppercase text-accent">{fmt(ui.process.inFocus, { phase: p.phase })}</span>
                 <span className="inline-flex items-center gap-1.5 text-xs text-muted-foreground">
                   <Clock className="size-3.5" aria-hidden="true" />
                   {p.duration}
@@ -43,7 +45,7 @@ export function ProcessSection() {
 
               <div className="mt-8 grid gap-8 md:grid-cols-2">
                 <div>
-                  <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">Key activities</h4>
+                  <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">{ui.process.activities}</h4>
                   <ul className="space-y-2.5">
                     {p.activities.map((a) => (
                       <li key={a} className="flex items-start gap-2.5 text-sm text-foreground/75">
@@ -54,7 +56,7 @@ export function ProcessSection() {
                   </ul>
                 </div>
                 <div>
-                  <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">What you get</h4>
+                  <h4 className="mb-4 text-xs uppercase tracking-[0.2em] text-foreground/40">{ui.process.outputs}</h4>
                   <ul className="space-y-2.5">
                     {p.outputs.map((o) => (
                       <li key={o} className="flex items-start gap-2.5 text-sm text-foreground/75">

@@ -3,11 +3,12 @@
 import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useBooking } from '@/components/BookingProvider';
-import { site } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
 import { Section } from './section';
 
 export function CommitmentSection() {
   const { openBooking } = useBooking();
+  const { site, ui } = useContent();
   const { commitment, motto } = site;
   return (
     <Section id="commitment">
@@ -23,7 +24,7 @@ export function CommitmentSection() {
               {site.name} · <span className="italic text-accent">{motto}</span>
             </p>
             <Button onClick={openBooking} className="rounded-full px-6 hover:bg-accent hover:text-accent-foreground">
-              Start a project
+              {ui.common.startProject}
               <ArrowRight className="size-4" aria-hidden="true" />
             </Button>
           </div>

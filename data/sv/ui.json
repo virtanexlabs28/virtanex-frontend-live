@@ -1,0 +1,161 @@
+{
+  "language": {
+    "label": "Språk",
+    "switch": "Byt språk"
+  },
+  "theme": {
+    "toggle": "Växla mellan ljust och mörkt läge",
+    "toDark": "Mörkt läge",
+    "toLight": "Ljust läge"
+  },
+  "nav": {
+    "aria": "Huvudnavigering",
+    "home": "{name} startsida",
+    "bookCall": "Boka ett samtal",
+    "openMenu": "Öppna navigeringsmenyn",
+    "menuDescription": "Webbplatsnavigering",
+    "mobileFooter": "FINLAND · DISTANS · GRUNDAT {founded}"
+  },
+  "hero": {
+    "imageAlt": "Dimmig dal med tallar i skymningen, himlen glöder i bärnsten",
+    "aria": "{name} huvudsektion"
+  },
+  "common": {
+    "startProject": "Starta ett projekt",
+    "bestFor": "Passar bäst för:",
+    "askDirectly": "Fråga oss direkt"
+  },
+  "footer": {
+    "aria": "{name} sidfot",
+    "kicker": "{name} · Finland",
+    "pitch": "Vi förvandlar komplexa affärsutmaningar till praktiska, underhållbara digitala produkter.",
+    "base": "Bas: Finland ({timezone})",
+    "remote": "Distans i första hand, internationellt samarbete",
+    "field": "IT och mjukvaruutveckling",
+    "servicesHeading": "Tjänster",
+    "companyHeading": "Företaget",
+    "contactHeading": "Kontakt",
+    "generalInquiries": "Allmänna förfrågningar",
+    "website": "Webbplats",
+    "location": "Plats",
+    "openings": "Utvalda lediga platser för rådgivning och utveckling i hela livscykeln.",
+    "rights": "Alla rättigheter förbehållna.",
+    "backToTop": "Till toppen",
+    "scrollToTop": "Scrolla tillbaka till toppen",
+    "links": [
+      {
+        "label": "Startsida",
+        "href": "/"
+      },
+      {
+        "label": "Tjänster",
+        "href": "/services"
+      },
+      {
+        "label": "Teknikstack",
+        "href": "/services#technology"
+      },
+      {
+        "label": "Utvecklingsprocess",
+        "href": "/process"
+      },
+      {
+        "label": "Samarbetsmodeller",
+        "href": "/process#engagement"
+      },
+      {
+        "label": "Säkerhet och arbetssätt",
+        "href": "/process#security"
+      },
+      {
+        "label": "Lösningsritningar",
+        "href": "/work"
+      },
+      {
+        "label": "Branscher",
+        "href": "/work#industries"
+      },
+      {
+        "label": "Team och värderingar",
+        "href": "/team"
+      },
+      {
+        "label": "FAQ",
+        "href": "/faq"
+      },
+      {
+        "label": "Kontakt",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "aria": "Kontakt och förfrågningar",
+    "kicker": "Förfrågningar och bokning",
+    "title": "Låt oss bygga något som håller.",
+    "intro": "Vi välkomnar nya kundpartnerskap, dedikerade utvecklingssamarbeten och utforskande tekniska samtal.",
+    "availabilityLabel": "Aktuell tillgänglighet",
+    "name": "Ert namn",
+    "namePlaceholder": "Fullständigt namn",
+    "email": "E-postadress",
+    "emailPlaceholder": "namn@foretag.com",
+    "company": "Företag (valfritt)",
+    "companyPlaceholder": "Organisationens namn",
+    "service": "Önskad tjänst",
+    "timeline": "Önskad tidplan",
+    "message": "Projektbeskrivning",
+    "messagePlaceholder": "Berätta om utmaningen ni vill lösa och den lösning ni föreställer er...",
+    "submit": "Skicka projektförfrågan",
+    "sending": "Skickar…",
+    "successTitle": "Meddelandet har skickats",
+    "successBody": "Tack, {name}. Er förfrågan är nu hos vårt team och vi svarar till {email} {responseTime}.",
+    "another": "Starta en ny förfrågan"
+  },
+  "booking": {
+    "kicker": "{name} · Finland",
+    "topic": "Önskat ämne",
+    "window": "Önskad mötestid",
+    "name": "Ert namn",
+    "namePlaceholder": "Fullständigt namn",
+    "email": "E-postadress (arbete)",
+    "emailPlaceholder": "namn@foretag.com",
+    "notes": "Projektanteckningar (valfritt)",
+    "notesPlaceholder": "Kort mål eller frågor",
+    "submit": "Begär detta samtal",
+    "sending": "Skickar…",
+    "doneKicker": "Nästan klart",
+    "doneTitle": "Begäran mottagen",
+    "doneBody": "Vi har era uppgifter och önskad mötestid ({slot}). Vi bekräftar en tid via e-post {responseTime}.",
+    "done": "Klart"
+  },
+  "errors": {
+    "invalid": "Ange ert namn och en giltig e-postadress.",
+    "rate": "För många förfrågningar. Försök igen om några minuter.",
+    "send": "Vi kunde inte skicka ert meddelande. Skriv gärna direkt till {email}.",
+    "network": "Nätverksfel. Kontrollera er anslutning och försök igen.",
+    "generic": "Något gick fel. Försök igen."
+  },
+  "services": {
+    "choose": "Välj en tjänst",
+    "serviceLabel": "Tjänst {number}",
+    "whatWeDo": "Vad vi gör",
+    "whatYouReceive": "Vad ni får",
+    "typicalStack": "Typisk teknikstack",
+    "idealFor": "Passar utmärkt för",
+    "engagement": "Samarbetsform",
+    "wantThis": "Vill ni ha den här kompetensen i ert projekt?",
+    "discuss": "Diskutera den här tjänsten"
+  },
+  "process": {
+    "inFocus": "{phase} i fokus",
+    "activities": "Viktiga aktiviteter",
+    "outputs": "Vad ni får"
+  },
+  "work": {
+    "viewBlueprint": "Visa lösningsritning: {title}",
+    "challenge": "Utmaningen",
+    "approach": "Vårt arbetssätt",
+    "outcomes": "Avsedda resultat",
+    "similar": "Behöver ni något liknande?"
+  }
+}

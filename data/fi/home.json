@@ -1,0 +1,49 @@
+{
+  "marquee": {
+    "kicker": "Työkalupakkimme",
+    "title": "Rakennettu luotettavilla työkaluilla"
+  },
+  "services": {
+    "kicker": "Mitä teemme",
+    "title": "Kymmenen osaamisaluetta, yksi vastuullinen tiimi.",
+    "description": "Kaikki ensimmäisestä prototyypistä tuotantoinfrastruktuuriin sekä tuki, joka pitää kaiken käynnissä.",
+    "cta": "Tutustu kaikkiin palveluihin"
+  },
+  "process": {
+    "kicker": "Miten työskentelemme",
+    "title": "Ensimmäisestä puhelusta tuotantoon seitsemässä vaiheessa.",
+    "description": "Läpinäkyvä elinkaari, jossa jokaisella vaiheella on selkeät tuotokset, joten tiedät aina, mitä on meneillään ja mitä seuraavaksi tapahtuu.",
+    "cta": "Katso koko prosessi"
+  },
+  "work": {
+    "kicker": "Ratkaisumallit",
+    "title": "Mitä voimme rakentaa sinulle.",
+    "description": "Edustavia ratkaisusuunnitelmia, jotka näyttävät, miten lähestymme arkkitehtuuria, toteutusta ja tuloksia.",
+    "cta": "Katso kaikki ratkaisumallit"
+  },
+  "industries": {
+    "kicker": "Toimialat",
+    "title": "Ohjelmistotuotantoa, joka toimii toimialasta riippumatta.",
+    "description": "Hyvän ohjelmistotuotannon periaatteet pätevät kaikkialla. Nämä ovat toimialat, joilla sovellamme niitä useimmin.",
+    "cta": "Katso, miten työskentelemme kullakin toimialalla"
+  },
+  "why": {
+    "kicker": "Miksi Virtanex Labs",
+    "title": "Teknologiakumppani, ei pelkkä toimittaja.",
+    "description": "Yhdistämme kokeneen ohjelmistotuotannon, nykyaikaiset työkalut ja rehellisen viestinnän, ja pysymme mukana pitkällä aikavälillä.",
+    "cta": "Tutustu tiimiin"
+  },
+  "faq": {
+    "kicker": "Nopeat vastaukset",
+    "title": "Kysymykset, joita kuulemme useimmin.",
+    "cta": "Lue kaikki kysymykset"
+  },
+  "cta": {
+    "kicker": "Puhutaan",
+    "title": "Onko mielessäsi projekti?",
+    "description": "Kerro meille, mitä olet rakentamassa. Vastaamme 24 tunnin kuluessa rehellisellä palautteella ja selkeällä seuraavalla askeleella.",
+    "primary": "Varaa kartoituspuhelu",
+    "secondary": "Lähetä projektikuvaus",
+    "assurances": ["Salassapitosopimus (NDA) pyynnöstä", "Vastaus 24 tunnin kuluessa", "Kokeneet asiantuntijat mukana alusta asti"]
+  }
+}

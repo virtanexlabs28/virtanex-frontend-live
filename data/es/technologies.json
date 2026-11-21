@@ -1,0 +1,175 @@
+{
+  "intro": {
+    "kicker": "Herramientas modernas",
+    "title": "Tecnología y stack técnico",
+    "description": "Herramientas probadas y con buen soporte, elegidas por su mantenibilidad. Adaptamos el stack al problema y no al revés."
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "Todas"
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend"
+    },
+    {
+      "id": "backend",
+      "label": "Backend"
+    },
+    {
+      "id": "database",
+      "label": "Bases de datos"
+    },
+    {
+      "id": "ai-data",
+      "label": "IA y datos"
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud"
+    },
+    {
+      "id": "automation",
+      "label": "Automatización"
+    },
+    {
+      "id": "design",
+      "label": "Diseño"
+    }
+  ],
+  "items": [
+    {
+      "category": "frontend",
+      "name": "Next.js",
+      "type": "Framework React full-stack",
+      "icon": "brand:siNextdotjs"
+    },
+    {
+      "category": "frontend",
+      "name": "React",
+      "type": "Biblioteca de UI",
+      "icon": "brand:siReact"
+    },
+    {
+      "category": "frontend",
+      "name": "TypeScript",
+      "type": "JavaScript con tipado seguro",
+      "icon": "brand:siTypescript"
+    },
+    {
+      "category": "frontend",
+      "name": "Tailwind CSS",
+      "type": "Estilos basados en utilidades",
+      "icon": "brand:siTailwindcss"
+    },
+    {
+      "category": "backend",
+      "name": "Node.js",
+      "type": "Entorno de ejecución de servidor",
+      "icon": "brand:siNodedotjs"
+    },
+    {
+      "category": "backend",
+      "name": "NestJS",
+      "type": "Framework backend empresarial",
+      "icon": "brand:siNestjs"
+    },
+    {
+      "category": "backend",
+      "name": "Express.js",
+      "type": "Enrutamiento REST",
+      "icon": "brand:siExpress"
+    },
+    {
+      "category": "backend",
+      "name": "Python",
+      "type": "Servicios, datos y ML",
+      "icon": "brand:siPython"
+    },
+    {
+      "category": "database",
+      "name": "PostgreSQL",
+      "type": "Base de datos relacional",
+      "icon": "brand:siPostgresql"
+    },
+    {
+      "category": "database",
+      "name": "MySQL",
+      "type": "Base de datos relacional",
+      "icon": "brand:siMysql"
+    },
+    {
+      "category": "database",
+      "name": "MongoDB",
+      "type": "Base de datos documental",
+      "icon": "brand:siMongodb"
+    },
+    {
+      "category": "database",
+      "name": "Redis",
+      "type": "Caché y colas",
+      "icon": "brand:siRedis"
+    },
+    {
+      "category": "ai-data",
+      "name": "LLM APIs",
+      "type": "Integración de modelos de lenguaje",
+      "icon": "lucide:Sparkles"
+    },
+    {
+      "category": "ai-data",
+      "name": "RAG pipelines",
+      "type": "Respuestas de IA fundamentadas",
+      "icon": "lucide:SearchCheck"
+    },
+    {
+      "category": "ai-data",
+      "name": "Vector databases",
+      "type": "Búsqueda semántica",
+      "icon": "lucide:Database"
+    },
+    {
+      "category": "ai-data",
+      "name": "Machine Learning",
+      "type": "Modelos predictivos",
+      "icon": "lucide:Brain"
+    },
+    {
+      "category": "cloud",
+      "name": "Docker & Compose",
+      "type": "Contenedorización",
+      "icon": "brand:siDocker"
+    },
+    {
+      "category": "cloud",
+      "name": "CI/CD pipelines",
+      "type": "Entrega automatizada",
+      "icon": "brand:siGithubactions"
+    },
+    {
+      "category": "cloud",
+      "name": "Linux / VPS",
+      "type": "Infraestructura de servidores",
+      "icon": "brand:siLinux"
+    },
+    {
+      "category": "automation",
+      "name": "n8n",
+      "type": "Orquestación de flujos de trabajo",
+      "icon": "brand:siN8n"
+    },
+    {
+      "category": "automation",
+      "name": "Webhooks & APIs",
+      "type": "Integración de sistemas",
+      "icon": "lucide:Webhook"
+    },
+    {
+      "category": "design",
+      "name": "Figma",
+      "type": "Diseño y prototipado",
+      "icon": "brand:siFigma"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "kicker": "Fragen",
+    "title": "Häufig gestellte Fragen",
+    "description": "Klare Antworten dazu, wie wir arbeiten. Falls Ihre Frage fehlt, fragen Sie uns direkt."
+  },
+  "items": [
+    {
+      "q": "Welche Art von Projekten übernehmen Sie?",
+      "a": "Individualsoftware und Webanwendungen, SaaS-Produkte, KI- und LLM-Integrationen, Datenpipelines, Systemintegrationen, Prozessautomatisierung, Cloud- und DevOps-Arbeiten, UI/UX-Design, QA sowie IoT- oder Industriesoftware. Wenn Sie unsicher sind, ob etwas passt, klärt das ein kurzes Discovery-Gespräch für uns beide."
+    },
+    {
+      "q": "Wie beginnt ein Projekt?",
+      "a": "Mit einem Discovery-Gespräch. Wir lernen Ihre Ziele, Rahmenbedingungen und bestehenden Systeme kennen und senden Ihnen anschließend einen Vorschlag zu Umfang, Vorgehen und Zeitplan. Entwickelt wird erst, wenn Umfang und Meilensteine vereinbart sind."
+    },
+    {
+      "q": "Wie gestalten Sie die Preise?",
+      "a": "Das hängt vom Zusammenarbeitsmodell ab. Definierte Projekte werden anhand vereinbarter Meilensteine kalkuliert, während dedizierte Teams und langfristige Partnerschaften in der Regel auf Basis von Zeit und Kapazität vereinbart werden. Vor Beginn der Arbeiten erhalten Sie von uns eine transparente Aufwandsschätzung."
+    },
+    {
+      "q": "Wem gehören Code und Daten?",
+      "a": "Ihnen. Quellcode, Designs und Daten, die für Ihr Projekt entstehen, gehören Ihnen. Wir übergeben alles mit Dokumentation, damit Sie sich nie in eine Abhängigkeit begeben."
+    },
+    {
+      "q": "Wie arbeiten Sie über Zeitzonen hinweg?",
+      "a": "Wir arbeiten Remote-first von Finnland (UTC+2) aus mit einer 40-Stunden-Standardwoche. Mit jedem Kunden vereinbaren wir Überschneidungszeiten, liefern schriftliche Updates und zeigen den Fortschritt regelmäßig in Demos, damit Sie jederzeit wissen, wo das Projekt steht."
+    },
+    {
+      "q": "Wie gehen Sie mit Sicherheit und Vertraulichkeit um?",
+      "a": "Wir setzen auf rollenbasierte Zugriffe, verschlüsselte Kommunikation und sauberes Secrets-Management und unterzeichnen gern ein NDA, bevor wir Ihr Projekt besprechen. Sicherheit wird von Beginn an in Architektur und Tests berücksichtigt."
+    },
+    {
+      "q": "Bieten Sie Support nach dem Go-live an?",
+      "a": "Ja. Wartung und Weiterentwicklung ist die siebte Phase unseres Lebenszyklus: Fehlerbehebung, Sicherheitsupdates, Performance-Optimierung und fortlaufende Funktionsentwicklung im Rahmen einer Support- oder Partnerschaftsvereinbarung."
+    },
+    {
+      "q": "Können Sie mit unserem bestehenden Team oder unserer Codebasis arbeiten?",
+      "a": "Selbstverständlich. Unser Modell der dedizierten Teams ist darauf ausgelegt, sich in Ihre Entwickler, Tools und Rituale einzufügen. Außerdem übernehmen wir Modernisierungsarbeiten an bestehenden Anwendungen."
+    }
+  ]
+}

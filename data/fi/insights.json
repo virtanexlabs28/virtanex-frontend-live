@@ -1,0 +1,29 @@
+{
+  "intro": {
+    "kicker": "Tutkimus ja innovaatio",
+    "title": "Mihin katsomme",
+    "description": "Tekniset osaamisalueet, joihin panostamme ja joista opimme jatkuvasti, jotta asiakastyö hyötyy ajantasaisesta ja käytännönläheisestä ajattelusta."
+  },
+  "items": [
+    {
+      "icon": "Bot",
+      "title": "Luotettavat LLM-agentit",
+      "desc": "Suunnittelemme monivaiheisia tekoälytyönkulkuja, joissa on arviointi, suojakaiteet ja ihmisen tekemä tarkistus, jotta ne toimivat ennustettavasti liiketoimintaympäristöissä."
+    },
+    {
+      "icon": "SearchCheck",
+      "title": "Haun laatu",
+      "desc": "Parannamme RAG-järjestelmiä paremmalla tekstin pilkonnalla, hybridihaulla ja mitattavalla arvioinnilla arvailun sijaan."
+    },
+    {
+      "icon": "Activity",
+      "title": "Reaaliaikainen telemetria",
+      "desc": "Matalan viiveen putkistot anturi- ja tapahtumadatalle, reunalta tapahtuvasta keräyksestä kojetauluihin ja hälytyksiin."
+    },
+    {
+      "icon": "Boxes",
+      "title": "Käytännönläheinen arkkitehtuuri",
+      "desc": "Valitsemme yksinkertaisimman arkkitehtuurin, joka skaalautuu: ensin modulaariset monoliitit, mikropalvelut vasta siellä, missä ne todella ansaitsevat hintansa."
+    }
+  ]
+}

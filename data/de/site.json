@@ -1,0 +1,218 @@
+{
+  "name": "Virtanex Labs",
+  "tagline": "Intelligente digitale Lösungen, professionell entwickelt.",
+  "motto": "Technologie entwickeln. Möglichkeiten schaffen.",
+  "description": "Virtanex Labs ist ein in Finnland ansässiges, remote arbeitendes Technologieunternehmen mit Fokus auf intelligente Software, KI-gestützte Lösungen und skalierbare digitale Produkte.",
+  "founded": "2026",
+  "contact": {
+    "email": "contact@virtanexlabs.com",
+    "website": "https://virtanexlabs.com",
+    "websiteLabel": "virtanexlabs.com",
+    "location": "Finnland (Remote / internationale Zusammenarbeit)",
+    "locationShort": "Finnland / International",
+    "timezone": "UTC+2 (Helsinki)",
+    "responseTime": "innerhalb von 24 Stunden"
+  },
+  "availability": {
+    "badge": "BUCHUNGEN SOMMER '26",
+    "season": "Sommer '26",
+    "headline": "Wir nehmen ab sofort ausgewählte Projekte für den Sommer '26 an",
+    "detail": "Wir übernehmen bewusst nur eine begrenzte Anzahl von Projekten gleichzeitig, damit jeder Kunde die Aufmerksamkeit erfahrener Senior-Experten erhält. Melden Sie sich frühzeitig, um sich Kapazitäten zu sichern."
+  },
+  "hero": {
+    "subheadline": "Intelligente digitale Lösungen, professionell entwickelt.",
+    "descriptor": "Wir entwickeln intelligente Software, KI-gestützte Lösungen und skalierbare digitale Produkte für ambitionierte Unternehmen. Verlässliche Technologie, durchdacht konstruiert, mutig umgesetzt.",
+    "cta": "Projekt starten"
+  },
+  "booking": {
+    "title": "Technisches Discovery-Gespräch buchen",
+    "subtitle": "Ein 30-minütiges Gespräch mit unserem Technical Lead, um Ihre Ziele zu verstehen und einen Weg nach vorn zu skizzieren.",
+    "agenda": "30-minütiges technisches Discovery-Gespräch und Abstimmung des Projektumfangs",
+    "slots": [
+      "Di 14:00 (Helsinki-Zeit)",
+      "Mi 11:30 (Helsinki-Zeit)",
+      "Mi 16:00 (Helsinki-Zeit)",
+      "Do 13:00 (Helsinki-Zeit)",
+      "Do 17:30 (Helsinki-Zeit)",
+      "Fr 15:00 (Helsinki-Zeit)"
+    ],
+    "extraTopics": [
+      "Technische Beratung & Architektur",
+      "Noch unsicher"
+    ]
+  },
+  "inquiry": {
+    "title": "Gespräch beginnen",
+    "subtitle": "Erzählen Sie uns von Ihrem Unternehmen und Ihren technischen Anforderungen.",
+    "timelines": [
+      "Sommer '26 (bevorzugt)",
+      "Herbst / Winter '26",
+      "Sofort, innerhalb von 30 Tagen",
+      "Sondierung / Machbarkeitsstudie"
+    ],
+    "note": "NDA auf Anfrage möglich. Wir antworten innerhalb von 24 Stunden."
+  },
+  "nav": [
+    {
+      "label": "Leistungen",
+      "href": "/services"
+    },
+    {
+      "label": "Ablauf",
+      "href": "/process"
+    },
+    {
+      "label": "Projekte",
+      "href": "/work"
+    },
+    {
+      "label": "Team",
+      "href": "/team"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/contact"
+    }
+  ],
+  "stats": [
+    {
+      "value": "10",
+      "label": "Leistungsbereiche",
+      "detail": "Von Individualsoftware bis Industrial IoT"
+    },
+    {
+      "value": "7",
+      "label": "Phasen im Lieferzyklus",
+      "detail": "Von der Discovery bis zur laufenden Weiterentwicklung"
+    },
+    {
+      "value": "40h",
+      "label": "Reguläre Arbeitswoche",
+      "detail": "5 Tage, 8 Stunden, klare Überschneidungszeiten"
+    },
+    {
+      "value": "24h",
+      "label": "Antwort auf jede Anfrage",
+      "detail": "Geprüft von einem Technical Lead"
+    }
+  ],
+  "overview": {
+    "kicker": [
+      "Virtanex Labs",
+      "Unternehmensprofil",
+      "Finnland"
+    ],
+    "title": "Intelligente digitale Lösungen, professionell entwickelt.",
+    "paragraphs": [
+      "Virtanex Labs ist ein in Finnland ansässiges, remote arbeitendes Technologieunternehmen mit Fokus auf intelligente Software, KI-gestützte Lösungen und skalierbare digitale Produkte.",
+      "Wir unterstützen Unternehmen, Start-ups und etablierte Organisationen dabei, komplexe Ideen in praxistaugliche digitale Lösungen zu überführen – mit moderner Softwareentwicklung, künstlicher Intelligenz, Datentechnologien, Automatisierung und Cloud-Infrastruktur."
+    ],
+    "facts": [
+      {
+        "label": "Standort",
+        "value": "Finnland (UTC+2)"
+      },
+      {
+        "label": "Modell",
+        "value": "Remote-first"
+      },
+      {
+        "label": "Gegründet",
+        "value": "2026"
+      },
+      {
+        "label": "Branche",
+        "value": "IT & Softwareentwicklung"
+      }
+    ]
+  },
+  "missionVision": [
+    {
+      "kicker": "Unsere Mission",
+      "title": "Praxisnahe Intelligenz, greifbarer Mehrwert",
+      "body": "Unternehmen mit intelligenter Technologie, innovativer Softwareentwicklung und verlässlichen digitalen Lösungen zu stärken, die operative Reibungsverluste in nahtlose digitale Erlebnisse verwandeln."
+    },
+    {
+      "kicker": "Unsere Vision",
+      "title": "Technische Exzellenz mit nachhaltiger Wirkung",
+      "body": "Ein vertrauenswürdiger internationaler Technologiepartner zu werden, der für technische Exzellenz, intelligente Lösungen und sinnvolle, dauerhafte digitale Innovation geschätzt wird."
+    }
+  ],
+  "commitment": {
+    "kicker": "Unser Anspruch",
+    "quote": "Jedes Unternehmen hat eigene Herausforderungen und Ziele. Wir gehen jedes Projekt mit Neugier, Verantwortungsbewusstsein und technischer Disziplin an.",
+    "body": "Wir entwickeln Lösungen, die nicht nur funktionieren, sondern auch zuverlässig, wartbar und auf den tatsächlichen Geschäftsbedarf abgestimmt sind. Echte Innovation entsteht, wenn die richtigen Menschen und die richtige Technologie auf ein klares Verständnis des Problems treffen."
+  },
+  "pages": {
+    "services": {
+      "href": "/services",
+      "kicker": "Was wir tun",
+      "title": "Leistungen, die auf Ihr Unternehmen zugeschnitten sind.",
+      "description": "Zehn Engineering-Disziplinen, ein verantwortliches Team. Von Individualsoftware und KI bis zu Cloud-Infrastruktur und Industrial IoT.",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Entwickler programmiert an einem Laptop",
+      "blurb": "Zehn Disziplinen von Individualsoftware bis Industrial IoT.",
+      "metaTitle": "Leistungen",
+      "metaDescription": "Individualsoftware, KI, Data Engineering, Integration, Automatisierung, Cloud, Produktentwicklung, Design, QA und IoT – umgesetzt von einem verantwortlichen Team."
+    },
+    "process": {
+      "href": "/process",
+      "kicker": "Wie wir arbeiten",
+      "title": "Ein Vorgehen, das Sie nachvollziehen können und dem Sie vertrauen.",
+      "description": "Ein transparenter Lebenszyklus in sieben Phasen, flexible Zusammenarbeitsmodelle und Sicherheitspraktiken, die von Anfang an eingebaut sind.",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Planungsnotizen an einer Wand",
+      "blurb": "Sieben Phasen, vier Zusammenarbeitsmodelle, Sicherheit von Anfang an.",
+      "metaTitle": "Ablauf",
+      "metaDescription": "Unser Engineering-Lebenszyklus in sieben Phasen, flexible Zusammenarbeitsmodelle sowie unsere Praktiken für Sicherheit und Remote-Arbeit."
+    },
+    "work": {
+      "href": "/work",
+      "kicker": "Ausgewählte Projekte",
+      "title": "Die Systeme, die wir bauen, und für wen wir sie bauen.",
+      "description": "Lösungskonzepte, die Branchen, für die wir arbeiten, und die Forschungsfelder, in die wir weiter investieren.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Analytics-Dashboard auf einem Laptop-Bildschirm",
+      "blurb": "Lösungskonzepte, Branchen und Forschungsschwerpunkte.",
+      "metaTitle": "Projekte",
+      "metaDescription": "Lösungskonzepte, die Branchen, die wir bedienen, und die technischen Bereiche, in die wir investieren."
+    },
+    "team": {
+      "href": "/team",
+      "kicker": "Das Unternehmen",
+      "title": "Menschen, Prinzipien und Partnerschaften.",
+      "description": "Wer wir sind, wofür wir stehen und wie wir mit Kunden, Agenturen und Produktunternehmen zusammenarbeiten.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Team arbeitet gemeinsam an einem Tisch",
+      "blurb": "Unser Team, unsere Werte und Partnerschaftsmöglichkeiten.",
+      "metaTitle": "Team",
+      "metaDescription": "Das Team von Virtanex Labs, unsere Grundwerte und Möglichkeiten zur Partnerschaft."
+    },
+    "faq": {
+      "href": "/faq",
+      "kicker": "Fragen",
+      "title": "Antworten, bevor Sie fragen.",
+      "description": "Wie Projekte beginnen, wie wir Preise gestalten, wem der Code gehört und wie wir über Zeitzonen hinweg arbeiten.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Notizbuch und Stift auf einem Schreibtisch",
+      "blurb": "Klare Antworten dazu, wie wir arbeiten.",
+      "metaTitle": "FAQ",
+      "metaDescription": "Antworten zu Projektstart, Preisgestaltung, Eigentum am Code, Zeitzonen, Sicherheit und Support."
+    },
+    "contact": {
+      "href": "/contact",
+      "kicker": "Kontakt aufnehmen",
+      "title": "Lassen Sie uns über Ihr Vorhaben sprechen.",
+      "description": "Buchen Sie ein Discovery-Gespräch oder senden Sie uns ein Projektbriefing. Wir antworten innerhalb von 24 Stunden.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Heller, moderner Büroraum",
+      "blurb": "Gespräch buchen oder Projektbriefing senden.",
+      "metaTitle": "Kontakt",
+      "metaDescription": "Buchen Sie ein Discovery-Gespräch oder senden Sie Virtanex Labs ein Projektbriefing. Wir antworten innerhalb von 24 Stunden."
+    }
+  }
+}

@@ -1,0 +1,218 @@
+{
+  "name": "Virtanex Labs",
+  "tagline": "Vi skapar intelligenta digitala lösningar.",
+  "motto": "Vi bygger teknik. Vi skapar möjligheter.",
+  "description": "Virtanex Labs är ett finländskt teknikföretag som arbetar på distans och bygger intelligent mjukvara, AI-drivna lösningar och skalbara digitala produkter.",
+  "founded": "2026",
+  "contact": {
+    "email": "contact@virtanexlabs.com",
+    "website": "https://virtanexlabs.com",
+    "websiteLabel": "virtanexlabs.com",
+    "location": "Finland (på distans / internationellt samarbete)",
+    "locationShort": "Finland / internationellt",
+    "timezone": "UTC+2 (Helsingfors)",
+    "responseTime": "inom 24 timmar"
+  },
+  "availability": {
+    "badge": "BOKAR SOMMAREN '26",
+    "season": "Sommaren '26",
+    "headline": "Vi tar nu emot utvalda uppdrag för sommaren '26",
+    "detail": "Vi tar på oss ett begränsat antal projekt åt gången, så att varje kund får uppmärksamhet från seniora experter. Hör av er i god tid för att reservera kapacitet."
+  },
+  "hero": {
+    "subheadline": "Vi skapar intelligenta digitala lösningar.",
+    "descriptor": "Vi bygger intelligent mjukvara, AI-drivna lösningar och skalbara digitala produkter åt ambitiösa företag. Pålitlig teknik, genomtänkt utvecklad och djärvt levererad.",
+    "cta": "Starta ett projekt"
+  },
+  "booking": {
+    "title": "Boka ett tekniskt kartläggningssamtal",
+    "subtitle": "Ett samtal på 30 minuter med vår tekniska chef för att förstå era mål och staka ut vägen framåt.",
+    "agenda": "30 minuters teknisk kartläggning och avstämning av omfattning",
+    "slots": [
+      "Tis 14:00 (Helsingforstid)",
+      "Ons 11:30 (Helsingforstid)",
+      "Ons 16:00 (Helsingforstid)",
+      "Tors 13:00 (Helsingforstid)",
+      "Tors 17:30 (Helsingforstid)",
+      "Fre 15:00 (Helsingforstid)"
+    ],
+    "extraTopics": [
+      "Teknisk rådgivning och arkitektur",
+      "Inte säker ännu"
+    ]
+  },
+  "inquiry": {
+    "title": "Starta en dialog",
+    "subtitle": "Berätta om er organisation och era tekniska behov.",
+    "timelines": [
+      "Sommaren '26 (att föredra)",
+      "Hösten / vintern '26",
+      "Omgående, inom 30 dagar",
+      "Utforskande / förstudie"
+    ],
+    "note": "Sekretessavtal (NDA) finns på begäran. Vi svarar inom 24 timmar."
+  },
+  "nav": [
+    {
+      "label": "Tjänster",
+      "href": "/services"
+    },
+    {
+      "label": "Process",
+      "href": "/process"
+    },
+    {
+      "label": "Lösningar",
+      "href": "/work"
+    },
+    {
+      "label": "Team",
+      "href": "/team"
+    },
+    {
+      "label": "FAQ",
+      "href": "/faq"
+    },
+    {
+      "label": "Kontakt",
+      "href": "/contact"
+    }
+  ],
+  "stats": [
+    {
+      "value": "10",
+      "label": "Tjänsteområden",
+      "detail": "Från skräddarsydd mjukvara till industriell IoT"
+    },
+    {
+      "value": "7",
+      "label": "Faser i leveranscykeln",
+      "detail": "Från kartläggning till fortlöpande förbättring"
+    },
+    {
+      "value": "40h",
+      "label": "Standardarbetsvecka",
+      "detail": "5 dagar, 8 timmar, tydliga överlappande tider"
+    },
+    {
+      "value": "24h",
+      "label": "Svar på varje förfrågan",
+      "detail": "Granskas av en teknisk chef"
+    }
+  ],
+  "overview": {
+    "kicker": [
+      "Virtanex Labs",
+      "Företagsprofil",
+      "Finland"
+    ],
+    "title": "Vi skapar intelligenta digitala lösningar.",
+    "paragraphs": [
+      "Virtanex Labs är ett finländskt teknikföretag som arbetar på distans och bygger intelligent mjukvara, AI-drivna lösningar och skalbara digitala produkter.",
+      "Vi hjälper företag, startups och etablerade organisationer att förvandla komplexa idéer till praktiska digitala lösningar med modern mjukvaruutveckling, artificiell intelligens, datateknik, automatisering och molninfrastruktur."
+    ],
+    "facts": [
+      {
+        "label": "Bas",
+        "value": "Finland (UTC+2)"
+      },
+      {
+        "label": "Modell",
+        "value": "Distans i första hand"
+      },
+      {
+        "label": "Grundat",
+        "value": "2026"
+      },
+      {
+        "label": "Bransch",
+        "value": "IT och mjukvaruutveckling"
+      }
+    ]
+  },
+  "missionVision": [
+    {
+      "kicker": "Vårt uppdrag",
+      "title": "Praktisk intelligens, tillgängligt värde",
+      "body": "Att stärka företag genom intelligent teknik, innovativ mjukvaruutveckling och pålitliga digitala lösningar som förvandlar operativa hinder till sömlösa digitala upplevelser."
+    },
+    {
+      "kicker": "Vår vision",
+      "title": "Teknisk spetskompetens och bestående effekt",
+      "body": "Att bli en betrodd internationell teknikpartner, känd för teknisk spetskompetens, intelligenta lösningar och meningsfull digital innovation som består."
+    }
+  ],
+  "commitment": {
+    "kicker": "Vårt åtagande",
+    "quote": "Varje företag har unika utmaningar och mål. Vi närmar oss varje projekt med nyfikenhet, ansvar och teknisk disciplin.",
+    "body": "Vi bygger lösningar som inte bara fungerar, utan som också är pålitliga, underhållbara och i linje med verkliga affärsbehov. Meningsfull innovation uppstår när rätt människor, rätt teknik och en tydlig förståelse för problemet förenas."
+  },
+  "pages": {
+    "services": {
+      "href": "/services",
+      "kicker": "Vad vi gör",
+      "title": "Tjänster utformade efter er verksamhet.",
+      "description": "Tio tekniska områden, ett team som tar ansvar. Från skräddarsydd mjukvara och AI till molninfrastruktur och industriell IoT.",
+      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Utvecklare som arbetar med kod på en bärbar dator",
+      "blurb": "Tio områden, från skräddarsydd mjukvara till industriell IoT.",
+      "metaTitle": "Tjänster",
+      "metaDescription": "Skräddarsydd mjukvara, AI, datateknik, integration, automatisering, moln, produktutveckling, design, kvalitetssäkring och IoT, levererat av ett team som tar helhetsansvar."
+    },
+    "process": {
+      "href": "/process",
+      "kicker": "Så arbetar vi",
+      "title": "En process ni kan se och lita på.",
+      "description": "En transparent leveranscykel i sju faser, flexibla samarbetsmodeller och säkerhetsrutiner som finns med från första dagen.",
+      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Planeringsanteckningar uppsatta på en vägg",
+      "blurb": "Sju faser, fyra samarbetsmodeller och inbyggd säkerhet.",
+      "metaTitle": "Process",
+      "metaDescription": "Vår utvecklingscykel i sju faser, flexibla samarbetsmodeller samt våra rutiner för säkerhet och distansarbete."
+    },
+    "work": {
+      "href": "/work",
+      "kicker": "Utvalda lösningar",
+      "title": "Systemen vi bygger och vilka vi bygger dem för.",
+      "description": "Lösningsritningar, de branscher vi arbetar med och de forskningsområden vi fortsätter att investera i.",
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Analysvy på en bärbar datorskärm",
+      "blurb": "Lösningsritningar, branscher och forskningsfokus.",
+      "metaTitle": "Lösningar",
+      "metaDescription": "Lösningsritningar, de branscher vi arbetar med och de tekniska områden vi investerar i."
+    },
+    "team": {
+      "href": "/team",
+      "kicker": "Företaget",
+      "title": "Människor, principer och partnerskap.",
+      "description": "Vilka vi är, vad vi värdesätter och hur vi samarbetar med kunder, byråer och produktbolag.",
+      "image": "https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Team som samarbetar kring ett bord",
+      "blurb": "Vårt team, våra värderingar och möjligheter till partnerskap.",
+      "metaTitle": "Team",
+      "metaDescription": "Teamet bakom Virtanex Labs, våra kärnvärden och möjligheter till partnerskap."
+    },
+    "faq": {
+      "href": "/faq",
+      "kicker": "Frågor",
+      "title": "Svar innan ni hunnit fråga.",
+      "description": "Hur projekt startar, hur vi prissätter, vem som äger koden och hur vi arbetar över tidszoner.",
+      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Anteckningsbok och penna på ett skrivbord",
+      "blurb": "Raka svar om hur vi arbetar.",
+      "metaTitle": "FAQ",
+      "metaDescription": "Svar om hur projekt startar, prissättning, äganderätt till kod, tidszoner, säkerhet och support."
+    },
+    "contact": {
+      "href": "/contact",
+      "kicker": "Kontakta oss",
+      "title": "Låt oss prata om det ni bygger.",
+      "description": "Boka ett kartläggningssamtal eller skicka oss en projektbeskrivning. Vi svarar inom 24 timmar.",
+      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Ljust och modernt kontorsutrymme",
+      "blurb": "Boka ett samtal eller skicka en projektbeskrivning.",
+      "metaTitle": "Kontakt",
+      "metaDescription": "Boka ett kartläggningssamtal eller skicka en projektbeskrivning till Virtanex Labs. Vi svarar inom 24 timmar."
+    }
+  }
+}

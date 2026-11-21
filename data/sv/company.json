@@ -1,0 +1,131 @@
+{
+  "values": {
+    "kicker": "Grundläggande principer",
+    "title": "Våra kärnvärden",
+    "items": [
+      { "title": "Innovation", "desc": "Vi utforskar kontinuerligt modern teknik och bättre arbetssätt för att lösa komplexa problem." },
+      { "title": "Teknisk spetskompetens", "desc": "Vi prioriterar ren arkitektur, underhållbar kod, tillförlitlighet, säkerhet och kvalitet." },
+      { "title": "Samarbete", "desc": "Lyckade tekniska lösningar växer fram ur kommunikation, lagarbete och gemensamma mål." },
+      { "title": "Transparens", "desc": "Vi värdesätter ärlig kommunikation, realistiska åtaganden och tydliga förväntningar i projektet." },
+      { "title": "Ansvarstagande", "desc": "Vi tar ansvar för vårt arbete, våra tekniska beslut och våra leveransåtaganden." },
+      { "title": "Ständigt lärande", "desc": "Vi uppmuntrar experimenterande, kunskapsdelning och orubblig teknisk utveckling." },
+      { "title": "Kundfokus", "desc": "Vi strävar efter att förstå varje kunds affärsmål och leverera lösningar som skapar praktiskt värde." }
+    ]
+  },
+  "industries": {
+    "kicker": "Branschspecialisering",
+    "title": "Branscher vi arbetar med",
+    "description": "Våra tekniska grunder fungerar över sektorsgränser. Här är de områden där vi tillämpar dem oftast.",
+    "items": [
+      { "icon": "Landmark", "name": "Finansiella tjänster", "desc": "Finansiella applikationer, betalningsintegrationer, realtidsanalys och regulatorisk rapportering.", "focus": ["Betalningar", "Rapportering", "Analys"] },
+      { "icon": "Factory", "name": "Tillverkning och industri", "desc": "Applikationer för industriell övervakning, IoT-sensorintegrationer, telemetri och prediktivt underhåll.", "focus": ["IoT", "Telemetri", "Underhåll"] },
+      { "icon": "Zap", "name": "Energi och försörjning", "desc": "Övervakningsplattformar, operativ rapportering och automatiserade infrastrukturapplikationer.", "focus": ["Övervakning", "Rapportering", "Automatisering"] },
+      { "icon": "HeartPulse", "name": "Hälso- och sjukvård", "desc": "Applikationer för vårdadministration, automatisering av administrativa arbetsflöden och kliniska datalösningar.", "focus": ["Arbetsflöden", "Data", "Administrativa system"] },
+      { "icon": "ShoppingBag", "name": "Detaljhandel och e-handel", "desc": "E-handelsplattformar, lager- och orderhantering samt automatiserade betalningssystem.", "focus": ["Handel", "Lager", "Betalningar"] },
+      { "icon": "Laptop", "name": "Teknik och mjukvara", "desc": "SaaS-utveckling, företagsplattformar, produktutveckling, AI-integrationer och molnarkitektur.", "focus": ["SaaS", "AI", "Moln"] },
+      { "icon": "Briefcase", "name": "Professionella tjänster", "desc": "Plattformar för affärsstyrning, CRM-lösningar, kundportaler och automatiserade arbetsflöden.", "focus": ["CRM", "Portaler", "Arbetsflöden"] }
+    ]
+  },
+  "engagement": {
+    "kicker": "Flexibelt samarbete",
+    "title": "Våra samarbetsmodeller",
+    "description": "Fyra sätt att arbeta med oss, så att strukturen anpassas efter projektet och inte tvärtom.",
+    "items": [
+      {
+        "title": "Projektbaserad utveckling",
+        "badge": "Fast omfattning",
+        "desc": "Tydligt avgränsade projekt med överenskomna leveranser, milstolpar, tidplaner och tekniska krav.",
+        "bestFor": "Skräddarsydda applikationer, SaaS-produkter, affärsplattformar, API-integrationer och automatiseringsprojekt.",
+        "includes": ["Överenskommen omfattning och milstolpar", "Definierade leveranser", "Regelbundna demonstrationer av framsteg", "Strukturerad överlämning"]
+      },
+      {
+        "title": "Dedikerade utvecklingsteam",
+        "badge": "Utökad kapacitet",
+        "desc": "Utvecklingsresurser på distans som samarbetar med kundens befintliga tekniska team.",
+        "bestFor": "Stöd i pågående utveckling, nya funktioner, frontend- och backendutveckling samt långsiktiga tekniska projekt.",
+        "includes": ["Utvecklare som matchar er teknikstack", "Inbäddade i ert arbetsflöde", "Flexibel uppskalning eller nedskalning", "Gemensamma verktyg och arbetsrutiner"]
+      },
+      {
+        "title": "Långsiktigt teknikpartnerskap",
+        "badge": "Kontinuerlig utveckling",
+        "desc": "Fortlöpande samarbeten som stöder mjukvaruutveckling, underhåll, integrationer och teknisk arkitektur.",
+        "bestFor": "Teknikföretag, mjukvaruprodukter och växande startups som behöver kontinuerligt tekniskt stöd.",
+        "includes": ["Löpande leverans enligt färdplan", "Underhåll och support", "Vägledning kring arkitektur", "Prioriterad tillgång till teamet"]
+      },
+      {
+        "title": "Teknisk rådgivning",
+        "badge": "Strategisk vägledning",
+        "desc": "Rådgivning och arkitekturstöd som hjälper ledningen att fatta sunda, framtidssäkra teknikbeslut.",
+        "bestFor": "Planering av mjukvaruarkitektur, teknikbedömningar, modernisering av applikationer och infrastrukturstrategi.",
+        "includes": ["Arkitektur- och kodgranskningar", "Teknikbedömningar", "Färdplaner för modernisering", "Skriftliga rekommendationer"]
+      }
+    ]
+  },
+  "security": {
+    "kicker": "Förtroende och tillförlitlighet",
+    "title": "Säkerhet, kvalitet och arbetssätt",
+    "items": [
+      {
+        "icon": "ShieldCheck",
+        "title": "Åtagande för säkerhet och kvalitet",
+        "body": "Säkerhet, tillförlitlighet och dataskydd är en del av hur vi utformar varje system, inte något som läggs till i efterhand. Vi tillämpar säker hantering av inloggningsuppgifter, krypterad kommunikation, kontrollerad åtkomst och kontinuerlig testning.",
+        "points": ["Rollbaserad autentisering och åtkomst", "Krypterad API-trafik", "Hemligheter hålls utanför källkoden", "Regelbunden valideringstestning", "Planering för säkerhetskopiering och katastrofåterställning", "Sekretess och NDA på begäran"]
+      },
+      {
+        "icon": "Globe2",
+        "title": "Arbetsmodell på distans",
+        "body": "Vi arbetar i första hand på distans från Finland och samarbetar med kunder och experter över tidszoner, med strukturerad projektstyrning och transparenta Git-baserade arbetsflöden.",
+        "points": ["Standardvecka på 40 timmar", "5 arbetsdagar, 8 timmar per dag", "Överlappande tider som överenskoms med varje kund", "Digital samordning av uppgifter", "Transparenta Git-arbetsflöden", "Regelbundna demonstrationer och skriftliga lägesrapporter"]
+      }
+    ]
+  },
+  "team": {
+    "kicker": "Organisationsstruktur",
+    "title": "Team och ledning",
+    "description": "En samarbetsinriktad struktur som förenar affärsstrategi, teknisk ledning, senior utveckling, design och operativ spetskompetens.",
+    "groups": [
+      {
+        "icon": "Building2",
+        "title": "Affärer och ledning",
+        "desc": "Strategisk samstämmighet, kundrelationer, realistiska åtaganden och internationell verksamhet.",
+        "roles": ["Grundare / verkställande direktör", "Affärsutvecklingschef", "Försäljning och strategiska partnerskap", "Ekonomi och administration"]
+      },
+      {
+        "icon": "Code2",
+        "title": "Teknik och utveckling",
+        "desc": "Ren arkitektur, distribuerade system, maskininlärning och automatiserad kvalitetssäkring.",
+        "featured": true,
+        "roles": ["Teknisk chef (CTO)", "Fullstackutvecklare", "Frontendutvecklare", "Backendutvecklare", "AI-/ML-ingenjörer", "Datateknikingenjörer", "DevOps-ingenjörer", "Ingenjörer för mjukvarutestning"]
+      },
+      {
+        "icon": "Palette",
+        "title": "Design och marknadsföring",
+        "desc": "Användbarhet, designsystem, interaktiva prototyper och produktkommunikation.",
+        "roles": ["UI/UX-designers", "Designers för digitala produkter", "Marknadsföringsspecialister", "Ansvariga för sociala medier och innehåll"]
+      }
+    ]
+  },
+  "partnerships": {
+    "kicker": "Samarbete",
+    "title": "Möjligheter till partnerskap",
+    "description": "Virtanex Labs välkomnar samarbete med teknikleverantörer, konsultbolag, byråer och växande produktbolag.",
+    "items": [
+      { "title": "Mjukvaru- och IT-konsultbolag", "desc": "Underleverans och dedikerade utvecklingsteam som utökar leveranskapaciteten." },
+      { "title": "Byråer för digital transformation", "desc": "Djup teknisk implementation för komplexa webbapplikationer, mikrotjänster och modernisering av äldre system." },
+      { "title": "AI- och SaaS-företag", "desc": "RAG-pipelines, integration av AI-funktioner och skalbara multi-tenant-arkitekturer." },
+      { "title": "Startups och entreprenörer", "desc": "Samutveckling från början till slut, MVP-arkitektur och långsiktigt tekniskt partnerskap." }
+    ]
+  },
+  "why": {
+    "kicker": "Varför Virtanex Labs",
+    "title": "Varför arbeta med oss?",
+    "items": [
+      { "title": "Flexibel utvecklingskapacitet", "desc": "Anpassningsbart utvecklingsstöd som matchar projektets krav, tidplaner och skalningsfaser." },
+      { "title": "Modern teknik", "desc": "Moderna ramverk, molnbaserad infrastruktur och beprövade verktyg som undviker teknisk skuld." },
+      { "title": "AI-drivet arbetssätt", "desc": "Vi söker praktiska möjligheter att integrera AI i verklig mjukvara och verksamhetens arbetsflöden." },
+      { "title": "Skalbara lösningar", "desc": "Underhållbara arkitekturer som kan utvecklas i takt med växande affärsvolymer." },
+      { "title": "Samarbetsinriktad leverans", "desc": "Direkt, transparent kommunikation och strukturerad Git-hantering vid sidan av er ledning." },
+      { "title": "Långsiktigt perspektiv", "desc": "Vi strävar efter att bygga varaktiga relationer snarare än transaktionella överlämningar." }
+    ]
+  }
+}

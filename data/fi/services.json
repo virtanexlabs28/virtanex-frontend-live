@@ -1,0 +1,309 @@
+{
+  "intro": {
+    "kicker": "Palveluluettelo",
+    "title": "Kymmenen teknisen huippuosaamisen aluetta",
+    "description": "Itsenäisistä SaaS-tuotteista tekoälyputkistoihin ja teollisuuden telemetriaan: yksi tiimi kattaa koko tien ideasta tuotantoon ja pitää ratkaisun käynnissä sen jälkeenkin."
+  },
+  "services": [
+    {
+      "id": "custom-software",
+      "number": "01",
+      "icon": "Code2",
+      "title": "Räätälöity ohjelmistokehitys",
+      "short": "Räätälöidyt ohjelmistot",
+      "summary": "Suunnittelemme ja kehitämme räätälöityjä ohjelmistosovelluksia, jotka vastaavat tiettyihin toiminnan ja liiketoiminnan tarpeisiin.",
+      "overview": "Valmiit työkalut harvoin sopivat siihen, miten yritys todella toimii. Rakennamme verkkosovelluksia, sisäisiä alustoja ja taustajärjestelmiä työnkulkujesi ympärille selkeällä arkkitehtuurilla, joka pysyy ylläpidettävänä vaatimusten muuttuessa.",
+      "capabilities": [
+        "Räätälöityjen verkkosovellusten kehitys",
+        "Yritysohjelmistojen kehitys",
+        "SaaS-alustojen kehitys",
+        "Liiketoiminnan hallintajärjestelmät",
+        "Asiakas- ja työntekijäportaalit",
+        "Backend-sovellusten kehitys",
+        "REST API -kehitys",
+        "Mikropalveluarkkitehtuuri",
+        "Sovellusten modernisointi",
+        "Jatkuva ohjelmistojen ylläpito"
+      ],
+      "deliverables": [
+        "Tuotantovalmis sovellus ja lähdekoodin omistusoikeus",
+        "Dokumentoidut REST API:t ja tietomallit",
+        "Automaattinen testisarja ja CI-putkisto",
+        "Käyttöönotto- ja luovutusdokumentaatio"
+      ],
+      "technologies": ["Next.js", "React", "TypeScript", "Node.js", "NestJS", "PostgreSQL"],
+      "idealFor": "Organisaatioille, jotka korvaavat taulukkolaskentaa, vanhoja työkaluja tai manuaalisia prosesseja omaan toimintatapaansa räätälöidyllä ohjelmistolla.",
+      "engagement": "Projektipohjainen tai omistautunut tiimi"
+    },
+    {
+      "id": "ai-ml",
+      "number": "02",
+      "icon": "Cpu",
+      "title": "Tekoäly ja koneoppiminen",
+      "short": "Tekoäly ja koneoppiminen",
+      "summary": "Autamme yrityksiä integroimaan tekoälyn tuotteisiinsa, palveluihinsa ja sisäiseen toimintaansa.",
+      "overview": "Keskitymme tekoälyyn, joka ratkaisee konkreettisen ongelman: omiin dokumentteihisi perustuviin avustajiin, työnkulkuihin, jotka lukevat ja ohjaavat tietoa, sekä malleihin, jotka ennustavat tai nostavat esiin olennaisen. Jokainen ratkaisu rakennetaan arviointi, suojakaiteet ja kustannusten hallinta huomioiden.",
+      "capabilities": [
+        "Tekoälypohjaisten sovellusten kehitys",
+        "Tekoälyavustajat ja keskustelujärjestelmät",
+        "Suurten kielimallien (LLM) integrointi",
+        "Hakuun perustuva generointi (RAG)",
+        "Älykkäiden työnkulkujen kehitys",
+        "Dokumenttien käsittely ja tiedon poiminta",
+        "Koneoppimisen integrointi",
+        "Ennakoiva analytiikka",
+        "Poikkeamien tunnistus",
+        "Tekoälypohjainen liiketoiminnan automaatio"
+      ],
+      "deliverables": [
+        "Toimiva tekoälyominaisuus, joka on integroitu tuotteeseesi tai prosessiisi",
+        "Arviointiaineisto ja laatuvertailut",
+        "Kehotteiden, haun ja suojakaiteiden dokumentaatio",
+        "Käytön seuranta ja kustannusten hallinta"
+      ],
+      "technologies": ["LLM APIs", "RAG pipelines", "Python", "Vector databases", "Node.js", "PostgreSQL"],
+      "idealFor": "Tiimeille, jotka haluavat lisätä avustajia, dokumenttien ymmärrystä tai ennustamista tuotteeseen tai sisäiseen prosessiin ilman tutkimusprojektia.",
+      "engagement": "Projektipohjainen tai tekninen konsultointi"
+    },
+    {
+      "id": "data-engineering",
+      "number": "03",
+      "icon": "Database",
+      "title": "Datatekniikka ja analytiikka",
+      "short": "Data ja analytiikka",
+      "summary": "Kehitämme dataratkaisuja, jotka auttavat organisaatioita keräämään, käsittelemään, jäsentämään ja ymmärtämään tietoa.",
+      "overview": "Luotettavat päätökset vaativat luotettavaa dataa. Rakennamme putkistot, tallennuskerrokset ja kojetaulut, jotka muuttavat hajanaiset lähteet yhdeksi luotettavaksi kuvaksi. Validointi on rakennettu mukaan, jotta ongelmat tulevat esiin varhain.",
+      "capabilities": [
+        "Dataputkistojen kehitys",
+        "Datan keruu ja muunnos",
+        "ETL- ja ELT-työnkulut",
+        "Tietokanta-arkkitehtuuri",
+        "Datan integrointi",
+        "Datankäsittelyn automaatio",
+        "Business intelligence -kojetaulut",
+        "Datan visualisointi",
+        "Raportointijärjestelmät",
+        "Datan laadun validointi"
+      ],
+      "deliverables": [
+        "Automatisoidut, valvotut dataputkistot",
+        "Suunnitellut ja dokumentoidut tietomallit",
+        "Kojetaulut ja ajastetut raportit",
+        "Datan laadun tarkistukset ja hälytykset"
+      ],
+      "technologies": ["Python", "PostgreSQL", "MySQL", "MongoDB", "Redis", "Docker"],
+      "idealFor": "Yrityksille, joiden data on useissa järjestelmissä ja jotka tarvitsevat luotettavaa raportointia, analytiikkaa tai tekoälyvalmiin perustan.",
+      "engagement": "Projektipohjainen"
+    },
+    {
+      "id": "system-integration",
+      "number": "04",
+      "icon": "GitMerge",
+      "title": "Yritysjärjestelmien integraatio",
+      "short": "Järjestelmäintegraatio",
+      "summary": "Yhdistämme liiketoimintasovelluksia, alustoja, tietokantoja ja ulkoisia palveluita yhtenäisiksi teknologiaympäristöiksi.",
+      "overview": "Useimmat yritykset toimivat erilaisten työkalujen laastarikokoelmalla. Yhdistämme ne vankoilla ja seurattavilla integraatioilla, jotta data liikkuu kerran, pysyy yhdenmukaisena eikä tiimien tarvitse enää kirjoittaa tietoja uudelleen järjestelmästä toiseen.",
+      "capabilities": [
+        "Kolmannen osapuolen API-integraatiot",
+        "ERP-integraatiot",
+        "CRM-integraatiot",
+        "Maksuyhdyskäytäväintegraatiot",
+        "Yrityssovellusten integrointi",
+        "Tietokantojen synkronointi",
+        "Webhook-kehitys",
+        "Vanhojen järjestelmien integrointi",
+        "Alustojen välinen tiedonsiirto",
+        "Integraatiotestaus"
+      ],
+      "deliverables": [
+        "Testatut, dokumentoidut integraatiot uudelleenyrityksillä ja virheenkäsittelyllä",
+        "Datakenttien yhteensovitusmäärittelyt",
+        "Valvonta ja virhehälytykset",
+        "Toimintaohjeet käyttö- ja ylläpitotiimeille"
+      ],
+      "technologies": ["REST & webhooks", "Node.js", "NestJS", "Python", "PostgreSQL", "n8n"],
+      "idealFor": "Organisaatioille, jotka yhdistävät ERP-, CRM-, maksu- ja sisäisiä työkaluja tai siltaavat vanhoja järjestelmiä nykyaikaisiin alustoihin.",
+      "engagement": "Projektipohjainen tai pitkäaikainen kumppanuus"
+    },
+    {
+      "id": "process-automation",
+      "number": "05",
+      "icon": "Workflow",
+      "title": "Liiketoimintaprosessien automaatio",
+      "short": "Prosessiautomaatio",
+      "summary": "Autamme organisaatioita vähentämään toistuvaa manuaalista työtä älykkään automaation ja yhdistettyjen työnkulkujen avulla.",
+      "overview": "Kartoitamme työn, jota tiimisi toistaa päivittäin, ja automatisoimme ne osat, jotka eivät vaadi ihmisen harkintaa. Tekoälyä käytetään siellä, missä siitä on todellista apua, kuten dokumenttien lukemisessa tai pyyntöjen luokittelussa, ja pelkkiä sääntöjä siellä, missä ne riittävät.",
+      "capabilities": [
+        "Liiketoiminnan työnkulkujen automaatio",
+        "Hyväksyntä- ja ilmoitusjärjestelmät",
+        "Automaattinen raportointi",
+        "Dokumenttien käsittelyn työnkulut",
+        "Sähköpostiautomaatio",
+        "CRM-automaatio",
+        "Datan synkronointi",
+        "Tekoälypohjaiset työnkulut",
+        "API-pohjainen automaatio",
+        "Prosessien optimointi"
+      ],
+      "deliverables": [
+        "Automatisoidut työnkulut auditointijäljillä",
+        "Prosessikuvaukset ennen automaatiota ja sen jälkeen",
+        "Poikkeustilanteiden käsittely ja ihmisen mukanaolo -vaiheet",
+        "Tiimin koulutus ja dokumentaatio"
+      ],
+      "technologies": ["n8n", "Webhooks & APIs", "Node.js", "Python", "LLM APIs", "PostgreSQL"],
+      "idealFor": "Operatiivisille, talous- ja myyntitiimeille, jotka käyttävät tunteja toistuvaan raportointiin, tiedon syöttöön ja hyväksyntöihin.",
+      "engagement": "Projektipohjainen"
+    },
+    {
+      "id": "cloud-devops",
+      "number": "06",
+      "icon": "Cloud",
+      "title": "Pilvi- ja DevOps-tekniikka",
+      "short": "Pilvi ja DevOps",
+      "summary": "Rakennamme ja hallinnoimme luotettavaa infrastruktuuria, joka tukee nykyaikaisia sovelluksia ja liiketoimintaa.",
+      "overview": "Hyvä ohjelmisto tarvitsee taakseen luotettavan infrastruktuurin. Rakennamme toistettavat käyttöönotot, valvonnan ja palautumisen, jotta julkaisut ovat rutiinia, katkokset harvinaisia ja ongelmat näkyvissä ennen kuin asiakkaat huomaavat ne.",
+      "capabilities": [
+        "Pilvi-infrastruktuurin pystytys",
+        "Docker ja konttiteknologia",
+        "Docker Compose -käyttöönotot",
+        "CI/CD-putkistojen kehitys",
+        "Linux-palvelinten hallinta",
+        "Sovellusten käyttöönotto",
+        "Tietokantojen käyttöönotto ja hallinta",
+        "Infrastruktuurin valvonta",
+        "Lokitus ja havaittavuus",
+        "Varmuuskopioinnin ja palautumisen suunnittelu",
+        "Sovellusten suorituskyvyn optimointi"
+      ],
+      "deliverables": [
+        "Automatisoidut build-, testaus- ja käyttöönottoputkistot",
+        "Konttipohjaiset, toistettavat ympäristöt",
+        "Valvontakojetaulut ja hälytykset",
+        "Varmuuskopiointi- ja katastrofipalautumissuunnitelma"
+      ],
+      "technologies": ["Docker & Compose", "CI/CD pipelines", "Linux / VPS", "PostgreSQL", "Redis"],
+      "idealFor": "Tiimeille, jotka siirtyvät manuaalisista käyttöönotoista automatisoituihin putkistoihin tai tarvitsevat jonkun vastaamaan infrastruktuurin luotettavuudesta.",
+      "engagement": "Projektipohjainen tai jatkuva tuki"
+    },
+    {
+      "id": "digital-product",
+      "number": "07",
+      "icon": "Layers",
+      "title": "Digitaalisten tuotteiden ja SaaS:n kehitys",
+      "short": "Tuotteet ja SaaS",
+      "summary": "Autamme yrityksiä ja yrittäjiä muuttamaan tuotekonseptit toimiviksi, skaalautuviksi digitaalisiksi alustoiksi.",
+      "overview": "Toimimme tuoteajattelevana kehityskumppanina: terävöitämme laajuutta, valitsemme käytännönläheisen arkkitehtuurin ja toimitamme MVP:n, jota oikeat käyttäjät voivat kokeilla. Sen jälkeen kehitämme sitä laskutuksen, monivuokralaisuuden ja niitä seuraavien ominaisuuksien suuntaan.",
+      "capabilities": [
+        "SaaS-tuotekehitys",
+        "Minimiversion (MVP) kehitys",
+        "Tuotearkkitehtuuri ja suunnittelu",
+        "Tilauspohjaiset alustat",
+        "Monivuokralaissovellukset",
+        "Käyttäjä- ja käyttöoikeushallinta",
+        "Tilaus- ja laskutusintegraatiot",
+        "Tuoteominaisuuksien kehitys",
+        "Tuotteen ylläpito",
+        "Tekninen tuotetuki"
+      ],
+      "deliverables": [
+        "Rajattu MVP ja priorisoitu kehityssuunnitelma",
+        "Monivuokralaisarkkitehtuuri ja roolipohjaiset käyttöoikeudet",
+        "Laskutus- ja tilausintegraatio",
+        "Tekninen dokumentaatio tulevia tiimejä varten"
+      ],
+      "technologies": ["Next.js", "TypeScript", "NestJS", "PostgreSQL", "Docker & Compose", "Figma"],
+      "idealFor": "Perustajille ja tuotetiimeille, jotka tarvitsevat luotettavan kehityskumppanin ensimmäisestä prototyypistä skaalattuun alustaan.",
+      "engagement": "Projektipohjainen tai pitkäaikainen kumppanuus"
+    },
+    {
+      "id": "ui-ux",
+      "number": "08",
+      "icon": "Palette",
+      "title": "UI/UX- ja digitaalisten tuotteiden suunnittelu",
+      "short": "UI/UX-suunnittelu",
+      "summary": "Suunnittelemme intuitiivisia digitaalisia kokemuksia, jotka tasapainottavat käytettävyyden, toiminnallisuuden ja visuaalisen laadun.",
+      "overview": "Suunnittelu ja ohjelmistotuotanto tehdään tässä rinta rinnan. Muutamme vaatimukset selkeiksi käyttäjäpoluiksi, interaktiivisiksi prototyypeiksi ja suunnittelujärjestelmiksi, jotka kehittäjät voivat toteuttaa uskollisesti ja joita tiimit voivat laajentaa johdonmukaisesti.",
+      "capabilities": [
+        "Käyttöliittymäsuunnittelu",
+        "Käyttäjäkokemuksen suunnittelu",
+        "Verkkosovellusten suunnittelu",
+        "Kojetaulujen ja hallintapaneelien suunnittelu",
+        "Responsiivinen käyttöliittymäsuunnittelu",
+        "Suunnittelujärjestelmät",
+        "Interaktiiviset prototyypit",
+        "Käyttäjäpolkujen suunnittelu",
+        "Tuotteen käyttöliittymän parannukset"
+      ],
+      "deliverables": [
+        "Käyttäjävirrat ja rautalankamallit",
+        "Tarkat, responsiiviset käyttöliittymäsuunnitelmat",
+        "Uudelleenkäytettävä suunnittelujärjestelmä ja komponenttikirjasto",
+        "Klikattavat prototyypit varhaista validointia varten"
+      ],
+      "technologies": ["Figma", "Tailwind CSS", "React", "Next.js", "TypeScript"],
+      "idealFor": "Tiimeille, joilla on toimiva mutta kankea tuote, tai uudelle tuotteelle, joka tarvitsee selkeän ja uskottavan käyttöliittymän alusta asti.",
+      "engagement": "Projektipohjainen tai omistautunut tiimi"
+    },
+    {
+      "id": "qa-testing",
+      "number": "09",
+      "icon": "CheckCircle2",
+      "title": "Ohjelmistotestaus ja laadunvarmistus",
+      "short": "Testaus ja QA",
+      "summary": "Autamme varmistamaan, että ohjelmistotuotteet toimivat luotettavasti jäsennellyn testauksen ja laadunvarmistuksen avulla.",
+      "overview": "Laatu rakennetaan sisään, sitä ei tarkasteta vasta lopuksi. Yhdistämme tutkivan manuaalisen testauksen ja automatisoidut testisarjat, jotka ajetaan jokaisessa muutoksessa, jotta regressiot huomataan minuuteissa eivätkä vasta asiakkaiden toimesta.",
+      "capabilities": [
+        "Manuaalinen ohjelmistotestaus",
+        "Automatisoitu testaus",
+        "API-testaus",
+        "Integraatiotestaus",
+        "End-to-end-testaus",
+        "Suorituskykytestaus",
+        "Regressiotestaus",
+        "Toiminnallinen testaus",
+        "Laadunvarmistuksen prosessit",
+        "Testidokumentaatio"
+      ],
+      "deliverables": [
+        "Testausstrategia ja kattavuussuunnitelma",
+        "CI:hin kytketyt automaattiset testisarjat",
+        "Virheraportit toistovaiheineen",
+        "Suorituskyvyn lähtötasot ja havainnot"
+      ],
+      "technologies": ["TypeScript", "Python", "CI/CD pipelines", "Docker & Compose"],
+      "idealFor": "Tiimeille, jotka julkaisevat nopeasti ja tarvitsevat varmuutta jokaiseen julkaisuun tai riippumattoman laaduntarkistuksen ennen lanseerausta.",
+      "engagement": "Projektipohjainen tai omistautunut tiimi"
+    },
+    {
+      "id": "iot-industrial",
+      "number": "10",
+      "icon": "Radio",
+      "title": "IoT- ja teollisuusohjelmistoratkaisut",
+      "short": "IoT ja teollisuus",
+      "summary": "Kehitämme ohjelmistoratkaisuja, jotka yhdistävät laitteita, käsittelevät toiminnallista dataa ja tuovat näkyvyyttä verkkoon liitettyihin järjestelmiin.",
+      "overview": "Rakennamme ohjelmistokerroksen verkkoon liitettyjen laitteiden ympärille: keräämme anturi- ja telemetriadataa, visualisoimme sen reaaliajassa ja hälytämme tiimejä poikkeamista. Tavoitteena on polku kohti ennakoivaa kunnossapitoa.",
+      "capabilities": [
+        "IoT-sovellusten kehitys",
+        "Anturi- ja laiteintegraatiot",
+        "Reaaliaikaiset valvontakojetaulut",
+        "Telemetriadatan käsittely",
+        "Teollisuusdatan visualisointi",
+        "Laitteiden valvontasovellukset",
+        "Ennakoivan kunnossapidon prototyypit",
+        "Poikkeamien tunnistusjärjestelmät",
+        "IoT-alustaintegraatiot",
+        "Datan keruu- ja hälytysjärjestelmät"
+      ],
+      "deliverables": [
+        "Telemetrian keruu- ja tallennusputkisto",
+        "Reaaliaikaiset valvontakojetaulut",
+        "Raja-arvo- ja poikkeamahälytykset",
+        "Integraatio nykyisiin laitteisiin ja alustoihin"
+      ],
+      "technologies": ["Python", "Node.js", "PostgreSQL", "Redis", "Docker & Compose", "Machine Learning"],
+      "idealFor": "Valmistus-, energia- ja laiteliiketoiminnoille, jotka haluavat näkyvyyttä verkkoon liitettyihin laitteisiinsa ja varhaisen varoituksen vioista.",
+      "engagement": "Projektipohjainen tai pitkäaikainen kumppanuus"
+    }
+  ]
+}

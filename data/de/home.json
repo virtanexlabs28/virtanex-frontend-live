@@ -1,0 +1,49 @@
+{
+  "marquee": {
+    "kicker": "Unser Werkzeugkasten",
+    "title": "Gebaut mit Werkzeugen, denen wir vertrauen"
+  },
+  "services": {
+    "kicker": "Was wir tun",
+    "title": "Zehn Disziplinen, ein verantwortliches Team.",
+    "description": "Alles vom ersten Prototyp bis zur Produktionsinfrastruktur – und der Support, der den Betrieb sichert.",
+    "cta": "Alle Leistungen entdecken"
+  },
+  "process": {
+    "kicker": "Wie wir arbeiten",
+    "title": "Vom ersten Gespräch bis zum Produktivbetrieb in sieben Schritten.",
+    "description": "Ein transparenter Lebenszyklus mit klaren Ergebnissen in jeder Phase, damit Sie stets wissen, was gerade passiert und was als Nächstes folgt.",
+    "cta": "Den gesamten Ablauf ansehen"
+  },
+  "work": {
+    "kicker": "Lösungskonzepte",
+    "title": "Was wir für Sie entwickeln können.",
+    "description": "Repräsentative Lösungsentwürfe, die zeigen, wie wir Architektur, Umsetzung und Ergebnisse angehen.",
+    "cta": "Alle Lösungskonzepte ansehen"
+  },
+  "industries": {
+    "kicker": "Branchen",
+    "title": "Engineering, das branchenübergreifend funktioniert.",
+    "description": "Die Grundlagen guter Software lassen sich übertragen. In diesen Branchen setzen wir sie am häufigsten ein.",
+    "cta": "So arbeiten wir in jeder Branche"
+  },
+  "why": {
+    "kicker": "Warum Virtanex Labs",
+    "title": "Ein Technologiepartner, nicht nur ein Dienstleister.",
+    "description": "Wir verbinden erfahrenes Engineering, moderne Werkzeuge und ehrliche Kommunikation – und bleiben langfristig an Ihrer Seite.",
+    "cta": "Das Team kennenlernen"
+  },
+  "faq": {
+    "kicker": "Schnelle Antworten",
+    "title": "Die Fragen, die wir am häufigsten hören.",
+    "cta": "Alle Fragen lesen"
+  },
+  "cta": {
+    "kicker": "Sprechen wir",
+    "title": "Sie haben ein Projekt im Kopf?",
+    "description": "Erzählen Sie uns, was Sie umsetzen möchten. Innerhalb von 24 Stunden melden wir uns mit ehrlichem Feedback und einem klaren nächsten Schritt.",
+    "primary": "Discovery-Gespräch buchen",
+    "secondary": "Projektbriefing senden",
+    "assurances": ["NDA auf Anfrage möglich", "Antwort innerhalb von 24 Stunden", "Senior-Engineers von Anfang an"]
+  }
+}

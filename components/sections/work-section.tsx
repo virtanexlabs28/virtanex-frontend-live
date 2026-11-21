@@ -13,10 +13,14 @@ import {
   DialogTitle,
 } from '@/components/ui/dialog';
 import { useBooking } from '@/components/BookingProvider';
-import { work, type WorkItem } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
+import { fmt } from '@/lib/format';
+import type { WorkItem } from '@/lib/content';
 import { Section, SectionHeader } from './section';
 
 export function WorkSection() {
+  const { work, ui } = useContent();
+  const t = ui.work;
   const { openBooking } = useBooking();
   const [active, setActive] = useState<WorkItem | null>(null);
 
@@ -34,7 +38,7 @@ export function WorkSection() {
               type="button"
               onClick={() => setActive(item)}
               className="flex h-full flex-col text-left outline-none focus-visible:ring-2 focus-visible:ring-ring"
-              aria-label={`View blueprint: ${item.title}`}
+              aria-label={fmt(t.viewBlueprint, { title: item.title })}
             >
               <div className="relative aspect-[16/10] w-full overflow-hidden bg-black/40">
                 <div
@@ -89,12 +93,12 @@ export function WorkSection() {
                 </DialogHeader>
 
                 <div>
-                  <h4 className="mb-2 text-xs uppercase tracking-[0.2em] text-foreground/40">The challenge</h4>
+                  <h4 className="mb-2 text-xs uppercase tracking-[0.2em] text-foreground/40">{t.challenge}</h4>
                   <p className="text-sm leading-relaxed text-foreground/80">{active.challenge}</p>
                 </div>
 
                 <div>
-                  <h4 className="mb-3 text-xs uppercase tracking-[0.2em] text-foreground/40">Our approach</h4>
+                  <h4 className="mb-3 text-xs uppercase tracking-[0.2em] text-foreground/40">{t.approach}</h4>
                   <ul className="space-y-2">
                     {active.approach.map((a) => (
                       <li key={a} className="flex items-start gap-3 text-sm text-foreground/80">
@@ -106,7 +110,7 @@ export function WorkSection() {
                 </div>
 
                 <div>
-                  <h4 className="mb-3 text-xs uppercase tracking-[0.2em] text-foreground/40">Intended outcomes</h4>
+                  <h4 className="mb-3 text-xs uppercase tracking-[0.2em] text-foreground/40">{t.outcomes}</h4>
                   <div className="grid gap-3 sm:grid-cols-3">
                     {active.outcomes.map((o) => (
                       <div key={o} className="rounded-xl border border-border bg-foreground/5 p-4 text-sm font-medium">
@@ -117,7 +121,7 @@ export function WorkSection() {
                 </div>
 
                 <div className="flex flex-col gap-3 border-t border-border pt-6 sm:flex-row sm:items-center sm:justify-between">
-                  <span className="text-sm text-muted-foreground">Need something similar?</span>
+                  <span className="text-sm text-muted-foreground">{t.similar}</span>
                   <Button
                     onClick={() => {
                       setActive(null);
@@ -125,7 +129,7 @@ export function WorkSection() {
                     }}
                     className="rounded-full hover:bg-accent hover:text-accent-foreground"
                   >
-                    Start a project
+                    {ui.common.startProject}
                     <ArrowUpRight className="size-4" aria-hidden="true" />
                   </Button>
                 </div>

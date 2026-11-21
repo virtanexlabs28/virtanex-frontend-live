@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "kicker": "Preguntas",
+    "title": "Preguntas frecuentes",
+    "description": "Respuestas directas sobre nuestra forma de trabajar. Si la suya no está aquí, pregúntenos directamente."
+  },
+  "items": [
+    {
+      "q": "¿Qué tipo de proyectos asumen?",
+      "a": "Software y aplicaciones web a medida, productos SaaS, integraciones de IA y LLM, pipelines de datos, integraciones de sistemas, automatización de procesos, trabajos de cloud y DevOps, diseño UI/UX, QA y software IoT o industrial. Si no está seguro de si su caso encaja, una breve llamada de descubrimiento nos lo aclarará a ambos."
+    },
+    {
+      "q": "¿Cómo comienza un proyecto?",
+      "a": "Con una conversación de descubrimiento. Conocemos sus objetivos, restricciones y sistemas existentes, y a continuación le enviamos una propuesta de alcance, enfoque y plazos. No se construye nada hasta que el alcance y los hitos estén acordados."
+    },
+    {
+      "q": "¿Cómo estructuran los precios?",
+      "a": "Depende del modelo de colaboración. Los proyectos definidos se presupuestan en función de los hitos acordados, mientras que los equipos dedicados y las alianzas a largo plazo suelen acordarse según tiempo y capacidad. Compartimos una estimación clara antes de comenzar el trabajo."
+    },
+    {
+      "q": "¿A quién pertenecen el código y los datos?",
+      "a": "A usted. El código fuente, los diseños y los datos creados para su proyecto son de su propiedad, y lo entregamos todo con su documentación para que nunca quede atado a nosotros."
+    },
+    {
+      "q": "¿Cómo trabajan con distintos husos horarios?",
+      "a": "Trabajamos en remoto desde Finlandia (UTC+2) con una semana estándar de 40 horas. Acordamos franjas de coincidencia con cada cliente, compartimos informes escritos y mostramos el avance de forma periódica para que siempre sepa en qué punto se encuentra todo."
+    },
+    {
+      "q": "¿Cómo gestionan la seguridad y la confidencialidad?",
+      "a": "Utilizamos acceso basado en roles, comunicaciones cifradas y una gestión adecuada de secretos, y firmamos con gusto un NDA antes de hablar de su proyecto. La seguridad se tiene en cuenta desde el principio en la arquitectura y en las pruebas."
+    },
+    {
+      "q": "¿Ofrecen soporte después del lanzamiento?",
+      "a": "Sí. El mantenimiento y la mejora son la séptima fase de nuestro ciclo de vida: corrección de errores, actualizaciones de seguridad, optimización del rendimiento y desarrollo continuo de funcionalidades mediante un acuerdo de soporte o de alianza."
+    },
+    {
+      "q": "¿Pueden trabajar con nuestro equipo o nuestro código existente?",
+      "a": "Por supuesto. Nuestro modelo de equipo dedicado está pensado para integrarse con sus ingenieros, herramientas y rituales. También asumimos trabajos de modernización de aplicaciones existentes."
+    }
+  ]
+}

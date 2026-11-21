@@ -1,0 +1,128 @@
+{
+  "intro": {
+    "kicker": "Méthodologie",
+    "title": "Notre cycle d'ingénierie en 7 phases",
+    "description": "Un processus structuré et transparent qui rend la livraison prévisible et maintient une qualité élevée, du premier échange jusqu'à l'amélioration à long terme."
+  },
+  "phases": [
+    {
+      "phase": "Phase 01",
+      "title": "Découverte et besoins",
+      "duration": "En général 1 à 2 semaines",
+      "detail": "Nous analysons vos objectifs métier, vos défis opérationnels, vos attentes pour le projet et votre environnement technique afin de poser des bases solides.",
+      "activities": [
+        "Entretiens avec les parties prenantes",
+        "Recueil des besoins",
+        "Revue des systèmes existants",
+        "Cartographie des risques et des contraintes"
+      ],
+      "outputs": [
+        "Synthèse des besoins",
+        "Critères de réussite",
+        "Périmètre initial et risques"
+      ]
+    },
+    {
+      "phase": "Phase 02",
+      "title": "Planification et architecture",
+      "duration": "En général 1 à 2 semaines",
+      "detail": "Nous définissons le périmètre du projet, l'architecture technique, les jalons de développement, la stack technologique et la stratégie de livraison.",
+      "activities": [
+        "Architecture de la solution",
+        "Choix technologiques",
+        "Planification des jalons et des versions",
+        "Estimation et affectation des équipes"
+      ],
+      "outputs": [
+        "Document d'architecture",
+        "Feuille de route de livraison",
+        "Périmètre et jalons validés"
+      ]
+    },
+    {
+      "phase": "Phase 03",
+      "title": "Design et prototypage",
+      "duration": "En parallèle de la planification et des débuts du développement",
+      "detail": "Nous concevons les interfaces utilisateur, les design systems, les spécifications techniques et des prototypes interactifs pour une validation précoce.",
+      "activities": [
+        "Cartographie des parcours utilisateurs",
+        "Wireframes et design visuel",
+        "Définition du design system",
+        "Prototypes cliquables"
+      ],
+      "outputs": [
+        "Maquettes d'interface",
+        "Design system",
+        "Prototype validé"
+      ]
+    },
+    {
+      "phase": "Phase 04",
+      "title": "Ingénierie et développement",
+      "duration": "Sprints itératifs avec démonstrations régulières",
+      "detail": "Notre équipe d'ingénierie distribuée construit la solution avec des frameworks modernes, de bonnes pratiques de code propre et des patrons modulaires.",
+      "activities": [
+        "Implémentation par sprints",
+        "Revue de code à chaque modification",
+        "Intégration continue",
+        "Démonstrations et retours réguliers"
+      ],
+      "outputs": [
+        "Incréments fonctionnels",
+        "Code source relu et testé",
+        "Rapports d'avancement"
+      ]
+    },
+    {
+      "phase": "Phase 05",
+      "title": "Tests et assurance qualité",
+      "duration": "En continu, avec une passe dédiée avant la mise en production",
+      "detail": "Des tests automatisés et manuels rigoureux valident les fonctionnalités, les performances, la sécurité et la fiabilité dans les cas limites.",
+      "activities": [
+        "Tests unitaires et d'intégration automatisés",
+        "Tests de bout en bout et de non-régression",
+        "Contrôles de performance",
+        "Revue de sécurité"
+      ],
+      "outputs": [
+        "Rapports de tests",
+        "Liste des défauts corrigés",
+        "Validation de la préparation à la mise en production"
+      ]
+    },
+    {
+      "phase": "Phase 06",
+      "title": "Déploiement et livraison",
+      "duration": "En général quelques jours, planifiés à l'avance",
+      "detail": "Nous configurons l'infrastructure de production, les déploiements conteneurisés et les pipelines de supervision, puis réalisons la passation convenue.",
+      "activities": [
+        "Mise en place de l'environnement de production",
+        "Déploiement automatisé",
+        "Supervision et alertes",
+        "Transfert de connaissances"
+      ],
+      "outputs": [
+        "Système en production",
+        "Documentation d'exploitation",
+        "Session de passation"
+      ]
+    },
+    {
+      "phase": "Phase 07",
+      "title": "Maintenance et amélioration",
+      "duration": "Continue, selon accord",
+      "detail": "Nous assurons des améliorations continues, un support technique, des correctifs de sécurité et des optimisations de montée en charge à mesure que vos besoins évoluent.",
+      "activities": [
+        "Correction de bugs et support",
+        "Mises à jour des dépendances et de sécurité",
+        "Optimisation des performances",
+        "Livraison des fonctionnalités de la feuille de route"
+      ],
+      "outputs": [
+        "Versions de maintenance régulières",
+        "Rapports de santé et d'usage",
+        "Feuille de route actualisée"
+      ]
+    }
+  ]
+}

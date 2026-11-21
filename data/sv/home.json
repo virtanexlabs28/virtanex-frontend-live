@@ -1,0 +1,49 @@
+{
+  "marquee": {
+    "kicker": "Vår verktygslåda",
+    "title": "Byggt med verktyg vi litar på"
+  },
+  "services": {
+    "kicker": "Vad vi gör",
+    "title": "Tio områden, ett team som tar ansvar.",
+    "description": "Allt från första prototyp till produktionsinfrastruktur, och den support som håller det igång.",
+    "cta": "Utforska alla tjänster"
+  },
+  "process": {
+    "kicker": "Så arbetar vi",
+    "title": "Från första samtalet till produktion i sju steg.",
+    "description": "En transparent leveranscykel med tydliga leveranser i varje steg, så att ni alltid vet vad som händer och vad som kommer härnäst.",
+    "cta": "Se hela processen"
+  },
+  "work": {
+    "kicker": "Lösningsritningar",
+    "title": "Vad vi kan bygga åt er.",
+    "description": "Representativa lösningsdesigner som visar hur vi angriper arkitektur, leverans och resultat.",
+    "cta": "Visa alla lösningsritningar"
+  },
+  "industries": {
+    "kicker": "Branscher",
+    "title": "Teknik som fungerar i alla branscher.",
+    "description": "Grunderna i bra mjukvara är överförbara. Här är de branscher där vi tillämpar dem oftast.",
+    "cta": "Se hur vi arbetar i varje bransch"
+  },
+  "why": {
+    "kicker": "Varför Virtanex Labs",
+    "title": "En teknikpartner, inte bara en leverantör.",
+    "description": "Vi kombinerar senior teknisk kompetens, moderna verktyg och ärlig kommunikation, och vi stannar på lång sikt.",
+    "cta": "Möt teamet"
+  },
+  "faq": {
+    "kicker": "Snabba svar",
+    "title": "Frågorna vi får oftast.",
+    "cta": "Läs alla frågor"
+  },
+  "cta": {
+    "kicker": "Låt oss prata",
+    "title": "Har ni ett projekt i tankarna?",
+    "description": "Berätta vad ni vill bygga. Vi återkommer inom 24 timmar med ärlig feedback och ett tydligt nästa steg.",
+    "primary": "Boka ett kartläggningssamtal",
+    "secondary": "Skicka en projektbeskrivning",
+    "assurances": ["Sekretessavtal (NDA) finns på begäran", "Svar inom 24 timmar", "Seniora utvecklare från dag ett"]
+  }
+}

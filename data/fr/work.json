@@ -1,0 +1,117 @@
+{
+  "intro": {
+    "kicker": "Plans de solution",
+    "title": "Les types de systèmes que nous construisons.",
+    "description": "Quatre conceptions de solutions représentatives, qui montrent notre approche de l'architecture, de la livraison et des résultats. Elles illustrent nos compétences et ne sont pas des études de cas clients."
+  },
+  "items": [
+    {
+      "id": "ai-knowledge-platform",
+      "title": "Plateforme de connaissances et de documents pilotée par l'IA",
+      "category": "IA d'entreprise et workflows",
+      "service": "ai-ml",
+      "description": "Un assistant à génération augmentée par la recherche et un pipeline de traitement de documents qui transforment contrats, manuels et rapports en réponses fiables pour les équipes.",
+      "tags": [
+        "Intégration de LLM",
+        "RAG",
+        "Python / NestJS",
+        "Recherche vectorielle"
+      ],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Les équipes perdent des heures à chercher dans leurs documents. Ce plan de solution ingère les fichiers depuis le stockage existant, en extrait et en indexe le contenu, et propose une interface conversationnelle qui cite ses sources, avec un contrôle d'accès par rôle pour que chacun ne voie que ce qu'il est autorisé à consulter.",
+      "challenge": "Une information dispersée entre lecteurs partagés, pièces jointes d'e-mails et systèmes hérités, sans moyen fiable de la rechercher ou de la synthétiser.",
+      "approach": [
+        "Pipeline d'ingestion avec OCR et extraction structurée",
+        "Recherche hybride par mots-clés et vecteurs, avec citations",
+        "Jeu d'évaluation pour mesurer la qualité des réponses dans le temps",
+        "Accès par rôle et journalisation d'audit complète"
+      ],
+      "outcomes": [
+        "Des réponses plus rapides à partir des documents internes",
+        "Des réponses traçables, citant leurs sources",
+        "Un accès maîtrisé aux contenus sensibles"
+      ]
+    },
+    {
+      "id": "saas-platform",
+      "title": "Plateforme SaaS multi-tenant",
+      "category": "Produit numérique et SaaS",
+      "service": "digital-product",
+      "description": "Une plateforme par abonnement dotée d'isolation des tenants, d'accès par rôle, de facturation et d'une console d'administration, prête à passer du MVP à la production.",
+      "tags": [
+        "Next.js",
+        "NestJS",
+        "PostgreSQL",
+        "Abonnements"
+      ],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Une architecture de référence pour transformer une idée de produit en SaaS facturable. Elle couvre l'isolation des données par tenant, la gestion des utilisateurs et des permissions, les formules d'abonnement, le suivi de l'usage et l'outillage opérationnel nécessaire pour exploiter le produit au quotidien.",
+      "challenge": "Lancer rapidement sans enfermer le produit dans une impasse architecturale qui bloquerait plus tard le multi-tenant, la facturation ou les fonctionnalités entreprise.",
+      "approach": [
+        "Modèle de données et couche d'accès conscients des tenants",
+        "Intégration d'un fournisseur d'abonnement et de facturation",
+        "Console d'administration pour le support et l'exploitation",
+        "CI/CD avec environnements de préproduction et de production"
+      ],
+      "outcomes": [
+        "Un MVP rapidement sur le marché",
+        "Une architecture qui évolue avec les clients",
+        "Une base saine pour de nouvelles fonctionnalités"
+      ]
+    },
+    {
+      "id": "data-reporting",
+      "title": "Plateforme unifiée de données et de reporting",
+      "category": "Ingénierie des données et analytique",
+      "service": "data-engineering",
+      "description": "Des pipelines automatisés qui consolident les données des systèmes financiers, commerciaux et opérationnels dans un modèle unique et fiable, avec des tableaux de bord en temps réel.",
+      "tags": [
+        "ETL / ELT",
+        "PostgreSQL",
+        "Python",
+        "Tableaux de bord"
+      ],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Le reporting rime souvent avec exports manuels et feuilles de calcul contradictoires. Ce plan de solution interroge chaque système source selon un calendrier, valide et réconcilie les données, puis publie une source de vérité unique, avec des tableaux de bord sur lesquels les dirigeants peuvent s'appuyer.",
+      "challenge": "Plusieurs systèmes, des définitions incohérentes et un reporting manuel de fin de mois, lent et sujet aux erreurs.",
+      "approach": [
+        "Connecteurs de sources avec chargement incrémental",
+        "Couche de transformation avec règles métier documentées",
+        "Contrôles automatisés de qualité des données et alertes",
+        "Tableaux de bord et envoi planifié des rapports"
+      ],
+      "outcomes": [
+        "Une vue cohérente de l'entreprise",
+        "Moins d'efforts de reporting manuel",
+        "Une alerte précoce en cas de problème de données"
+      ]
+    },
+    {
+      "id": "iot-monitoring",
+      "title": "Système de supervision et d'alerte IoT",
+      "category": "Logiciels IoT et industriels",
+      "service": "iot-industrial",
+      "description": "Ingestion de télémétrie en temps réel, tableaux de bord et alertes d'anomalies pour des équipements connectés, avec une trajectoire vers la maintenance prédictive.",
+      "tags": [
+        "IoT",
+        "Temps réel",
+        "Détection d'anomalies",
+        "Python / Node.js"
+      ],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Les équipements connectés produisent des données qui atteignent rarement ceux qui peuvent agir. Ce plan de solution ingère la télémétrie des appareils, la stocke efficacement, affiche l'état en direct et déclenche des alertes lorsque les mesures s'écartent du comportement attendu.",
+      "challenge": "L'état de santé des équipements reste invisible jusqu'à la panne, et les données des appareils sont enfermées dans des outils propriétaires.",
+      "approach": [
+        "Intégration des appareils et des passerelles via des protocoles standards",
+        "Stockage de séries temporelles et pipeline de traitement",
+        "Tableaux de bord en direct par site, équipement et capteur",
+        "Alertes par seuils et par détection statistique d'anomalies"
+      ],
+      "outcomes": [
+        "Une visibilité en temps réel sur les équipements",
+        "Une détection plus précoce des pannes",
+        "Une base pour la maintenance prédictive"
+      ]
+    }
+  ]
+}

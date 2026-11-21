@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "kicker": "Questions",
+    "title": "Foire aux questions",
+    "description": "Des réponses directes sur notre façon de travailler. Si la vôtre n'y figure pas, posez-nous directement la question."
+  },
+  "items": [
+    {
+      "q": "Quels types de projets prenez-vous en charge ?",
+      "a": "Logiciels et applications web sur mesure, produits SaaS, intégrations d'IA et de LLM, pipelines de données, intégrations de systèmes, automatisation de processus, cloud et DevOps, design UI/UX, QA, ainsi que logiciels IoT et industriels. Si vous hésitez sur l'adéquation de votre besoin, un court appel de découverte nous éclairera tous les deux."
+    },
+    {
+      "q": "Comment démarre un projet ?",
+      "a": "Par un échange de découverte. Nous apprenons à connaître vos objectifs, vos contraintes et vos systèmes existants, puis nous vous proposons un périmètre, une approche et un calendrier. Rien n'est construit tant que le périmètre et les jalons ne sont pas validés."
+    },
+    {
+      "q": "Comment structurez-vous votre tarification ?",
+      "a": "Cela dépend du modèle de collaboration. Les projets définis sont chiffrés en fonction de jalons convenus, tandis que les équipes dédiées et les partenariats de long terme sont généralement établis sur la base du temps et de la capacité. Nous vous remettons une estimation claire avant le début des travaux."
+    },
+    {
+      "q": "À qui appartiennent le code et les données ?",
+      "a": "À vous. Le code source, les designs et les données créés pour votre projet vous appartiennent, et nous transmettons l'ensemble avec sa documentation, de sorte que vous n'êtes jamais captif."
+    },
+    {
+      "q": "Comment travaillez-vous avec des fuseaux horaires différents ?",
+      "a": "Nous fonctionnons 100 % à distance depuis la Finlande (UTC+2), sur une semaine standard de 40 heures. Nous convenons de plages de recouvrement avec chaque client, partageons des comptes rendus écrits et présentons régulièrement l'avancement, pour que vous sachiez toujours où en sont les choses."
+    },
+    {
+      "q": "Comment gérez-vous la sécurité et la confidentialité ?",
+      "a": "Nous appliquons un contrôle d'accès par rôle, des communications chiffrées et une gestion rigoureuse des secrets, et nous signons volontiers un NDA avant de discuter de votre projet. La sécurité est prise en compte dès l'architecture et les tests."
+    },
+    {
+      "q": "Proposez-vous un support après la mise en production ?",
+      "a": "Oui. La maintenance et l'amélioration constituent la septième phase de notre cycle de vie : corrections de bugs, mises à jour de sécurité, optimisation des performances et poursuite du développement de fonctionnalités dans le cadre d'un contrat de support ou de partenariat."
+    },
+    {
+      "q": "Pouvez-vous travailler avec notre équipe ou notre base de code existante ?",
+      "a": "Absolument. Notre modèle d'équipe dédiée est conçu pour s'intégrer à vos ingénieurs, à vos outils et à vos rituels. Nous prenons également en charge la modernisation d'applications existantes."
+    }
+  ]
+}

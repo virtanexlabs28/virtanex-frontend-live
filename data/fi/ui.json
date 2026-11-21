@@ -1,0 +1,161 @@
+{
+  "language": {
+    "label": "Kieli",
+    "switch": "Vaihda kieli"
+  },
+  "theme": {
+    "toggle": "Vaihda vaalean ja tumman teeman välillä",
+    "toDark": "Tumma tila",
+    "toLight": "Vaalea tila"
+  },
+  "nav": {
+    "aria": "Päävalikko",
+    "home": "{name} etusivu",
+    "bookCall": "Varaa puhelu",
+    "openMenu": "Avaa navigointivalikko",
+    "menuDescription": "Sivuston navigointi",
+    "mobileFooter": "SUOMI · ETÄNÄ · PERUSTETTU {founded}"
+  },
+  "hero": {
+    "imageAlt": "Sumuinen laakso ja mäntyjä hämärässä, taivas hehkuu meripihkan sävyissä",
+    "aria": "{name} esittelyosio"
+  },
+  "common": {
+    "startProject": "Aloita projekti",
+    "bestFor": "Sopii parhaiten:",
+    "askDirectly": "Kysy meiltä suoraan"
+  },
+  "footer": {
+    "aria": "{name} alatunniste",
+    "kicker": "{name} · Suomi",
+    "pitch": "Muutamme monimutkaiset liiketoiminnan haasteet käytännöllisiksi, ylläpidettäviksi digitaalisiksi tuotteiksi.",
+    "base": "Kotipaikka: Suomi ({timezone})",
+    "remote": "Etätyö ensin, kansainvälistä yhteistyötä",
+    "field": "IT ja ohjelmistokehitys",
+    "servicesHeading": "Palvelut",
+    "companyHeading": "Yritys",
+    "contactHeading": "Yhteystiedot",
+    "generalInquiries": "Yleiset tiedustelut",
+    "website": "Verkkosivusto",
+    "location": "Sijainti",
+    "openings": "Valikoituja vapaita paikkoja konsultointiin ja kokonaisvaltaiseen ohjelmistotuotantoon.",
+    "rights": "Kaikki oikeudet pidätetään.",
+    "backToTop": "Takaisin ylös",
+    "scrollToTop": "Vieritä takaisin sivun alkuun",
+    "links": [
+      {
+        "label": "Etusivu",
+        "href": "/"
+      },
+      {
+        "label": "Palvelut",
+        "href": "/services"
+      },
+      {
+        "label": "Teknologiapino",
+        "href": "/services#technology"
+      },
+      {
+        "label": "Ohjelmistotuotannon prosessi",
+        "href": "/process"
+      },
+      {
+        "label": "Yhteistyömallit",
+        "href": "/process#engagement"
+      },
+      {
+        "label": "Tietoturva ja etätyömalli",
+        "href": "/process#security"
+      },
+      {
+        "label": "Ratkaisumallit",
+        "href": "/work"
+      },
+      {
+        "label": "Toimialat",
+        "href": "/work#industries"
+      },
+      {
+        "label": "Tiimi ja arvot",
+        "href": "/team"
+      },
+      {
+        "label": "UKK",
+        "href": "/faq"
+      },
+      {
+        "label": "Yhteystiedot",
+        "href": "/contact"
+      }
+    ]
+  },
+  "contact": {
+    "aria": "Yhteystiedot ja tiedustelut",
+    "kicker": "Tiedustelut ja varaukset",
+    "title": "Rakennetaan jotain, mikä kestää.",
+    "intro": "Otamme mielellämme vastaan uusia asiakaskumppanuuksia, omistautuneita kehitysyhteistyöhankkeita ja kartoittavia teknisiä konsultaatioita.",
+    "availabilityLabel": "Tämänhetkinen saatavuus",
+    "name": "Nimesi",
+    "namePlaceholder": "Koko nimi",
+    "email": "Sähköpostiosoite",
+    "emailPlaceholder": "nimi@yritys.fi",
+    "company": "Yritys (valinnainen)",
+    "companyPlaceholder": "Organisaation nimi",
+    "service": "Tarvittava palvelu",
+    "timeline": "Tavoiteaikataulu",
+    "message": "Projektin yleiskuvaus",
+    "messagePlaceholder": "Kerro meille, minkä haasteen parissa työskentelet ja millaista ratkaisua haet...",
+    "submit": "Lähetä projektitiedustelu",
+    "sending": "Lähetetään…",
+    "successTitle": "Viesti lähetetty",
+    "successBody": "Kiitos, {name}. Tiedustelusi on tiimillämme, ja vastaamme osoitteeseen {email} {responseTime}.",
+    "another": "Aloita uusi tiedustelu"
+  },
+  "booking": {
+    "kicker": "{name} · Suomi",
+    "topic": "Kiinnostava aihe",
+    "window": "Toivottu ajankohta",
+    "name": "Nimesi",
+    "namePlaceholder": "Koko nimi",
+    "email": "Työsähköposti",
+    "emailPlaceholder": "nimi@yritys.fi",
+    "notes": "Huomioita projektista (valinnainen)",
+    "notesPlaceholder": "Lyhyt tavoite tai kysymyksiä",
+    "submit": "Pyydä tätä puhelua",
+    "sending": "Lähetetään…",
+    "doneKicker": "Melkein valmista",
+    "doneTitle": "Pyyntö vastaanotettu",
+    "doneBody": "Olemme saaneet tietosi ja toivomasi ajankohdan ({slot}). Vahvistamme ajan sähköpostitse {responseTime}.",
+    "done": "Valmis"
+  },
+  "errors": {
+    "invalid": "Anna nimesi ja kelvollinen sähköpostiosoite.",
+    "rate": "Liian monta pyyntöä. Yritä uudelleen muutaman minuutin kuluttua.",
+    "send": "Viestiäsi ei voitu lähettää. Lähetä viesti suoraan osoitteeseen {email}.",
+    "network": "Verkkovirhe. Tarkista yhteytesi ja yritä uudelleen.",
+    "generic": "Jokin meni pieleen. Yritä uudelleen."
+  },
+  "services": {
+    "choose": "Valitse palvelu",
+    "serviceLabel": "Palvelu {number}",
+    "whatWeDo": "Mitä teemme",
+    "whatYouReceive": "Mitä saat",
+    "typicalStack": "Tyypillinen teknologiapino",
+    "idealFor": "Sopii erityisesti",
+    "engagement": "Yhteistyömalli",
+    "wantThis": "Haluatko tämän osaamisen omaan projektiisi?",
+    "discuss": "Keskustele tästä palvelusta"
+  },
+  "process": {
+    "inFocus": "{phase} tarkastelussa",
+    "activities": "Keskeiset toimenpiteet",
+    "outputs": "Mitä saat"
+  },
+  "work": {
+    "viewBlueprint": "Katso ratkaisumalli: {title}",
+    "challenge": "Haaste",
+    "approach": "Lähestymistapamme",
+    "outcomes": "Tavoitellut tulokset",
+    "similar": "Tarvitsetko jotain vastaavaa?"
+  }
+}

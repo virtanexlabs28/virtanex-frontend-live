@@ -9,6 +9,7 @@ export const LOGO_VIEWBOX = '208 418 1064 235';
 /** Emblem only. */
 export const MARK_VIEWBOX = '205 416 325 236';
 
+export const BRAND_NAME = 'Virtanex Labs';
 export const LOGO_PURPLE = '#6a19fc';
 export const LOGO_INK = '#121317';
 

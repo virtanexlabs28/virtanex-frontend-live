@@ -1,0 +1,175 @@
+{
+  "intro": {
+    "kicker": "Moderne Werkzeuge",
+    "title": "Technologie & technischer Stack",
+    "description": "Bewährte, gut unterstützte Werkzeuge, ausgewählt im Hinblick auf Wartbarkeit. Wir richten den Stack nach dem Problem aus und nicht umgekehrt."
+  },
+  "categories": [
+    {
+      "id": "all",
+      "label": "Alle"
+    },
+    {
+      "id": "frontend",
+      "label": "Frontend"
+    },
+    {
+      "id": "backend",
+      "label": "Backend"
+    },
+    {
+      "id": "database",
+      "label": "Datenbanken"
+    },
+    {
+      "id": "ai-data",
+      "label": "KI & Daten"
+    },
+    {
+      "id": "cloud",
+      "label": "Cloud"
+    },
+    {
+      "id": "automation",
+      "label": "Automatisierung"
+    },
+    {
+      "id": "design",
+      "label": "Design"
+    }
+  ],
+  "items": [
+    {
+      "category": "frontend",
+      "name": "Next.js",
+      "type": "Full-Stack-React-Framework",
+      "icon": "brand:siNextdotjs"
+    },
+    {
+      "category": "frontend",
+      "name": "React",
+      "type": "UI-Bibliothek",
+      "icon": "brand:siReact"
+    },
+    {
+      "category": "frontend",
+      "name": "TypeScript",
+      "type": "Typsicheres JavaScript",
+      "icon": "brand:siTypescript"
+    },
+    {
+      "category": "frontend",
+      "name": "Tailwind CSS",
+      "type": "Utility-first-Styling",
+      "icon": "brand:siTailwindcss"
+    },
+    {
+      "category": "backend",
+      "name": "Node.js",
+      "type": "Server-Laufzeitumgebung",
+      "icon": "brand:siNodedotjs"
+    },
+    {
+      "category": "backend",
+      "name": "NestJS",
+      "type": "Enterprise-Backend-Framework",
+      "icon": "brand:siNestjs"
+    },
+    {
+      "category": "backend",
+      "name": "Express.js",
+      "type": "REST-Routing",
+      "icon": "brand:siExpress"
+    },
+    {
+      "category": "backend",
+      "name": "Python",
+      "type": "Services, Daten & ML",
+      "icon": "brand:siPython"
+    },
+    {
+      "category": "database",
+      "name": "PostgreSQL",
+      "type": "Relationale Datenbank",
+      "icon": "brand:siPostgresql"
+    },
+    {
+      "category": "database",
+      "name": "MySQL",
+      "type": "Relationale Datenbank",
+      "icon": "brand:siMysql"
+    },
+    {
+      "category": "database",
+      "name": "MongoDB",
+      "type": "Dokumentendatenbank",
+      "icon": "brand:siMongodb"
+    },
+    {
+      "category": "database",
+      "name": "Redis",
+      "type": "Cache & Queues",
+      "icon": "brand:siRedis"
+    },
+    {
+      "category": "ai-data",
+      "name": "LLM APIs",
+      "type": "Integration von Sprachmodellen",
+      "icon": "lucide:Sparkles"
+    },
+    {
+      "category": "ai-data",
+      "name": "RAG pipelines",
+      "type": "Faktenbasierte KI-Antworten",
+      "icon": "lucide:SearchCheck"
+    },
+    {
+      "category": "ai-data",
+      "name": "Vector databases",
+      "type": "Semantische Suche",
+      "icon": "lucide:Database"
+    },
+    {
+      "category": "ai-data",
+      "name": "Machine Learning",
+      "type": "Prognosemodelle",
+      "icon": "lucide:Brain"
+    },
+    {
+      "category": "cloud",
+      "name": "Docker & Compose",
+      "type": "Containerisierung",
+      "icon": "brand:siDocker"
+    },
+    {
+      "category": "cloud",
+      "name": "CI/CD pipelines",
+      "type": "Automatisierte Auslieferung",
+      "icon": "brand:siGithubactions"
+    },
+    {
+      "category": "cloud",
+      "name": "Linux / VPS",
+      "type": "Server-Infrastruktur",
+      "icon": "brand:siLinux"
+    },
+    {
+      "category": "automation",
+      "name": "n8n",
+      "type": "Workflow-Orchestrierung",
+      "icon": "brand:siN8n"
+    },
+    {
+      "category": "automation",
+      "name": "Webhooks & APIs",
+      "type": "Systemintegration",
+      "icon": "lucide:Webhook"
+    },
+    {
+      "category": "design",
+      "name": "Figma",
+      "type": "Design & Prototyping",
+      "icon": "brand:siFigma"
+    }
+  ]
+}

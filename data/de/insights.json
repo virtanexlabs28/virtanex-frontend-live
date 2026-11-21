@@ -1,0 +1,29 @@
+{
+  "intro": {
+    "kicker": "Forschung & Innovation",
+    "title": "Wohin wir schauen",
+    "description": "Die technischen Bereiche, in die wir investieren und in denen wir ständig dazulernen, damit Kundenprojekte von aktuellem, praxisnahem Denken profitieren."
+  },
+  "items": [
+    {
+      "icon": "Bot",
+      "title": "Zuverlässige LLM-Agenten",
+      "desc": "Entwurf mehrstufiger KI-Workflows mit Evaluierung, Guardrails und menschlicher Prüfung, damit sie sich im Geschäftsumfeld vorhersehbar verhalten."
+    },
+    {
+      "icon": "SearchCheck",
+      "title": "Retrieval-Qualität",
+      "desc": "Verbesserung von RAG-Systemen durch besseres Chunking, hybride Suche und messbare Evaluierung statt Bauchgefühl."
+    },
+    {
+      "icon": "Activity",
+      "title": "Echtzeit-Telemetrie",
+      "desc": "Latenzarme Pipelines für Sensor- und Ereignisdaten, von der Edge-Erfassung bis zu Dashboards und Alarmierung."
+    },
+    {
+      "icon": "Boxes",
+      "title": "Pragmatische Architektur",
+      "desc": "Wir wählen die einfachste Architektur, die skaliert: zuerst modulare Monolithen, Microservices dort, wo sie ihren Aufwand wirklich rechtfertigen."
+    }
+  ]
+}

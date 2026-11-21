@@ -1,11 +1,14 @@
+'use client';
+
 import { CheckCircle2 } from 'lucide-react';
 import { Badge } from '@/components/ui/badge';
 import { Card } from '@/components/ui/card';
-import { company, insights } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
 import { getIcon } from '@/lib/icons';
 import { Section, SectionHeader } from './section';
 
 export function IndustriesSection() {
+  const { company } = useContent();
   const { industries } = company;
   return (
     <Section id="industries">
@@ -36,6 +39,7 @@ export function IndustriesSection() {
 }
 
 export function EngagementSection() {
+  const { company, ui } = useContent();
   const { engagement } = company;
   return (
     <Section id="engagement">
@@ -60,7 +64,7 @@ export function EngagementSection() {
               ))}
             </ul>
             <p className="mt-auto border-t border-border pt-4 text-xs leading-relaxed text-foreground/50">
-              <span className="font-medium text-foreground/70">Best for: </span>
+              <span className="font-medium text-foreground/70">{ui.common.bestFor} </span>
               {m.bestFor}
             </p>
           </Card>
@@ -71,6 +75,7 @@ export function EngagementSection() {
 }
 
 export function SecuritySection() {
+  const { company } = useContent();
   const { security } = company;
   return (
     <Section id="security">
@@ -102,6 +107,7 @@ export function SecuritySection() {
 }
 
 export function TeamSection() {
+  const { company } = useContent();
   const { team } = company;
   return (
     <Section id="team">
@@ -135,6 +141,7 @@ export function TeamSection() {
 }
 
 export function WhySection() {
+  const { company } = useContent();
   const { why, partnerships } = company;
   return (
     <Section id="why">
@@ -167,6 +174,7 @@ export function WhySection() {
 }
 
 export function InsightsSection() {
+  const { insights } = useContent();
   return (
     <Section id="insights">
       <SectionHeader {...insights.intro} />
@@ -187,6 +195,7 @@ export function InsightsSection() {
 }
 
 export function ValuesSection() {
+  const { company } = useContent();
   const { values } = company;
   return (
     <Section id="values">

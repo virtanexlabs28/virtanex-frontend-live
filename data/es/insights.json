@@ -1,0 +1,29 @@
+{
+  "intro": {
+    "kicker": "Investigación e innovación",
+    "title": "Hacia dónde miramos",
+    "description": "Las áreas técnicas en las que invertimos y seguimos aprendiendo, para que el trabajo con clientes se beneficie de un pensamiento actual y práctico."
+  },
+  "items": [
+    {
+      "icon": "Bot",
+      "title": "Agentes LLM fiables",
+      "desc": "Diseño de flujos de trabajo de IA de varios pasos con evaluación, salvaguardas y revisión humana para que se comporten de forma predecible en entornos empresariales."
+    },
+    {
+      "icon": "SearchCheck",
+      "title": "Calidad de la recuperación",
+      "desc": "Mejora de los sistemas RAG mediante una mejor fragmentación, búsqueda híbrida y evaluación medible, en lugar de conjeturas."
+    },
+    {
+      "icon": "Activity",
+      "title": "Telemetría en tiempo real",
+      "desc": "Pipelines de baja latencia para datos de sensores y eventos, desde la ingesta en el edge hasta los paneles y las alertas."
+    },
+    {
+      "icon": "Boxes",
+      "title": "Arquitectura pragmática",
+      "desc": "Elegir la arquitectura más sencilla que escale: primero monolitos modulares y microservicios solo donde realmente justifiquen su coste."
+    }
+  ]
+}

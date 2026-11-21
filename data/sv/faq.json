@@ -1,0 +1,41 @@
+{
+  "intro": {
+    "kicker": "Frågor",
+    "title": "Vanliga frågor",
+    "description": "Raka svar om hur vi arbetar. Saknar ni svar på er fråga? Fråga oss direkt."
+  },
+  "items": [
+    {
+      "q": "Vilka typer av projekt tar ni er an?",
+      "a": "Skräddarsydd mjukvara och webbapplikationer, SaaS-produkter, AI- och LLM-integrationer, datapipelines, systemintegrationer, processautomatisering, moln- och DevOps-arbete, UI/UX-design, kvalitetssäkring samt IoT och industriell mjukvara. Om ni är osäkra på om något passar kan ett kort kartläggningssamtal ge svar åt oss båda."
+    },
+    {
+      "q": "Hur startar ett projekt?",
+      "a": "Med ett kartläggningssamtal. Vi lär oss om era mål, begränsningar och befintliga system och återkommer sedan med ett förslag på omfattning, arbetssätt och tidplan. Ingenting byggs förrän omfattning och milstolpar är överenskomna."
+    },
+    {
+      "q": "Hur är er prissättning uppbyggd?",
+      "a": "Det beror på samarbetsmodellen. Definierade projekt avgränsas mot överenskomna milstolpar, medan dedikerade team och långsiktiga partnerskap vanligtvis överenskoms utifrån tid och kapacitet. Vi delar en tydlig uppskattning innan arbetet påbörjas."
+    },
+    {
+      "q": "Vem äger koden och datan?",
+      "a": "Det gör ni. Källkod, design och data som skapas för ert projekt tillhör er, och vi överlämnar allt tillsammans med dokumentation så att ni aldrig blir inlåsta."
+    },
+    {
+      "q": "Hur arbetar ni över tidszoner?",
+      "a": "Vi arbetar i första hand på distans och har vår bas i Finland (UTC+2), med en standardvecka på 40 timmar. Vi kommer överens med varje kund om överlappande tider, delar skriftliga lägesrapporter och demonstrerar framsteg regelbundet så att ni alltid vet hur det går."
+    },
+    {
+      "q": "Hur hanterar ni säkerhet och sekretess?",
+      "a": "Vi använder rollbaserad åtkomst, krypterad kommunikation och korrekt hantering av hemligheter, och skriver gärna under ett sekretessavtal (NDA) innan vi diskuterar ert projekt. Säkerhet beaktas i arkitektur och testning från början."
+    },
+    {
+      "q": "Erbjuder ni support efter lansering?",
+      "a": "Ja. Underhåll och förbättring är den sjunde fasen i vår leveranscykel: felrättningar, säkerhetsuppdateringar, prestandajustering och fortsatt funktionsutveckling inom ramen för ett support- eller partnerskapsavtal."
+    },
+    {
+      "q": "Kan ni arbeta med vårt befintliga team eller vår kodbas?",
+      "a": "Absolut. Vår modell med dedikerade team är utformad för att integreras med era utvecklare, verktyg och arbetsrutiner. Vi åtar oss också moderniseringsarbete för befintliga applikationer."
+    }
+  ]
+}

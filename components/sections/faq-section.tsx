@@ -1,9 +1,12 @@
+'use client';
+
 import { ArrowUpRight, Mail } from 'lucide-react';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { faq, site } from '@/lib/content';
+import { useContent } from '@/components/ContentProvider';
 import { Section, SectionHeader } from './section';
 
 export function FaqSection() {
+  const { faq, site, ui } = useContent();
   return (
     <Section id="faq">
       <div className="grid gap-12 lg:grid-cols-12">
@@ -14,7 +17,7 @@ export function FaqSection() {
             className="inline-flex items-center gap-2 text-sm text-accent transition-colors hover:text-foreground focus-visible:outline-2 focus-visible:outline-accent"
           >
             <Mail className="size-4" aria-hidden="true" />
-            Ask us directly
+            {ui.common.askDirectly}
             <ArrowUpRight className="size-3.5" aria-hidden="true" />
           </a>
         </div>

@@ -1,0 +1,81 @@
+{
+  "intro": {
+    "kicker": "Planos de solución",
+    "title": "Los tipos de sistemas que construimos.",
+    "description": "Cuatro diseños de solución representativos que muestran cómo abordamos la arquitectura, la entrega y los resultados. Ilustran nuestras capacidades y no son casos de estudio de clientes."
+  },
+  "items": [
+    {
+      "id": "ai-knowledge-platform",
+      "title": "Plataforma de conocimiento y documentos con IA",
+      "category": "IA empresarial y flujos de trabajo",
+      "service": "ai-ml",
+      "description": "Un asistente con generación aumentada por recuperación y un pipeline de procesamiento de documentos que convierte contratos, manuales e informes en respuestas en las que los equipos pueden confiar.",
+      "tags": ["Integración de LLM", "RAG", "Python / NestJS", "Búsqueda vectorial"],
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Los equipos pierden horas buscando entre documentos. Este plano ingiere archivos desde el almacenamiento existente, extrae e indexa su contenido y ofrece una interfaz conversacional que cita sus fuentes, con acceso basado en roles para que cada persona vea solo aquello a lo que tiene permiso.",
+      "challenge": "Información dispersa entre unidades compartidas, archivos adjuntos de correo y sistemas heredados, sin una forma fiable de buscarla o resumirla.",
+      "approach": [
+        "Pipeline de ingesta con OCR y extracción estructurada",
+        "Recuperación híbrida por palabras clave y vectores, con citas",
+        "Conjunto de evaluación para medir la calidad de las respuestas a lo largo del tiempo",
+        "Acceso basado en roles y registro de auditoría completo"
+      ],
+      "outcomes": ["Respuestas más rápidas a partir de los documentos internos", "Respuestas trazables y con fuentes citadas", "Acceso controlado a contenidos sensibles"]
+    },
+    {
+      "id": "saas-platform",
+      "title": "Plataforma SaaS multi-tenant",
+      "category": "Producto digital y SaaS",
+      "service": "digital-product",
+      "description": "Una plataforma basada en suscripción con aislamiento entre inquilinos, acceso basado en roles, facturación y una consola de administración, lista para escalar de MVP a producción.",
+      "tags": ["Next.js", "NestJS", "PostgreSQL", "Suscripciones"],
+      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Una arquitectura de referencia para convertir una idea de producto en un SaaS facturable. Abarca el aislamiento de datos por inquilino, la gestión de usuarios y permisos, los planes de suscripción, el seguimiento de uso y las herramientas operativas necesarias para gestionar el producto en el día a día.",
+      "challenge": "Lanzar con rapidez sin arrinconar el producto en una arquitectura que impida más adelante el multi-tenancy, la facturación o las funcionalidades empresariales.",
+      "approach": [
+        "Modelo de datos y capa de acceso conscientes del inquilino",
+        "Integración con proveedores de suscripción y facturación",
+        "Consola de administración para soporte y operaciones",
+        "CI/CD con entornos de staging y producción"
+      ],
+      "outcomes": ["MVP en el mercado con rapidez", "Arquitectura que escala con los clientes", "Base sólida para nuevas funcionalidades"]
+    },
+    {
+      "id": "data-reporting",
+      "title": "Plataforma unificada de datos e informes",
+      "category": "Ingeniería y analítica de datos",
+      "service": "data-engineering",
+      "description": "Pipelines automatizados que consolidan los datos de los sistemas de finanzas, ventas y operaciones en un único modelo fiable con paneles en tiempo real.",
+      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Paneles"],
+      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Los informes suelen implicar exportaciones manuales y hojas de cálculo contradictorias. Este plano extrae datos de cada sistema de origen de forma programada, los valida y concilia, y publica una única fuente de verdad con paneles en los que la dirección puede confiar.",
+      "challenge": "Múltiples sistemas, definiciones incoherentes e informes manuales de cierre de mes lentos y propensos a errores.",
+      "approach": [
+        "Conectores de origen con carga incremental",
+        "Capa de transformación con reglas de negocio documentadas",
+        "Controles de calidad de datos y alertas automatizados",
+        "Paneles y envío programado de informes"
+      ],
+      "outcomes": ["Una visión coherente del negocio", "Menos esfuerzo en informes manuales", "Alerta temprana ante problemas de datos"]
+    },
+    {
+      "id": "iot-monitoring",
+      "title": "Sistema de monitorización y alertas IoT",
+      "category": "Software IoT e industrial",
+      "service": "iot-industrial",
+      "description": "Ingesta de telemetría en tiempo real, paneles y alertas de anomalías para equipos conectados, con un camino hacia el mantenimiento predictivo.",
+      "tags": ["IoT", "Tiempo real", "Detección de anomalías", "Python / Node.js"],
+      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "overview": "Los equipos conectados generan datos que rara vez llegan a quienes pueden actuar sobre ellos. Este plano ingiere la telemetría de los dispositivos, la almacena de forma eficiente, visualiza el estado en vivo y genera alertas cuando las lecturas se alejan del comportamiento esperado.",
+      "challenge": "El estado de los equipos es invisible hasta que algo falla, y los datos de los dispositivos quedan encerrados en herramientas propietarias.",
+      "approach": [
+        "Integración de dispositivos y gateways mediante protocolos estándar",
+        "Pipeline de almacenamiento y procesamiento de series temporales",
+        "Paneles en vivo por sede, activo y sensor",
+        "Alertas por umbrales y por anomalías estadísticas"
+      ],
+      "outcomes": ["Visibilidad en tiempo real de los activos", "Detección más temprana de fallos", "Base para el mantenimiento predictivo"]
+    }
+  ]
+}
