@@ -22,11 +22,11 @@ export function PageHeader({ page }: { page: PageKey }) {
       <div className="absolute inset-0 -z-10 bg-background/40" />
       <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/30 via-transparent to-background/90" />
       <div className="mx-auto w-full max-w-7xl">
-        <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-accent">{p.kicker}</p>
+        <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-[#e8b57d] [text-shadow:0_1px_8px_rgba(0,0,0,0.6)]">{p.kicker}</p>
         <h1 className="max-w-4xl font-fraunces text-4xl font-normal leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
           {p.title}
         </h1>
-        <p className="mt-5 max-w-2xl text-base leading-relaxed text-foreground/75 sm:text-lg">{p.description}</p>
+        <p className="mt-5 max-w-2xl text-base leading-relaxed text-foreground/80 [text-shadow:0_1px_10px_rgba(0,0,0,0.5)] sm:text-lg">{p.description}</p>
       </div>
     </header>
   );
