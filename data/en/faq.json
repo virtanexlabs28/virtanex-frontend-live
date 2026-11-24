@@ -23,7 +23,7 @@
     },
     {
       "q": "How do you work across time zones?",
-      "a": "We are remote-first and based in Finland (UTC+2) on a 40-hour standard week. We agree overlap windows with each client, share written updates, and demo progress regularly so you always know where things stand."
+      "a": "We are remote-first and based in Finland (EET/EEST) on a 40-hour standard week. We agree overlap windows with each client, share written updates, and demo progress regularly so you always know where things stand."
     },
     {
       "q": "How do you handle security and confidentiality?",
@@ -35,7 +35,7 @@
     },
     {
       "q": "Can you work with our existing team or codebase?",
-      "a": "Absolutely. Our dedicated team model is designed to embed with your engineers, tools, and rituals. We also take on modernization work for existing applications."
+      "a": "Yes. Our dedicated team model is designed to embed with your engineers, tools, and rituals. We also take on modernization work for existing applications."
     }
   ]
 }

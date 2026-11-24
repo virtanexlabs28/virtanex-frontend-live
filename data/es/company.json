@@ -3,13 +3,34 @@
     "kicker": "Principios fundamentales",
     "title": "Nuestros valores esenciales",
     "items": [
-      { "title": "Innovación", "desc": "Exploramos de forma continua tecnologías modernas y mejores enfoques para resolver problemas complejos." },
-      { "title": "Excelencia en ingeniería", "desc": "Damos prioridad a una arquitectura limpia, un código mantenible, la fiabilidad, la seguridad y la calidad." },
-      { "title": "Colaboración", "desc": "Las soluciones tecnológicas de éxito nacen de la comunicación, el trabajo en equipo y los objetivos compartidos." },
-      { "title": "Transparencia", "desc": "Valoramos la comunicación honesta, los compromisos realistas y unas expectativas de proyecto claras." },
-      { "title": "Responsabilidad", "desc": "Asumimos la responsabilidad de nuestro trabajo, de nuestras decisiones técnicas y de nuestros compromisos de entrega." },
-      { "title": "Aprendizaje continuo", "desc": "Fomentamos la experimentación, el intercambio de conocimiento y una mejora técnica incansable." },
-      { "title": "Orientación al cliente", "desc": "Nos esforzamos por comprender los objetivos de negocio de cada cliente y por entregar soluciones que generen un valor práctico." }
+      {
+        "title": "Innovación",
+        "desc": "Exploramos de forma continua tecnologías modernas y mejores enfoques para resolver problemas complejos."
+      },
+      {
+        "title": "Excelencia en ingeniería",
+        "desc": "Damos prioridad a una arquitectura limpia, un código mantenible, la fiabilidad, la seguridad y la calidad."
+      },
+      {
+        "title": "Colaboración",
+        "desc": "Las soluciones tecnológicas de éxito nacen de la comunicación, el trabajo en equipo y los objetivos compartidos."
+      },
+      {
+        "title": "Transparencia",
+        "desc": "Valoramos la comunicación honesta, los compromisos realistas y unas expectativas de proyecto claras."
+      },
+      {
+        "title": "Responsabilidad",
+        "desc": "Asumimos la responsabilidad de nuestro trabajo, de nuestras decisiones técnicas y de nuestros compromisos de entrega."
+      },
+      {
+        "title": "Aprendizaje continuo",
+        "desc": "Fomentamos la experimentación, el intercambio de conocimiento y una mejora técnica incansable."
+      },
+      {
+        "title": "Orientación al cliente",
+        "desc": "Nos esforzamos por comprender los objetivos de negocio de cada cliente y por entregar soluciones que generen un valor práctico."
+      }
     ]
   },
   "industries": {
@@ -17,13 +38,76 @@
     "title": "Sectores a los que servimos",
     "description": "Nuestros fundamentos de ingeniería se aplican a distintos sectores. Estas son las áreas en las que más los aplicamos.",
     "items": [
-      { "icon": "Landmark", "name": "Servicios financieros", "desc": "Aplicaciones financieras, integraciones de pagos, analítica en tiempo real e informes regulatorios.", "focus": ["Pagos", "Informes", "Analítica"] },
-      { "icon": "Factory", "name": "Industria y manufactura", "desc": "Aplicaciones de monitorización industrial, integraciones de sensores IoT, telemetría y mantenimiento predictivo.", "focus": ["IoT", "Telemetría", "Mantenimiento"] },
-      { "icon": "Zap", "name": "Energía y servicios públicos", "desc": "Plataformas de monitorización, informes operativos y aplicaciones de infraestructura automatizadas.", "focus": ["Monitorización", "Informes", "Automatización"] },
-      { "icon": "HeartPulse", "name": "Sanidad", "desc": "Aplicaciones de gestión sanitaria, automatización de flujos de trabajo administrativos y soluciones de datos clínicos.", "focus": ["Flujos de trabajo", "Datos", "Sistemas administrativos"] },
-      { "icon": "ShoppingBag", "name": "Comercio minorista y e-commerce", "desc": "Plataformas de comercio electrónico, gestión de inventario y pedidos, y sistemas de pago automatizados.", "focus": ["Comercio", "Inventario", "Pagos"] },
-      { "icon": "Laptop", "name": "Tecnología y software", "desc": "Desarrollo de SaaS, plataformas empresariales, ingeniería de producto, integraciones de IA y arquitectura cloud.", "focus": ["SaaS", "IA", "Cloud"] },
-      { "icon": "Briefcase", "name": "Servicios profesionales", "desc": "Plataformas de gestión empresarial, soluciones CRM, portales de clientes y flujos de trabajo automatizados.", "focus": ["CRM", "Portales", "Flujos de trabajo"] }
+      {
+        "icon": "Landmark",
+        "name": "Servicios financieros",
+        "desc": "Aplicaciones financieras, integraciones de pagos, analítica en tiempo real e informes regulatorios.",
+        "focus": [
+          "Pagos",
+          "Informes",
+          "Analítica"
+        ]
+      },
+      {
+        "icon": "Factory",
+        "name": "Industria y manufactura",
+        "desc": "Aplicaciones de monitorización industrial, integraciones de sensores IoT, telemetría y mantenimiento predictivo.",
+        "focus": [
+          "IoT",
+          "Telemetría",
+          "Mantenimiento"
+        ]
+      },
+      {
+        "icon": "Zap",
+        "name": "Energía y servicios públicos",
+        "desc": "Plataformas de monitorización, informes operativos y aplicaciones de infraestructura automatizadas.",
+        "focus": [
+          "Monitorización",
+          "Informes",
+          "Automatización"
+        ]
+      },
+      {
+        "icon": "HeartPulse",
+        "name": "Sanidad",
+        "desc": "Aplicaciones de gestión sanitaria, automatización de flujos de trabajo administrativos y soluciones de datos clínicos.",
+        "focus": [
+          "Flujos de trabajo",
+          "Datos",
+          "Sistemas administrativos"
+        ]
+      },
+      {
+        "icon": "ShoppingBag",
+        "name": "Comercio minorista y e-commerce",
+        "desc": "Plataformas de comercio electrónico, gestión de inventario y pedidos, y sistemas de pago automatizados.",
+        "focus": [
+          "Comercio",
+          "Inventario",
+          "Pagos"
+        ]
+      },
+      {
+        "icon": "Laptop",
+        "name": "Tecnología y software",
+        "desc": "Desarrollo de SaaS, plataformas empresariales, ingeniería de producto, integraciones de IA y arquitectura cloud.",
+        "focus": [
+          "SaaS",
+          "IA",
+          "Cloud"
+        ]
+      },
+      {
+        "icon": "Briefcase",
+        "name": "Servicios profesionales",
+        "desc": "Plataformas de gestión empresarial, soluciones CRM, portales de clientes y flujos de trabajo automatizados.",
+        "focus": [
+          "CRM",
+          "Portales",
+          "Flujos de trabajo"
+        ]
+      }
     ]
   },
   "engagement": {
@@ -36,28 +120,48 @@
         "badge": "Alcance cerrado",
         "desc": "Proyectos claramente definidos, con entregables, hitos, plazos y requisitos técnicos acordados.",
         "bestFor": "Aplicaciones a medida, productos SaaS, plataformas de negocio, integraciones de API y proyectos de automatización.",
-        "includes": ["Alcance e hitos acordados", "Entregables definidos", "Demostraciones periódicas del avance", "Traspaso estructurado"]
+        "includes": [
+          "Alcance e hitos acordados",
+          "Entregables definidos",
+          "Demostraciones periódicas del avance",
+          "Traspaso estructurado"
+        ]
       },
       {
         "title": "Equipos de desarrollo dedicados",
         "badge": "Ampliación de capacidad",
         "desc": "Recursos de ingeniería remotos que colaboran con el equipo técnico existente del cliente.",
         "bestFor": "Apoyo al desarrollo continuo, creación de nuevas funcionalidades, ingeniería frontend y backend, y proyectos técnicos a largo plazo.",
-        "includes": ["Desarrolladores adaptados a su stack", "Integrados en su forma de trabajo", "Escalado flexible al alza o a la baja", "Herramientas y rituales compartidos"]
+        "includes": [
+          "Desarrolladores adaptados a su stack",
+          "Integrados en su forma de trabajo",
+          "Escalado flexible al alza o a la baja",
+          "Herramientas y rituales compartidos"
+        ]
       },
       {
         "title": "Alianza tecnológica a largo plazo",
         "badge": "Evolución continua",
         "desc": "Relaciones duraderas para dar soporte al desarrollo de software, el mantenimiento, las integraciones y la arquitectura técnica.",
         "bestFor": "Empresas tecnológicas, negocios de producto de software y startups en crecimiento que necesitan apoyo de ingeniería continuo.",
-        "includes": ["Entrega continua de la hoja de ruta", "Mantenimiento y soporte", "Asesoramiento en arquitectura", "Acceso prioritario al equipo"]
+        "includes": [
+          "Entrega continua de la hoja de ruta",
+          "Mantenimiento y soporte",
+          "Asesoramiento en arquitectura",
+          "Acceso directo al equipo"
+        ]
       },
       {
         "title": "Consultoría técnica",
         "badge": "Orientación estratégica",
         "desc": "Asesoramiento y apoyo en arquitectura para que la dirección tome decisiones tecnológicas acertadas y con visión de futuro.",
         "bestFor": "Planificación de arquitectura de software, evaluaciones tecnológicas, modernización de aplicaciones y estrategia de infraestructura.",
-        "includes": ["Revisiones de arquitectura y de código", "Evaluaciones tecnológicas", "Hojas de ruta de modernización", "Recomendaciones por escrito"]
+        "includes": [
+          "Revisiones de arquitectura y de código",
+          "Evaluaciones tecnológicas",
+          "Hojas de ruta de modernización",
+          "Recomendaciones por escrito"
+        ]
       }
     ]
   },
@@ -68,40 +172,73 @@
       {
         "icon": "ShieldCheck",
         "title": "Compromiso con la seguridad y la calidad",
-        "body": "La seguridad, la fiabilidad y la protección de datos forman parte de cómo diseñamos cada sistema, no son un añadido posterior. Aplicamos una gestión segura de credenciales, comunicaciones cifradas, acceso controlado y pruebas continuas.",
-        "points": ["Autenticación y acceso basados en roles", "Tráfico de API cifrado", "Secretos fuera del código fuente", "Pruebas de validación periódicas", "Planificación de copias de seguridad y recuperación ante desastres", "Confidencialidad y NDA bajo petición"]
+        "body": "La seguridad, la fiabilidad y la protección de datos forman parte de cómo diseñamos cada sistema. Aplicamos una gestión segura de credenciales, comunicaciones cifradas, acceso controlado y pruebas continuas.",
+        "points": [
+          "Autenticación y acceso basados en roles",
+          "Tráfico de API cifrado",
+          "Secretos fuera del código fuente",
+          "Pruebas de validación periódicas",
+          "Planificación de copias de seguridad y recuperación ante desastres",
+          "Confidencialidad y NDA bajo petición"
+        ]
       },
       {
         "icon": "Globe2",
         "title": "Modelo de trabajo remoto",
         "body": "Operamos con un enfoque remote-first desde Finlandia y colaboramos con clientes y talento de distintos husos horarios, mediante una gestión de proyectos estructurada y flujos de trabajo transparentes basados en Git.",
-        "points": ["Semana estándar de 40 horas", "5 días laborables, 8 horas diarias", "Franjas de coincidencia acordadas con cada cliente", "Coordinación digital de tareas", "Flujos de trabajo Git transparentes", "Demostraciones periódicas e informes escritos"]
+        "points": [
+          "Semana estándar de 40 horas",
+          "5 días laborables, 8 horas diarias",
+          "Franjas de coincidencia acordadas con cada cliente",
+          "Coordinación digital de tareas",
+          "Flujos de trabajo Git transparentes",
+          "Demostraciones periódicas e informes escritos"
+        ]
       }
     ]
   },
   "team": {
     "kicker": "Estructura de la organización",
     "title": "Equipo y dirección",
-    "description": "Una estructura colaborativa que combina estrategia de negocio, liderazgo técnico, ingeniería sénior, diseño y excelencia operativa.",
+    "description": "Una estructura colaborativa que combina estrategia de negocio, liderazgo técnico, ingeniería, diseño y operaciones.",
     "groups": [
       {
         "icon": "Building2",
         "title": "Negocio y gestión",
         "desc": "Alineación estratégica, relaciones con clientes, compromisos realistas y operaciones internacionales.",
-        "roles": ["Fundador / Director ejecutivo (CEO)", "Responsable de desarrollo de negocio", "Ventas y alianzas estratégicas", "Finanzas y administración"]
+        "roles": [
+          "Fundador / Director ejecutivo (CEO)",
+          "Responsable de desarrollo de negocio",
+          "Ventas y alianzas estratégicas",
+          "Finanzas y administración"
+        ]
       },
       {
         "icon": "Code2",
         "title": "Tecnología e ingeniería",
         "desc": "Arquitectura limpia, sistemas distribuidos, aprendizaje automático y garantía de calidad automatizada.",
         "featured": true,
-        "roles": ["Director de tecnología (CTO)", "Desarrolladores full-stack", "Desarrolladores frontend", "Desarrolladores backend", "Ingenieros de IA / ML", "Ingenieros de datos", "Ingenieros DevOps", "Ingenieros de QA de software"]
+        "roles": [
+          "Director de tecnología (CTO)",
+          "Desarrolladores full-stack",
+          "Desarrolladores frontend",
+          "Desarrolladores backend",
+          "Ingenieros de IA / ML",
+          "Ingenieros de datos",
+          "Ingenieros DevOps",
+          "Ingenieros de QA de software"
+        ]
       },
       {
         "icon": "Palette",
         "title": "Diseño y marketing",
         "desc": "Usabilidad, sistemas de diseño, prototipos interactivos y comunicación de producto.",
-        "roles": ["Diseñadores UI/UX", "Diseñadores de producto digital", "Especialistas en marketing", "Responsables de redes sociales y contenidos"]
+        "roles": [
+          "Diseñadores UI/UX",
+          "Diseñadores de producto digital",
+          "Especialistas en marketing",
+          "Responsables de redes sociales y contenidos"
+        ]
       }
     ]
   },
@@ -110,22 +247,52 @@
     "title": "Oportunidades de alianza",
     "description": "Virtanex Labs da la bienvenida a la colaboración con proveedores de tecnología, consultoras, agencias y empresas de producto en expansión.",
     "items": [
-      { "title": "Consultoras de software y TI", "desc": "Subcontratación y equipos de desarrollo dedicados para ampliar la capacidad de entrega." },
-      { "title": "Agencias de transformación digital", "desc": "Implementación técnica en profundidad para aplicaciones web complejas, microservicios y modernización de sistemas heredados." },
-      { "title": "Empresas de IA y SaaS", "desc": "Pipelines RAG, integración de funcionalidades de IA y arquitecturas multi-tenant escalables." },
-      { "title": "Startups y emprendedores", "desc": "Codesarrollo integral, arquitectura de MVP y alianza técnica a largo plazo." }
+      {
+        "title": "Consultoras de software y TI",
+        "desc": "Subcontratación y equipos de desarrollo dedicados para ampliar la capacidad de entrega."
+      },
+      {
+        "title": "Agencias de transformación digital",
+        "desc": "Implementación técnica en profundidad para aplicaciones web complejas, microservicios y modernización de sistemas heredados."
+      },
+      {
+        "title": "Empresas de IA y SaaS",
+        "desc": "Pipelines RAG, integración de funcionalidades de IA y arquitecturas multi-tenant escalables."
+      },
+      {
+        "title": "Startups y emprendedores",
+        "desc": "Codesarrollo integral, arquitectura de MVP y alianza técnica a largo plazo."
+      }
     ]
   },
   "why": {
     "kicker": "Por qué Virtanex Labs",
     "title": "¿Por qué trabajar con nosotros?",
     "items": [
-      { "title": "Capacidad de ingeniería flexible", "desc": "Soporte de desarrollo adaptable a los requisitos, plazos y fases de crecimiento de su proyecto." },
-      { "title": "Tecnología moderna", "desc": "Frameworks actuales, infraestructura cloud-native y herramientas probadas que evitan la deuda técnica." },
-      { "title": "Enfoque basado en IA", "desc": "Buscamos oportunidades prácticas para integrar la IA en software y flujos operativos reales." },
-      { "title": "Soluciones escalables", "desc": "Arquitecturas mantenibles que pueden evolucionar al ritmo del crecimiento del negocio." },
-      { "title": "Entrega colaborativa", "desc": "Comunicación directa y transparente, y una gestión estructurada de Git, de la mano de su dirección." },
-      { "title": "Visión a largo plazo", "desc": "Aspiramos a construir relaciones duraderas, no entregas puntuales sin continuidad." }
+      {
+        "title": "Capacidad de ingeniería flexible",
+        "desc": "Soporte de desarrollo adaptable a los requisitos, plazos y fases de crecimiento de su proyecto."
+      },
+      {
+        "title": "Tecnología moderna",
+        "desc": "Frameworks actuales, infraestructura cloud-native y herramientas probadas que evitan la deuda técnica."
+      },
+      {
+        "title": "Enfoque basado en IA",
+        "desc": "Buscamos oportunidades prácticas para integrar la IA en software y flujos operativos reales."
+      },
+      {
+        "title": "Soluciones escalables",
+        "desc": "Arquitecturas mantenibles que pueden evolucionar al ritmo del crecimiento del negocio."
+      },
+      {
+        "title": "Entrega colaborativa",
+        "desc": "Comunicación directa y transparente, y una gestión estructurada de Git, de la mano de su dirección."
+      },
+      {
+        "title": "Visión a largo plazo",
+        "desc": "Aspiramos a construir relaciones duraderas, no entregas puntuales sin continuidad."
+      }
     ]
   }
 }

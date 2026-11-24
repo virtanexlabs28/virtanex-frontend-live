@@ -10,14 +10,14 @@
     "websiteLabel": "virtanexlabs.com",
     "location": "Finlande (à distance / collaboration internationale)",
     "locationShort": "Finlande / International",
-    "timezone": "UTC+2 (Helsinki)",
+    "timezone": "Helsinki, EET/EEST",
     "responseTime": "sous 24 heures"
   },
   "availability": {
-    "badge": "RÉSERVATIONS ÉTÉ '26",
-    "season": "Été '26",
-    "headline": "Nous acceptons dès maintenant une sélection de missions pour l'été '26",
-    "detail": "Nous prenons en charge un nombre limité de projets à la fois afin que chaque client bénéficie de l'attention de profils seniors. Contactez-nous tôt pour réserver de la capacité."
+    "badge": "RÉSERVATIONS OUVERTES",
+    "season": "Réservations ouvertes",
+    "headline": "Nous acceptons dès maintenant de nouvelles missions",
+    "detail": "Parlez-nous de votre projet : nous vous confirmerons notre capacité et la date à laquelle le travail pourrait démarrer."
   },
   "hero": {
     "subheadline": "Ingénierie de solutions numériques intelligentes.",
@@ -45,9 +45,9 @@
     "title": "Engager la conversation",
     "subtitle": "Présentez-nous votre organisation et vos besoins techniques.",
     "timelines": [
-      "Été '26 (privilégié)",
-      "Automne / hiver '26",
-      "Immédiat, sous 30 jours",
+      "Dès que possible",
+      "Dans 1 à 3 mois",
+      "Plus tard, sans date fixée",
       "Exploratoire / étude de faisabilité"
     ],
     "note": "Accord de confidentialité (NDA) sur demande. Nous répondons sous 24 heures."
@@ -97,7 +97,7 @@
     {
       "value": "24h",
       "label": "Réponse à chaque demande",
-      "detail": "Examinée par un responsable technique"
+      "detail": "Lue et traitée par un membre de notre équipe"
     }
   ],
   "overview": {
@@ -114,11 +114,11 @@
     "facts": [
       {
         "label": "Implantation",
-        "value": "Finlande (UTC+2)"
+        "value": "Finlande (EET/EEST)"
       },
       {
-        "label": "Modèle",
-        "value": "100 % à distance"
+        "label": "Notre façon de travailler",
+        "value": "Où que vous soyez, nous sommes à vos côtés"
       },
       {
         "label": "Fondée en",
@@ -153,8 +153,8 @@
       "kicker": "Ce que nous faisons",
       "title": "Des services pensés autour de votre activité.",
       "description": "Dix disciplines d'ingénierie, une seule équipe responsable. Du logiciel sur mesure et de l'IA à l'infrastructure cloud et à l'IoT industriel.",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Développeur travaillant sur du code sur un ordinateur portable",
+      "image": "https://images.unsplash.com/photo-1603201667230-bd139210db18?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Des collègues travaillent ensemble autour d'un ordinateur portable dans un bureau lumineux",
       "blurb": "Dix disciplines, du logiciel sur mesure à l'IoT industriel.",
       "metaTitle": "Services",
       "metaDescription": "Logiciel sur mesure, IA, ingénierie des données, intégration, automatisation, cloud, produit, design, QA et IoT, livrés par une seule équipe responsable."
@@ -164,8 +164,8 @@
       "kicker": "Notre façon de travailler",
       "title": "Un processus visible, en lequel avoir confiance.",
       "description": "Un cycle de vie transparent en sept phases, des modèles de collaboration flexibles et des pratiques de sécurité intégrées dès le premier jour.",
-      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Notes de planification disposées sur un mur",
+      "image": "https://images.unsplash.com/photo-1590402494610-2c378a9114c6?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Un membre de l'équipe dispose des notes de planification sur un tableau",
       "blurb": "Sept phases, quatre modèles de collaboration, une sécurité intégrée.",
       "metaTitle": "Méthode",
       "metaDescription": "Notre cycle d'ingénierie en sept phases, nos modèles de collaboration flexibles, ainsi que nos pratiques de sécurité et de travail à distance."
@@ -175,8 +175,8 @@
       "kicker": "Réalisations choisies",
       "title": "Les systèmes que nous concevons, et ceux pour qui nous les concevons.",
       "description": "Des plans de solution, les secteurs que nous servons et les domaines de recherche dans lesquels nous continuons d'investir.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Tableau de bord analytique sur l'écran d'un ordinateur portable",
+      "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Des collègues examinent ensemble un projet sur un écran d'ordinateur",
       "blurb": "Plans de solution, secteurs et axes de recherche.",
       "metaTitle": "Réalisations",
       "metaDescription": "Des plans de solution, les secteurs que nous servons et les domaines techniques dans lesquels nous investissons."
@@ -197,8 +197,8 @@
       "kicker": "Questions",
       "title": "Des réponses avant même que vous ne demandiez.",
       "description": "Comment démarrent les projets, comment nous fixons nos tarifs, à qui appartient le code et comment nous travaillons à travers les fuseaux horaires.",
-      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Carnet et stylo posés sur un bureau",
+      "image": "https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Deux personnes en pleine conversation amicale autour d'une table",
       "blurb": "Des réponses directes sur notre façon de travailler.",
       "metaTitle": "FAQ",
       "metaDescription": "Des réponses sur le démarrage des projets, les tarifs, la propriété du code, les fuseaux horaires, la sécurité et le support."
@@ -208,8 +208,8 @@
       "kicker": "Prendre contact",
       "title": "Parlons de ce que vous construisez.",
       "description": "Réservez un appel de découverte ou envoyez-nous un brief de projet. Nous répondons sous 24 heures.",
-      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Espace de bureau moderne et lumineux",
+      "image": "https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Des collègues discutent dans un bureau moderne et lumineux",
       "blurb": "Réservez un appel ou envoyez un brief de projet.",
       "metaTitle": "Contact",
       "metaDescription": "Réservez un appel de découverte ou envoyez un brief de projet à Virtanex Labs. Nous répondons sous 24 heures."

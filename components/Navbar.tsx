@@ -23,6 +23,7 @@ export function Navbar() {
   const [open, setOpen] = useState(false);
   const [pastBanner, setPastBanner] = useState(false);
   const [scrolled, setScrolled] = useState(false);
+  const [plainTop, setPlainTop] = useState(false);
 
   useEffect(() => {
     const timer = setTimeout(() => setMounted(true), 50);
@@ -35,6 +36,8 @@ export function Navbar() {
     const update = () => {
       setScrolled(window.scrollY > 24);
       const banner = document.querySelector('main')?.firstElementChild as HTMLElement | null;
+      // Text pages (e.g. the privacy policy) open without a photo, so the bar keeps the theme colours.
+      setPlainTop(banner?.hasAttribute('data-plain') ?? false);
       setPastBanner(window.scrollY > (banner?.offsetHeight ?? window.innerHeight) - 90);
     };
     update();
@@ -45,7 +48,7 @@ export function Navbar() {
       window.removeEventListener('resize', update);
     };
   }, [pathname]);
-  const overHero = !pastBanner;
+  const overHero = !pastBanner && !plainTop;
 
   const isActive = (href: string) => pathname === href || pathname.startsWith(`${href}/`);
 

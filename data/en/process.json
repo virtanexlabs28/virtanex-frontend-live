@@ -8,58 +8,121 @@
     {
       "phase": "Phase 01",
       "title": "Discovery & Requirements",
-      "duration": "Typically 1 to 2 weeks",
+      "duration": "Length agreed per project",
       "detail": "We analyze your business objectives, operational challenges, project expectations, and technical landscape to establish a solid foundation.",
-      "activities": ["Stakeholder interviews", "Requirements gathering", "Existing system review", "Risk and constraint mapping"],
-      "outputs": ["Requirements summary", "Success criteria", "Initial scope and risks"]
+      "activities": [
+        "Stakeholder interviews",
+        "Requirements gathering",
+        "Existing system review",
+        "Risk and constraint mapping"
+      ],
+      "outputs": [
+        "Requirements summary",
+        "Success criteria",
+        "Initial scope and risks"
+      ]
     },
     {
       "phase": "Phase 02",
       "title": "Planning & Architecture",
-      "duration": "Typically 1 to 2 weeks",
+      "duration": "Length agreed per project",
       "detail": "We define the project scope, technical architecture, development milestones, technology stack, and delivery strategy.",
-      "activities": ["Solution architecture", "Technology selection", "Milestone and release planning", "Estimation and staffing"],
-      "outputs": ["Architecture document", "Delivery roadmap", "Agreed scope and milestones"]
+      "activities": [
+        "Solution architecture",
+        "Technology selection",
+        "Milestone and release planning",
+        "Estimation and staffing"
+      ],
+      "outputs": [
+        "Architecture document",
+        "Delivery roadmap",
+        "Agreed scope and milestones"
+      ]
     },
     {
       "phase": "Phase 03",
       "title": "Design & Prototyping",
       "duration": "Runs alongside planning and early build",
       "detail": "We craft user interfaces, design systems, technical specifications, and interactive prototypes for early validation.",
-      "activities": ["User journey mapping", "Wireframes and visual design", "Design system definition", "Clickable prototypes"],
-      "outputs": ["Interface designs", "Design system", "Validated prototype"]
+      "activities": [
+        "User journey mapping",
+        "Wireframes and visual design",
+        "Design system definition",
+        "Clickable prototypes"
+      ],
+      "outputs": [
+        "Interface designs",
+        "Design system",
+        "Validated prototype"
+      ]
     },
     {
       "phase": "Phase 04",
       "title": "Engineering & Development",
       "duration": "Iterative sprints with regular demos",
       "detail": "Our distributed engineering team builds the solution using modern frameworks, clean code practices, and modular patterns.",
-      "activities": ["Sprint-based implementation", "Code review on every change", "Continuous integration", "Regular demos and feedback"],
-      "outputs": ["Working increments", "Reviewed, tested source code", "Progress reports"]
+      "activities": [
+        "Sprint-based implementation",
+        "Code review on every change",
+        "Continuous integration",
+        "Regular demos and feedback"
+      ],
+      "outputs": [
+        "Working increments",
+        "Reviewed, tested source code",
+        "Progress reports"
+      ]
     },
     {
       "phase": "Phase 05",
       "title": "Testing & Quality Assurance",
       "duration": "Continuous, with a dedicated pre-release pass",
       "detail": "Rigorous automated and manual testing validates functionality, performance, security, and edge-case reliability.",
-      "activities": ["Automated unit and integration tests", "End-to-end and regression testing", "Performance checks", "Security review"],
-      "outputs": ["Test reports", "Resolved defect list", "Release readiness sign-off"]
+      "activities": [
+        "Automated unit and integration tests",
+        "End-to-end and regression testing",
+        "Performance checks",
+        "Security review"
+      ],
+      "outputs": [
+        "Test reports",
+        "Resolved defect list",
+        "Release readiness sign-off"
+      ]
     },
     {
       "phase": "Phase 06",
       "title": "Deployment & Delivery",
-      "duration": "Typically days, planned in advance",
+      "duration": "Planned in advance with you",
       "detail": "We configure production infrastructure, containerized deployments, and monitoring pipelines, then complete the agreed handover.",
-      "activities": ["Production environment setup", "Automated deployment", "Monitoring and alerting", "Knowledge transfer"],
-      "outputs": ["Live production system", "Operations documentation", "Handover session"]
+      "activities": [
+        "Production environment setup",
+        "Automated deployment",
+        "Monitoring and alerting",
+        "Knowledge transfer"
+      ],
+      "outputs": [
+        "Live production system",
+        "Operations documentation",
+        "Handover session"
+      ]
     },
     {
       "phase": "Phase 07",
       "title": "Maintenance & Improvement",
       "duration": "Ongoing, by agreement",
       "detail": "We provide ongoing improvements, technical support, security patches, and scaling optimizations as your needs evolve.",
-      "activities": ["Bug fixing and support", "Dependency and security updates", "Performance tuning", "Roadmap feature delivery"],
-      "outputs": ["Regular maintenance releases", "Health and usage reports", "Updated roadmap"]
+      "activities": [
+        "Bug fixing and support",
+        "Dependency and security updates",
+        "Performance tuning",
+        "Roadmap feature delivery"
+      ],
+      "outputs": [
+        "Regular maintenance releases",
+        "Health and usage reports",
+        "Updated roadmap"
+      ]
     }
   ]
 }

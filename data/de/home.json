@@ -29,8 +29,8 @@
   },
   "why": {
     "kicker": "Warum Virtanex Labs",
-    "title": "Ein Technologiepartner, nicht nur ein Dienstleister.",
-    "description": "Wir verbinden erfahrenes Engineering, moderne Werkzeuge und ehrliche Kommunikation – und bleiben langfristig an Ihrer Seite.",
+    "title": "Ein Technologiepartner für die lange Strecke.",
+    "description": "Moderne Werkzeuge, klare Kommunikation und ein Team, das auch nach dem Launch bei Ihrem Produkt bleibt.",
     "cta": "Das Team kennenlernen"
   },
   "faq": {
@@ -44,6 +44,10 @@
     "description": "Erzählen Sie uns, was Sie umsetzen möchten. Innerhalb von 24 Stunden melden wir uns mit ehrlichem Feedback und einem klaren nächsten Schritt.",
     "primary": "Discovery-Gespräch buchen",
     "secondary": "Projektbriefing senden",
-    "assurances": ["NDA auf Anfrage möglich", "Antwort innerhalb von 24 Stunden", "Senior-Engineers von Anfang an"]
+    "assurances": [
+      "NDA auf Anfrage möglich",
+      "Antwort innerhalb von 24 Stunden",
+      "Ein schriftliches Angebot, bevor die Arbeit beginnt"
+    ]
   }
 }

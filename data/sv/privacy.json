@@ -1,0 +1,136 @@
+{
+  "metaTitle": "Integritetspolicy",
+  "metaDescription": "Hur Virtanex Labs samlar in, använder och skyddar personuppgifter när du besöker den här webbplatsen eller kontaktar oss, i enlighet med EU:s allmänna dataskyddsförordning (GDPR).",
+  "kicker": "Juridisk information",
+  "title": "Integritetspolicy",
+  "updated": "Senast uppdaterad: 24 november 2026",
+  "intro": "Den här policyn förklarar vilka personuppgifter {company} samlar in via webbplatsen, varför vi samlar in dem, hur länge vi sparar dem och vilka rättigheter du har enligt EU:s allmänna dataskyddsförordning (GDPR, förordning (EU) 2016/679) och den finska dataskyddslagen. Vi begränsar insamlingen av uppgifter till det som behövs för att besvara dina meddelanden och driva en säker webbplats.",
+  "tocLabel": "På den här sidan",
+  "sections": [
+    {
+      "id": "controller",
+      "title": "1. Vem som ansvarar för dina uppgifter",
+      "paragraphs": [
+        "Personuppgiftsansvarig är {company}, ett finländskt företag inom programvara och IT. Du når oss i alla frågor som rör den här policyn på {email}.",
+        "Vi har inte utsett något dataskyddsombud eftersom vår behandling är småskalig. Frågor och förfrågningar om integritet skickas till adressen ovan och hanteras av vår ledning."
+      ],
+      "items": []
+    },
+    {
+      "id": "data",
+      "title": "2. Vilka uppgifter vi samlar in och varför",
+      "paragraphs": [
+        "Vi samlar in personuppgifter endast i de situationer som beskrivs nedan. Vi använder inga verktyg för reklam, profilering eller analys på den här webbplatsen."
+      ],
+      "items": [
+        "Formuläret för projektförfrågan: ditt namn, din e-postadress, ditt företag (valfritt), den tjänst och tidsram du väljer samt meddelandet du skriver. Vi använder uppgifterna för att besvara din förfrågan och förbereda en offert. Rättslig grund: åtgärder som vidtas på din begäran innan ett avtal ingås (artikel 6.1 b GDPR) samt vårt berättigade intresse av att besvara affärsförfrågningar (artikel 6.1 f).",
+        "Begäran om ett upptäcktssamtal: ditt namn, din e-postadress, det ämne och den mötestid du väljer samt eventuella anteckningar. Vi använder uppgifterna för att boka in och förbereda samtalet. Rättslig grund: artikel 6.1 b och artikel 6.1 f GDPR.",
+        "E-post som du skickar direkt till oss: adressen, innehållet och eventuella bilagor, som används för att korrespondera med dig. Rättslig grund: artikel 6.1 b eller 6.1 f GDPR.",
+        "Tekniska uppgifter och säkerhetsuppgifter: när du läser in en sida eller skickar in ett formulär behandlar vår hostinginfrastruktur din IP-adress och uppgifter om begäran (webbläsartyp, begärda sidor, tidpunkt) i serverloggar, och formuläret begränsar upprepade inskickningar per IP-adress med hjälp av kortlivat minne som töms inom några minuter. Vi använder detta för att leverera webbplatsen, förhindra missbruk och hålla den säker. Rättslig grund: berättigat intresse (artikel 6.1 f GDPR).",
+        "Val av språk: hostingnätverket kan utifrån din IP-adress härleda ungefär vilket land du befinner dig i, så att vi kan visa webbplatsen på ett lämpligt språk. Vi använder uppgiften endast i det ögonblicket och lagrar den inte."
+      ]
+    },
+    {
+      "id": "voluntary",
+      "title": "3. Det är frivilligt att lämna uppgifter",
+      "paragraphs": [
+        "Du är inte skyldig att skicka in något formulär. Om du gör det behövs fälten för namn och e-post så att vi kan svara dig. Ta inte med känsliga uppgifter (till exempel hälsouppgifter) eller konfidentiella affärshemligheter i ditt meddelande. Om ett projekt kräver det kommer vi först att komma överens om en säker kanal och ett sekretessavtal."
+      ],
+      "items": []
+    },
+    {
+      "id": "cookies",
+      "title": "4. Cookies och lokal lagring",
+      "paragraphs": [
+        "Den här webbplatsen använder inga cookies för analys, reklam eller spårning, så ingen banner för samtycke till cookies behövs. Den lagrar två små inställningar som du själv väljer och som behövs för de funktioner du har begärt:"
+      ],
+      "items": [
+        "Cookien NEXT_LOCALE: kommer ihåg det språk du väljer med språkväljaren. Den sätts endast när du byter språk, gäller i ett år och används aldrig för spårning.",
+        "Posten \"theme\" i den lokala lagringen: kommer ihåg om du har valt mörkt läge. Den finns kvar endast på din enhet och skickas aldrig till oss."
+      ]
+    },
+    {
+      "id": "recipients",
+      "title": "5. Vem som tar emot dina uppgifter",
+      "paragraphs": [
+        "Vi säljer inte dina uppgifter. Vi delar dem endast med tjänsteleverantörer som agerar på våra vägnar och som är bundna av dataskyddsvillkor (personuppgiftsbiträden), och endast i den utsträckning som behövs:"
+      ],
+      "items": [
+        "E-posttjänst: förfrågningar som skickas via formulären levereras till vår företagsbrevlåda, som tillhandahålls av Google (Gmail / Google Workspace).",
+        "Hosting och nätverksinfrastruktur: leverantören som levererar den här webbplatsen och som kan behandla tekniska uppgifter, till exempel IP-adresser i serverloggar.",
+        "Bildleverans: vissa fotografier på webbplatsen läses in från bildnätverket Unsplash (images.unsplash.com). Din webbläsare ansluter till den tjänsten för att hämta bilderna, så att den kan se din IP-adress och uppgifter om din webbläsare. Vi skickar inga andra uppgifter till den.",
+        "Myndigheter, rådgivare eller domstolar, när vi enligt lag är skyldiga att lämna ut uppgifter eller behöver skydda våra rättigheter."
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "6. Överföringar utanför EU/EES",
+      "paragraphs": [
+        "Vissa av de leverantörer som nämns ovan, till exempel Google, kan behandla uppgifter i USA eller andra länder utanför EU/EES. När det sker förlitar vi oss på ett adekvansbeslut från Europeiska kommissionen (till exempel EU–US Data Privacy Framework för certifierade företag) eller på de standardavtalsklausuler som godkänts av kommissionen, tillsammans med ytterligare skyddsåtgärder vid behov. Du kan be oss om närmare information på {email}."
+      ],
+      "items": []
+    },
+    {
+      "id": "retention",
+      "title": "7. Hur länge vi sparar uppgifter",
+      "paragraphs": [
+        "Vi sparar uppgifter endast så länge vi behöver dem för det ändamål för vilket de samlades in:"
+      ],
+      "items": [
+        "Förfrågningar och samtalsbegäranden: så länge som behövs för att hantera din begäran, och normalt raderas de inom 24 månader efter vår senaste kontakt om inget avtal ingås.",
+        "Om vi börjar arbeta tillsammans: projekt- och avtalsunderlag sparas under hela uppdraget och därefter så länge som lagen kräver (till exempel bokföringsunderlag) eller för att kunna försvara rättsliga anspråk.",
+        "Serverloggar: sparas under en kort period, normalt högst 30 dagar.",
+        "Uppgifter för hastighetsbegränsning: lagras i minnet i cirka 10 minuter och kasseras sedan."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "8. Dina rättigheter",
+      "paragraphs": [
+        "Enligt GDPR har du följande rättigheter. Om du vill utöva någon av dem skriver du till {email}. Vi svarar inom en månad. Vi kan be dig att först bekräfta din identitet."
+      ],
+      "items": [
+        "Tillgång: rätt att få bekräftelse på om vi behandlar dina uppgifter och en kopia av dem.",
+        "Rättelse: rätt att få felaktiga eller ofullständiga uppgifter rättade.",
+        "Radering: rätt att få dina uppgifter raderade när det inte längre finns någon anledning att spara dem.",
+        "Begränsning: rätt att be oss pausa behandlingen i vissa fall.",
+        "Dataportabilitet: rätt att få de uppgifter du har lämnat till oss i ett strukturerat och allmänt använt format när behandlingen grundar sig på ett avtal.",
+        "Invändning: rätt att när som helst invända mot behandling som grundar sig på våra berättigade intressen, av skäl som hänför sig till din situation.",
+        "Återkallande av samtycke: när vi förlitar oss på ditt samtycke kan du när som helst återkalla det utan att det påverkar tidigare behandling.",
+        "Klagomål: rätt att lämna in ett klagomål till en tillsynsmyndighet. I Finland är detta dataombudsmannens byrå (Tietosuojavaltuutetun toimisto, tietosuoja.fi). Du kan också vända dig till myndigheten i det EU-land där du bor eller arbetar."
+      ]
+    },
+    {
+      "id": "automated",
+      "title": "9. Automatiserade beslut",
+      "paragraphs": [
+        "Vi använder inte automatiserat beslutsfattande eller profilering som har rättsliga följder för dig eller på liknande sätt väsentligt påverkar dig."
+      ],
+      "items": []
+    },
+    {
+      "id": "security",
+      "title": "10. Säkerhet",
+      "paragraphs": [
+        "Webbplatsen levereras via en krypterad HTTPS-anslutning. Åtkomsten till den brevlåda som tar emot förfrågningar är begränsad till personer som behöver den, och inloggningsuppgifter förvaras utanför webbplatsens kod. Ingen metod för överföring eller lagring är helt säker, men vi arbetar för att skydda dina uppgifter mot förlust, missbruk och obehörig åtkomst."
+      ],
+      "items": []
+    },
+    {
+      "id": "children",
+      "title": "11. Barn",
+      "paragraphs": [
+        "Den här webbplatsen riktar sig till företag och yrkesverksamma och inte till barn. Vi samlar inte medvetet in personuppgifter från någon som är under 16 år."
+      ],
+      "items": []
+    },
+    {
+      "id": "changes",
+      "title": "12. Ändringar i den här policyn",
+      "paragraphs": [
+        "Vi kan uppdatera policyn när vår praxis eller lagstiftningen ändras. Datumet högst upp visar den senaste versionen. Om en ändring har väsentlig betydelse för hur vi använder dina uppgifter kommer vi att göra det tydligt på den här sidan."
+      ],
+      "items": []
+    }
+  ]
+}

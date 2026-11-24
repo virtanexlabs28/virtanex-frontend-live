@@ -17,7 +17,7 @@
         "Python / NestJS",
         "Recherche vectorielle"
       ],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Les équipes perdent des heures à chercher dans leurs documents. Ce plan de solution ingère les fichiers depuis le stockage existant, en extrait et en indexe le contenu, et propose une interface conversationnelle qui cite ses sources, avec un contrôle d'accès par rôle pour que chacun ne voie que ce qu'il est autorisé à consulter.",
       "challenge": "Une information dispersée entre lecteurs partagés, pièces jointes d'e-mails et systèmes hérités, sans moyen fiable de la rechercher ou de la synthétiser.",
       "approach": [
@@ -44,7 +44,7 @@
         "PostgreSQL",
         "Abonnements"
       ],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
       "overview": "Une architecture de référence pour transformer une idée de produit en SaaS facturable. Elle couvre l'isolation des données par tenant, la gestion des utilisateurs et des permissions, les formules d'abonnement, le suivi de l'usage et l'outillage opérationnel nécessaire pour exploiter le produit au quotidien.",
       "challenge": "Lancer rapidement sans enfermer le produit dans une impasse architecturale qui bloquerait plus tard le multi-tenant, la facturation ou les fonctionnalités entreprise.",
       "approach": [
@@ -71,7 +71,7 @@
         "Python",
         "Tableaux de bord"
       ],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
       "overview": "Le reporting rime souvent avec exports manuels et feuilles de calcul contradictoires. Ce plan de solution interroge chaque système source selon un calendrier, valide et réconcilie les données, puis publie une source de vérité unique, avec des tableaux de bord sur lesquels les dirigeants peuvent s'appuyer.",
       "challenge": "Plusieurs systèmes, des définitions incohérentes et un reporting manuel de fin de mois, lent et sujet aux erreurs.",
       "approach": [
@@ -98,7 +98,7 @@
         "Détection d'anomalies",
         "Python / Node.js"
       ],
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Les équipements connectés produisent des données qui atteignent rarement ceux qui peuvent agir. Ce plan de solution ingère la télémétrie des appareils, la stocke efficacement, affiche l'état en direct et déclenche des alertes lorsque les mesures s'écartent du comportement attendu.",
       "challenge": "L'état de santé des équipements reste invisible jusqu'à la panne, et les données des appareils sont enfermées dans des outils propriétaires.",
       "approach": [

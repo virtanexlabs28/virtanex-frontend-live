@@ -3,13 +3,34 @@
     "kicker": "Perusperiaatteet",
     "title": "Arvomme",
     "items": [
-      { "title": "Innovaatio", "desc": "Tutkimme jatkuvasti nykyaikaisia teknologioita ja parempia tapoja ratkaista monimutkaisia ongelmia." },
-      { "title": "Insinöörin ammattitaito", "desc": "Asetamme etusijalle selkeän arkkitehtuurin, ylläpidettävän koodin, luotettavuuden, tietoturvan ja laadun." },
-      { "title": "Yhteistyö", "desc": "Onnistuneet teknologiaratkaisut syntyvät viestinnästä, tiimityöstä ja yhteisistä tavoitteista." },
-      { "title": "Läpinäkyvyys", "desc": "Arvostamme rehellistä viestintää, realistisia lupauksia ja selkeitä odotuksia projekteille." },
-      { "title": "Vastuullisuus", "desc": "Kannamme vastuun työstämme, teknisistä ratkaisuistamme ja toimituslupauksistamme." },
-      { "title": "Jatkuva oppiminen", "desc": "Kannustamme kokeilemiseen, tiedon jakamiseen ja väsymättömään tekniseen kehittymiseen." },
-      { "title": "Asiakaslähtöisyys", "desc": "Pyrimme ymmärtämään jokaisen asiakkaan liiketoimintatavoitteet ja toimittamaan ratkaisuja, jotka luovat käytännön arvoa." }
+      {
+        "title": "Innovaatio",
+        "desc": "Tutkimme jatkuvasti nykyaikaisia teknologioita ja parempia tapoja ratkaista monimutkaisia ongelmia."
+      },
+      {
+        "title": "Insinöörin ammattitaito",
+        "desc": "Asetamme etusijalle selkeän arkkitehtuurin, ylläpidettävän koodin, luotettavuuden, tietoturvan ja laadun."
+      },
+      {
+        "title": "Yhteistyö",
+        "desc": "Onnistuneet teknologiaratkaisut syntyvät viestinnästä, tiimityöstä ja yhteisistä tavoitteista."
+      },
+      {
+        "title": "Läpinäkyvyys",
+        "desc": "Arvostamme rehellistä viestintää, realistisia lupauksia ja selkeitä odotuksia projekteille."
+      },
+      {
+        "title": "Vastuullisuus",
+        "desc": "Kannamme vastuun työstämme, teknisistä ratkaisuistamme ja toimituslupauksistamme."
+      },
+      {
+        "title": "Jatkuva oppiminen",
+        "desc": "Kannustamme kokeilemiseen, tiedon jakamiseen ja väsymättömään tekniseen kehittymiseen."
+      },
+      {
+        "title": "Asiakaslähtöisyys",
+        "desc": "Pyrimme ymmärtämään jokaisen asiakkaan liiketoimintatavoitteet ja toimittamaan ratkaisuja, jotka luovat käytännön arvoa."
+      }
     ]
   },
   "industries": {
@@ -17,13 +38,76 @@
     "title": "Toimialat, joita palvelemme",
     "description": "Ohjelmistotuotannon perusteet pätevät toimialasta toiseen. Näillä alueilla sovellamme niitä useimmin.",
     "items": [
-      { "icon": "Landmark", "name": "Rahoituspalvelut", "desc": "Rahoitussovellukset, maksuintegraatiot, reaaliaikainen analytiikka ja sääntelyraportointi.", "focus": ["Maksut", "Raportointi", "Analytiikka"] },
-      { "icon": "Factory", "name": "Valmistus ja teollisuus", "desc": "Teollisuuden valvontasovellukset, IoT-anturi-integraatiot, telemetria ja ennakoiva kunnossapito.", "focus": ["IoT", "Telemetria", "Kunnossapito"] },
-      { "icon": "Zap", "name": "Energia ja yhdyskuntatekniikka", "desc": "Valvonta-alustat, toiminnan raportointi ja automatisoidut infrastruktuurisovellukset.", "focus": ["Valvonta", "Raportointi", "Automaatio"] },
-      { "icon": "HeartPulse", "name": "Terveydenhuolto", "desc": "Terveydenhuollon hallintasovellukset, hallinnollisten työnkulkujen automaatio ja kliiniset dataratkaisut.", "focus": ["Työnkulut", "Data", "Hallintajärjestelmät"] },
-      { "icon": "ShoppingBag", "name": "Vähittäiskauppa ja verkkokauppa", "desc": "Verkkokauppa-alustat, varasto- ja tilausten hallinta sekä automatisoidut maksujärjestelmät.", "focus": ["Kauppa", "Varasto", "Maksut"] },
-      { "icon": "Laptop", "name": "Teknologia ja ohjelmistot", "desc": "SaaS-kehitys, yritysalustat, tuotekehitys, tekoälyintegraatiot ja pilviarkkitehtuuri.", "focus": ["SaaS", "Tekoäly", "Pilvi"] },
-      { "icon": "Briefcase", "name": "Asiantuntijapalvelut", "desc": "Liiketoiminnan hallinta-alustat, CRM-ratkaisut, asiakasportaalit ja automatisoidut työnkulut.", "focus": ["CRM", "Portaalit", "Työnkulut"] }
+      {
+        "icon": "Landmark",
+        "name": "Rahoituspalvelut",
+        "desc": "Rahoitussovellukset, maksuintegraatiot, reaaliaikainen analytiikka ja sääntelyraportointi.",
+        "focus": [
+          "Maksut",
+          "Raportointi",
+          "Analytiikka"
+        ]
+      },
+      {
+        "icon": "Factory",
+        "name": "Valmistus ja teollisuus",
+        "desc": "Teollisuuden valvontasovellukset, IoT-anturi-integraatiot, telemetria ja ennakoiva kunnossapito.",
+        "focus": [
+          "IoT",
+          "Telemetria",
+          "Kunnossapito"
+        ]
+      },
+      {
+        "icon": "Zap",
+        "name": "Energia ja yhdyskuntatekniikka",
+        "desc": "Valvonta-alustat, toiminnan raportointi ja automatisoidut infrastruktuurisovellukset.",
+        "focus": [
+          "Valvonta",
+          "Raportointi",
+          "Automaatio"
+        ]
+      },
+      {
+        "icon": "HeartPulse",
+        "name": "Terveydenhuolto",
+        "desc": "Terveydenhuollon hallintasovellukset, hallinnollisten työnkulkujen automaatio ja kliiniset dataratkaisut.",
+        "focus": [
+          "Työnkulut",
+          "Data",
+          "Hallintajärjestelmät"
+        ]
+      },
+      {
+        "icon": "ShoppingBag",
+        "name": "Vähittäiskauppa ja verkkokauppa",
+        "desc": "Verkkokauppa-alustat, varasto- ja tilausten hallinta sekä automatisoidut maksujärjestelmät.",
+        "focus": [
+          "Kauppa",
+          "Varasto",
+          "Maksut"
+        ]
+      },
+      {
+        "icon": "Laptop",
+        "name": "Teknologia ja ohjelmistot",
+        "desc": "SaaS-kehitys, yritysalustat, tuotekehitys, tekoälyintegraatiot ja pilviarkkitehtuuri.",
+        "focus": [
+          "SaaS",
+          "Tekoäly",
+          "Pilvi"
+        ]
+      },
+      {
+        "icon": "Briefcase",
+        "name": "Asiantuntijapalvelut",
+        "desc": "Liiketoiminnan hallinta-alustat, CRM-ratkaisut, asiakasportaalit ja automatisoidut työnkulut.",
+        "focus": [
+          "CRM",
+          "Portaalit",
+          "Työnkulut"
+        ]
+      }
     ]
   },
   "engagement": {
@@ -36,28 +120,48 @@
         "badge": "Kiinteä laajuus",
         "desc": "Selkeästi rajatut projektit, joissa toimitukset, välitavoitteet, aikataulut ja tekniset vaatimukset on sovittu.",
         "bestFor": "Räätälöidyt sovellukset, SaaS-tuotteet, liiketoiminta-alustat, API-integraatiot ja automaatioprojektit.",
-        "includes": ["Sovittu laajuus ja välitavoitteet", "Määritellyt toimitukset", "Säännölliset edistymisdemot", "Jäsennelty luovutus"]
+        "includes": [
+          "Sovittu laajuus ja välitavoitteet",
+          "Määritellyt toimitukset",
+          "Säännölliset edistymisdemot",
+          "Jäsennelty luovutus"
+        ]
       },
       {
         "title": "Omistautuneet kehitystiimit",
         "badge": "Kapasiteetin laajennus",
         "desc": "Etänä työskenteleviä ohjelmistoasiantuntijoita, jotka tekevät yhteistyötä asiakkaan nykyisen teknisen tiimin kanssa.",
         "bestFor": "Käynnissä olevan kehityksen tukeminen, uusien ominaisuuksien rakentaminen, frontend- ja backend-kehitys sekä pitkäkestoiset tekniset projektit.",
-        "includes": ["Teknologiapinoosi sopivat kehittäjät", "Osa työnkulkuasi", "Joustava skaalaus ylös- tai alaspäin", "Yhteiset työkalut ja toimintatavat"]
+        "includes": [
+          "Teknologiapinoosi sopivat kehittäjät",
+          "Osa työnkulkuasi",
+          "Joustava skaalaus ylös- tai alaspäin",
+          "Yhteiset työkalut ja toimintatavat"
+        ]
       },
       {
         "title": "Pitkäaikainen teknologiakumppanuus",
         "badge": "Jatkuva kehitys",
         "desc": "Pitkäjänteiset yhteistyösuhteet ohjelmistokehityksen, ylläpidon, integraatioiden ja teknisen arkkitehtuurin tueksi.",
         "bestFor": "Teknologiayritykset, ohjelmistotuoteyritykset ja kasvavat startup-yritykset, jotka tarvitsevat jatkuvaa ohjelmistotuotannon tukea.",
-        "includes": ["Jatkuva kehityssuunnitelman toteutus", "Ylläpito ja tuki", "Arkkitehtuuriohjaus", "Ensisijainen pääsy tiimiin"]
+        "includes": [
+          "Jatkuva kehityssuunnitelman toteutus",
+          "Ylläpito ja tuki",
+          "Arkkitehtuuriohjaus",
+          "Suora yhteys tiimiin"
+        ]
       },
       {
         "title": "Tekninen konsultointi",
         "badge": "Strateginen ohjaus",
         "desc": "Konsultointi ja arkkitehtuuritukea, joka auttaa johtoa tekemään perusteltuja, tulevaisuuden kestäviä teknologiapäätöksiä.",
         "bestFor": "Ohjelmistoarkkitehtuurin suunnittelu, teknologia-arvioinnit, sovellusten modernisointi ja infrastruktuuristrategia.",
-        "includes": ["Arkkitehtuuri- ja koodikatselmoinnit", "Teknologia-arvioinnit", "Modernisoinnin tiekartat", "Kirjalliset suositukset"]
+        "includes": [
+          "Arkkitehtuuri- ja koodikatselmoinnit",
+          "Teknologia-arvioinnit",
+          "Modernisoinnin tiekartat",
+          "Kirjalliset suositukset"
+        ]
       }
     ]
   },
@@ -68,40 +172,73 @@
       {
         "icon": "ShieldCheck",
         "title": "Sitoumus tietoturvaan ja laatuun",
-        "body": "Tietoturva, luotettavuus ja tietosuoja ovat osa tapaa, jolla suunnittelemme jokaisen järjestelmän, eivätkä jälkikäteen lisättäviä ominaisuuksia. Sovellamme turvallista tunnistetietojen hallintaa, salattua viestintää, hallittua pääsyä ja jatkuvaa testausta.",
-        "points": ["Roolipohjainen tunnistautuminen ja pääsynhallinta", "Salattu API-liikenne", "Salaisuudet pidetään poissa lähdekoodista", "Säännöllinen validointitestaus", "Varmuuskopioinnin ja palautumisen suunnittelu", "Luottamuksellisuus ja salassapitosopimus (NDA) pyynnöstä"]
+        "body": "Tietoturva, luotettavuus ja tietosuoja ovat osa tapaa, jolla suunnittelemme jokaisen järjestelmän. Sovellamme turvallista tunnistetietojen hallintaa, salattua viestintää, hallittua pääsyä ja jatkuvaa testausta.",
+        "points": [
+          "Roolipohjainen tunnistautuminen ja pääsynhallinta",
+          "Salattu API-liikenne",
+          "Salaisuudet pidetään poissa lähdekoodista",
+          "Säännöllinen validointitestaus",
+          "Varmuuskopioinnin ja palautumisen suunnittelu",
+          "Luottamuksellisuus ja salassapitosopimus (NDA) pyynnöstä"
+        ]
       },
       {
         "icon": "Globe2",
         "title": "Etätyömalli",
         "body": "Toimimme ensisijaisesti etänä Suomesta käsin ja teemme yhteistyötä asiakkaiden ja osaajien kanssa eri aikavyöhykkeillä jäsennellyn projektinhallinnan ja läpinäkyvien Git-pohjaisten työnkulkujen avulla.",
-        "points": ["40 tunnin vakiotyöviikko", "5 työpäivää, 8 tuntia päivässä", "Yhteiset työajat sovitaan asiakaskohtaisesti", "Digitaalinen tehtävien koordinointi", "Läpinäkyvät Git-työnkulut", "Säännölliset demot ja kirjalliset päivitykset"]
+        "points": [
+          "40 tunnin vakiotyöviikko",
+          "5 työpäivää, 8 tuntia päivässä",
+          "Yhteiset työajat sovitaan asiakaskohtaisesti",
+          "Digitaalinen tehtävien koordinointi",
+          "Läpinäkyvät Git-työnkulut",
+          "Säännölliset demot ja kirjalliset päivitykset"
+        ]
       }
     ]
   },
   "team": {
     "kicker": "Organisaation rakenne",
     "title": "Tiimi ja johto",
-    "description": "Yhteistyöhön perustuva rakenne, joka yhdistää liiketoimintastrategian, teknisen johtajuuden, kokeneen ohjelmistotuotannon, suunnittelun ja toiminnallisen huippuosaamisen.",
+    "description": "Yhteistyöhön perustuva rakenne, joka yhdistää liiketoimintastrategian, teknisen johtajuuden, ohjelmistotuotannon, suunnittelun ja toiminnan.",
     "groups": [
       {
         "icon": "Building2",
         "title": "Liiketoiminta ja johto",
         "desc": "Strateginen linjaus, asiakassuhteet, realistiset lupaukset ja kansainvälinen toiminta.",
-        "roles": ["Perustaja / toimitusjohtaja", "Liiketoiminnan kehityspäällikkö", "Myynti ja strategiset kumppanuudet", "Talous ja hallinto"]
+        "roles": [
+          "Perustaja / toimitusjohtaja",
+          "Liiketoiminnan kehityspäällikkö",
+          "Myynti ja strategiset kumppanuudet",
+          "Talous ja hallinto"
+        ]
       },
       {
         "icon": "Code2",
         "title": "Teknologia ja ohjelmistotuotanto",
         "desc": "Selkeä arkkitehtuuri, hajautetut järjestelmät, koneoppiminen ja automatisoitu laadunvarmistus.",
         "featured": true,
-        "roles": ["Teknologiajohtaja (CTO)", "Full-stack-kehittäjät", "Frontend-kehittäjät", "Backend-kehittäjät", "Tekoäly- ja koneoppimisinsinöörit", "Datainsinöörit", "DevOps-insinöörit", "Ohjelmistotestausinsinöörit"]
+        "roles": [
+          "Teknologiajohtaja (CTO)",
+          "Full-stack-kehittäjät",
+          "Frontend-kehittäjät",
+          "Backend-kehittäjät",
+          "Tekoäly- ja koneoppimisinsinöörit",
+          "Datainsinöörit",
+          "DevOps-insinöörit",
+          "Ohjelmistotestausinsinöörit"
+        ]
       },
       {
         "icon": "Palette",
         "title": "Suunnittelu ja markkinointi",
         "desc": "Käytettävyys, suunnittelujärjestelmät, interaktiiviset prototyypit ja tuoteviestintä.",
-        "roles": ["UI/UX-suunnittelijat", "Digitaalisten tuotteiden suunnittelijat", "Markkinointiasiantuntijat", "Some- ja sisältövastaavat"]
+        "roles": [
+          "UI/UX-suunnittelijat",
+          "Digitaalisten tuotteiden suunnittelijat",
+          "Markkinointiasiantuntijat",
+          "Some- ja sisältövastaavat"
+        ]
       }
     ]
   },
@@ -110,22 +247,52 @@
     "title": "Kumppanuusmahdollisuudet",
     "description": "Virtanex Labs toivottaa tervetulleeksi yhteistyön teknologiatoimittajien, konsulttitalojen, toimistojen ja kasvavien tuoteyritysten kanssa.",
     "items": [
-      { "title": "Ohjelmisto- ja IT-konsulttitalot", "desc": "Alihankinta ja omistautuneet kehitystiimit toimituskapasiteetin laajentamiseen." },
-      { "title": "Digitaalisen murroksen toimistot", "desc": "Syvällinen tekninen toteutus monimutkaisille verkkosovelluksille, mikropalveluille ja vanhojen järjestelmien modernisoinnille." },
-      { "title": "Tekoäly- ja SaaS-yritykset", "desc": "RAG-putkistot, tekoälyominaisuuksien integrointi ja skaalautuvat monivuokralaisarkkitehtuurit." },
-      { "title": "Startup-yritykset ja yrittäjät", "desc": "Kokonaisvaltainen yhteiskehitys, MVP-arkkitehtuuri ja pitkäaikainen tekninen kumppanuus." }
+      {
+        "title": "Ohjelmisto- ja IT-konsulttitalot",
+        "desc": "Alihankinta ja omistautuneet kehitystiimit toimituskapasiteetin laajentamiseen."
+      },
+      {
+        "title": "Digitaalisen murroksen toimistot",
+        "desc": "Syvällinen tekninen toteutus monimutkaisille verkkosovelluksille, mikropalveluille ja vanhojen järjestelmien modernisoinnille."
+      },
+      {
+        "title": "Tekoäly- ja SaaS-yritykset",
+        "desc": "RAG-putkistot, tekoälyominaisuuksien integrointi ja skaalautuvat monivuokralaisarkkitehtuurit."
+      },
+      {
+        "title": "Startup-yritykset ja yrittäjät",
+        "desc": "Kokonaisvaltainen yhteiskehitys, MVP-arkkitehtuuri ja pitkäaikainen tekninen kumppanuus."
+      }
     ]
   },
   "why": {
     "kicker": "Miksi Virtanex Labs",
     "title": "Miksi työskennellä kanssamme?",
     "items": [
-      { "title": "Joustava kehityskapasiteetti", "desc": "Mukautuva kehitystuki, joka vastaa projektisi vaatimuksia, aikatauluja ja skaalautumisvaiheita." },
-      { "title": "Nykyaikainen teknologia", "desc": "Ajanmukaiset kehykset, pilvinatiivi infrastruktuuri ja hyväksi todetut työkalut, jotka välttävät teknisen velan." },
-      { "title": "Tekoälylähtöinen lähestymistapa", "desc": "Etsimme käytännön mahdollisuuksia integroida tekoäly todellisiin ohjelmistoihin ja toiminnan työnkulkuihin." },
-      { "title": "Skaalautuvat ratkaisut", "desc": "Ylläpidettävät arkkitehtuurit, jotka voivat kehittyä liiketoiminnan volyymin kasvaessa." },
-      { "title": "Yhteistyöhön perustuva toimitus", "desc": "Suora ja läpinäkyvä viestintä sekä jäsennelty Git-hallinta johtoryhmäsi rinnalla." },
-      { "title": "Pitkän aikavälin näkökulma", "desc": "Pyrimme rakentamaan kestäviä suhteita kertaluonteisten luovutusten sijaan." }
+      {
+        "title": "Joustava kehityskapasiteetti",
+        "desc": "Mukautuva kehitystuki, joka vastaa projektisi vaatimuksia, aikatauluja ja skaalautumisvaiheita."
+      },
+      {
+        "title": "Nykyaikainen teknologia",
+        "desc": "Ajanmukaiset kehykset, pilvinatiivi infrastruktuuri ja hyväksi todetut työkalut, jotka välttävät teknisen velan."
+      },
+      {
+        "title": "Tekoälylähtöinen lähestymistapa",
+        "desc": "Etsimme käytännön mahdollisuuksia integroida tekoäly todellisiin ohjelmistoihin ja toiminnan työnkulkuihin."
+      },
+      {
+        "title": "Skaalautuvat ratkaisut",
+        "desc": "Ylläpidettävät arkkitehtuurit, jotka voivat kehittyä liiketoiminnan volyymin kasvaessa."
+      },
+      {
+        "title": "Yhteistyöhön perustuva toimitus",
+        "desc": "Suora ja läpinäkyvä viestintä sekä jäsennelty Git-hallinta johtoryhmäsi rinnalla."
+      },
+      {
+        "title": "Pitkän aikavälin näkökulma",
+        "desc": "Pyrimme rakentamaan kestäviä suhteita kertaluonteisten luovutusten sijaan."
+      }
     ]
   }
 }

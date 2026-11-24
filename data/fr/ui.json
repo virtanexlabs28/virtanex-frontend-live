@@ -30,7 +30,7 @@
     "kicker": "{name} · Finlande",
     "pitch": "Transformer des défis d'entreprise complexes en produits numériques concrets et maintenables.",
     "base": "Implantation : Finlande ({timezone})",
-    "remote": "100 % à distance, collaboration internationale",
+    "remote": "Où que vous soyez, nous sommes à vos côtés",
     "field": "Informatique et développement logiciel",
     "servicesHeading": "Services",
     "companyHeading": "Entreprise",
@@ -87,7 +87,15 @@
         "label": "Contact",
         "href": "/contact"
       }
-    ]
+    ],
+    "privacy": "Politique de confidentialité"
+  },
+  "time": {
+    "now": "Heure d'Helsinki actuellement"
+  },
+  "legal": {
+    "formNote": "Nous utilisons vos données uniquement pour répondre à votre demande. Consultez notre {link}.",
+    "privacyLink": "politique de confidentialité"
   },
   "contact": {
     "aria": "Contact et demandes",
@@ -156,6 +164,9 @@
     "challenge": "Le défi",
     "approach": "Notre approche",
     "outcomes": "Résultats visés",
-    "similar": "Besoin d'une solution similaire ?"
+    "similar": "Besoin d'une solution similaire ?",
+    "back": "Retour à tous les plans de solution",
+    "tags": "Technologies et axes",
+    "more": "Autres plans de solution"
   }
 }

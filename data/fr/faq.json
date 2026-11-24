@@ -23,7 +23,7 @@
     },
     {
       "q": "Comment travaillez-vous avec des fuseaux horaires différents ?",
-      "a": "Nous fonctionnons 100 % à distance depuis la Finlande (UTC+2), sur une semaine standard de 40 heures. Nous convenons de plages de recouvrement avec chaque client, partageons des comptes rendus écrits et présentons régulièrement l'avancement, pour que vous sachiez toujours où en sont les choses."
+      "a": "Nous fonctionnons 100 % à distance depuis la Finlande (EET/EEST), sur une semaine standard de 40 heures. Nous convenons de plages de recouvrement avec chaque client, partageons des comptes rendus écrits et présentons régulièrement l'avancement, pour que vous sachiez toujours où en sont les choses."
     },
     {
       "q": "Comment gérez-vous la sécurité et la confidentialité ?",
@@ -35,7 +35,7 @@
     },
     {
       "q": "Pouvez-vous travailler avec notre équipe ou notre base de code existante ?",
-      "a": "Absolument. Notre modèle d'équipe dédiée est conçu pour s'intégrer à vos ingénieurs, à vos outils et à vos rituels. Nous prenons également en charge la modernisation d'applications existantes."
+      "a": "Oui. Notre modèle d'équipe dédiée est conçu pour s'intégrer à vos ingénieurs, à vos outils et à vos rituels. Nous prenons également en charge la modernisation d'applications existantes."
     }
   ]
 }

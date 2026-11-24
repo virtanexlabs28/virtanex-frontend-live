@@ -12,7 +12,7 @@
       "service": "ai-ml",
       "description": "Un asistente con generación aumentada por recuperación y un pipeline de procesamiento de documentos que convierte contratos, manuales e informes en respuestas en las que los equipos pueden confiar.",
       "tags": ["Integración de LLM", "RAG", "Python / NestJS", "Búsqueda vectorial"],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Los equipos pierden horas buscando entre documentos. Este plano ingiere archivos desde el almacenamiento existente, extrae e indexa su contenido y ofrece una interfaz conversacional que cita sus fuentes, con acceso basado en roles para que cada persona vea solo aquello a lo que tiene permiso.",
       "challenge": "Información dispersa entre unidades compartidas, archivos adjuntos de correo y sistemas heredados, sin una forma fiable de buscarla o resumirla.",
       "approach": [
@@ -30,7 +30,7 @@
       "service": "digital-product",
       "description": "Una plataforma basada en suscripción con aislamiento entre inquilinos, acceso basado en roles, facturación y una consola de administración, lista para escalar de MVP a producción.",
       "tags": ["Next.js", "NestJS", "PostgreSQL", "Suscripciones"],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
       "overview": "Una arquitectura de referencia para convertir una idea de producto en un SaaS facturable. Abarca el aislamiento de datos por inquilino, la gestión de usuarios y permisos, los planes de suscripción, el seguimiento de uso y las herramientas operativas necesarias para gestionar el producto en el día a día.",
       "challenge": "Lanzar con rapidez sin arrinconar el producto en una arquitectura que impida más adelante el multi-tenancy, la facturación o las funcionalidades empresariales.",
       "approach": [
@@ -48,7 +48,7 @@
       "service": "data-engineering",
       "description": "Pipelines automatizados que consolidan los datos de los sistemas de finanzas, ventas y operaciones en un único modelo fiable con paneles en tiempo real.",
       "tags": ["ETL / ELT", "PostgreSQL", "Python", "Paneles"],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
       "overview": "Los informes suelen implicar exportaciones manuales y hojas de cálculo contradictorias. Este plano extrae datos de cada sistema de origen de forma programada, los valida y concilia, y publica una única fuente de verdad con paneles en los que la dirección puede confiar.",
       "challenge": "Múltiples sistemas, definiciones incoherentes e informes manuales de cierre de mes lentos y propensos a errores.",
       "approach": [
@@ -66,7 +66,7 @@
       "service": "iot-industrial",
       "description": "Ingesta de telemetría en tiempo real, paneles y alertas de anomalías para equipos conectados, con un camino hacia el mantenimiento predictivo.",
       "tags": ["IoT", "Tiempo real", "Detección de anomalías", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Los equipos conectados generan datos que rara vez llegan a quienes pueden actuar sobre ellos. Este plano ingiere la telemetría de los dispositivos, la almacena de forma eficiente, visualiza el estado en vivo y genera alertas cuando las lecturas se alejan del comportamiento esperado.",
       "challenge": "El estado de los equipos es invisible hasta que algo falla, y los datos de los dispositivos quedan encerrados en herramientas propietarias.",
       "approach": [

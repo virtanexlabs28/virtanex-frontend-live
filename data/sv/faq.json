@@ -23,7 +23,7 @@
     },
     {
       "q": "Hur arbetar ni över tidszoner?",
-      "a": "Vi arbetar i första hand på distans och har vår bas i Finland (UTC+2), med en standardvecka på 40 timmar. Vi kommer överens med varje kund om överlappande tider, delar skriftliga lägesrapporter och demonstrerar framsteg regelbundet så att ni alltid vet hur det går."
+      "a": "Vi arbetar i första hand på distans och har vår bas i Finland (EET/EEST), med en standardvecka på 40 timmar. Vi kommer överens med varje kund om överlappande tider, delar skriftliga lägesrapporter och demonstrerar framsteg regelbundet så att ni alltid vet hur det går."
     },
     {
       "q": "Hur hanterar ni säkerhet och sekretess?",
@@ -35,7 +35,7 @@
     },
     {
       "q": "Kan ni arbeta med vårt befintliga team eller vår kodbas?",
-      "a": "Absolut. Vår modell med dedikerade team är utformad för att integreras med era utvecklare, verktyg och arbetsrutiner. Vi åtar oss också moderniseringsarbete för befintliga applikationer."
+      "a": "Ja. Vår modell med dedikerade team är utformad för att integreras med era utvecklare, verktyg och arbetsrutiner. Vi åtar oss också moderniseringsarbete för befintliga applikationer."
     }
   ]
 }

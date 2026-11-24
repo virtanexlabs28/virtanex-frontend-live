@@ -10,14 +10,14 @@
     "websiteLabel": "virtanexlabs.com",
     "location": "Suomi (etätyö / kansainvälinen yhteistyö)",
     "locationShort": "Suomi / kansainvälinen",
-    "timezone": "UTC+2 (Helsinki)",
+    "timezone": "Helsinki, EET/EEST",
     "responseTime": "24 tunnin kuluessa"
   },
   "availability": {
-    "badge": "VARAUKSET KESÄLLE '26",
-    "season": "Kesä '26",
-    "headline": "Otamme vastaan valikoituja toimeksiantoja kesälle '26",
-    "detail": "Otamme kerrallaan vain rajatun määrän projekteja, jotta jokainen asiakas saa kokeneiden asiantuntijoiden huomion. Ota yhteyttä ajoissa, niin varaamme kapasiteettia sinulle."
+    "badge": "VARAUKSET AVOINNA",
+    "season": "Varaukset avoinna",
+    "headline": "Otamme nyt vastaan uusia toimeksiantoja",
+    "detail": "Kerro meille projektistasi, niin vahvistamme, millaista kapasiteettia meillä on ja milloin työ voisi alkaa."
   },
   "hero": {
     "subheadline": "Älykkäitä digitaalisia ratkaisuja huolella suunniteltuna.",
@@ -45,9 +45,9 @@
     "title": "Aloita keskustelu",
     "subtitle": "Kerro meille organisaatiostasi ja teknisistä tarpeistasi.",
     "timelines": [
-      "Kesä '26 (ensisijainen)",
-      "Syksy / talvi '26",
-      "Heti, 30 päivän sisällä",
+      "Mahdollisimman pian",
+      "1–3 kuukauden kuluessa",
+      "Myöhemmin, ei vielä kiinteää päivämäärää",
       "Selvitys / toteutettavuustutkimus"
     ],
     "note": "Salassapitosopimus (NDA) pyynnöstä. Vastaamme 24 tunnin kuluessa."
@@ -97,7 +97,7 @@
     {
       "value": "24h",
       "label": "Vastaus jokaiseen yhteydenottoon",
-      "detail": "Teknisen johtajan arvioima"
+      "detail": "Tiimimme jäsen lukee ja vastaa"
     }
   ],
   "overview": {
@@ -114,11 +114,11 @@
     "facts": [
       {
         "label": "Kotipaikka",
-        "value": "Suomi (UTC+2)"
+        "value": "Suomi (EET/EEST)"
       },
       {
-        "label": "Toimintamalli",
-        "value": "Etätyö ensin"
+        "label": "Työskentelytapa",
+        "value": "Missä tahansa olet, olemme kanssasi"
       },
       {
         "label": "Perustettu",
@@ -153,8 +153,8 @@
       "kicker": "Mitä teemme",
       "title": "Palvelut, jotka on rakennettu liiketoimintasi ympärille.",
       "description": "Kymmenen osaamisaluetta, yksi vastuullinen tiimi. Räätälöidyistä ohjelmistoista ja tekoälystä pilvi-infrastruktuuriin ja teollisuuden IoT-ratkaisuihin.",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Kehittäjä työskentelee koodin parissa kannettavalla tietokoneella",
+      "image": "https://images.unsplash.com/photo-1603201667230-bd139210db18?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Työtoverit työskentelevät yhdessä kannettavan ääressä valoisassa toimistossa",
       "blurb": "Kymmenen osaamisaluetta räätälöidyistä ohjelmistoista teollisuuden IoT-ratkaisuihin.",
       "metaTitle": "Palvelut",
       "metaDescription": "Räätälöidyt ohjelmistot, tekoäly, datatekniikka, integraatiot, automaatio, pilvi, tuotekehitys, suunnittelu, laadunvarmistus ja IoT yhdeltä vastuulliselta tiimiltä."
@@ -164,8 +164,8 @@
       "kicker": "Miten työskentelemme",
       "title": "Prosessi, jonka näet ja johon voit luottaa.",
       "description": "Läpinäkyvä seitsemänvaiheinen elinkaari, joustavat yhteistyömallit ja alusta asti mukana kulkevat tietoturvakäytännöt.",
-      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Suunnittelumuistiinpanoja asetettuna seinälle",
+      "image": "https://images.unsplash.com/photo-1590402494610-2c378a9114c6?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Tiimin jäsen kiinnittää suunnitteluun liittyviä muistilappuja taululle",
       "blurb": "Seitsemän vaihetta, neljä yhteistyömallia ja sisäänrakennettu tietoturva.",
       "metaTitle": "Prosessi",
       "metaDescription": "Seitsemänvaiheinen ohjelmistotuotannon elinkaarimme, joustavat yhteistyömallit sekä tietoturva- ja etätyökäytännöt."
@@ -175,8 +175,8 @@
       "kicker": "Valittuja töitä",
       "title": "Järjestelmät, joita rakennamme, ja ne, joille niitä rakennamme.",
       "description": "Ratkaisumallit, palvelemamme toimialat ja tutkimusalueet, joihin jatkuvasti panostamme.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Analytiikkanäkymä kannettavan tietokoneen näytöllä",
+      "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Työtoverit katsovat yhdessä projektia tietokoneen näytöltä",
       "blurb": "Ratkaisumallit, toimialat ja tutkimuksen painopisteet.",
       "metaTitle": "Työt",
       "metaDescription": "Ratkaisumallit, palvelemamme toimialat ja tekniset osaamisalueet, joihin panostamme."
@@ -197,8 +197,8 @@
       "kicker": "Kysymykset",
       "title": "Vastaukset ennen kuin kysyt.",
       "description": "Miten projektit alkavat, miten hinnoittelemme, kenelle koodi kuuluu ja miten työskentelemme eri aikavyöhykkeillä.",
-      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Muistikirja ja kynä työpöydällä",
+      "image": "https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Kaksi ihmistä keskustelee ystävällisesti pöydän ääressä",
       "blurb": "Suoria vastauksia siihen, miten työskentelemme.",
       "metaTitle": "UKK",
       "metaDescription": "Vastauksia siihen, miten projektit alkavat, hinnoittelusta, koodin omistajuudesta, aikavyöhykkeistä, tietoturvasta ja tuesta."
@@ -208,8 +208,8 @@
       "kicker": "Ota yhteyttä",
       "title": "Puhutaan siitä, mitä olet rakentamassa.",
       "description": "Varaa kartoituspuhelu tai lähetä meille projektikuvaus. Vastaamme 24 tunnin kuluessa.",
-      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Valoisa moderni toimistotila",
+      "image": "https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Työtoverit keskustelevat valoisassa modernissa toimistossa",
       "blurb": "Varaa puhelu tai lähetä projektikuvaus.",
       "metaTitle": "Yhteystiedot",
       "metaDescription": "Varaa kartoituspuhelu tai lähetä Virtanex Labsille projektikuvaus. Vastaamme 24 tunnin kuluessa."

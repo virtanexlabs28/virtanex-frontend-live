@@ -29,8 +29,8 @@
   },
   "why": {
     "kicker": "Why Virtanex Labs",
-    "title": "A technology partner, not just a vendor.",
-    "description": "We combine senior engineering, modern tooling, and honest communication, and we stay for the long run.",
+    "title": "A technology partner for the long run.",
+    "description": "Modern tooling, clear communication, and a team that stays with your product after launch.",
     "cta": "Meet the team"
   },
   "faq": {
@@ -44,6 +44,10 @@
     "description": "Tell us what you are trying to build. We will come back within 24 hours with honest feedback and a clear next step.",
     "primary": "Book a discovery call",
     "secondary": "Send a project brief",
-    "assurances": ["NDA available on request", "Reply within 24 hours", "Senior engineers from day one"]
+    "assurances": [
+      "NDA available on request",
+      "Reply within 24 hours",
+      "A written proposal before any work starts"
+    ]
   }
 }

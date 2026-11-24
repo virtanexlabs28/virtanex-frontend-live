@@ -23,7 +23,7 @@
     },
     {
       "q": "Wie arbeiten Sie über Zeitzonen hinweg?",
-      "a": "Wir arbeiten Remote-first von Finnland (UTC+2) aus mit einer 40-Stunden-Standardwoche. Mit jedem Kunden vereinbaren wir Überschneidungszeiten, liefern schriftliche Updates und zeigen den Fortschritt regelmäßig in Demos, damit Sie jederzeit wissen, wo das Projekt steht."
+      "a": "Wir arbeiten Remote-first von Finnland (EET/EEST) aus mit einer 40-Stunden-Standardwoche. Mit jedem Kunden vereinbaren wir Überschneidungszeiten, liefern schriftliche Updates und zeigen den Fortschritt regelmäßig in Demos, damit Sie jederzeit wissen, wo das Projekt steht."
     },
     {
       "q": "Wie gehen Sie mit Sicherheit und Vertraulichkeit um?",
@@ -35,7 +35,7 @@
     },
     {
       "q": "Können Sie mit unserem bestehenden Team oder unserer Codebasis arbeiten?",
-      "a": "Selbstverständlich. Unser Modell der dedizierten Teams ist darauf ausgelegt, sich in Ihre Entwickler, Tools und Rituale einzufügen. Außerdem übernehmen wir Modernisierungsarbeiten an bestehenden Anwendungen."
+      "a": "Ja. Unser Modell der dedizierten Teams ist darauf ausgelegt, sich in Ihre Entwickler, Tools und Rituale einzufügen. Außerdem übernehmen wir Modernisierungsarbeiten an bestehenden Anwendungen."
     }
   ]
 }

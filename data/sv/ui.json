@@ -30,7 +30,7 @@
     "kicker": "{name} · Finland",
     "pitch": "Vi förvandlar komplexa affärsutmaningar till praktiska, underhållbara digitala produkter.",
     "base": "Bas: Finland ({timezone})",
-    "remote": "Distans i första hand, internationellt samarbete",
+    "remote": "Var ni än är, finns vi vid er sida",
     "field": "IT och mjukvaruutveckling",
     "servicesHeading": "Tjänster",
     "companyHeading": "Företaget",
@@ -87,7 +87,15 @@
         "label": "Kontakt",
         "href": "/contact"
       }
-    ]
+    ],
+    "privacy": "Integritetspolicy"
+  },
+  "time": {
+    "now": "Tid i Helsingfors nu"
+  },
+  "legal": {
+    "formNote": "Vi använder dina uppgifter endast för att besvara din förfrågan. Läs vår {link}.",
+    "privacyLink": "integritetspolicy"
   },
   "contact": {
     "aria": "Kontakt och förfrågningar",
@@ -156,6 +164,9 @@
     "challenge": "Utmaningen",
     "approach": "Vårt arbetssätt",
     "outcomes": "Avsedda resultat",
-    "similar": "Behöver ni något liknande?"
+    "similar": "Behöver ni något liknande?",
+    "back": "Tillbaka till alla lösningsritningar",
+    "tags": "Teknik och fokus",
+    "more": "Fler lösningsritningar"
   }
 }

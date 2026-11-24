@@ -29,8 +29,8 @@
   },
   "why": {
     "kicker": "Miksi Virtanex Labs",
-    "title": "Teknologiakumppani, ei pelkkä toimittaja.",
-    "description": "Yhdistämme kokeneen ohjelmistotuotannon, nykyaikaiset työkalut ja rehellisen viestinnän, ja pysymme mukana pitkällä aikavälillä.",
+    "title": "Teknologiakumppani pitkäjänteiseen yhteistyöhön.",
+    "description": "Nykyaikaiset työkalut, selkeä viestintä ja tiimi, joka pysyy tuotteesi mukana julkaisun jälkeen.",
     "cta": "Tutustu tiimiin"
   },
   "faq": {
@@ -44,6 +44,10 @@
     "description": "Kerro meille, mitä olet rakentamassa. Vastaamme 24 tunnin kuluessa rehellisellä palautteella ja selkeällä seuraavalla askeleella.",
     "primary": "Varaa kartoituspuhelu",
     "secondary": "Lähetä projektikuvaus",
-    "assurances": ["Salassapitosopimus (NDA) pyynnöstä", "Vastaus 24 tunnin kuluessa", "Kokeneet asiantuntijat mukana alusta asti"]
+    "assurances": [
+      "Salassapitosopimus (NDA) pyynnöstä",
+      "Vastaus 24 tunnin kuluessa",
+      "Kirjallinen ehdotus ennen työn aloittamista"
+    ]
   }
 }

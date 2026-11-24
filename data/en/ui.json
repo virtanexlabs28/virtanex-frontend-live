@@ -30,7 +30,7 @@
     "kicker": "{name} · Finland",
     "pitch": "Transforming complex business challenges into practical, maintainable digital products.",
     "base": "Base: Finland ({timezone})",
-    "remote": "Remote-first, international collaboration",
+    "remote": "Wherever you are, we're with you",
     "field": "IT & software development",
     "servicesHeading": "Services",
     "companyHeading": "Company",
@@ -87,7 +87,15 @@
         "label": "Contact",
         "href": "/contact"
       }
-    ]
+    ],
+    "privacy": "Privacy Policy"
+  },
+  "time": {
+    "now": "Helsinki time now"
+  },
+  "legal": {
+    "formNote": "We use your details only to answer your request. See our {link}.",
+    "privacyLink": "Privacy Policy"
   },
   "contact": {
     "aria": "Contact and inquiries",
@@ -156,6 +164,9 @@
     "challenge": "The challenge",
     "approach": "Our approach",
     "outcomes": "Intended outcomes",
-    "similar": "Need something similar?"
+    "similar": "Need something similar?",
+    "back": "Back to all blueprints",
+    "tags": "Technologies and focus",
+    "more": "More blueprints"
   }
 }

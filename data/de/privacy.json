@@ -1,0 +1,136 @@
+{
+  "metaTitle": "Datenschutzerklärung",
+  "metaDescription": "Wie Virtanex Labs personenbezogene Daten erhebt, verwendet und schützt, wenn Sie diese Website besuchen oder uns kontaktieren, im Einklang mit der EU-Datenschutz-Grundverordnung (DSGVO).",
+  "kicker": "Rechtliches",
+  "title": "Datenschutzerklärung",
+  "updated": "Stand: 24. November 2026",
+  "intro": "Diese Erklärung informiert darüber, welche personenbezogenen Daten {company} über diese Website erhebt, zu welchem Zweck wir sie erheben, wie lange wir sie speichern und welche Rechte Ihnen nach der EU-Datenschutz-Grundverordnung (DSGVO, Verordnung (EU) 2016/679) und dem finnischen Datenschutzgesetz zustehen. Wir beschränken die Datenerhebung auf das Maß, das erforderlich ist, um Ihre Nachrichten zu beantworten und eine sichere Website zu betreiben.",
+  "tocLabel": "Auf dieser Seite",
+  "sections": [
+    {
+      "id": "controller",
+      "title": "1. Wer für Ihre Daten verantwortlich ist",
+      "paragraphs": [
+        "Verantwortlicher im Sinne der DSGVO ist {company}, ein in Finnland ansässiges Software- und IT-Unternehmen. Bei allen Fragen zu dieser Erklärung erreichen Sie uns unter {email}.",
+        "Wir haben keinen Datenschutzbeauftragten benannt, da der Umfang unserer Verarbeitung gering ist. Datenschutzanfragen und -anliegen richten Sie bitte an die oben genannte Adresse; sie werden von unserer Geschäftsleitung bearbeitet."
+      ],
+      "items": []
+    },
+    {
+      "id": "data",
+      "title": "2. Welche Daten wir erheben und warum",
+      "paragraphs": [
+        "Wir erheben personenbezogene Daten nur in den nachstehend genannten Fällen. Auf dieser Website setzen wir keine Werbe-, Profiling- oder Analysewerkzeuge ein."
+      ],
+      "items": [
+        "Projektanfrage-Formular: Ihr Name, Ihre E-Mail-Adresse, Ihr Unternehmen (optional), die von Ihnen gewählte Leistung und der gewählte Zeitrahmen sowie die von Ihnen verfasste Nachricht. Wir verwenden diese Daten, um Ihre Anfrage zu beantworten und ein Angebot vorzubereiten. Rechtsgrundlage: Durchführung vorvertraglicher Maßnahmen auf Ihre Anfrage hin (Art. 6 Abs. 1 lit. b DSGVO) sowie unser berechtigtes Interesse an der Beantwortung geschäftlicher Anfragen (Art. 6 Abs. 1 lit. f DSGVO).",
+        "Anfrage für ein Erstgespräch: Ihr Name, Ihre E-Mail-Adresse, das von Ihnen gewählte Thema und Terminfenster sowie optionale Anmerkungen. Wir verwenden diese Daten, um das Gespräch zu vereinbaren und vorzubereiten. Rechtsgrundlage: Art. 6 Abs. 1 lit. b und lit. f DSGVO.",
+        "E-Mails, die Sie uns direkt senden: die Adresse, der Inhalt und etwaige Anhänge, die wir für den Schriftverkehr mit Ihnen verwenden. Rechtsgrundlage: Art. 6 Abs. 1 lit. b oder lit. f DSGVO.",
+        "Technische und sicherheitsrelevante Daten: Wenn Sie eine Seite aufrufen oder ein Formular absenden, verarbeitet unsere Hosting-Infrastruktur Ihre IP-Adresse und Anfragedetails (Browsertyp, angeforderte Seiten, Zeitpunkt) in Server-Logdateien; zudem begrenzt das Formular wiederholte Übermittlungen pro IP-Adresse mithilfe eines kurzlebigen Speichers, der innerhalb weniger Minuten geleert wird. Wir nutzen diese Daten, um die Website bereitzustellen, Missbrauch zu verhindern und ihre Sicherheit zu gewährleisten. Rechtsgrundlage: berechtigtes Interesse (Art. 6 Abs. 1 lit. f DSGVO).",
+        "Sprachauswahl: Das Hosting-Netzwerk kann aus Ihrer IP-Adresse Ihr ungefähres Herkunftsland ableiten, damit wir die Website in einer passenden Sprache anzeigen können. Wir verwenden diese Information nur für diesen Moment und speichern sie nicht."
+      ]
+    },
+    {
+      "id": "voluntary",
+      "title": "3. Die Bereitstellung Ihrer Daten ist freiwillig",
+      "paragraphs": [
+        "Sie sind nicht verpflichtet, ein Formular abzusenden. Wenn Sie dies tun, sind die Felder für Name und E-Mail-Adresse erforderlich, damit wir Ihnen antworten können. Bitte nehmen Sie keine sensiblen Informationen (zum Beispiel Gesundheitsdaten) und keine vertraulichen Geschäftsgeheimnisse in Ihre Nachricht auf. Sollte ein Projekt dies erfordern, vereinbaren wir zuvor einen sicheren Kommunikationskanal und eine Geheimhaltungsvereinbarung."
+      ],
+      "items": []
+    },
+    {
+      "id": "cookies",
+      "title": "4. Cookies und lokaler Speicher",
+      "paragraphs": [
+        "Diese Website verwendet keine Analyse-, Werbe- oder Tracking-Cookies; ein Cookie-Einwilligungsbanner ist daher nicht erforderlich. Sie speichert zwei kleine Einstellungen, die Sie selbst wählen und die für die von Ihnen gewünschten Funktionen erforderlich sind:"
+      ],
+      "items": [
+        "Cookie NEXT_LOCALE: Es merkt sich die Sprache, die Sie über die Sprachauswahl wählen. Es wird nur gesetzt, wenn Sie die Sprache ändern, hat eine Laufzeit von einem Jahr und wird niemals zu Tracking-Zwecken verwendet.",
+        "Eintrag \"theme\" im lokalen Speicher (Local Storage): Er merkt sich, ob Sie den Dunkelmodus gewählt haben. Er verbleibt ausschließlich auf Ihrem Gerät und wird nicht an uns übermittelt."
+      ]
+    },
+    {
+      "id": "recipients",
+      "title": "5. Wer Ihre Daten erhält",
+      "paragraphs": [
+        "Wir verkaufen Ihre Daten nicht. Wir geben sie nur an Dienstleister weiter, die in unserem Auftrag tätig und an datenschutzrechtliche Vorgaben gebunden sind (Auftragsverarbeiter), und nur soweit erforderlich:"
+      ],
+      "items": [
+        "E-Mail-Dienst: Über die Formulare gesendete Anfragen werden an unser Geschäftspostfach zugestellt, das von Google (Gmail / Google Workspace) bereitgestellt wird.",
+        "Hosting- und Netzwerkinfrastruktur: der Anbieter, der diese Website ausliefert und technische Daten wie IP-Adressen in Server-Logdateien verarbeiten kann.",
+        "Bildauslieferung: Einige Fotografien auf dieser Website werden aus dem Bildnetzwerk von Unsplash (images.unsplash.com) geladen. Ihr Browser verbindet sich mit diesem Dienst, um die Bilder abzurufen; dadurch kann der Dienst Ihre IP-Adresse und Browserdaten einsehen. Weitere Daten übermitteln wir an ihn nicht.",
+        "Behörden, Berater oder Gerichte, soweit wir gesetzlich zur Offenlegung von Daten verpflichtet sind oder unsere Rechte schützen müssen."
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "6. Übermittlungen außerhalb der EU/des EWR",
+      "paragraphs": [
+        "Einige der oben genannten Dienstleister, etwa Google, können Daten in den Vereinigten Staaten oder in anderen Ländern außerhalb der EU/des EWR verarbeiten. In diesen Fällen stützen wir uns auf einen Angemessenheitsbeschluss der Europäischen Kommission (zum Beispiel das EU-US Data Privacy Framework für zertifizierte Unternehmen) oder auf die von der Kommission genehmigten Standardvertragsklauseln, gegebenenfalls ergänzt durch zusätzliche Garantien. Einzelheiten erfragen Sie bitte unter {email}."
+      ],
+      "items": []
+    },
+    {
+      "id": "retention",
+      "title": "7. Wie lange wir Daten speichern",
+      "paragraphs": [
+        "Wir speichern Daten nur so lange, wie wir sie für den Zweck benötigen, für den sie erhoben wurden:"
+      ],
+      "items": [
+        "Anfragen und Gesprächsanfragen: so lange, wie es zur Bearbeitung Ihres Anliegens erforderlich ist; sie werden in der Regel 24 Monate nach unserem letzten Kontakt gelöscht, sofern kein Vertrag zustande kommt.",
+        "Wenn wir zusammenarbeiten: Projekt- und Vertragsunterlagen werden für die Dauer der Zusammenarbeit und danach so lange aufbewahrt, wie es gesetzlich vorgeschrieben ist (zum Beispiel Buchhaltungsunterlagen) oder wie es zur Abwehr von Rechtsansprüchen erforderlich ist.",
+        "Server-Logdateien: werden für einen kurzen Zeitraum gespeichert, in der Regel nicht länger als 30 Tage.",
+        "Daten zur Ratenbegrenzung: werden etwa 10 Minuten lang im Arbeitsspeicher gehalten und anschließend verworfen."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "8. Ihre Rechte",
+      "paragraphs": [
+        "Nach der DSGVO stehen Ihnen die folgenden Rechte zu. Zur Ausübung eines dieser Rechte schreiben Sie bitte an {email}. Wir antworten innerhalb eines Monats. Gegebenenfalls bitten wir Sie zuvor, Ihre Identität zu bestätigen."
+      ],
+      "items": [
+        "Auskunft: das Recht, eine Bestätigung darüber zu erhalten, ob wir Ihre Daten verarbeiten, sowie eine Kopie dieser Daten.",
+        "Berichtigung: das Recht, unrichtige oder unvollständige Daten berichtigen zu lassen.",
+        "Löschung: das Recht, Ihre Daten löschen zu lassen, wenn es keinen Grund mehr für ihre Speicherung gibt.",
+        "Einschränkung der Verarbeitung: das Recht, uns in bestimmten Fällen zu bitten, die Verarbeitung auszusetzen.",
+        "Datenübertragbarkeit: das Recht, die von Ihnen bereitgestellten Daten in einem strukturierten, gängigen Format zu erhalten, sofern die Verarbeitung auf einem Vertrag beruht.",
+        "Widerspruch: das Recht, aus Gründen, die sich aus Ihrer besonderen Situation ergeben, jederzeit der Verarbeitung zu widersprechen, die auf unseren berechtigten Interessen beruht.",
+        "Widerruf der Einwilligung: Soweit wir uns auf Ihre Einwilligung stützen, können Sie diese jederzeit widerrufen, ohne dass die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung berührt wird.",
+        "Beschwerde: das Recht, bei einer Aufsichtsbehörde Beschwerde einzulegen. In Finnland ist dies das Büro des Datenschutzbeauftragten (Tietosuojavaltuutetun toimisto, tietosuoja.fi). Sie können sich auch an die Behörde in dem EU-Land wenden, in dem Sie leben oder arbeiten."
+      ]
+    },
+    {
+      "id": "automated",
+      "title": "9. Automatisierte Entscheidungen",
+      "paragraphs": [
+        "Wir setzen keine automatisierte Entscheidungsfindung und kein Profiling ein, die Ihnen gegenüber rechtliche Wirkung entfalten oder Sie in ähnlicher Weise erheblich beeinträchtigen."
+      ],
+      "items": []
+    },
+    {
+      "id": "security",
+      "title": "10. Sicherheit",
+      "paragraphs": [
+        "Die Website wird über eine verschlüsselte HTTPS-Verbindung ausgeliefert. Der Zugriff auf das Postfach, das die Anfragen empfängt, ist auf Personen beschränkt, die ihn benötigen, und die Zugangsdaten werden außerhalb des Website-Codes aufbewahrt. Keine Übertragungs- oder Speichermethode ist vollständig sicher; wir bemühen uns jedoch, Ihre Daten vor Verlust, Missbrauch und unbefugtem Zugriff zu schützen."
+      ],
+      "items": []
+    },
+    {
+      "id": "children",
+      "title": "11. Kinder",
+      "paragraphs": [
+        "Diese Website richtet sich an Unternehmen und Fachleute und nicht an Kinder. Wir erheben wissentlich keine personenbezogenen Daten von Personen unter 16 Jahren."
+      ],
+      "items": []
+    },
+    {
+      "id": "changes",
+      "title": "12. Änderungen dieser Erklärung",
+      "paragraphs": [
+        "Wir können diese Erklärung aktualisieren, wenn sich unsere Praxis oder die Rechtslage ändert. Das Datum am Anfang der Seite zeigt die jeweils aktuelle Fassung an. Wenn sich eine Änderung erheblich darauf auswirkt, wie wir Ihre Daten verwenden, machen wir dies auf dieser Seite deutlich."
+      ],
+      "items": []
+    }
+  ]
+}

@@ -30,7 +30,7 @@
     "kicker": "{name} · Finnland",
     "pitch": "Wir verwandeln komplexe geschäftliche Herausforderungen in praxistaugliche, wartbare digitale Produkte.",
     "base": "Standort: Finnland ({timezone})",
-    "remote": "Remote-first, internationale Zusammenarbeit",
+    "remote": "Wo auch immer Sie sind, wir sind an Ihrer Seite",
     "field": "IT & Softwareentwicklung",
     "servicesHeading": "Leistungen",
     "companyHeading": "Unternehmen",
@@ -87,7 +87,15 @@
         "label": "Kontakt",
         "href": "/contact"
       }
-    ]
+    ],
+    "privacy": "Datenschutzerklärung"
+  },
+  "time": {
+    "now": "Aktuelle Zeit in Helsinki"
+  },
+  "legal": {
+    "formNote": "Wir verwenden Ihre Angaben nur, um Ihre Anfrage zu beantworten. Siehe unsere {link}.",
+    "privacyLink": "Datenschutzerklärung"
   },
   "contact": {
     "aria": "Kontakt und Anfragen",
@@ -156,6 +164,9 @@
     "challenge": "Die Herausforderung",
     "approach": "Unser Vorgehen",
     "outcomes": "Angestrebte Ergebnisse",
-    "similar": "Sie benötigen etwas Ähnliches?"
+    "similar": "Sie benötigen etwas Ähnliches?",
+    "back": "Zurück zu allen Lösungskonzepten",
+    "tags": "Technologien und Schwerpunkte",
+    "more": "Weitere Lösungskonzepte"
   }
 }

@@ -29,8 +29,8 @@
   },
   "why": {
     "kicker": "Varför Virtanex Labs",
-    "title": "En teknikpartner, inte bara en leverantör.",
-    "description": "Vi kombinerar senior teknisk kompetens, moderna verktyg och ärlig kommunikation, och vi stannar på lång sikt.",
+    "title": "En teknikpartner för lång sikt.",
+    "description": "Moderna verktyg, tydlig kommunikation och ett team som stannar kvar hos din produkt efter lansering.",
     "cta": "Möt teamet"
   },
   "faq": {
@@ -44,6 +44,10 @@
     "description": "Berätta vad ni vill bygga. Vi återkommer inom 24 timmar med ärlig feedback och ett tydligt nästa steg.",
     "primary": "Boka ett kartläggningssamtal",
     "secondary": "Skicka en projektbeskrivning",
-    "assurances": ["Sekretessavtal (NDA) finns på begäran", "Svar inom 24 timmar", "Seniora utvecklare från dag ett"]
+    "assurances": [
+      "Sekretessavtal (NDA) finns på begäran",
+      "Svar inom 24 timmar",
+      "Ett skriftligt förslag innan något arbete påbörjas"
+    ]
   }
 }

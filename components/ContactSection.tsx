@@ -4,6 +4,7 @@ import React, { useState } from 'react';
 import { ArrowUpRight, Check, Globe, Loader2, Mail, MapPin } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Card } from '@/components/ui/card';
+import { PrivacyNote } from '@/components/PrivacyNote';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from '@/components/ui/select';
@@ -201,7 +202,10 @@ export function ContactSection() {
               )}
 
               <div className="flex flex-col items-center justify-between gap-4 pt-2 sm:flex-row">
-                <p className="text-xs text-foreground/50">{site.inquiry.note}</p>
+                <div className="space-y-1.5 text-xs text-foreground/50">
+                  <p>{site.inquiry.note}</p>
+                  <PrivacyNote />
+                </div>
                 <Button type="submit" size="lg" disabled={sending} className="w-full rounded-full px-7 hover:bg-accent hover:text-accent-foreground sm:w-auto">
                   {sending ? t.sending : t.submit}
                   {sending ? <Loader2 className="size-4 animate-spin" aria-hidden="true" /> : <ArrowUpRight className="size-4" aria-hidden="true" />}

@@ -30,7 +30,7 @@
     "kicker": "{name} · Suomi",
     "pitch": "Muutamme monimutkaiset liiketoiminnan haasteet käytännöllisiksi, ylläpidettäviksi digitaalisiksi tuotteiksi.",
     "base": "Kotipaikka: Suomi ({timezone})",
-    "remote": "Etätyö ensin, kansainvälistä yhteistyötä",
+    "remote": "Missä tahansa olet, olemme kanssasi",
     "field": "IT ja ohjelmistokehitys",
     "servicesHeading": "Palvelut",
     "companyHeading": "Yritys",
@@ -87,7 +87,15 @@
         "label": "Yhteystiedot",
         "href": "/contact"
       }
-    ]
+    ],
+    "privacy": "Tietosuojaseloste"
+  },
+  "time": {
+    "now": "Helsingin aika nyt"
+  },
+  "legal": {
+    "formNote": "Käytämme tietojasi vain pyyntösi käsittelyyn. Lue {link}.",
+    "privacyLink": "tietosuojaselosteemme"
   },
   "contact": {
     "aria": "Yhteystiedot ja tiedustelut",
@@ -156,6 +164,9 @@
     "challenge": "Haaste",
     "approach": "Lähestymistapamme",
     "outcomes": "Tavoitellut tulokset",
-    "similar": "Tarvitsetko jotain vastaavaa?"
+    "similar": "Tarvitsetko jotain vastaavaa?",
+    "back": "Takaisin kaikkiin ratkaisumalleihin",
+    "tags": "Teknologiat ja painopisteet",
+    "more": "Lisää ratkaisumalleja"
   }
 }

@@ -10,14 +10,14 @@
     "websiteLabel": "virtanexlabs.com",
     "location": "Finlandia (remoto / colaboración internacional)",
     "locationShort": "Finlandia / Internacional",
-    "timezone": "UTC+2 (Helsinki)",
+    "timezone": "Helsinki, EET/EEST",
     "responseTime": "en un plazo de 24 horas"
   },
   "availability": {
-    "badge": "RESERVAS VERANO '26",
-    "season": "Verano '26",
-    "headline": "Aceptamos ya proyectos selectos para el verano de 2026",
-    "detail": "Asumimos un número limitado de proyectos a la vez para que cada cliente reciba atención sénior. Contacte con antelación para reservar capacidad."
+    "badge": "AHORA ACEPTAMOS PROYECTOS",
+    "season": "Reservas abiertas",
+    "headline": "Aceptamos nuevos proyectos",
+    "detail": "Cuéntenos su proyecto y le confirmaremos qué capacidad tenemos y cuándo podría comenzar el trabajo."
   },
   "hero": {
     "subheadline": "Ingeniería de soluciones digitales inteligentes.",
@@ -45,9 +45,9 @@
     "title": "Iniciemos una conversación",
     "subtitle": "Cuéntenos sobre su organización y sus requisitos técnicos.",
     "timelines": [
-      "Verano '26 (preferido)",
-      "Otoño / invierno '26",
-      "Inmediato, en un plazo de 30 días",
+      "Lo antes posible",
+      "En un plazo de 1 a 3 meses",
+      "Más adelante, sin fecha fija todavía",
       "Exploratorio / estudio de viabilidad"
     ],
     "note": "NDA disponible bajo petición. Respondemos en un plazo de 24 horas."
@@ -97,7 +97,7 @@
     {
       "value": "24h",
       "label": "Respuesta a cada consulta",
-      "detail": "Revisada por un responsable técnico"
+      "detail": "Leída y respondida por una persona de nuestro equipo"
     }
   ],
   "overview": {
@@ -114,11 +114,11 @@
     "facts": [
       {
         "label": "Sede",
-        "value": "Finlandia (UTC+2)"
+        "value": "Finlandia (EET/EEST)"
       },
       {
-        "label": "Modelo",
-        "value": "Remote-first"
+        "label": "Cómo trabajamos",
+        "value": "Esté donde esté, estamos a su lado"
       },
       {
         "label": "Fundación",
@@ -153,8 +153,8 @@
       "kicker": "Qué hacemos",
       "title": "Servicios diseñados en torno a su negocio.",
       "description": "Diez disciplinas de ingeniería, un único equipo responsable. Del software a medida y la IA a la infraestructura cloud y el IoT industrial.",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Desarrollador trabajando con código en un portátil",
+      "image": "https://images.unsplash.com/photo-1603201667230-bd139210db18?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Compañeros trabajan juntos con un portátil en una oficina luminosa",
       "blurb": "Diez disciplinas, del software a medida al IoT industrial.",
       "metaTitle": "Servicios",
       "metaDescription": "Software a medida, IA, ingeniería de datos, integración, automatización, cloud, producto, diseño, QA e IoT, entregados por un único equipo responsable."
@@ -164,8 +164,8 @@
       "kicker": "Cómo trabajamos",
       "title": "Un proceso que usted puede ver y en el que puede confiar.",
       "description": "Un ciclo de vida transparente de siete fases, modelos de colaboración flexibles y prácticas de seguridad integradas desde el primer día.",
-      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Notas de planificación dispuestas en una pared",
+      "image": "https://images.unsplash.com/photo-1590402494610-2c378a9114c6?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Un miembro del equipo coloca notas de planificación en una pizarra",
       "blurb": "Siete fases, cuatro modelos de colaboración, seguridad integrada.",
       "metaTitle": "Proceso",
       "metaDescription": "Nuestro ciclo de vida de ingeniería de siete fases, modelos de colaboración flexibles y prácticas de seguridad y trabajo remoto."
@@ -175,8 +175,8 @@
       "kicker": "Trabajo destacado",
       "title": "Los sistemas que construimos y para quién los construimos.",
       "description": "Planos de solución, los sectores a los que servimos y las áreas de investigación en las que seguimos invirtiendo.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Panel de analítica en la pantalla de un portátil",
+      "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Compañeros revisan juntos un proyecto en una pantalla de ordenador",
       "blurb": "Planos de solución, sectores y líneas de investigación.",
       "metaTitle": "Proyectos",
       "metaDescription": "Planos de solución, los sectores a los que servimos y las áreas técnicas en las que invertimos."
@@ -197,8 +197,8 @@
       "kicker": "Preguntas",
       "title": "Respuestas antes de que pregunte.",
       "description": "Cómo comienzan los proyectos, cómo fijamos los precios, a quién pertenece el código y cómo trabajamos con distintos husos horarios.",
-      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Cuaderno y bolígrafo sobre un escritorio",
+      "image": "https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Dos personas conversan amistosamente alrededor de una mesa",
       "blurb": "Respuestas directas sobre nuestra forma de trabajar.",
       "metaTitle": "FAQ",
       "metaDescription": "Respuestas sobre cómo comienzan los proyectos, precios, propiedad del código, husos horarios, seguridad y soporte."
@@ -208,8 +208,8 @@
       "kicker": "Póngase en contacto",
       "title": "Hablemos de lo que está construyendo.",
       "description": "Reserve una llamada de descubrimiento o envíenos un resumen del proyecto. Respondemos en un plazo de 24 horas.",
-      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Espacio de oficina moderno y luminoso",
+      "image": "https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Compañeros conversan en una oficina moderna y luminosa",
       "blurb": "Reserve una llamada o envíe un resumen del proyecto.",
       "metaTitle": "Contacto",
       "metaDescription": "Reserve una llamada de descubrimiento o envíe un resumen del proyecto a Virtanex Labs. Respondemos en un plazo de 24 horas."

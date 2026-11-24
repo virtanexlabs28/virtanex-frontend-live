@@ -10,14 +10,14 @@
     "websiteLabel": "virtanexlabs.com",
     "location": "Finland (på distans / internationellt samarbete)",
     "locationShort": "Finland / internationellt",
-    "timezone": "UTC+2 (Helsingfors)",
+    "timezone": "Helsingfors, EET/EEST",
     "responseTime": "inom 24 timmar"
   },
   "availability": {
-    "badge": "BOKAR SOMMAREN '26",
-    "season": "Sommaren '26",
-    "headline": "Vi tar nu emot utvalda uppdrag för sommaren '26",
-    "detail": "Vi tar på oss ett begränsat antal projekt åt gången, så att varje kund får uppmärksamhet från seniora experter. Hör av er i god tid för att reservera kapacitet."
+    "badge": "BOKAR NYA PROJEKT NU",
+    "season": "Bokar nu",
+    "headline": "Vi tar nu emot nya uppdrag",
+    "detail": "Berätta om ditt projekt så bekräftar vi vilken kapacitet vi har och när arbetet kan starta."
   },
   "hero": {
     "subheadline": "Vi skapar intelligenta digitala lösningar.",
@@ -45,9 +45,9 @@
     "title": "Starta en dialog",
     "subtitle": "Berätta om er organisation och era tekniska behov.",
     "timelines": [
-      "Sommaren '26 (att föredra)",
-      "Hösten / vintern '26",
-      "Omgående, inom 30 dagar",
+      "Så snart som möjligt",
+      "Inom 1 till 3 månader",
+      "Senare, inget fast datum ännu",
       "Utforskande / förstudie"
     ],
     "note": "Sekretessavtal (NDA) finns på begäran. Vi svarar inom 24 timmar."
@@ -97,7 +97,7 @@
     {
       "value": "24h",
       "label": "Svar på varje förfrågan",
-      "detail": "Granskas av en teknisk chef"
+      "detail": "Läses och besvaras av en person i vårt team"
     }
   ],
   "overview": {
@@ -114,11 +114,11 @@
     "facts": [
       {
         "label": "Bas",
-        "value": "Finland (UTC+2)"
+        "value": "Finland (EET/EEST)"
       },
       {
-        "label": "Modell",
-        "value": "Distans i första hand"
+        "label": "Så arbetar vi",
+        "value": "Var ni än är, finns vi vid er sida"
       },
       {
         "label": "Grundat",
@@ -153,8 +153,8 @@
       "kicker": "Vad vi gör",
       "title": "Tjänster utformade efter er verksamhet.",
       "description": "Tio tekniska områden, ett team som tar ansvar. Från skräddarsydd mjukvara och AI till molninfrastruktur och industriell IoT.",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Utvecklare som arbetar med kod på en bärbar dator",
+      "image": "https://images.unsplash.com/photo-1603201667230-bd139210db18?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Kollegor arbetar tillsammans vid en bärbar dator på ett ljust kontor",
       "blurb": "Tio områden, från skräddarsydd mjukvara till industriell IoT.",
       "metaTitle": "Tjänster",
       "metaDescription": "Skräddarsydd mjukvara, AI, datateknik, integration, automatisering, moln, produktutveckling, design, kvalitetssäkring och IoT, levererat av ett team som tar helhetsansvar."
@@ -164,8 +164,8 @@
       "kicker": "Så arbetar vi",
       "title": "En process ni kan se och lita på.",
       "description": "En transparent leveranscykel i sju faser, flexibla samarbetsmodeller och säkerhetsrutiner som finns med från första dagen.",
-      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Planeringsanteckningar uppsatta på en vägg",
+      "image": "https://images.unsplash.com/photo-1590402494610-2c378a9114c6?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Teammedlem ordnar planeringslappar på en whiteboardtavla",
       "blurb": "Sju faser, fyra samarbetsmodeller och inbyggd säkerhet.",
       "metaTitle": "Process",
       "metaDescription": "Vår utvecklingscykel i sju faser, flexibla samarbetsmodeller samt våra rutiner för säkerhet och distansarbete."
@@ -175,8 +175,8 @@
       "kicker": "Utvalda lösningar",
       "title": "Systemen vi bygger och vilka vi bygger dem för.",
       "description": "Lösningsritningar, de branscher vi arbetar med och de forskningsområden vi fortsätter att investera i.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Analysvy på en bärbar datorskärm",
+      "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Kollegor går igenom ett projekt tillsammans på en datorskärm",
       "blurb": "Lösningsritningar, branscher och forskningsfokus.",
       "metaTitle": "Lösningar",
       "metaDescription": "Lösningsritningar, de branscher vi arbetar med och de tekniska områden vi investerar i."
@@ -197,8 +197,8 @@
       "kicker": "Frågor",
       "title": "Svar innan ni hunnit fråga.",
       "description": "Hur projekt startar, hur vi prissätter, vem som äger koden och hur vi arbetar över tidszoner.",
-      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Anteckningsbok och penna på ett skrivbord",
+      "image": "https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Två personer i ett vänligt samtal vid ett bord",
       "blurb": "Raka svar om hur vi arbetar.",
       "metaTitle": "FAQ",
       "metaDescription": "Svar om hur projekt startar, prissättning, äganderätt till kod, tidszoner, säkerhet och support."
@@ -208,8 +208,8 @@
       "kicker": "Kontakta oss",
       "title": "Låt oss prata om det ni bygger.",
       "description": "Boka ett kartläggningssamtal eller skicka oss en projektbeskrivning. Vi svarar inom 24 timmar.",
-      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Ljust och modernt kontorsutrymme",
+      "image": "https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Kollegor i samtal på ett ljust, modernt kontor",
       "blurb": "Boka ett samtal eller skicka en projektbeskrivning.",
       "metaTitle": "Kontakt",
       "metaDescription": "Boka ett kartläggningssamtal eller skicka en projektbeskrivning till Virtanex Labs. Vi svarar inom 24 timmar."

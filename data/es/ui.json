@@ -30,7 +30,7 @@
     "kicker": "{name} · Finlandia",
     "pitch": "Transformamos desafíos empresariales complejos en productos digitales prácticos y mantenibles.",
     "base": "Sede: Finlandia ({timezone})",
-    "remote": "Remote-first, colaboración internacional",
+    "remote": "Esté donde esté, estamos a su lado",
     "field": "TI y desarrollo de software",
     "servicesHeading": "Servicios",
     "companyHeading": "Empresa",
@@ -87,7 +87,15 @@
         "label": "Contacto",
         "href": "/contact"
       }
-    ]
+    ],
+    "privacy": "Política de privacidad"
+  },
+  "time": {
+    "now": "Hora actual en Helsinki"
+  },
+  "legal": {
+    "formNote": "Usamos sus datos únicamente para responder a su solicitud. Consulte nuestra {link}.",
+    "privacyLink": "política de privacidad"
   },
   "contact": {
     "aria": "Contacto y consultas",
@@ -156,6 +164,9 @@
     "challenge": "El desafío",
     "approach": "Nuestro enfoque",
     "outcomes": "Resultados previstos",
-    "similar": "¿Necesita algo similar?"
+    "similar": "¿Necesita algo similar?",
+    "back": "Volver a todos los planos de solución",
+    "tags": "Tecnologías y enfoque",
+    "more": "Más planos de solución"
   }
 }

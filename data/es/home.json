@@ -29,8 +29,8 @@
   },
   "why": {
     "kicker": "Por qué Virtanex Labs",
-    "title": "Un socio tecnológico, no solo un proveedor.",
-    "description": "Combinamos ingeniería sénior, herramientas modernas y comunicación honesta, y permanecemos a su lado a largo plazo.",
+    "title": "Un socio tecnológico a largo plazo.",
+    "description": "Herramientas modernas, comunicación clara y un equipo que sigue a su lado con su producto después del lanzamiento.",
     "cta": "Conozca al equipo"
   },
   "faq": {
@@ -44,6 +44,10 @@
     "description": "Cuéntenos qué desea construir. Le responderemos en un plazo de 24 horas con una opinión honesta y un siguiente paso claro.",
     "primary": "Reservar una llamada de descubrimiento",
     "secondary": "Enviar un resumen del proyecto",
-    "assurances": ["NDA disponible bajo petición", "Respuesta en un plazo de 24 horas", "Ingenieros sénior desde el primer día"]
+    "assurances": [
+      "NDA disponible bajo petición",
+      "Respuesta en un plazo de 24 horas",
+      "Propuesta por escrito antes de empezar cualquier trabajo"
+    ]
   }
 }

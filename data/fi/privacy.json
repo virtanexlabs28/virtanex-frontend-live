@@ -1,0 +1,136 @@
+{
+  "metaTitle": "Tietosuojaseloste",
+  "metaDescription": "Miten Virtanex Labs kerää, käyttää ja suojaa henkilötietoja, kun vierailet tällä verkkosivustolla tai otat meihin yhteyttä, EU:n yleisen tietosuoja-asetuksen (GDPR) mukaisesti.",
+  "kicker": "Juridiikka",
+  "title": "Tietosuojaseloste",
+  "updated": "Päivitetty viimeksi: 24. marraskuuta 2026",
+  "intro": "Tässä selosteessa kerrotaan, mitä henkilötietoja {company} kerää tämän verkkosivuston kautta, miksi keräämme niitä, kuinka kauan säilytämme ne sekä mitä oikeuksia sinulla on EU:n yleisen tietosuoja-asetuksen (GDPR, Regulation (EU) 2016/679) ja Suomen tietosuojalain nojalla. Rajaamme tietojen keräämisen siihen, mikä on välttämätöntä viesteihisi vastaamiseksi ja verkkosivuston turvalliseksi ylläpitämiseksi.",
+  "tocLabel": "Tällä sivulla",
+  "sections": [
+    {
+      "id": "controller",
+      "title": "1. Kuka vastaa tiedoistasi",
+      "paragraphs": [
+        "Rekisterinpitäjä on {company}, suomalainen ohjelmisto- ja IT-yritys. Tavoitat meidät kaikissa tätä selostetta koskevissa asioissa osoitteesta {email}.",
+        "Emme ole nimittäneet tietosuojavastaavaa, koska tietojenkäsittelymme on vähäistä. Tietosuojakysymykset ja -pyynnöt ohjataan yllä olevaan osoitteeseen, ja ne käsittelee yrityksemme johto."
+      ],
+      "items": []
+    },
+    {
+      "id": "data",
+      "title": "2. Mitä tietoja keräämme ja miksi",
+      "paragraphs": [
+        "Keräämme henkilötietoja vain alla kuvatuissa tilanteissa. Tällä verkkosivustolla ei käytetä mainonta-, profilointi- tai analytiikkatyökaluja."
+      ],
+      "items": [
+        "Projektikyselylomake: nimesi, sähköpostiosoitteesi, yrityksesi (valinnainen), valitsemasi palvelu ja aikataulu sekä kirjoittamasi viesti. Käytämme tietoja kyselyysi vastaamiseen ja tarjouksen valmisteluun. Käsittelyn oikeusperuste: toimenpiteet, jotka toteutetaan rekisteröidyn pyynnöstä ennen sopimuksen tekemistä (GDPR 6 artiklan 1 kohdan b alakohta), sekä oikeutettu etumme vastata yhteydenottoihin (6 artiklan 1 kohdan f alakohta).",
+        "Keskustelupyyntö: nimesi, sähköpostiosoitteesi, valitsemasi aihe ja tapaamisajankohta sekä valinnaiset lisätiedot. Käytämme tietoja puhelun sopimiseen ja valmisteluun. Käsittelyn oikeusperuste: GDPR 6 artiklan 1 kohdan b alakohta ja f alakohta.",
+        "Meille suoraan lähettämäsi sähköposti: osoite, sisältö ja mahdolliset liitteet, joita käytämme kirjeenvaihtoon kanssasi. Käsittelyn oikeusperuste: GDPR 6 artiklan 1 kohdan b alakohta tai f alakohta.",
+        "Tekniset ja turvallisuustiedot: kun lataat sivun tai lähetät lomakkeen, palvelinympäristömme käsittelee IP-osoitettasi ja pyynnön tietoja (selaimen tyyppi, pyydetyt sivut, ajankohta) palvelinlokeissa, ja lomake rajoittaa toistuvia lähetyksiä IP-osoitetta kohden lyhytaikaisen muistin avulla, joka tyhjennetään muutamassa minuutissa. Käytämme tietoja sivuston toimittamiseen, väärinkäytösten estämiseen ja sivuston turvallisuuden ylläpitämiseen. Käsittelyn oikeusperuste: oikeutettu etu (GDPR 6 artiklan 1 kohdan f alakohta).",
+        "Kielen valinta: hosting-verkko voi päätellä likimääräisen maasi IP-osoitteestasi, jotta voimme näyttää sivuston sopivalla kielellä. Käytämme tietoa vain sillä hetkellä emmekä tallenna sitä."
+      ]
+    },
+    {
+      "id": "voluntary",
+      "title": "3. Tietojen antaminen on vapaaehtoista",
+      "paragraphs": [
+        "Sinun ei tarvitse lähettää mitään lomaketta. Jos teet niin, nimi- ja sähköpostikenttiä tarvitaan, jotta voimme vastata sinulle. Älä sisällytä viestiisi arkaluonteisia tietoja (esimerkiksi terveystietoja) tai luottamuksellisia liikesalaisuuksia. Jos projekti sitä edellyttää, sovimme ensin turvallisesta yhteydenpitokanavasta ja salassapitosopimuksesta."
+      ],
+      "items": []
+    },
+    {
+      "id": "cookies",
+      "title": "4. Evästeet ja paikallinen tallennus",
+      "paragraphs": [
+        "Tämä verkkosivusto ei käytä analytiikka-, mainonta- tai seurantaevästeitä, joten evästesuostumusbanneria ei tarvita. Sivusto tallentaa kaksi pientä asetusta, jotka valitset itse ja jotka tarvitaan pyytämiesi toimintojen toteuttamiseksi:"
+      ],
+      "items": [
+        "NEXT_LOCALE-eväste: muistaa kielivalitsimella valitsemasi kielen. Se asetetaan vain, kun vaihdat kieltä, se on voimassa yhden vuoden, eikä sitä koskaan käytetä seurantaan.",
+        "Paikallisen tallennustilan merkintä \"theme\": muistaa, valitsitko tumman tilan. Se pysyy vain laitteellasi, eikä sitä lähetetä meille."
+      ]
+    },
+    {
+      "id": "recipients",
+      "title": "5. Kenelle tietoja luovutetaan",
+      "paragraphs": [
+        "Emme myy tietojasi. Jaamme niitä vain meidän lukuumme toimivien palveluntarjoajien (henkilötietojen käsittelijöiden) kanssa, jotka ovat sidottuja tietosuojaehtoihin, ja vain tarpeen mukaan:"
+      ],
+      "items": [
+        "Sähköpostipalvelu: lomakkeiden kautta lähetetyt kyselyt toimitetaan yrityksemme sähköpostilaatikkoon, jonka tarjoaa Google (Gmail / Google Workspace).",
+        "Hosting- ja verkkoinfrastruktuuri: palveluntarjoaja, joka tarjoaa tämän verkkosivuston ja voi käsitellä teknisiä tietoja, kuten IP-osoitteita, palvelinlokeissa.",
+        "Kuvien toimitus: osa tämän sivuston valokuvista ladataan Unsplash-kuvaverkosta (images.unsplash.com). Selaimesi muodostaa yhteyden kyseiseen palveluun kuvien hakemiseksi, joten palvelu voi nähdä IP-osoitteesi ja selaimesi tiedot. Emme lähetä sille mitään muita tietoja.",
+        "Viranomaiset, neuvonantajat tai tuomioistuimet, kun olemme lain nojalla velvollisia luovuttamaan tietoja tai meidän on suojattava oikeudellisia oikeuksiamme."
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "6. Siirrot EU:n/ETA:n ulkopuolelle",
+      "paragraphs": [
+        "Jotkin edellä mainituista palveluntarjoajista, kuten Google, voivat käsitellä tietoja Yhdysvalloissa tai muissa EU:n/ETA:n ulkopuolisissa maissa. Tällöin nojaamme Euroopan komission tietosuojan riittävyyttä koskevaan päätökseen (esimerkiksi EU:n ja Yhdysvaltojen väliseen tietosuojakehykseen sertifioitujen yritysten osalta) tai komission hyväksymiin vakiosopimuslausekkeisiin sekä tarvittaessa lisätoimiin. Voit pyytää lisätietoja osoitteesta {email}."
+      ],
+      "items": []
+    },
+    {
+      "id": "retention",
+      "title": "7. Kuinka kauan säilytämme tietoja",
+      "paragraphs": [
+        "Säilytämme tietoja vain niin kauan kuin niitä tarvitaan siihen tarkoitukseen, jota varten ne on kerätty:"
+      ],
+      "items": [
+        "Kyselyt ja keskustelupyynnöt: niin kauan kuin pyyntösi käsittely edellyttää, ja ne poistetaan yleensä 24 kuukauden kuluessa viimeisestä yhteydenotosta, jos sopimusta ei synny.",
+        "Jos aloitamme yhteistyön: projekti- ja sopimustietoja säilytetään toimeksiannon ajan ja sen jälkeen niin kauan kuin laki edellyttää (esimerkiksi kirjanpitoaineisto) tai oikeusvaateiden puolustamiseksi.",
+        "Palvelinlokit: säilytetään lyhyen ajan, yleensä enintään 30 päivää.",
+        "Käyttörajoitustiedot: säilytetään muistissa noin 10 minuuttia ja hävitetään sen jälkeen."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "8. Oikeutesi",
+      "paragraphs": [
+        "GDPR:n nojalla sinulla on seuraavat oikeudet. Käyttääksesi niitä kirjoita osoitteeseen {email}. Vastaamme kuukauden kuluessa. Voimme pyytää sinua ensin vahvistamaan henkilöllisyytesi."
+      ],
+      "items": [
+        "Oikeus tutustua tietoihin: saada vahvistus siitä, käsittelemmekö tietojasi, ja jäljennös niistä.",
+        "Oikeus tietojen oikaisemiseen: saada virheelliset tai puutteelliset tiedot oikaistua.",
+        "Oikeus tietojen poistamiseen: saada tietosi poistettua, kun niiden säilyttämiselle ei enää ole perustetta.",
+        "Oikeus käsittelyn rajoittamiseen: pyytää meitä keskeyttämään käsittely tietyissä tapauksissa.",
+        "Oikeus siirtää tiedot järjestelmästä toiseen: saada meille antamasi tiedot jäsennellyssä, yleisesti käytetyssä muodossa, kun käsittely perustuu sopimukseen.",
+        "Vastustamisoikeus: vastustaa milloin tahansa oikeutettuun etuumme perustuvaa käsittelyä henkilökohtaiseen tilanteeseesi liittyvällä perusteella.",
+        "Suostumuksen peruuttaminen: jos käsittely perustuu suostumukseesi, voit peruuttaa sen milloin tahansa, mikä ei vaikuta aiemmin tehtyyn käsittelyyn.",
+        "Valitusoikeus: tehdä valitus valvontaviranomaiselle. Suomessa valvontaviranomainen on tietosuojavaltuutetun toimisto (tietosuoja.fi). Voit myös ottaa yhteyttä asuinpaikkasi tai työpaikkasi EU-maan viranomaiseen."
+      ]
+    },
+    {
+      "id": "automated",
+      "title": "9. Automaattinen päätöksenteko",
+      "paragraphs": [
+        "Emme käytä automaattista päätöksentekoa tai profilointia, jolla olisi sinua koskevia oikeudellisia vaikutuksia tai joka vaikuttaisi sinuun vastaavalla tavalla merkittävästi."
+      ],
+      "items": []
+    },
+    {
+      "id": "security",
+      "title": "10. Tietoturva",
+      "paragraphs": [
+        "Verkkosivusto toimitetaan salatun HTTPS-yhteyden kautta. Kyselyt vastaanottavan sähköpostilaatikon käyttö on rajattu niille, jotka sitä tarvitsevat, ja käyttöoikeustunnukset säilytetään verkkosivuston koodin ulkopuolella. Mikään tiedonsiirto- tai tallennustapa ei ole täysin turvallinen, mutta pyrimme suojaamaan tietosi häviämiseltä, väärinkäytöltä ja luvattomalta pääsyltä."
+      ],
+      "items": []
+    },
+    {
+      "id": "children",
+      "title": "11. Lapset",
+      "paragraphs": [
+        "Tämä verkkosivusto on tarkoitettu yrityksille ja ammattilaisille, eikä se ole suunnattu lapsille. Emme tietoisesti kerää henkilötietoja alle 16-vuotiailta."
+      ],
+      "items": []
+    },
+    {
+      "id": "changes",
+      "title": "12. Muutokset tähän selosteeseen",
+      "paragraphs": [
+        "Voimme päivittää tätä selostetta, kun käytäntömme tai lainsäädäntö muuttuu. Yläreunan päivämäärä kertoo uusimman version. Jos muutos vaikuttaa merkittävästi siihen, miten käytämme tietojasi, kerromme siitä selkeästi tällä sivulla."
+      ],
+      "items": []
+    }
+  ]
+}

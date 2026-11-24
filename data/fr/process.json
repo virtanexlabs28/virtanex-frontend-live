@@ -8,7 +8,7 @@
     {
       "phase": "Phase 01",
       "title": "Découverte et besoins",
-      "duration": "En général 1 à 2 semaines",
+      "duration": "Durée convenue pour chaque projet",
       "detail": "Nous analysons vos objectifs métier, vos défis opérationnels, vos attentes pour le projet et votre environnement technique afin de poser des bases solides.",
       "activities": [
         "Entretiens avec les parties prenantes",
@@ -25,7 +25,7 @@
     {
       "phase": "Phase 02",
       "title": "Planification et architecture",
-      "duration": "En général 1 à 2 semaines",
+      "duration": "Durée convenue pour chaque projet",
       "detail": "Nous définissons le périmètre du projet, l'architecture technique, les jalons de développement, la stack technologique et la stratégie de livraison.",
       "activities": [
         "Architecture de la solution",
@@ -93,7 +93,7 @@
     {
       "phase": "Phase 06",
       "title": "Déploiement et livraison",
-      "duration": "En général quelques jours, planifiés à l'avance",
+      "duration": "Planifiée à l'avance avec vous",
       "detail": "Nous configurons l'infrastructure de production, les déploiements conteneurisés et les pipelines de supervision, puis réalisons la passation convenue.",
       "activities": [
         "Mise en place de l'environnement de production",

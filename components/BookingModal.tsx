@@ -10,6 +10,8 @@ import {
   DialogHeader,
   DialogTitle,
 } from '@/components/ui/dialog';
+import { HelsinkiTime } from '@/components/HelsinkiTime';
+import { PrivacyNote } from '@/components/PrivacyNote';
 import { Input } from '@/components/ui/input';
 import { Label } from '@/components/ui/label';
 import { useContent, useLocale } from '@/components/ContentProvider';
@@ -102,6 +104,7 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
 
             <fieldset>
               <legend className="mb-2 text-xs uppercase tracking-wider text-foreground/60">{t.window}</legend>
+              <HelsinkiTime className="mb-2 block text-xs text-muted-foreground" />
               <div className="grid grid-cols-2 gap-2">
                 {site.booking.slots.map((s) => (
                   <ChoiceButton key={s} selected={slot === s} onClick={() => setSlot(s)}>
@@ -144,6 +147,7 @@ export function BookingModal({ isOpen, onClose }: BookingModalProps) {
               {sending ? <Loader2 className="size-4 animate-spin" aria-hidden="true" /> : <ArrowRight className="size-4" aria-hidden="true" />}
             </Button>
             <p className="text-center text-xs text-muted-foreground">{site.booking.agenda}</p>
+            <PrivacyNote className="text-center" />
           </form>
         )}
       </DialogContent>

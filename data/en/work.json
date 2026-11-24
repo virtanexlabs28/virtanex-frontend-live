@@ -12,7 +12,7 @@
       "service": "ai-ml",
       "description": "A retrieval-augmented assistant and document-processing pipeline that turns contracts, manuals, and reports into answers teams can trust.",
       "tags": ["LLM Integration", "RAG", "Python / NestJS", "Vector Search"],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Teams lose hours searching across documents. This blueprint ingests files from existing storage, extracts and indexes their content, and exposes a conversational interface that cites its sources, with role-based access so people only see what they are permitted to.",
       "challenge": "Information scattered across shared drives, email attachments, and legacy systems, with no reliable way to search or summarize it.",
       "approach": [
@@ -30,7 +30,7 @@
       "service": "digital-product",
       "description": "A subscription-based platform with tenant isolation, role-based access, billing, and an admin console, ready to scale from MVP to production.",
       "tags": ["Next.js", "NestJS", "PostgreSQL", "Subscriptions"],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
       "overview": "A reference architecture for turning a product idea into a billable SaaS. It covers tenant data isolation, user and permission management, subscription plans, usage tracking, and the operational tooling needed to run the product day to day.",
       "challenge": "Launching quickly without painting the product into an architectural corner that blocks multi-tenancy, billing, or enterprise features later.",
       "approach": [
@@ -48,7 +48,7 @@
       "service": "data-engineering",
       "description": "Automated pipelines that consolidate data from finance, sales, and operations systems into one trusted model with live dashboards.",
       "tags": ["ETL / ELT", "PostgreSQL", "Python", "Dashboards"],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
       "overview": "Reporting often means manual exports and conflicting spreadsheets. This blueprint pulls from each source system on a schedule, validates and reconciles the data, and publishes a single source of truth with dashboards leaders can rely on.",
       "challenge": "Multiple systems, inconsistent definitions, and manual month-end reporting that is slow and error-prone.",
       "approach": [
@@ -66,7 +66,7 @@
       "service": "iot-industrial",
       "description": "Real-time telemetry ingestion, dashboards, and anomaly alerts for connected equipment, with a path towards predictive maintenance.",
       "tags": ["IoT", "Real-time", "Anomaly Detection", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Connected equipment generates data that rarely reaches the people who can act on it. This blueprint ingests device telemetry, stores it efficiently, visualizes live status, and raises alerts when readings drift outside expected behavior.",
       "challenge": "Equipment health is invisible until something fails, and device data is locked in proprietary tools.",
       "approach": [

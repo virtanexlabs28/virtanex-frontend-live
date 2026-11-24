@@ -12,7 +12,7 @@
       "service": "ai-ml",
       "description": "En assistent baserad på informationsåtervinning (RAG) och en pipeline för dokumenthantering som förvandlar avtal, manualer och rapporter till svar som team kan lita på.",
       "tags": ["LLM-integration", "RAG", "Python / NestJS", "Vektorsökning"],
-      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Team förlorar timmar på att söka bland dokument. Den här lösningsritningen hämtar in filer från befintlig lagring, extraherar och indexerar innehållet och erbjuder ett konversationsgränssnitt som anger sina källor, med rollbaserad åtkomst så att var och en bara ser det den har behörighet till.",
       "challenge": "Information som är utspridd över delade enheter, e-postbilagor och äldre system, utan något pålitligt sätt att söka eller sammanfatta den.",
       "approach": [
@@ -30,7 +30,7 @@
       "service": "digital-product",
       "description": "En prenumerationsbaserad plattform med isolering mellan kunder, rollbaserad åtkomst, fakturering och en adminkonsol, redo att skala från MVP till produktion.",
       "tags": ["Next.js", "NestJS", "PostgreSQL", "Prenumerationer"],
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
       "overview": "En referensarkitektur för att förvandla en produktidé till en SaaS som går att fakturera. Den omfattar dataisolering mellan kunder, hantering av användare och behörigheter, prenumerationsplaner, användningsspårning och de operativa verktyg som behövs för att driva produkten i vardagen.",
       "challenge": "Att lansera snabbt utan att köra fast produkten i en arkitektur som senare blockerar multi-tenancy, fakturering eller företagsfunktioner.",
       "approach": [
@@ -48,7 +48,7 @@
       "service": "data-engineering",
       "description": "Automatiserade pipelines som samlar data från ekonomi-, försäljnings- och driftsystem i en enda pålitlig modell med dashboards i realtid.",
       "tags": ["ETL / ELT", "PostgreSQL", "Python", "Dashboards"],
-      "image": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
       "overview": "Rapportering innebär ofta manuella exporter och motstridiga kalkylblad. Den här lösningsritningen hämtar data från varje källsystem enligt schema, validerar och stämmer av datan och publicerar en gemensam sanningskälla med dashboards som ledningen kan lita på.",
       "challenge": "Flera system, inkonsekventa definitioner och manuell månadsrapportering som är långsam och felbenägen.",
       "approach": [
@@ -66,7 +66,7 @@
       "service": "iot-industrial",
       "description": "Inhämtning av telemetri i realtid, dashboards och avvikelsevarningar för uppkopplad utrustning, med en väg mot prediktivt underhåll.",
       "tags": ["IoT", "Realtid", "Avvikelsedetektering", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?auto=format&fit=crop&w=1200&q=80",
+      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
       "overview": "Uppkopplad utrustning genererar data som sällan når de personer som kan agera på den. Den här lösningsritningen hämtar in enhetstelemetri, lagrar den effektivt, visualiserar aktuell status och skickar varningar när mätvärden avviker från förväntat beteende.",
       "challenge": "Utrustningens skick är osynligt tills något går sönder, och enhetsdata är inlåst i proprietära verktyg.",
       "approach": [

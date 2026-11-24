@@ -1,0 +1,136 @@
+{
+  "metaTitle": "Politique de confidentialité",
+  "metaDescription": "Comment Virtanex Labs collecte, utilise et protège les données personnelles lorsque vous visitez ce site web ou nous contactez, conformément au Règlement général sur la protection des données de l'UE (RGPD).",
+  "kicker": "Mentions légales",
+  "title": "Politique de confidentialité",
+  "updated": "Dernière mise à jour : 24 novembre 2026",
+  "intro": "La présente politique explique quelles données personnelles {company} collecte par l'intermédiaire de ce site web, pourquoi nous les collectons, combien de temps nous les conservons, ainsi que les droits dont vous disposez en vertu du Règlement général sur la protection des données de l'UE (RGPD, règlement (UE) 2016/679) et de la loi finlandaise sur la protection des données. Nous limitons la collecte de données au strict minimum nécessaire pour répondre à vos messages et exploiter un site web sécurisé.",
+  "tocLabel": "Sur cette page",
+  "sections": [
+    {
+      "id": "controller",
+      "title": "1. Qui est responsable de vos données",
+      "paragraphs": [
+        "Le responsable du traitement est {company}, une société finlandaise de logiciels et de services informatiques. Vous pouvez nous contacter pour toute question relative à la présente politique à l'adresse {email}.",
+        "Nous n'avons pas désigné de délégué à la protection des données, car notre traitement est de faible ampleur. Les questions et demandes relatives à la vie privée sont à adresser à l'adresse ci-dessus et sont traitées par notre direction."
+      ],
+      "items": []
+    },
+    {
+      "id": "data",
+      "title": "2. Quelles données nous collectons et pourquoi",
+      "paragraphs": [
+        "Nous ne collectons de données personnelles que dans les situations décrites ci-dessous. Nous n'utilisons sur ce site web aucun outil de publicité, de profilage ou d'analyse d'audience."
+      ],
+      "items": [
+        "Formulaire de demande de projet : votre nom, votre adresse e-mail, votre société (facultatif), le service et le calendrier que vous choisissez, ainsi que le message que vous rédigez. Nous les utilisons pour répondre à votre demande et préparer une proposition. Base juridique : mesures précontractuelles prises à votre demande (article 6, paragraphe 1, point b) du RGPD) et notre intérêt légitime à répondre aux demandes commerciales (article 6, paragraphe 1, point f)).",
+        "Demande d'appel de découverte : votre nom, votre adresse e-mail, le sujet et le créneau de rendez-vous que vous choisissez, ainsi que des notes facultatives. Nous les utilisons pour planifier et préparer l'appel. Base juridique : article 6, paragraphe 1, point b) et point f) du RGPD.",
+        "E-mail que vous nous envoyez directement : l'adresse, le contenu et les éventuelles pièces jointes, utilisés pour échanger avec vous. Base juridique : article 6, paragraphe 1, point b) ou f) du RGPD.",
+        "Données techniques et de sécurité : lorsque vous chargez une page ou envoyez un formulaire, notre infrastructure d'hébergement traite votre adresse IP et les détails de la requête (type de navigateur, pages demandées, heure) dans les journaux du serveur, et le formulaire limite les envois répétés par adresse IP à l'aide d'une mémoire de courte durée qui est effacée en quelques minutes. Nous utilisons ces données pour fournir le site, prévenir les abus et en assurer la sécurité. Base juridique : intérêt légitime (article 6, paragraphe 1, point f) du RGPD).",
+        "Sélection de la langue : le réseau d'hébergement peut déduire votre pays approximatif à partir de votre adresse IP afin que nous puissions afficher le site dans une langue adaptée. Nous l'utilisons uniquement à ce moment-là et ne la conservons pas."
+      ]
+    },
+    {
+      "id": "voluntary",
+      "title": "3. La communication de vos données est facultative",
+      "paragraphs": [
+        "Vous n'êtes pas tenu de remplir un formulaire. Si vous le faites, les champs nom et e-mail sont nécessaires pour que nous puissions vous répondre. Veuillez ne pas inclure dans votre message d'informations sensibles (par exemple des données de santé) ni de secrets d'affaires confidentiels. Si un projet l'exige, nous conviendrons au préalable d'un canal sécurisé et d'un accord de confidentialité."
+      ],
+      "items": []
+    },
+    {
+      "id": "cookies",
+      "title": "4. Cookies et stockage local",
+      "paragraphs": [
+        "Ce site web n'utilise aucun cookie d'analyse, de publicité ou de suivi ; aucune bannière de consentement aux cookies n'est donc nécessaire. Il enregistre deux petites préférences que vous choisissez vous-même et qui sont nécessaires aux fonctionnalités que vous avez demandées :"
+      ],
+      "items": [
+        "Cookie NEXT_LOCALE : mémorise la langue que vous choisissez avec le sélecteur de langue. Il n'est déposé que lorsque vous changez de langue, dure un an et n'est jamais utilisé à des fins de suivi.",
+        "Entrée de stockage local « theme » : mémorise si vous avez choisi le mode sombre. Elle reste uniquement sur votre appareil et ne nous est jamais envoyée."
+      ]
+    },
+    {
+      "id": "recipients",
+      "title": "5. Qui reçoit vos données",
+      "paragraphs": [
+        "Nous ne vendons pas vos données. Nous ne les partageons qu'avec des prestataires de services qui agissent pour notre compte et sont liés par des clauses de protection des données (sous-traitants), et uniquement dans la mesure nécessaire :"
+      ],
+      "items": [
+        "Service de messagerie : les demandes envoyées via les formulaires sont acheminées vers notre boîte de messagerie professionnelle, fournie par Google (Gmail / Google Workspace).",
+        "Hébergement et infrastructure réseau : le prestataire qui diffuse ce site web et qui peut traiter des données techniques, telles que les adresses IP, dans les journaux du serveur.",
+        "Diffusion d'images : certaines photographies de ce site sont chargées depuis le réseau d'images Unsplash (images.unsplash.com). Votre navigateur se connecte à ce service pour récupérer les images : celui-ci peut donc voir votre adresse IP et les informations de votre navigateur. Nous ne lui transmettons aucune autre donnée.",
+        "Autorités, conseillers ou tribunaux, lorsque nous sommes légalement tenus de communiquer des données ou avons besoin de protéger nos droits."
+      ]
+    },
+    {
+      "id": "transfers",
+      "title": "6. Transferts en dehors de l'UE/EEE",
+      "paragraphs": [
+        "Certains prestataires mentionnés ci-dessus, tels que Google, peuvent traiter des données aux États-Unis ou dans d'autres pays situés en dehors de l'UE/EEE. Dans ce cas, nous nous appuyons sur une décision d'adéquation de la Commission européenne (par exemple le cadre de protection des données UE-États-Unis pour les entreprises certifiées) ou sur les clauses contractuelles types approuvées par la Commission, assorties de garanties supplémentaires si nécessaire. Vous pouvez nous demander des précisions à l'adresse {email}."
+      ],
+      "items": []
+    },
+    {
+      "id": "retention",
+      "title": "7. Durée de conservation des données",
+      "paragraphs": [
+        "Nous ne conservons les données que le temps nécessaire à la finalité pour laquelle elles ont été collectées :"
+      ],
+      "items": [
+        "Demandes et demandes d'appel : aussi longtemps que nécessaire pour traiter votre demande, puis normalement supprimées dans les 24 mois suivant notre dernier contact si aucun contrat n'en résulte.",
+        "Si nous commençons à travailler ensemble : les documents relatifs au projet et au contrat sont conservés pendant toute la durée de la mission, puis aussi longtemps que la loi l'exige (par exemple les pièces comptables) ou pour faire valoir ou défendre des droits en justice.",
+        "Journaux du serveur : conservés pendant une courte période, normalement pas plus de 30 jours.",
+        "Données de limitation de débit : conservées en mémoire pendant environ 10 minutes, puis supprimées."
+      ]
+    },
+    {
+      "id": "rights",
+      "title": "8. Vos droits",
+      "paragraphs": [
+        "En vertu du RGPD, vous disposez des droits suivants. Pour en exercer un, écrivez à l'adresse {email}. Nous vous répondrons dans un délai d'un mois. Nous pouvons vous demander de confirmer d'abord votre identité."
+      ],
+      "items": [
+        "Accès : obtenir la confirmation que nous traitons ou non vos données, ainsi qu'une copie de celles-ci.",
+        "Rectification : faire corriger les données inexactes ou incomplètes.",
+        "Effacement : faire supprimer vos données lorsqu'il n'existe plus de raison de les conserver.",
+        "Limitation du traitement : nous demander de suspendre le traitement dans certains cas.",
+        "Portabilité des données : recevoir les données que vous nous avez fournies dans un format structuré et couramment utilisé lorsque le traitement est fondé sur un contrat.",
+        "Opposition : vous opposer à tout moment, pour des raisons tenant à votre situation particulière, au traitement fondé sur nos intérêts légitimes.",
+        "Retrait du consentement : lorsque nous nous fondons sur votre consentement, vous pouvez le retirer à tout moment, sans que cela affecte les traitements antérieurs.",
+        "Réclamation : introduire une réclamation auprès d'une autorité de contrôle. En Finlande, il s'agit du Bureau du médiateur finlandais à la protection des données (Tietosuojavaltuutetun toimisto, tietosuoja.fi). Vous pouvez également contacter l'autorité du pays de l'UE où vous vivez ou travaillez, par exemple la CNIL en France."
+      ]
+    },
+    {
+      "id": "automated",
+      "title": "9. Décisions automatisées",
+      "paragraphs": [
+        "Nous n'utilisons ni prise de décision automatisée ni profilage produisant des effets juridiques ou des effets significatifs similaires à votre égard."
+      ],
+      "items": []
+    },
+    {
+      "id": "security",
+      "title": "10. Sécurité",
+      "paragraphs": [
+        "Le site web est servi via une connexion HTTPS chiffrée. L'accès à la boîte de messagerie qui reçoit les demandes est limité aux personnes qui en ont besoin, et les identifiants d'accès sont conservés en dehors du code du site web. Aucune méthode de transmission ou de stockage n'est totalement sûre, mais nous nous efforçons de protéger vos données contre la perte, l'utilisation abusive et l'accès non autorisé."
+      ],
+      "items": []
+    },
+    {
+      "id": "children",
+      "title": "11. Enfants",
+      "paragraphs": [
+        "Ce site web s'adresse aux entreprises et aux professionnels et ne vise pas les enfants. Nous ne collectons pas sciemment de données personnelles auprès de personnes de moins de 16 ans."
+      ],
+      "items": []
+    },
+    {
+      "id": "changes",
+      "title": "12. Modifications de la présente politique",
+      "paragraphs": [
+        "Nous pouvons mettre à jour la présente politique lorsque nos pratiques ou la loi évoluent. La date figurant en haut de page indique la version la plus récente. Si une modification affecte de manière significative la façon dont nous utilisons vos données, nous le ferons clairement savoir sur cette page."
+      ],
+      "items": []
+    }
+  ]
+}

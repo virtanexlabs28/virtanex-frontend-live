@@ -1,11 +1,12 @@
 'use client';
 
 import React from 'react';
-import { ArrowUp, ArrowUpRight, Globe, Mail, MapPin, Shield } from 'lucide-react';
+import { ArrowUp, ArrowUpRight, Clock, Globe, Mail, MapPin, Shield } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { useBooking } from '@/components/BookingProvider';
 import { useContent } from '@/components/ContentProvider';
+import { HelsinkiTime } from '@/components/HelsinkiTime';
 import { LanguageSwitcher } from '@/components/LanguageSwitcher';
 import { Link } from '@/components/LocaleLink';
 import { Logo } from '@/components/Logo';
@@ -62,6 +63,7 @@ export function Footer() {
             <ul className="space-y-2 text-xs text-foreground/60">
               <li className="flex items-center gap-2"><MapPin className="size-3.5 text-accent" aria-hidden="true" />{fmt(f.base, { timezone: site.contact.timezone })}</li>
               <li className="flex items-center gap-2"><Globe className="size-3.5 text-accent" aria-hidden="true" />{f.remote}</li>
+              <li className="flex items-center gap-2"><Clock className="size-3.5 text-accent" aria-hidden="true" /><HelsinkiTime /></li>
               <li className="flex items-center gap-2"><Shield className="size-3.5 text-accent" aria-hidden="true" />{f.field}</li>
             </ul>
           </div>
@@ -116,7 +118,10 @@ export function Footer() {
         <div className="flex flex-col items-center justify-between gap-4 text-xs text-foreground/50 md:flex-row">
           <p className="text-center md:text-left">
             <span className="font-fraunces text-sm text-foreground">{site.name}</span> · {site.motto} · © {site.founded}{' '}
-            {site.name}. {f.rights}
+            {site.name}. {f.rights}{' '}
+            <Link href="/privacy" className="underline underline-offset-4 transition-colors hover:text-accent">
+              {f.privacy}
+            </Link>
           </p>
           <Button variant="ghost" size="sm" onClick={toTop} className="text-foreground/70 hover:bg-transparent hover:text-accent" aria-label={f.scrollToTop}>
             {f.backToTop}

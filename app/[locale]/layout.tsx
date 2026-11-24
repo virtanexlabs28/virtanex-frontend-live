@@ -1,4 +1,5 @@
 import type { Metadata } from 'next';
+import { Fraunces, Inter_Tight } from 'next/font/google';
 import { notFound } from 'next/navigation';
 import '../globals.css';
 import { getContent } from '@/lib/content';
@@ -8,6 +9,21 @@ import { ContentProvider } from '@/components/ContentProvider';
 import { BookingProvider } from '@/components/BookingProvider';
 import { Navbar } from '@/components/Navbar';
 import { Footer } from '@/components/Footer';
+
+// Self-hosted: next/font downloads the fonts at build time and serves them from this site,
+// so visitors' browsers never contact Google (no IP address is sent to Google Fonts).
+const fraunces = Fraunces({
+  subsets: ['latin', 'latin-ext'],
+  style: ['normal', 'italic'],
+  axes: ['opsz'],
+  display: 'swap',
+  variable: '--font-fraunces',
+});
+const interTight = Inter_Tight({
+  subsets: ['latin', 'latin-ext'],
+  display: 'swap',
+  variable: '--font-inter-tight',
+});
 
 type Params = Promise<{ locale: string }>;
 
@@ -48,22 +64,16 @@ export default async function LocaleLayout({ children, params }: { children: Rea
   const content = await getContent(locale);
 
   return (
-    <html lang={locale} suppressHydrationWarning>
+    <html lang={locale} suppressHydrationWarning className={`${fraunces.variable} ${interTight.variable}`}>
       <head>
         {/* Applies a saved dark-mode choice before first paint (light is the default). */}
         <script dangerouslySetInnerHTML={{ __html: THEME_SCRIPT }} />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="anonymous" />
-        <link
-          href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;1,9..144,400&family=Inter+Tight:wght@400;500;600&display=swap"
-          rel="stylesheet"
-        />
       </head>
       <body suppressHydrationWarning className="bg-background text-foreground tracking-[-0.015em] antialiased selection:bg-accent/30 selection:text-foreground">
         <ContentProvider locale={locale} content={content}>
           <BookingProvider>
             <Navbar />
-            <main className="min-h-screen" style={{ fontFamily: "'Inter Tight', sans-serif" }}>
+            <main className="min-h-screen">
               {children}
             </main>
             <Footer />

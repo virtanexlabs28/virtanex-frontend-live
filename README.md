@@ -109,6 +109,27 @@ headers listed in `COUNTRY_HEADERS`.
 - Use `useContent()` in client components and `Link` from `components/LocaleLink` so links keep the language.
 - Emails to your team are always written in English and include a "Site language" line.
 
+## Finnish time zone
+
+The site works on Finnish time (`Europe/Helsinki`, which is EET in winter and EEST in summer):
+
+- Call slots in the booking dialog are stated in Helsinki time, and a live "Helsinki time now" clock sits in the footer and
+  in the booking dialog, whatever the visitor's own time zone is ([`lib/time.ts`](lib/time.ts)).
+- Texts name the zone as "EET/EEST" instead of a fixed "UTC+2", which would be wrong during summer time.
+- The Node server sets `TZ=Europe/Helsinki` on start ([`instrumentation.ts`](instrumentation.ts)), and emails to your team
+  carry a "Received (Finland time)" line.
+
+## Privacy policy (GDPR)
+
+The policy is a page at `/<language>/privacy` (text in `data/<language>/privacy.json`), linked from the footer and from
+both forms. It describes exactly what the site does today: forms sent by email, short-lived rate limiting, the
+`NEXT_LOCALE` cookie and the `theme` local-storage entry, an email provider (Google), a hosting provider, and images
+loaded from Unsplash. **Update it whenever you add analytics, a chat widget, a new processor or other tracking**, and
+have it reviewed by a lawyer; add your registered company name, business ID and postal address under section 1
+if you want them shown.
+
+Fonts are self-hosted with `next/font` (downloaded at build time), so visitors' browsers do not contact Google Fonts.
+
 ## Forms and email (SMTP)
 
 The contact form and the booking dialog post to `app/api/inquiry/route.ts`, which validates the request

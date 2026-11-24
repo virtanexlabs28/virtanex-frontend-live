@@ -108,7 +108,7 @@ export function WorkPreview() {
       <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
         {work.items.map((item, i) => (
           <Reveal key={item.id} delay={i * 80}>
-            <Link href="/work" className="group block h-full rounded-2xl outline-none focus-visible:ring-2 focus-visible:ring-ring">
+            <Link href={`/work/${item.id}`} className="group block h-full rounded-2xl outline-none focus-visible:ring-2 focus-visible:ring-ring">
               <Card className="h-full gap-0 overflow-hidden rounded-2xl border-border bg-card p-0 transition-all duration-300 group-hover:-translate-y-1 group-hover:border-accent/50">
                 <div className="relative aspect-[4/3] overflow-hidden">
                   <div

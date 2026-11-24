@@ -148,7 +148,7 @@
           "Livraison continue de la feuille de route",
           "Maintenance et support",
           "Accompagnement en architecture",
-          "Accès prioritaire à l'équipe"
+          "Accès direct à l'équipe"
         ]
       },
       {
@@ -172,7 +172,7 @@
       {
         "icon": "ShieldCheck",
         "title": "Engagement sécurité et qualité",
-        "body": "La sécurité, la fiabilité et la protection des données font partie de la conception de chacun de nos systèmes, et non d'une réflexion tardive. Nous appliquons une gestion sécurisée des identifiants, des communications chiffrées, des accès contrôlés et des tests continus.",
+        "body": "La sécurité, la fiabilité et la protection des données font partie de la conception de chacun de nos systèmes. Nous appliquons une gestion sécurisée des identifiants, des communications chiffrées, des accès contrôlés et des tests continus.",
         "points": [
           "Authentification et accès par rôle",
           "Trafic d'API chiffré",
@@ -200,7 +200,7 @@
   "team": {
     "kicker": "Organisation",
     "title": "Équipe et direction",
-    "description": "Une structure collaborative qui réunit stratégie d'entreprise, leadership technique, ingénierie senior, design et excellence opérationnelle.",
+    "description": "Une structure collaborative qui réunit stratégie d'entreprise, leadership technique, ingénierie, design et exploitation.",
     "groups": [
       {
         "icon": "Building2",

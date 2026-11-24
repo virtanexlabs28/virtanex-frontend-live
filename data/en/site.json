@@ -10,14 +10,14 @@
     "websiteLabel": "virtanexlabs.com",
     "location": "Finland (Remote / International Collaboration)",
     "locationShort": "Finland / International",
-    "timezone": "UTC+2 (Helsinki)",
+    "timezone": "Helsinki, EET/EEST",
     "responseTime": "within 24 hours"
   },
   "availability": {
-    "badge": "BOOKING SUMMER '26",
-    "season": "Summer '26",
-    "headline": "Now accepting select engagements for Summer '26",
-    "detail": "We take on a limited number of projects at a time so every client gets senior attention. Reach out early to reserve capacity."
+    "badge": "NOW BOOKING PROJECTS",
+    "season": "Now booking",
+    "headline": "Now accepting new engagements",
+    "detail": "Tell us about your project and we will confirm what capacity we have and when work could start."
   },
   "hero": {
     "subheadline": "Engineering Intelligent Digital Solutions.",
@@ -45,9 +45,9 @@
     "title": "Start a Conversation",
     "subtitle": "Tell us about your organization and technical requirements.",
     "timelines": [
-      "Summer '26 (preferred)",
-      "Autumn / Winter '26",
-      "Immediate, within 30 days",
+      "As soon as possible",
+      "Within 1 to 3 months",
+      "Later, no fixed date yet",
       "Exploratory / feasibility study"
     ],
     "note": "NDA available on request. We reply within 24 hours."
@@ -97,7 +97,7 @@
     {
       "value": "24h",
       "label": "Response to every inquiry",
-      "detail": "Reviewed by a technical lead"
+      "detail": "Read and answered by a person on our team"
     }
   ],
   "overview": {
@@ -114,11 +114,11 @@
     "facts": [
       {
         "label": "Base",
-        "value": "Finland (UTC+2)"
+        "value": "Finland (EET/EEST)"
       },
       {
-        "label": "Model",
-        "value": "Remote-first"
+        "label": "How we work",
+        "value": "Wherever you are, we're with you"
       },
       {
         "label": "Founded",
@@ -153,8 +153,8 @@
       "kicker": "What We Do",
       "title": "Services built around your business.",
       "description": "Ten engineering disciplines, one accountable team. From custom software and AI to cloud infrastructure and industrial IoT.",
-      "image": "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Developer working on code on a laptop",
+      "image": "https://images.unsplash.com/photo-1603201667230-bd139210db18?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Colleagues working together around a laptop in a bright office",
       "blurb": "Ten disciplines from custom software to industrial IoT.",
       "metaTitle": "Services",
       "metaDescription": "Custom software, AI, data engineering, integration, automation, cloud, product, design, QA, and IoT, delivered by one accountable team."
@@ -164,8 +164,8 @@
       "kicker": "How We Work",
       "title": "A process you can see and trust.",
       "description": "A transparent seven-phase lifecycle, flexible engagement models, and security practices built in from day one.",
-      "image": "https://images.unsplash.com/photo-1531403009284-440f080d1e12?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Planning notes arranged on a wall",
+      "image": "https://images.unsplash.com/photo-1590402494610-2c378a9114c6?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Team member arranging planning notes on a whiteboard",
       "blurb": "Seven phases, four engagement models, security built in.",
       "metaTitle": "Process",
       "metaDescription": "Our seven-phase engineering lifecycle, flexible engagement models, and security and remote working practices."
@@ -175,8 +175,8 @@
       "kicker": "Selected Work",
       "title": "The systems we build, and who we build them for.",
       "description": "Solution blueprints, the industries we serve, and the areas of research we keep investing in.",
-      "image": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Analytics dashboard on a laptop screen",
+      "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Colleagues reviewing a project together on a computer screen",
       "blurb": "Solution blueprints, industries, and research focus.",
       "metaTitle": "Work",
       "metaDescription": "Solution blueprints, the industries we serve, and the technical areas we invest in."
@@ -197,8 +197,8 @@
       "kicker": "Questions",
       "title": "Answers before you ask.",
       "description": "How projects start, how we price, who owns the code, and how we work across time zones.",
-      "image": "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Notebook and pen on a desk",
+      "image": "https://images.unsplash.com/photo-1713942590288-1468a2d88ee4?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Two people in friendly conversation across a table",
       "blurb": "Straight answers about how we work.",
       "metaTitle": "FAQ",
       "metaDescription": "Answers about how projects start, pricing, code ownership, time zones, security, and support."
@@ -208,8 +208,8 @@
       "kicker": "Get in Touch",
       "title": "Let's talk about what you're building.",
       "description": "Book a discovery call or send us a project brief. We reply within 24 hours.",
-      "image": "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1800&q=75",
-      "imageAlt": "Bright modern office space",
+      "image": "https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Colleagues talking together in a bright, modern office",
       "blurb": "Book a call or send a project brief.",
       "metaTitle": "Contact",
       "metaDescription": "Book a discovery call or send Virtanex Labs a project brief. We reply within 24 hours."

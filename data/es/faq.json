@@ -23,7 +23,7 @@
     },
     {
       "q": "¿Cómo trabajan con distintos husos horarios?",
-      "a": "Trabajamos en remoto desde Finlandia (UTC+2) con una semana estándar de 40 horas. Acordamos franjas de coincidencia con cada cliente, compartimos informes escritos y mostramos el avance de forma periódica para que siempre sepa en qué punto se encuentra todo."
+      "a": "Trabajamos en remoto desde Finlandia (EET/EEST) con una semana estándar de 40 horas. Acordamos franjas de coincidencia con cada cliente, compartimos informes escritos y mostramos el avance de forma periódica para que siempre sepa en qué punto se encuentra todo."
     },
     {
       "q": "¿Cómo gestionan la seguridad y la confidencialidad?",
@@ -35,7 +35,7 @@
     },
     {
       "q": "¿Pueden trabajar con nuestro equipo o nuestro código existente?",
-      "a": "Por supuesto. Nuestro modelo de equipo dedicado está pensado para integrarse con sus ingenieros, herramientas y rituales. También asumimos trabajos de modernización de aplicaciones existentes."
+      "a": "Sí. Nuestro modelo de equipo dedicado está pensado para integrarse con sus ingenieros, herramientas y rituales. También asumimos trabajos de modernización de aplicaciones existentes."
     }
   ]
 }

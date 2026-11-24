@@ -8,58 +8,121 @@
     {
       "phase": "Fas 01",
       "title": "Kartläggning och krav",
-      "duration": "Vanligtvis 1 till 2 veckor",
+      "duration": "Längden överenskoms per projekt",
       "detail": "Vi analyserar era affärsmål, operativa utmaningar, projektförväntningar och tekniska förutsättningar för att lägga en stabil grund.",
-      "activities": ["Intervjuer med intressenter", "Kravinsamling", "Genomgång av befintliga system", "Kartläggning av risker och begränsningar"],
-      "outputs": ["Sammanfattning av krav", "Framgångskriterier", "Preliminär omfattning och risker"]
+      "activities": [
+        "Intervjuer med intressenter",
+        "Kravinsamling",
+        "Genomgång av befintliga system",
+        "Kartläggning av risker och begränsningar"
+      ],
+      "outputs": [
+        "Sammanfattning av krav",
+        "Framgångskriterier",
+        "Preliminär omfattning och risker"
+      ]
     },
     {
       "phase": "Fas 02",
       "title": "Planering och arkitektur",
-      "duration": "Vanligtvis 1 till 2 veckor",
+      "duration": "Längden överenskoms per projekt",
       "detail": "Vi definierar projektets omfattning, teknisk arkitektur, utvecklingsmilstolpar, teknikstack och leveransstrategi.",
-      "activities": ["Lösningsarkitektur", "Teknikval", "Planering av milstolpar och releaser", "Uppskattning och bemanning"],
-      "outputs": ["Arkitekturdokument", "Leveransfärdplan", "Överenskommen omfattning och milstolpar"]
+      "activities": [
+        "Lösningsarkitektur",
+        "Teknikval",
+        "Planering av milstolpar och releaser",
+        "Uppskattning och bemanning"
+      ],
+      "outputs": [
+        "Arkitekturdokument",
+        "Leveransfärdplan",
+        "Överenskommen omfattning och milstolpar"
+      ]
     },
     {
       "phase": "Fas 03",
       "title": "Design och prototyper",
       "duration": "Pågår parallellt med planering och tidig utveckling",
       "detail": "Vi tar fram användargränssnitt, designsystem, tekniska specifikationer och interaktiva prototyper för tidig validering.",
-      "activities": ["Kartläggning av användarresor", "Wireframes och visuell design", "Definition av designsystem", "Klickbara prototyper"],
-      "outputs": ["Gränssnittsdesign", "Designsystem", "Validerad prototyp"]
+      "activities": [
+        "Kartläggning av användarresor",
+        "Wireframes och visuell design",
+        "Definition av designsystem",
+        "Klickbara prototyper"
+      ],
+      "outputs": [
+        "Gränssnittsdesign",
+        "Designsystem",
+        "Validerad prototyp"
+      ]
     },
     {
       "phase": "Fas 04",
       "title": "Utveckling och implementation",
       "duration": "Iterativa sprintar med regelbundna demonstrationer",
       "detail": "Vårt distribuerade utvecklingsteam bygger lösningen med moderna ramverk, ren kodpraxis och modulära mönster.",
-      "activities": ["Sprintbaserad implementation", "Kodgranskning av varje ändring", "Kontinuerlig integration", "Regelbundna demonstrationer och återkoppling"],
-      "outputs": ["Fungerande inkrement", "Granskad och testad källkod", "Lägesrapporter"]
+      "activities": [
+        "Sprintbaserad implementation",
+        "Kodgranskning av varje ändring",
+        "Kontinuerlig integration",
+        "Regelbundna demonstrationer och återkoppling"
+      ],
+      "outputs": [
+        "Fungerande inkrement",
+        "Granskad och testad källkod",
+        "Lägesrapporter"
+      ]
     },
     {
       "phase": "Fas 05",
       "title": "Testning och kvalitetssäkring",
       "duration": "Löpande, med en dedikerad genomgång före release",
       "detail": "Rigorös automatiserad och manuell testning validerar funktionalitet, prestanda, säkerhet och tillförlitlighet i gränsfall.",
-      "activities": ["Automatiserade enhets- och integrationstester", "Helhets- och regressionstestning", "Prestandakontroller", "Säkerhetsgranskning"],
-      "outputs": ["Testrapporter", "Lista över åtgärdade fel", "Godkännande av releaseberedskap"]
+      "activities": [
+        "Automatiserade enhets- och integrationstester",
+        "Helhets- och regressionstestning",
+        "Prestandakontroller",
+        "Säkerhetsgranskning"
+      ],
+      "outputs": [
+        "Testrapporter",
+        "Lista över åtgärdade fel",
+        "Godkännande av releaseberedskap"
+      ]
     },
     {
       "phase": "Fas 06",
       "title": "Driftsättning och leverans",
-      "duration": "Vanligtvis några dagar, planerat i förväg",
+      "duration": "Planeras i förväg tillsammans med dig",
       "detail": "Vi konfigurerar produktionsinfrastruktur, containerbaserade driftsättningar och övervakningspipelines och genomför sedan den överenskomna överlämningen.",
-      "activities": ["Uppsättning av produktionsmiljö", "Automatiserad driftsättning", "Övervakning och varningar", "Kunskapsöverföring"],
-      "outputs": ["Levande produktionssystem", "Driftdokumentation", "Överlämningsmöte"]
+      "activities": [
+        "Uppsättning av produktionsmiljö",
+        "Automatiserad driftsättning",
+        "Övervakning och varningar",
+        "Kunskapsöverföring"
+      ],
+      "outputs": [
+        "Levande produktionssystem",
+        "Driftdokumentation",
+        "Överlämningsmöte"
+      ]
     },
     {
       "phase": "Fas 07",
       "title": "Underhåll och förbättring",
       "duration": "Löpande, enligt överenskommelse",
       "detail": "Vi levererar fortlöpande förbättringar, tekniskt stöd, säkerhetsuppdateringar och skalningsoptimeringar i takt med att era behov utvecklas.",
-      "activities": ["Felrättning och support", "Uppdatering av beroenden och säkerhet", "Prestandajustering", "Leverans av funktioner enligt färdplan"],
-      "outputs": ["Regelbundna underhållsreleaser", "Rapporter om status och användning", "Uppdaterad färdplan"]
+      "activities": [
+        "Felrättning och support",
+        "Uppdatering av beroenden och säkerhet",
+        "Prestandajustering",
+        "Leverans av funktioner enligt färdplan"
+      ],
+      "outputs": [
+        "Regelbundna underhållsreleaser",
+        "Rapporter om status och användning",
+        "Uppdaterad färdplan"
+      ]
     }
   ]
 }

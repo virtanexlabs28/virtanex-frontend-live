@@ -23,7 +23,7 @@
     },
     {
       "q": "Miten työskentelette eri aikavyöhykkeillä?",
-      "a": "Työskentelemme ensisijaisesti etänä Suomesta käsin (UTC+2) 40 tunnin vakiotyöviikolla. Sovimme jokaisen asiakkaan kanssa yhteiset työajat, jaamme kirjalliset päivitykset ja esittelemme edistymisen säännöllisesti, jotta tiedät aina, missä mennään."
+      "a": "Työskentelemme ensisijaisesti etänä Suomesta käsin (EET/EEST) 40 tunnin vakiotyöviikolla. Sovimme jokaisen asiakkaan kanssa yhteiset työajat, jaamme kirjalliset päivitykset ja esittelemme edistymisen säännöllisesti, jotta tiedät aina, missä mennään."
     },
     {
       "q": "Miten hoidatte tietoturvan ja luottamuksellisuuden?",
@@ -35,7 +35,7 @@
     },
     {
       "q": "Voitteko työskennellä nykyisen tiimimme tai koodikantamme kanssa?",
-      "a": "Ehdottomasti. Omistautuneen tiimin mallimme on suunniteltu sulautumaan insinöörienne, työkalujenne ja toimintatapojenne joukkoon. Teemme myös nykyisten sovellusten modernisointia."
+      "a": "Kyllä. Omistautuneen tiimin mallimme on suunniteltu sulautumaan insinöörienne, työkalujenne ja toimintatapojenne joukkoon. Teemme myös nykyisten sovellusten modernisointia."
     }
   ]
 }

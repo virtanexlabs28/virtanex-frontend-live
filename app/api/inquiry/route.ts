@@ -2,6 +2,7 @@ import { NextResponse } from 'next/server';
 import { MailConfigError, sendInquiry } from '@/lib/mail';
 import { getContent } from '@/lib/content';
 import { isLocale } from '@/lib/i18n';
+import { helsinkiTimestamp } from '@/lib/time';
 
 export const runtime = 'nodejs';
 export const dynamic = 'force-dynamic';
@@ -66,6 +67,7 @@ export async function POST(request: Request) {
       'Preferred window': clean(body.slot, 120),
       Notes: clean(body.notes, 2000),
       'Site language': language,
+      'Received (Finland time)': helsinkiTimestamp(),
     };
   } else if (body.type === 'contact') {
     const serviceId = clean(body.service, 80);
@@ -78,6 +80,7 @@ export async function POST(request: Request) {
       Timeline: clean(body.timeline, 120),
       'Project overview': clean(body.message, 5000),
       'Site language': language,
+      'Received (Finland time)': helsinkiTimestamp(),
     };
   } else {
     return fail('invalid', 400);
