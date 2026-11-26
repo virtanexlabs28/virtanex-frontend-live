@@ -1,81 +1,158 @@
 {
   "intro": {
-    "kicker": "Planos de solución",
+    "kicker": "Proyectos de demostración",
     "title": "Los tipos de sistemas que construimos.",
-    "description": "Cuatro diseños de solución representativos que muestran cómo abordamos la arquitectura, la entrega y los resultados. Ilustran nuestras capacidades y no son casos de estudio de clientes."
+    "description": "Tres proyectos de demostración que construimos nosotros mismos y que muestran cómo abordamos la arquitectura, la entrega y los resultados. Ilustran nuestras capacidades y no son casos de clientes."
   },
   "items": [
     {
-      "id": "ai-knowledge-platform",
-      "title": "Plataforma de conocimiento y documentos con IA",
-      "category": "IA empresarial y flujos de trabajo",
-      "service": "ai-ml",
-      "description": "Un asistente con generación aumentada por recuperación y un pipeline de procesamiento de documentos que convierte contratos, manuales e informes en respuestas en las que los equipos pueden confiar.",
-      "tags": ["Integración de LLM", "RAG", "Python / NestJS", "Búsqueda vectorial"],
-      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Los equipos pierden horas buscando entre documentos. Este plano ingiere archivos desde el almacenamiento existente, extrae e indexa su contenido y ofrece una interfaz conversacional que cita sus fuentes, con acceso basado en roles para que cada persona vea solo aquello a lo que tiene permiso.",
-      "challenge": "Información dispersa entre unidades compartidas, archivos adjuntos de correo y sistemas heredados, sin una forma fiable de buscarla o resumirla.",
-      "approach": [
-        "Pipeline de ingesta con OCR y extracción estructurada",
-        "Recuperación híbrida por palabras clave y vectores, con citas",
-        "Conjunto de evaluación para medir la calidad de las respuestas a lo largo del tiempo",
-        "Acceso basado en roles y registro de auditoría completo"
-      ],
-      "outcomes": ["Respuestas más rápidas a partir de los documentos internos", "Respuestas trazables y con fuentes citadas", "Acceso controlado a contenidos sensibles"]
-    },
-    {
-      "id": "saas-platform",
-      "title": "Plataforma SaaS multi-tenant",
-      "category": "Producto digital y SaaS",
+      "id": "oivaly-marketplace",
+      "title": "Oivaly: marketplace nórdico de artesanos",
+      "category": "E-commerce y marketplace",
       "service": "digital-product",
-      "description": "Una plataforma basada en suscripción con aislamiento entre inquilinos, acceso basado en roles, facturación y una consola de administración, lista para escalar de MVP a producción.",
-      "tags": ["Next.js", "NestJS", "PostgreSQL", "Suscripciones"],
-      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Una arquitectura de referencia para convertir una idea de producto en un SaaS facturable. Abarca el aislamiento de datos por inquilino, la gestión de usuarios y permisos, los planes de suscripción, el seguimiento de uso y las herramientas operativas necesarias para gestionar el producto en el día a día.",
-      "challenge": "Lanzar con rapidez sin arrinconar el producto en una arquitectura que impida más adelante el multi-tenancy, la facturación o las funcionalidades empresariales.",
-      "approach": [
-        "Modelo de datos y capa de acceso conscientes del inquilino",
-        "Integración con proveedores de suscripción y facturación",
-        "Consola de administración para soporte y operaciones",
-        "CI/CD con entornos de staging y producción"
+      "badge": "Proyecto de demostración",
+      "description": "Un marketplace multivendedor que conecta a los compradores directamente con artesanos nórdicos independientes, con vendedores verificados, comisiones transparentes y pagos protegidos.",
+      "tags": [
+        "Marketplace multivendedor",
+        "Alta de vendedores",
+        "Protección al comprador",
+        "Catálogo y búsqueda"
       ],
-      "outcomes": ["MVP en el mercado con rapidez", "Arquitectura que escala con los clientes", "Base sólida para nuevas funcionalidades"]
+      "image": "/work/oivaly/1-storefront.jpg",
+      "gallery": [
+        {
+          "src": "/work/oivaly/1-storefront.jpg",
+          "caption": "Tienda con búsqueda y artesanos destacados"
+        },
+        {
+          "src": "/work/oivaly/2-catalog.jpg",
+          "caption": "Colecciones seleccionadas para explorar por temática"
+        },
+        {
+          "src": "/work/oivaly/3-seller-onboarding.jpg",
+          "caption": "Alta de vendedores con comprobación de identidad empresarial"
+        },
+        {
+          "src": "/work/oivaly/4-buyer-protection.jpg",
+          "caption": "Protección al comprador y garantías de pago, explicadas paso a paso"
+        },
+        {
+          "src": "/work/oivaly/5-trust-standards.jpg",
+          "caption": "Principios de confianza y estándares del marketplace"
+        },
+        {
+          "src": "/work/oivaly/6-sustainability.jpg",
+          "caption": "Carta de sostenibilidad y estándares de materiales"
+        }
+      ],
+      "overview": "Oivaly es un marketplace de demostración que diseñamos y construimos para mostrar cómo puede funcionar una plataforma multivendedor para negocios artesanales. Los compradores recorren departamentos, buscan, guardan favoritos y pagan en un solo carrito productos de muchos estudios independientes, mientras que los artesanos solicitan abrir una tienda verificada y gestionan sus propios productos.",
+      "challenge": "Los artesanos independientes tienen poco alcance por sí solos, y las grandes plataformas de venta que podrían dárselo se quedan además con una parte importante de cada venta. Los compradores, por su parte, no pueden saber con facilidad quién ha fabricado realmente un producto, de dónde procede o si su pago está seguro. La buena artesanía sigue siendo difícil de encontrar, y comprarla resulta arriesgado.",
+      "approach": [
+        "Una tienda con departamentos, búsqueda, lista de deseos y un carrito que funciona con varios vendedores a la vez",
+        "Alta de vendedores que comprueba la identidad empresarial oficial de cada estudio antes de que su tienda se publique",
+        "Un modelo de comisiones claro y público, para que la mayor parte de cada venta se quede con el artesano",
+        "Protección al comprador que retiene el pago hasta confirmar la entrega, con una vía sencilla para resolver problemas",
+        "Estándares publicados de materiales y embalaje, para que los compradores vean cómo se fabrican y se envían los productos"
+      ],
+      "outcomes": [
+        "Los artesanos llegan a más compradores y conservan una mayor parte de cada venta",
+        "Los compradores pueden ver quién hizo cada producto y de dónde procede",
+        "Las compras resultan seguras, con pagos protegidos y devoluciones claras"
+      ]
     },
     {
-      "id": "data-reporting",
-      "title": "Plataforma unificada de datos e informes",
-      "category": "Ingeniería y analítica de datos",
-      "service": "data-engineering",
-      "description": "Pipelines automatizados que consolidan los datos de los sistemas de finanzas, ventas y operaciones en un único modelo fiable con paneles en tiempo real.",
-      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Paneles"],
-      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Los informes suelen implicar exportaciones manuales y hojas de cálculo contradictorias. Este plano extrae datos de cada sistema de origen de forma programada, los valida y concilia, y publica una única fuente de verdad con paneles en los que la dirección puede confiar.",
-      "challenge": "Múltiples sistemas, definiciones incoherentes e informes manuales de cierre de mes lentos y propensos a errores.",
-      "approach": [
-        "Conectores de origen con carga incremental",
-        "Capa de transformación con reglas de negocio documentadas",
-        "Controles de calidad de datos y alertas automatizados",
-        "Paneles y envío programado de informes"
+      "id": "sms-messaging-platform",
+      "title": "STSL: plataforma de campañas de SMS masivos",
+      "category": "Mensajería y comunicaciones",
+      "service": "digital-product",
+      "badge": "Proyecto de demostración",
+      "description": "Una plataforma de SMS masivos donde las empresas organizan sus audiencias, envían campañas revisadas a partir de plantillas aprobadas y siguen la entrega, los resultados y el gasto en un solo lugar.",
+      "tags": [
+        "Campañas de SMS",
+        "Segmentos de audiencia",
+        "Plantillas de mensajes",
+        "Monedero y facturación"
       ],
-      "outcomes": ["Una visión coherente del negocio", "Menos esfuerzo en informes manuales", "Alerta temprana ante problemas de datos"]
+      "image": "/work/stsl/1-campaigns.jpg",
+      "gallery": [
+        {
+          "src": "/work/stsl/1-campaigns.jpg",
+          "caption": "Lista de campañas con estado de revisión, entrega y coste"
+        },
+        {
+          "src": "/work/stsl/2-segments.jpg",
+          "caption": "Segmentos de audiencia para mensajes dirigidos"
+        },
+        {
+          "src": "/work/stsl/3-templates.jpg",
+          "caption": "Plantillas de mensajes con estado de aprobación"
+        },
+        {
+          "src": "/work/stsl/4-wallet.jpg",
+          "caption": "Monedero de prepago, recarga automática e historial de facturación"
+        }
+      ],
+      "overview": "STSL es una plataforma de demostración que diseñamos y construimos para enviar campañas de SMS masivos. Los equipos organizan sus contactos en segmentos, redactan los mensajes a partir de plantillas aprobadas, envían las campañas a revisión y siguen los resultados de entrega y de clics. Un monedero de prepago con recarga automática mantiene el gasto visible y bajo control.",
+      "challenge": "Enviar mensajes a miles de personas es fácil de hacer mal. Las listas de contactos acaban dispersas en hojas de cálculo, las campañas salen sin una segunda revisión y nadie puede ver con facilidad qué se entregó, cuánto costó ni cuánto saldo queda. El resultado es un gasto desperdiciado, mensajes que incumplen las normas de las plataformas y audiencias que reciben el mensaje equivocado.",
+      "approach": [
+        "Segmentos de audiencia que agrupan los contactos para que cada campaña llegue a las personas adecuadas",
+        "Plantillas de mensajes reutilizables con un estado de aprobación, para que solo se use texto ya verificado",
+        "Un paso de revisión de las campañas, con un motivo claro cuando se rechaza un mensaje",
+        "Una lista de campañas que muestra de un vistazo el estado, la entrega, los clics y el coste",
+        "Un monedero de prepago con recarga automática y un historial de transacciones"
+      ],
+      "outcomes": [
+        "Menos errores antes de enviar un mensaje",
+        "Una vista clara de la entrega, los resultados y el gasto",
+        "Un gasto predecible, sin facturas sorpresa"
+      ]
     },
     {
-      "id": "iot-monitoring",
-      "title": "Sistema de monitorización y alertas IoT",
-      "category": "Software IoT e industrial",
-      "service": "iot-industrial",
-      "description": "Ingesta de telemetría en tiempo real, paneles y alertas de anomalías para equipos conectados, con un camino hacia el mantenimiento predictivo.",
-      "tags": ["IoT", "Tiempo real", "Detección de anomalías", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Los equipos conectados generan datos que rara vez llegan a quienes pueden actuar sobre ellos. Este plano ingiere la telemetría de los dispositivos, la almacena de forma eficiente, visualiza el estado en vivo y genera alertas cuando las lecturas se alejan del comportamiento esperado.",
-      "challenge": "El estado de los equipos es invisible hasta que algo falla, y los datos de los dispositivos quedan encerrados en herramientas propietarias.",
-      "approach": [
-        "Integración de dispositivos y gateways mediante protocolos estándar",
-        "Pipeline de almacenamiento y procesamiento de series temporales",
-        "Paneles en vivo por sede, activo y sensor",
-        "Alertas por umbrales y por anomalías estadísticas"
+      "id": "doctor-portfolio-website",
+      "title": "Portafolio médico: sitio web de consulta especializada",
+      "category": "Salud y sitios web profesionales",
+      "service": "digital-product",
+      "badge": "Proyecto de demostración",
+      "description": "Un sitio web profesional para un médico especialista que presenta con claridad su formación, sus servicios y sus áreas de atención, y permite a los pacientes solicitar una cita en línea.",
+      "tags": [
+        "Sitio web de portafolio",
+        "Solicitud de citas",
+        "Diseño adaptable",
+        "Información de la consulta"
       ],
-      "outcomes": ["Visibilidad en tiempo real de los activos", "Detección más temprana de fallos", "Base para el mantenimiento predictivo"]
+      "image": "/work/doctor/1-home.jpg",
+      "gallery": [
+        {
+          "src": "/work/doctor/1-home.jpg",
+          "caption": "Página de inicio que presenta al especialista y la consulta"
+        },
+        {
+          "src": "/work/doctor/2-services.jpg",
+          "caption": "Servicios agrupados en áreas de atención claras"
+        },
+        {
+          "src": "/work/doctor/3-focus-areas.jpg",
+          "caption": "Áreas de atención que los pacientes pueden explorar una por una"
+        },
+        {
+          "src": "/work/doctor/4-appointment.jpg",
+          "caption": "Formulario de solicitud de cita con datos de la consulta e indicaciones para urgencias"
+        }
+      ],
+      "overview": "Esta demostración es un sitio web de portafolio para un cardiólogo ficticio, diseñado y construido por nosotros. Presenta al médico y su consulta, agrupa los servicios en áreas de atención claras, permite explorar cada área de atención, cuenta la trayectoria profesional mediante una cronología y testimonios de pacientes, y termina con un formulario de solicitud de cita y los datos de la consulta.",
+      "challenge": "A los médicos y especialistas independientes se les suele encontrar a través del listado de un hospital o de una página desactualizada. A los pacientes les cuesta saber quién es el médico, qué afecciones atiende, qué experiencia tiene y cómo pedir una cita. Muchos acaban llamando por teléfono a varios lugares, y las indicaciones claras para situaciones urgentes pasan fácilmente desapercibidas.",
+      "approach": [
+        "Una página de inicio que muestra rápidamente quién es el médico y qué ofrece",
+        "Servicios agrupados en áreas de atención claras, cada una con una llamada a la acción",
+        "Áreas de atención interactivas para que los pacientes exploren las afecciones que les interesan",
+        "Una cronología profesional y testimonios de pacientes que generan confianza sin recargar la página",
+        "Un formulario de solicitud de cita con horarios de la consulta, datos de contacto e indicaciones de urgencia bien visibles"
+      ],
+      "outcomes": [
+        "Los pacientes entienden rápidamente con quién serían atendidos",
+        "Las solicitudes de cita llegan en un formato estructurado",
+        "Las indicaciones de urgencia se mantienen claramente visibles"
+      ]
     }
   ]
 }

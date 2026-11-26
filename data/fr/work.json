@@ -1,116 +1,157 @@
 {
   "intro": {
-    "kicker": "Plans de solution",
+    "kicker": "Projets de démonstration",
     "title": "Les types de systèmes que nous construisons.",
-    "description": "Quatre conceptions de solutions représentatives, qui montrent notre approche de l'architecture, de la livraison et des résultats. Elles illustrent nos compétences et ne sont pas des études de cas clients."
+    "description": "Trois projets de démonstration que nous avons réalisés, qui montrent notre approche de l'architecture, de la livraison et des résultats. Ils illustrent nos compétences et ne sont pas des études de cas clients."
   },
   "items": [
     {
-      "id": "ai-knowledge-platform",
-      "title": "Plateforme de connaissances et de documents pilotée par l'IA",
-      "category": "IA d'entreprise et workflows",
-      "service": "ai-ml",
-      "description": "Un assistant à génération augmentée par la recherche et un pipeline de traitement de documents qui transforment contrats, manuels et rapports en réponses fiables pour les équipes.",
-      "tags": [
-        "Intégration de LLM",
-        "RAG",
-        "Python / NestJS",
-        "Recherche vectorielle"
-      ],
-      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Les équipes perdent des heures à chercher dans leurs documents. Ce plan de solution ingère les fichiers depuis le stockage existant, en extrait et en indexe le contenu, et propose une interface conversationnelle qui cite ses sources, avec un contrôle d'accès par rôle pour que chacun ne voie que ce qu'il est autorisé à consulter.",
-      "challenge": "Une information dispersée entre lecteurs partagés, pièces jointes d'e-mails et systèmes hérités, sans moyen fiable de la rechercher ou de la synthétiser.",
-      "approach": [
-        "Pipeline d'ingestion avec OCR et extraction structurée",
-        "Recherche hybride par mots-clés et vecteurs, avec citations",
-        "Jeu d'évaluation pour mesurer la qualité des réponses dans le temps",
-        "Accès par rôle et journalisation d'audit complète"
-      ],
-      "outcomes": [
-        "Des réponses plus rapides à partir des documents internes",
-        "Des réponses traçables, citant leurs sources",
-        "Un accès maîtrisé aux contenus sensibles"
-      ]
-    },
-    {
-      "id": "saas-platform",
-      "title": "Plateforme SaaS multi-tenant",
-      "category": "Produit numérique et SaaS",
+      "id": "oivaly-marketplace",
+      "title": "Oivaly : la marketplace des artisans nordiques",
+      "category": "E-commerce et marketplace",
       "service": "digital-product",
-      "description": "Une plateforme par abonnement dotée d'isolation des tenants, d'accès par rôle, de facturation et d'une console d'administration, prête à passer du MVP à la production.",
+      "badge": "Projet de démonstration",
+      "description": "Une marketplace multi-vendeurs qui met les acheteurs en relation directe avec des artisans nordiques indépendants, avec des vendeurs vérifiés, des frais transparents et des paiements protégés.",
       "tags": [
-        "Next.js",
-        "NestJS",
-        "PostgreSQL",
-        "Abonnements"
+        "Marketplace multi-vendeurs",
+        "Intégration des vendeurs",
+        "Protection des acheteurs",
+        "Catalogue et recherche"
       ],
-      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Une architecture de référence pour transformer une idée de produit en SaaS facturable. Elle couvre l'isolation des données par tenant, la gestion des utilisateurs et des permissions, les formules d'abonnement, le suivi de l'usage et l'outillage opérationnel nécessaire pour exploiter le produit au quotidien.",
-      "challenge": "Lancer rapidement sans enfermer le produit dans une impasse architecturale qui bloquerait plus tard le multi-tenant, la facturation ou les fonctionnalités entreprise.",
+      "image": "/work/oivaly/1-storefront.jpg",
+      "gallery": [
+        {
+          "src": "/work/oivaly/1-storefront.jpg",
+          "caption": "Vitrine avec recherche et artisans à l'honneur"
+        },
+        {
+          "src": "/work/oivaly/2-catalog.jpg",
+          "caption": "Collections sélectionnées pour parcourir par thème"
+        },
+        {
+          "src": "/work/oivaly/3-seller-onboarding.jpg",
+          "caption": "Intégration des vendeurs avec vérification de l'identité de l'entreprise"
+        },
+        {
+          "src": "/work/oivaly/4-buyer-protection.jpg",
+          "caption": "Protection des acheteurs et garanties de paiement, expliquées étape par étape"
+        },
+        {
+          "src": "/work/oivaly/5-trust-standards.jpg",
+          "caption": "Principes de confiance et standards de la marketplace"
+        },
+        {
+          "src": "/work/oivaly/6-sustainability.jpg",
+          "caption": "Charte de durabilité et standards de matériaux"
+        }
+      ],
+      "overview": "Oivaly est une marketplace de démonstration que nous avons conçue et développée pour montrer comment une plateforme multi-vendeurs peut servir les entreprises artisanales. Les acheteurs parcourent les rayons, effectuent des recherches, enregistrent leurs favoris et règlent en un seul panier des achats auprès de nombreux ateliers indépendants, tandis que les artisans demandent l'ouverture d'une boutique vérifiée et gèrent eux-mêmes leurs annonces.",
+      "challenge": "Les artisans indépendants ont une portée limitée par leurs propres moyens, et les grandes plateformes de vente qui pourraient leur donner de la visibilité prélèvent aussi une part importante de chaque vente. De leur côté, les acheteurs ont du mal à savoir qui a réellement fabriqué un produit, d'où il vient ou si leur paiement est en sécurité. Le bel artisanat reste difficile à trouver, et l'acheter paraît risqué.",
       "approach": [
-        "Modèle de données et couche d'accès conscients des tenants",
-        "Intégration d'un fournisseur d'abonnement et de facturation",
-        "Console d'administration pour le support et l'exploitation",
-        "CI/CD avec environnements de préproduction et de production"
+        "Une vitrine avec rayons, recherche, liste de souhaits et un panier qui fonctionne avec de nombreux vendeurs",
+        "Une intégration des vendeurs qui vérifie l'identité officielle de l'entreprise d'un atelier avant la mise en ligne de sa boutique",
+        "Un modèle de frais clair et publié, pour que la majeure partie de chaque vente reste à l'artisan",
+        "Une protection des acheteurs qui retient le paiement jusqu'à la confirmation de la livraison, avec un parcours simple pour résoudre les problèmes",
+        "Des standards publiés sur les matériaux et les emballages, pour que les acheteurs voient comment les produits sont fabriqués et expédiés"
       ],
       "outcomes": [
-        "Un MVP rapidement sur le marché",
-        "Une architecture qui évolue avec les clients",
-        "Une base saine pour de nouvelles fonctionnalités"
+        "Les artisans touchent leurs acheteurs et conservent une plus grande part de chaque vente",
+        "Les acheteurs voient qui a fabriqué quoi et d'où cela provient",
+        "Les achats se font en confiance, avec des paiements protégés et des retours clairs"
       ]
     },
     {
-      "id": "data-reporting",
-      "title": "Plateforme unifiée de données et de reporting",
-      "category": "Ingénierie des données et analytique",
-      "service": "data-engineering",
-      "description": "Des pipelines automatisés qui consolident les données des systèmes financiers, commerciaux et opérationnels dans un modèle unique et fiable, avec des tableaux de bord en temps réel.",
+      "id": "sms-messaging-platform",
+      "title": "STSL : plateforme de campagnes SMS en masse",
+      "category": "Messagerie et communications",
+      "service": "digital-product",
+      "badge": "Projet de démonstration",
+      "description": "Une plateforme de SMS en masse où les entreprises organisent leurs audiences, envoient des campagnes validées à partir de modèles approuvés, et suivent la livraison, les résultats et les dépenses au même endroit.",
       "tags": [
-        "ETL / ELT",
-        "PostgreSQL",
-        "Python",
-        "Tableaux de bord"
+        "Campagnes SMS",
+        "Segments d'audience",
+        "Modèles de messages",
+        "Portefeuille et facturation"
       ],
-      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Le reporting rime souvent avec exports manuels et feuilles de calcul contradictoires. Ce plan de solution interroge chaque système source selon un calendrier, valide et réconcilie les données, puis publie une source de vérité unique, avec des tableaux de bord sur lesquels les dirigeants peuvent s'appuyer.",
-      "challenge": "Plusieurs systèmes, des définitions incohérentes et un reporting manuel de fin de mois, lent et sujet aux erreurs.",
+      "image": "/work/stsl/1-campaigns.jpg",
+      "gallery": [
+        {
+          "src": "/work/stsl/1-campaigns.jpg",
+          "caption": "Liste des campagnes avec statut de validation, livraison et coût"
+        },
+        {
+          "src": "/work/stsl/2-segments.jpg",
+          "caption": "Segments d'audience pour des messages ciblés"
+        },
+        {
+          "src": "/work/stsl/3-templates.jpg",
+          "caption": "Modèles de messages avec statut d'approbation"
+        },
+        {
+          "src": "/work/stsl/4-wallet.jpg",
+          "caption": "Portefeuille prépayé, recharge automatique et historique de facturation"
+        }
+      ],
+      "overview": "STSL est une plateforme de démonstration que nous avons conçue et développée pour l'envoi de campagnes SMS en masse. Les équipes organisent leurs contacts en segments, rédigent des messages à partir de modèles approuvés, soumettent les campagnes à validation, puis suivent la livraison et les clics. Un portefeuille prépayé avec recharge automatique garde les dépenses visibles et maîtrisées.",
+      "challenge": "Envoyer des messages à des milliers de personnes est facile à mal faire. Les listes de contacts finissent éparpillées dans des tableurs, les campagnes partent sans second regard, et personne ne voit facilement ce qui a été livré, ce que cela a coûté ou combien il reste de solde. Le résultat : des dépenses gaspillées, des messages qui enfreignent les règles des plateformes et des audiences qui reçoivent le mauvais message.",
       "approach": [
-        "Connecteurs de sources avec chargement incrémental",
-        "Couche de transformation avec règles métier documentées",
-        "Contrôles automatisés de qualité des données et alertes",
-        "Tableaux de bord et envoi planifié des rapports"
+        "Des segments d'audience qui regroupent les contacts pour que chaque campagne atteigne les bonnes personnes",
+        "Des modèles de messages réutilisables avec un statut d'approbation, pour que seuls des textes vérifiés soient utilisés",
+        "Une étape de validation des campagnes, avec un motif clair lorsqu'un message est refusé",
+        "Une liste des campagnes qui affiche d'un coup d'œil le statut, la livraison, les clics et le coût",
+        "Un portefeuille prépayé avec recharge automatique et historique des transactions"
       ],
       "outcomes": [
-        "Une vue cohérente de l'entreprise",
-        "Moins d'efforts de reporting manuel",
-        "Une alerte précoce en cas de problème de données"
+        "Moins d'erreurs avant l'envoi d'un message",
+        "Une vue claire de la livraison, des résultats et des dépenses",
+        "Des dépenses prévisibles, sans mauvaise surprise sur la facture"
       ]
     },
     {
-      "id": "iot-monitoring",
-      "title": "Système de supervision et d'alerte IoT",
-      "category": "Logiciels IoT et industriels",
-      "service": "iot-industrial",
-      "description": "Ingestion de télémétrie en temps réel, tableaux de bord et alertes d'anomalies pour des équipements connectés, avec une trajectoire vers la maintenance prédictive.",
+      "id": "doctor-portfolio-website",
+      "title": "Portfolio médical : site vitrine d'un cabinet de spécialiste",
+      "category": "Santé et sites professionnels",
+      "service": "digital-product",
+      "badge": "Projet de démonstration",
+      "description": "Un site portfolio professionnel pour un médecin spécialiste, qui présente clairement ses qualifications, ses services et ses domaines d'intervention, et permet aux patients de demander un rendez-vous en ligne.",
       "tags": [
-        "IoT",
-        "Temps réel",
-        "Détection d'anomalies",
-        "Python / Node.js"
+        "Site portfolio",
+        "Demandes de rendez-vous",
+        "Design responsive",
+        "Informations sur le cabinet"
       ],
-      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Les équipements connectés produisent des données qui atteignent rarement ceux qui peuvent agir. Ce plan de solution ingère la télémétrie des appareils, la stocke efficacement, affiche l'état en direct et déclenche des alertes lorsque les mesures s'écartent du comportement attendu.",
-      "challenge": "L'état de santé des équipements reste invisible jusqu'à la panne, et les données des appareils sont enfermées dans des outils propriétaires.",
+      "image": "/work/doctor/1-home.jpg",
+      "gallery": [
+        {
+          "src": "/work/doctor/1-home.jpg",
+          "caption": "Page d'accueil présentant le spécialiste et le cabinet"
+        },
+        {
+          "src": "/work/doctor/2-services.jpg",
+          "caption": "Services regroupés par domaines de soins clairs"
+        },
+        {
+          "src": "/work/doctor/3-focus-areas.jpg",
+          "caption": "Domaines d'intervention que les patients peuvent explorer un par un"
+        },
+        {
+          "src": "/work/doctor/4-appointment.jpg",
+          "caption": "Formulaire de demande de rendez-vous avec les informations du cabinet et les consignes en cas d'urgence"
+        }
+      ],
+      "overview": "Cette démonstration est un site portfolio pour un cardiologue fictif, conçu et développé par nos soins. Il présente le médecin et son cabinet, regroupe les services par domaines de soins clairs, permet aux visiteurs d'explorer chaque domaine d'intervention, raconte le parcours professionnel à travers une chronologie et des témoignages de patients, et se termine par un formulaire de demande de rendez-vous et les coordonnées du cabinet.",
+      "challenge": "Les médecins et spécialistes indépendants sont souvent trouvés au détour d'un annuaire hospitalier ou d'une page obsolète. Les patients peinent à savoir qui est le médecin, quelles pathologies il prend en charge, quelle est son expérience et comment prendre rendez-vous. Beaucoup finissent par téléphoner à plusieurs endroits, et les consignes en cas de situation urgente passent facilement inaperçues.",
       "approach": [
-        "Intégration des appareils et des passerelles via des protocoles standards",
-        "Stockage de séries temporelles et pipeline de traitement",
-        "Tableaux de bord en direct par site, équipement et capteur",
-        "Alertes par seuils et par détection statistique d'anomalies"
+        "Une page d'accueil qui montre rapidement qui est le médecin et ce qu'il propose",
+        "Des services regroupés par domaines de soins clairs, chacun avec un appel à l'action",
+        "Des domaines d'intervention interactifs pour que les patients explorent les sujets qui les concernent",
+        "Une chronologie du parcours et des témoignages de patients qui inspirent confiance sans surcharger la page",
+        "Un formulaire de demande de rendez-vous avec les horaires du cabinet, les coordonnées et des consignes d'urgence bien visibles"
       ],
       "outcomes": [
-        "Une visibilité en temps réel sur les équipements",
-        "Une détection plus précoce des pannes",
-        "Une base pour la maintenance prédictive"
+        "Les patients comprennent rapidement qui ils vont consulter",
+        "Les demandes de rendez-vous arrivent sous une forme structurée",
+        "Les consignes en cas d'urgence restent clairement visibles"
       ]
     }
   ]

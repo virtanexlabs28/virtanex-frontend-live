@@ -16,10 +16,10 @@
     "cta": "Se hela processen"
   },
   "work": {
-    "kicker": "Lösningsritningar",
+    "kicker": "Demoprojekt",
     "title": "Vad vi kan bygga åt er.",
-    "description": "Representativa lösningsdesigner som visar hur vi angriper arkitektur, leverans och resultat.",
-    "cta": "Visa alla lösningsritningar"
+    "description": "Demoprojekt som vi har byggt och som visar hur vi arbetar med arkitektur, leverans och resultat.",
+    "cta": "Visa alla projekt"
   },
   "industries": {
     "kicker": "Branscher",
@@ -32,6 +32,12 @@
     "title": "En teknikpartner för lång sikt.",
     "description": "Moderna verktyg, tydlig kommunikation och ett team som stannar kvar hos din produkt efter lansering.",
     "cta": "Möt teamet"
+  },
+  "blog": {
+    "kicker": "Från bloggen",
+    "title": "Anteckningar från vårt arbete.",
+    "description": "Korta artiklar om de designbeslut som ligger bakom våra demoprojekt.",
+    "cta": "Läs bloggen"
   },
   "faq": {
     "kicker": "Snabba svar",

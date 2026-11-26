@@ -1,0 +1,615 @@
+{
+  "metaTitle": "Blog",
+  "metaDescription": "Short articles from Virtanex Labs on the design and engineering decisions behind our demo projects.",
+  "posts": [
+    {
+      "id": "designing-trust-into-a-marketplace",
+      "title": "Designing trust into a multi-vendor marketplace",
+      "excerpt": "A marketplace only works when buyers trust sellers they have never met. Here is how we approached identity, fees, and payment protection in our Oivaly demo.",
+      "category": "Product design",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "/work/oivaly/1-storefront.jpg",
+      "sections": [
+        {
+          "heading": "Two sides, two worries",
+          "paragraphs": [
+            "A multi-vendor marketplace has two audiences who worry about different things. Buyers want to know who really made a product and whether their money is safe. Makers want a fair share of each sale and a simple way to get started. If either side loses confidence, the other leaves too.",
+            "When we built our Oivaly demo, we treated both worries as design requirements from the first sketch, not as features to add later."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Make identity visible",
+          "paragraphs": [
+            "Anonymous sellers are the fastest way to erode trust. In the demo, a studio applies through a short onboarding flow that asks for its official business details, and the storefront shows who is behind each shop.",
+            "The point is not paperwork for its own sake. It is giving buyers a reason to believe the name on the product page."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Be plain about money",
+          "paragraphs": [
+            "Two things about money matter to a maker: how much of each sale they keep, and when they get paid. We kept the fee model simple and published it, because a fee that needs a spreadsheet to understand tends to feel unfair.",
+            "For buyers, we explained what happens to a payment between checkout and delivery as a short, numbered sequence instead of legal text."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Plan for things going wrong",
+          "paragraphs": [
+            "Trust is tested when something breaks: a parcel arrives damaged, or a description does not match the product. A good marketplace shows the answer before the question is asked.",
+            "The demo includes a guided explanation of what happens when something goes wrong, so buyers know the next step in advance."
+          ],
+          "items": []
+        },
+        {
+          "heading": "What we would check next",
+          "paragraphs": [
+            "A demo shows the shape of a solution, not its results. Before launch, we would test the onboarding with real makers, confirm the payment and verification partners, and measure where buyers hesitate.",
+            "If you are planning a marketplace, those are the questions worth answering first."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "why-bulk-messages-need-a-review-step",
+      "title": "Why bulk messages need a review step",
+      "excerpt": "Sending one message to thousands of people leaves no room for a typo. A look at the templates, review, and spending controls in our SMS campaign demo.",
+      "category": "Messaging",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "/work/stsl/1-campaigns.jpg",
+      "sections": [
+        {
+          "heading": "Small mistakes, large audiences",
+          "paragraphs": [
+            "A typo in an email to a colleague costs nothing. The same typo in a message to ten thousand customers can cost money, trust, and sometimes your sending privileges. Bulk messaging needs a few guardrails that ordinary tools do not have."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Start with templates",
+          "paragraphs": [
+            "Reusable templates give teams wording that has already been checked. In our STSL demo each template carries an approval status, so a campaign can be built on text that someone has approved.",
+            "Placeholders for names or order numbers keep messages personal without rewriting them each time."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Add a review step",
+          "paragraphs": [
+            "Before a campaign goes out it moves through a simple status flow, from draft to review to approved. When a message is rejected, the platform shows the reason, so the author can fix it instead of guessing.",
+            "It is the same idea as code review: a second pair of eyes, applied to words."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Keep spending visible",
+          "paragraphs": [
+            "Messages cost money, and surprise bills erode confidence in any tool. A prepaid wallet with a visible balance and optional auto-recharge makes the cost of a campaign something you can see before and after sending, with every top-up and charge listed in a transaction history."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Know who gets what",
+          "paragraphs": [
+            "Segments let you group contacts, for example newsletter subscribers or beta users, so a message reaches the people it was written for. Targeting is both a quality measure and a courtesy to the people who receive it.",
+            "None of this is exotic. It is ordinary product discipline applied where mistakes are hard to undo. If you send messages at scale, these are good habits whatever platform you use."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "what-a-specialists-website-should-do-first",
+      "title": "What a specialist's website should do in its first ten seconds",
+      "excerpt": "Patients arrive with a worry and little patience. How we built a doctor's portfolio site around three questions: who, what, and how do I book.",
+      "category": "Web design",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "/work/doctor/1-home.jpg",
+      "sections": [
+        {
+          "heading": "Three questions every visitor asks",
+          "paragraphs": [
+            "A person visiting a specialist's website usually has three questions: who is this doctor, can they help with my problem, and how do I book? If the page does not answer them quickly, many visitors will simply go back to the search results."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Who",
+          "paragraphs": [
+            "The home page of our demo leads with a clear introduction, a photo, and a short summary of the doctor's focus. Credentials and experience follow, grouped so they can be scanned in a few seconds instead of read as a wall of text."
+          ],
+          "items": []
+        },
+        {
+          "heading": "What",
+          "paragraphs": [
+            "Services are grouped into four plain care areas, each with a short list and a button to ask about it. A separate section lets visitors explore each focus area one at a time, so they can read about their own concern without scrolling past everything else."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How",
+          "paragraphs": [
+            "The booking path matters most. The demo ends with an appointment request form, clinic hours, and contact details in one place, so the next step is never hidden. Next to it sits a clear emergency notice that tells people with urgent symptoms not to use the form."
+          ],
+          "items": []
+        },
+        {
+          "heading": "A note on trust and privacy",
+          "paragraphs": [
+            "Health information is sensitive. A real site should say plainly what it collects, keep the form short, and avoid asking for details a first contact does not need.",
+            "We would also review any claims about outcomes or awards with the practice before publishing, because in healthcare accuracy matters more than polish."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "how-to-scope-a-software-project",
+      "title": "How to scope a software project before you write a line of code",
+      "excerpt": "A good scope is short, specific, and agreed by everyone who will judge the result. Here is the approach we use to get there.",
+      "category": "Process",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Start with the outcome, not the feature list",
+          "paragraphs": [
+            "Most scopes begin as a list of features. A better starting point is the change you want to see: customers book without phoning, a report that takes a day now takes minutes, a team stops re-typing data. Features are then choices that serve that outcome, and they can be traded against each other."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Name the people who decide",
+          "paragraphs": [
+            "Every project has people who will judge whether it worked: the sponsor, the daily users, sometimes finance or legal. Talk to each of them early. Most late surprises come from a requirement that lived in someone's head and never reached the page."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Draw the boundary",
+          "paragraphs": [
+            "Write down what is in, what is out, and what comes later. The \"out\" list matters most, because it is where hidden expectations show up.",
+            "A short list of assumptions, such as which systems we connect to and who supplies the content, saves arguments later."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Cut it into milestones",
+          "paragraphs": [
+            "Break the work into steps that each produce something you can see and react to. Small milestones make progress visible, give you natural points to change direction, and keep estimates honest because each one is short enough to reason about."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Agree how change is handled",
+          "paragraphs": [
+            "Scope will move. Decide in advance how a change is raised, who approves it, and what it does to time and cost. A project with a clear change path rarely needs a hard conversation."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "choosing-an-engagement-model",
+      "title": "Fixed scope, dedicated team, or long-term partnership: choosing how to work together",
+      "excerpt": "The right engagement model depends on how well you know what you need and how long you will need it. A short guide to choosing.",
+      "category": "Engagement",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1579389083046-e3df9c2b3325?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Fixed scope: when the target is clear",
+          "paragraphs": [
+            "A fixed scope suits work that can be described well in advance, such as a defined application, an integration, or an automation. You agree deliverables and milestones up front, which gives both sides a clear picture. The trade-off is flexibility: changes go through a change process."
+          ],
+          "items": []
+        },
+        {
+          "heading": "A dedicated team: when the work keeps moving",
+          "paragraphs": [
+            "If you already have a product and a roadmap that changes often, adding engineers who work alongside your own team can fit better. They join your tools and routines, and capacity can go up or down as needs change. It works best when you can give them regular direction."
+          ],
+          "items": []
+        },
+        {
+          "heading": "A long-term partnership: when the product is never finished",
+          "paragraphs": [
+            "Software that people rely on needs maintenance, security updates, and steady improvement. An ongoing arrangement keeps the people who know the system close to it, instead of re-explaining it to someone new each time."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Consulting: when you need a decision, not a build",
+          "paragraphs": [
+            "Sometimes the question is which architecture to choose, whether to modernize, or what a technology will really cost. Short advisory work and written recommendations can prevent a much larger mistake."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How to choose",
+          "paragraphs": [
+            "Ask three questions. How certain is the scope? How long will you need help? How much direction can you give week to week?",
+            "The honest answers usually point to one model, and it is fine to start with one and switch later."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "before-adding-ai-to-your-product",
+      "title": "A practical checklist before adding AI to your product",
+      "excerpt": "AI features can be genuinely useful, and they can also be expensive distractions. These questions help you tell the difference before you build.",
+      "category": "AI",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "What problem are we solving?",
+          "paragraphs": [
+            "Start with a task that people find slow, repetitive, or error-prone, such as searching documents, sorting requests, or drafting routine replies. If you cannot describe the task in one sentence, the feature is not ready to build."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Is the data ready?",
+          "paragraphs": [
+            "AI features depend on the quality and access rules of the data behind them. Check where the information lives, who may see it, how current it is, and whether it can be used for this purpose. Messy or restricted data is the most common blocker."
+          ],
+          "items": []
+        },
+        {
+          "heading": "How will we know it works?",
+          "paragraphs": [
+            "Write down a small set of real examples and the answers you expect, and use them to test every change. Without a way to measure quality, improvements and regressions both go unnoticed."
+          ],
+          "items": []
+        },
+        {
+          "heading": "What happens when it is wrong?",
+          "paragraphs": [
+            "Models make mistakes. Decide where a person reviews the output, how sources are shown so answers can be checked, and what the fallback is when the system is unsure. The higher the stakes, the more review you need."
+          ],
+          "items": []
+        },
+        {
+          "heading": "What will it cost to run?",
+          "paragraphs": [
+            "Usage-based pricing, hosting, and ongoing evaluation all add up. Estimate the cost per use before launch, and decide who owns monitoring afterwards. A small, well-scoped feature often beats an ambitious one that is hard to maintain."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "documentation-teams-actually-use",
+      "title": "Documentation that teams actually use",
+      "excerpt": "Most documentation goes stale because it is written once and never needed. A few habits keep it short, current, and useful.",
+      "category": "Engineering practice",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Write for a specific reader",
+          "paragraphs": [
+            "Before writing, decide who will read it and what they need to do next: a new developer setting up the project, an operator handling an incident, a client checking how a feature works. A page written for everyone ends up useful to no one."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Keep it close to the code",
+          "paragraphs": [
+            "Documentation that lives next to the code is easier to update in the same change that alters the behavior. A short README, clear setup steps, and notes on key decisions go a long way."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Record decisions, not just descriptions",
+          "paragraphs": [
+            "Code shows what the system does. It rarely shows why. A brief note explaining why a choice was made, and what was rejected, saves hours when someone later wants to change it."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Make it part of done",
+          "paragraphs": [
+            "If documentation is a separate task, it will be skipped under pressure. Treat it as part of finishing the work, reviewed alongside the code, and keep only what someone will realistically read."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Test it with a newcomer",
+          "paragraphs": [
+            "The best check is to have someone new follow the instructions. Where they get stuck, the documentation is missing something. Fix it right then, and the next person has an easier start."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "working-across-time-zones",
+      "title": "Working across time zones: what keeps remote projects on track",
+      "excerpt": "We work remotely from Finland with clients elsewhere. These are the habits that make distance a minor detail.",
+      "category": "Remote work",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1609270460854-e8ea8c0b591f?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Agree overlap windows",
+          "paragraphs": [
+            "Full-day overlap is not necessary. What matters is a few hours each week when both sides are online together. We agree those windows with each client at the start and protect them for questions, reviews, and decisions."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Write things down",
+          "paragraphs": [
+            "Written updates travel across time zones better than meetings. Short, regular notes covering what was done, what is next, and what is blocked let everyone start their day informed, and they leave a record."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Show progress often",
+          "paragraphs": [
+            "Regular demos beat long status reports. Seeing working software every sprint builds trust, catches misunderstandings early, and keeps feedback cheap."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Make work visible",
+          "paragraphs": [
+            "A shared task board and open code reviews mean nobody has to ask what is happening. When the information is available at any hour, waiting for an answer matters far less."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Keep sustainable hours",
+          "paragraphs": [
+            "A standard week with clear working hours produces steadier work than constant availability. Predictable rhythms help the team, and they make it easier for clients to know when to expect a reply."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "choosing-a-tech-stack-without-chasing-trends",
+      "title": "Choosing a tech stack without chasing trends",
+      "excerpt": "The best technology is usually the one your team can maintain for years. How we weigh the options when starting a project.",
+      "category": "Technology",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Start from the constraints",
+          "paragraphs": [
+            "List what the project must do and what limits it: team skills, hosting, budget, integrations, expected load, and how long it must last. These constraints narrow the field faster than any comparison table."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Prefer proven over exciting",
+          "paragraphs": [
+            "New tools can be great, but they also bring fewer answers online, fewer experienced developers, and more surprises. For the core of a product, a well-supported option is usually the safer choice."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Think about the people",
+          "paragraphs": [
+            "A stack is also a hiring and maintenance decision. If few people know it, every change costs more. Choose tools that your team, or the people you may hire, can work with confidently."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Avoid lock-in where it matters",
+          "paragraphs": [
+            "Some dependencies are fine. Others make leaving painful. Keep business logic and data portable, and be deliberate about which services you build around."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Revisit, but not constantly",
+          "paragraphs": [
+            "Write decisions down with their reasons, and review them when circumstances change, not whenever a new framework appears. Stability is a feature."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "what-a-good-handover-looks-like",
+      "title": "What a good handover looks like when a project ends",
+      "excerpt": "Launch is not the finish line. A clear handover means the people who inherit the software can run and change it with confidence.",
+      "category": "Delivery",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1623303647440-967d26b95b47?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Hand over everything, not only the code",
+          "paragraphs": [
+            "Source code is the start. A complete handover also covers environments, access and credentials, deployment steps, data models, third-party accounts, and where each piece lives. Ownership should be unambiguous."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Document how to run it",
+          "paragraphs": [
+            "Operations notes explain how to deploy, monitor, back up, and recover the system. They are written for the person on call, who may not have seen the project before."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Walk through it live",
+          "paragraphs": [
+            "A handover session lets the new owners ask questions while the builders are still available. Recording it creates a reference for later."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Plan the first weeks",
+          "paragraphs": [
+            "The first changes after launch are the riskiest. Agree who handles bugs, how requests are raised, and what support is available, so that nobody has to improvise."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Leave the door open",
+          "paragraphs": [
+            "Some teams continue alone, and others keep a light support or partnership agreement. Either is fine when the choice is made deliberately and the system does not depend on one person's memory."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "finding-the-first-process-to-automate",
+      "title": "Finding the first process worth automating",
+      "excerpt": "Automation pays off when it removes a real, repeated chore. How to pick a starting point and avoid automating the wrong thing.",
+      "category": "Automation",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1758873269013-d914addd5d3b?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Look for the repeated chore",
+          "paragraphs": [
+            "The best candidates are tasks done often, by hand, following clear rules: copying data between systems, assembling weekly reports, chasing approvals. Ask the people who do the work, since they usually know exactly where the time goes."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Map it before you automate it",
+          "paragraphs": [
+            "Write down each step, who does it, and what can go wrong. Mapping often reveals steps that nobody needs anymore. Automating a broken process only makes the problems happen faster."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Start small and visible",
+          "paragraphs": [
+            "Choose a process that is simple enough to finish quickly and visible enough that people notice the improvement. An early, clear win builds support for the next one."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Keep a human in the loop where it counts",
+          "paragraphs": [
+            "Some decisions should still be reviewed by a person, especially those involving money, customers, or legal commitments. Good automation handles the routine and flags the exceptions."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Measure the change",
+          "paragraphs": [
+            "Note how long the task took before and how long it takes after. A simple before-and-after comparison shows whether the effort paid off and which process to tackle next."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "designing-forms-people-finish",
+      "title": "Designing forms that people actually finish",
+      "excerpt": "Forms are where interest turns into action, and where many visitors quietly give up. Small design choices make a big difference.",
+      "category": "UX design",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1761653457994-f216b01302bd?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Ask for less",
+          "paragraphs": [
+            "Every field is a reason to stop. Ask only for what you need for the first step, and collect the rest later. If you do not use an answer, do not ask the question."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Label clearly and keep labels visible",
+          "paragraphs": [
+            "Placeholders disappear when someone starts typing. Use a visible label for every field, plain words, and short hints where a format matters, such as how a phone number should be written."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Design for thumbs",
+          "paragraphs": [
+            "Many people will fill in the form on a phone. Use large tap targets, the right keyboard for each field, and a single column that does not require zooming or sideways scrolling."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Make errors helpful",
+          "paragraphs": [
+            "Say what went wrong and how to fix it, next to the field it concerns, and keep what the person already typed. An error that wipes the form tends to end the visit."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Say what happens next",
+          "paragraphs": [
+            "People hesitate when they do not know what a click will do. Explain who will read the message, when they can expect a reply, and how their data is used, with a link to the privacy policy."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "testing-without-drama",
+      "title": "Testing without drama: a simple strategy for small teams",
+      "excerpt": "You do not need a huge test suite to ship with confidence. A few well-chosen checks catch most problems.",
+      "category": "Quality",
+      "date": "2026-11-26",
+      "author": "Virtanex Labs team",
+      "image": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Test what would hurt",
+          "paragraphs": [
+            "Start with the parts of the product where a failure would cost the most: sign-in, payments, data changes, and key business rules. Covering those first gives the best protection for the effort."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Mix small and large checks",
+          "paragraphs": [
+            "Fast automated tests on individual pieces catch mistakes early. A few end-to-end checks that follow a real user journey catch the problems that appear only when the pieces meet. Both have a place."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Run them on every change",
+          "paragraphs": [
+            "Tests only help if they run automatically. A pipeline that checks each change before it is merged turns testing into a habit instead of a chore."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Keep a manual pass for what machines miss",
+          "paragraphs": [
+            "Before a release, a person should try the product like a user would: odd inputs, slow connections, small screens. Fresh eyes notice what scripts never will."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Treat failures as information",
+          "paragraphs": [
+            "When a bug slips through, add a test for it and note why it was missed. Over time the suite grows around real problems, not imagined ones."
+          ],
+          "items": []
+        }
+      ]
+    }
+  ]
+}

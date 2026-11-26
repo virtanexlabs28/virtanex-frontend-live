@@ -68,7 +68,7 @@
         "href": "/process#security"
       },
       {
-        "label": "Planos de solución",
+        "label": "Proyectos de demostración",
         "href": "/work"
       },
       {
@@ -78,6 +78,10 @@
       {
         "label": "Equipo y valores",
         "href": "/team"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
       },
       {
         "label": "FAQ",
@@ -160,13 +164,22 @@
     "outputs": "Qué obtiene"
   },
   "work": {
-    "viewBlueprint": "Ver plano: {title}",
+    "viewBlueprint": "Ver proyecto: {title}",
     "challenge": "El desafío",
     "approach": "Nuestro enfoque",
     "outcomes": "Resultados previstos",
     "similar": "¿Necesita algo similar?",
-    "back": "Volver a todos los planos de solución",
+    "back": "Volver a todos los proyectos",
     "tags": "Tecnologías y enfoque",
-    "more": "Más planos de solución"
+    "more": "Más proyectos",
+    "screens": "Capturas de pantalla"
+  },
+  "blog": {
+    "minRead": "{minutes} min de lectura",
+    "by": "Por {author}",
+    "back": "Volver al blog",
+    "more": "Más artículos",
+    "readMore": "Leer el artículo",
+    "cta": "¿Quiere hablar de su propio proyecto?"
   }
 }

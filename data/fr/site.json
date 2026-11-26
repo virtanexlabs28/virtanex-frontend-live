@@ -74,6 +74,10 @@
       "href": "/faq"
     },
     {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
       "label": "Contact",
       "href": "/contact"
     }
@@ -174,12 +178,12 @@
       "href": "/work",
       "kicker": "Réalisations choisies",
       "title": "Les systèmes que nous concevons, et ceux pour qui nous les concevons.",
-      "description": "Des plans de solution, les secteurs que nous servons et les domaines de recherche dans lesquels nous continuons d'investir.",
+      "description": "Les projets de démonstration que nous avons réalisés, les secteurs que nous servons et les domaines de recherche dans lesquels nous continuons d'investir.",
       "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
       "imageAlt": "Des collègues examinent ensemble un projet sur un écran d'ordinateur",
-      "blurb": "Plans de solution, secteurs et axes de recherche.",
+      "blurb": "Projets de démonstration, secteurs et axes de recherche.",
       "metaTitle": "Réalisations",
-      "metaDescription": "Des plans de solution, les secteurs que nous servons et les domaines techniques dans lesquels nous investissons."
+      "metaDescription": "Les projets de démonstration que nous avons réalisés, les secteurs que nous servons et les domaines techniques dans lesquels nous investissons."
     },
     "team": {
       "href": "/team",
@@ -213,6 +217,17 @@
       "blurb": "Réservez un appel ou envoyez un brief de projet.",
       "metaTitle": "Contact",
       "metaDescription": "Réservez un appel de découverte ou envoyez un brief de projet à Virtanex Labs. Nous répondons sous 24 heures."
+    },
+    "blog": {
+      "href": "/blog",
+      "kicker": "Depuis le blog",
+      "title": "Notes issues de notre travail.",
+      "description": "Courts articles sur les décisions de conception et d'ingénierie derrière nos projets de démonstration.",
+      "image": "https://images.unsplash.com/photo-1609270460854-e8ea8c0b591f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Deux collègues regardant ensemble l'écran d'un ordinateur portable",
+      "blurb": "Notes sur les décisions derrière nos projets de démonstration.",
+      "metaTitle": "Blog",
+      "metaDescription": "Courts articles de Virtanex Labs sur les décisions de conception et d'ingénierie derrière nos projets de démonstration."
     }
   }
 }

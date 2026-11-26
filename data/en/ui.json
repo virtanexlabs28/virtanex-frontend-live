@@ -68,7 +68,7 @@
         "href": "/process#security"
       },
       {
-        "label": "Solution Blueprints",
+        "label": "Demo Projects",
         "href": "/work"
       },
       {
@@ -78,6 +78,10 @@
       {
         "label": "Team & Values",
         "href": "/team"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
       },
       {
         "label": "FAQ",
@@ -160,13 +164,22 @@
     "outputs": "What you get"
   },
   "work": {
-    "viewBlueprint": "View blueprint: {title}",
+    "viewBlueprint": "View project: {title}",
     "challenge": "The challenge",
     "approach": "Our approach",
     "outcomes": "Intended outcomes",
     "similar": "Need something similar?",
-    "back": "Back to all blueprints",
+    "back": "Back to all projects",
     "tags": "Technologies and focus",
-    "more": "More blueprints"
+    "more": "More projects",
+    "screens": "Screenshots"
+  },
+  "blog": {
+    "minRead": "{minutes} min read",
+    "by": "By {author}",
+    "back": "Back to the blog",
+    "more": "More articles",
+    "readMore": "Read article",
+    "cta": "Want to talk about your own project?"
   }
 }

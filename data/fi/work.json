@@ -1,81 +1,158 @@
 {
   "intro": {
-    "kicker": "Ratkaisumallit",
+    "kicker": "Demoprojektit",
     "title": "Järjestelmät, joita rakennamme.",
-    "description": "Neljä edustavaa ratkaisusuunnitelmaa, jotka näyttävät, miten lähestymme arkkitehtuuria, toteutusta ja tuloksia. Ne havainnollistavat osaamistamme, eivätkä ole asiakastapauksia."
+    "description": "Kolme itse rakentamaamme demoprojektia, jotka näyttävät, miten lähestymme arkkitehtuuria, toteutusta ja tuloksia. Ne havainnollistavat osaamistamme, eivätkä ole asiakastapauksia."
   },
   "items": [
     {
-      "id": "ai-knowledge-platform",
-      "title": "Tekoälypohjainen tieto- ja dokumenttialusta",
-      "category": "Yritystekoäly ja työnkulut",
-      "service": "ai-ml",
-      "description": "Hakuun perustuva (RAG) avustaja ja dokumenttien käsittelyputkisto, joka muuttaa sopimukset, käsikirjat ja raportit vastauksiksi, joihin tiimit voivat luottaa.",
-      "tags": ["LLM-integraatio", "RAG", "Python / NestJS", "Vektorihaku"],
-      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Tiimit menettävät tunteja dokumenttien etsimiseen. Tämä ratkaisumalli tuo tiedostot nykyisistä tallennustiloista, poimii ja indeksoi niiden sisällön ja tarjoaa keskustelukäyttöliittymän, joka viittaa lähteisiinsä. Roolipohjaiset käyttöoikeudet varmistavat, että ihmiset näkevät vain sen, mihin heillä on oikeus.",
-      "challenge": "Tieto on hajallaan jaetuilla levyillä, sähköpostiliitteissä ja vanhoissa järjestelmissä, eikä sen hakemiseen tai tiivistämiseen ole luotettavaa tapaa.",
-      "approach": [
-        "Tiedonsyöttöputkisto tekstintunnistuksella (OCR) ja jäsennellyllä poiminnalla",
-        "Hybridihaku avainsanoilla ja vektoreilla sekä lähdeviitteet",
-        "Arviointiaineisto vastausten laadun mittaamiseen ajan yli",
-        "Roolipohjaiset käyttöoikeudet ja täydellinen auditointiloki"
-      ],
-      "outcomes": ["Nopeammat vastaukset sisäisistä dokumenteista", "Jäljitettävät, lähteisiin viittaavat vastaukset", "Hallittu pääsy arkaluonteiseen sisältöön"]
-    },
-    {
-      "id": "saas-platform",
-      "title": "Monivuokralainen SaaS-alusta",
-      "category": "Digitaaliset tuotteet ja SaaS",
+      "id": "oivaly-marketplace",
+      "title": "Oivaly: pohjoismaisten tekijöiden markkinapaikka",
+      "category": "Verkkokauppa ja markkinapaikat",
       "service": "digital-product",
-      "description": "Tilauspohjainen alusta, jossa on vuokralaisten eristys, roolipohjaiset käyttöoikeudet, laskutus ja hallintakonsoli, valmiina skaalautumaan MVP:stä tuotantoon.",
-      "tags": ["Next.js", "NestJS", "PostgreSQL", "Tilaukset"],
-      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Referenssiarkkitehtuuri, jolla tuoteidea muuttuu laskutettavaksi SaaS-palveluksi. Se kattaa vuokralaisten datan eristyksen, käyttäjä- ja oikeushallinnan, tilausmallit, käytön seurannan sekä työkalut, joita tuotteen päivittäiseen pyörittämiseen tarvitaan.",
-      "challenge": "Tuotteen nopea lanseeraus ilman, että se ajautuu arkkitehtuurilliseen umpikujaan, joka estää monivuokralaisuuden, laskutuksen tai yritysominaisuudet myöhemmin.",
-      "approach": [
-        "Vuokralaiset huomioiva tietomalli ja käyttöoikeuskerros",
-        "Tilaus- ja laskutuspalvelun integraatio",
-        "Hallintakonsoli tukea ja operatiivista toimintaa varten",
-        "CI/CD sekä testi- ja tuotantoympäristöt"
+      "badge": "Demoprojekti",
+      "description": "Usean myyjän markkinapaikka, joka yhdistää ostajat suoraan itsenäisiin pohjoismaisiin tekijöihin: vahvistetut myyjät, läpinäkyvät palkkiot ja suojatut maksut.",
+      "tags": [
+        "Usean myyjän markkinapaikka",
+        "Myyjien perehdytys",
+        "Ostajansuoja",
+        "Tuotekatalogi ja haku"
       ],
-      "outcomes": ["MVP markkinoille nopeasti", "Arkkitehtuuri, joka skaalautuu asiakkaiden mukana", "Puhdas pohja uusille ominaisuuksille"]
+      "image": "/work/oivaly/1-storefront.jpg",
+      "gallery": [
+        {
+          "src": "/work/oivaly/1-storefront.jpg",
+          "caption": "Kauppanäkymä, haku ja esiteltyjä tekijöitä"
+        },
+        {
+          "src": "/work/oivaly/2-catalog.jpg",
+          "caption": "Teemoittain selattavat kuratoidut kokoelmat"
+        },
+        {
+          "src": "/work/oivaly/3-seller-onboarding.jpg",
+          "caption": "Myyjien perehdytys ja yritysidentiteetin tarkistus"
+        },
+        {
+          "src": "/work/oivaly/4-buyer-protection.jpg",
+          "caption": "Ostajansuoja ja maksujen turvatoimet selitettynä vaihe vaiheelta"
+        },
+        {
+          "src": "/work/oivaly/5-trust-standards.jpg",
+          "caption": "Luottamusperiaatteet ja markkinapaikan standardit"
+        },
+        {
+          "src": "/work/oivaly/6-sustainability.jpg",
+          "caption": "Kestävän kehityksen peruskirja ja materiaalistandardit"
+        }
+      ],
+      "overview": "Oivaly on demomarkkinapaikka, jonka suunnittelimme ja rakensimme näyttääksemme, miten usean myyjän alusta voi toimia käsityöyrityksille. Ostajat selaavat osastoja, hakevat tuotteita, tallentavat suosikkeja ja maksavat yhdellä ostoskorilla usealta itsenäiseltä studiolta, kun taas tekijät hakevat vahvistettua verkkokauppaa ja hallinnoivat omia tuotteitaan.",
+      "challenge": "Itsenäisillä tekijöillä on yksin vain vähän näkyvyyttä, ja suuret vähittäiskauppa-alustat, jotka voisivat tuoda sitä, ottavat suuren osan jokaisesta myynnistä. Ostajat puolestaan eivät helposti näe, kuka tuotteen oikeasti on tehnyt, mistä se on peräisin tai onko maksu turvassa. Hyvä käsityö jää löytämättä, ja sen ostaminen tuntuu riskialttiilta.",
+      "approach": [
+        "Kauppa, jossa on osastot, haku, toivelista ja usealta myyjältä ostamisen mahdollistava ostoskori",
+        "Myyjien perehdytys, jossa studion virallinen yritysidentiteetti tarkistetaan ennen kuin verkkokauppa avataan",
+        "Selkeä, julkinen palkkiomalli, jonka ansiosta suurin osa jokaisesta myynnistä jää tekijälle",
+        "Ostajansuoja, joka pidättää maksun, kunnes toimitus on vahvistettu, ja helppo tapa ratkaista ongelmatilanteet",
+        "Julkaistut materiaali- ja pakkausstandardit, joiden avulla ostajat näkevät, miten tuotteet valmistetaan ja toimitetaan"
+      ],
+      "outcomes": [
+        "Tekijät tavoittavat ostajat ja pitävät suuremman osan myynnistä",
+        "Ostajat näkevät, kuka on tehnyt minkä ja mistä se on peräisin",
+        "Ostokset tuntuvat turvallisilta suojattujen maksujen ja selkeiden palautusten ansiosta"
+      ]
     },
     {
-      "id": "data-reporting",
-      "title": "Yhtenäinen data- ja raportointialusta",
-      "category": "Datatekniikka ja analytiikka",
-      "service": "data-engineering",
-      "description": "Automatisoidut putkistot, jotka kokoavat talous-, myynti- ja toimintajärjestelmien datan yhdeksi luotettavaksi malliksi ja reaaliaikaisiksi kojetauluiksi.",
-      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Kojetaulut"],
-      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Raportointi tarkoittaa usein manuaalisia vientejä ja keskenään ristiriitaisia taulukkolaskentatiedostoja. Tämä ratkaisumalli hakee tiedot jokaisesta lähdejärjestelmästä aikataulutetusti, validoi ja täsmäyttää ne sekä julkaisee yhden totuuden lähteen ja kojetaulut, joihin johto voi luottaa.",
-      "challenge": "Useita järjestelmiä, epäyhtenäisiä määritelmiä ja manuaalinen kuukausiraportointi, joka on hidasta ja virhealtista.",
-      "approach": [
-        "Lähdeliittymät ja inkrementaalinen lataus",
-        "Muunnoskerros dokumentoiduin liiketoimintasäännöin",
-        "Automaattiset datan laadun tarkistukset ja hälytykset",
-        "Kojetaulut ja ajastettu raporttien toimitus"
+      "id": "sms-messaging-platform",
+      "title": "STSL: joukkotekstiviestikampanjoiden alusta",
+      "category": "Viestintä",
+      "service": "digital-product",
+      "badge": "Demoprojekti",
+      "description": "Joukkotekstiviestialusta, jolla yritykset järjestävät kohderyhmänsä, lähettävät tarkastetut kampanjat hyväksytyistä pohjista ja seuraavat toimituksia, tuloksia ja kuluja yhdessä paikassa.",
+      "tags": [
+        "Tekstiviestikampanjat",
+        "Kohderyhmäsegmentit",
+        "Viestipohjat",
+        "Lompakko ja laskutus"
       ],
-      "outcomes": ["Yksi yhtenäinen näkymä liiketoimintaan", "Vähemmän manuaalista raportointityötä", "Varhainen varoitus dataongelmista"]
+      "image": "/work/stsl/1-campaigns.jpg",
+      "gallery": [
+        {
+          "src": "/work/stsl/1-campaigns.jpg",
+          "caption": "Kampanjalista, jossa näkyvät tarkastustila, toimitukset ja kulut"
+        },
+        {
+          "src": "/work/stsl/2-segments.jpg",
+          "caption": "Kohderyhmäsegmentit kohdennettua viestintää varten"
+        },
+        {
+          "src": "/work/stsl/3-templates.jpg",
+          "caption": "Viestipohjat hyväksyntätiloineen"
+        },
+        {
+          "src": "/work/stsl/4-wallet.jpg",
+          "caption": "Ennakkoon ladattava lompakko, automaattinen lataus ja laskutushistoria"
+        }
+      ],
+      "overview": "STSL on demoalusta, jonka suunnittelimme ja rakensimme joukkotekstiviestikampanjoiden lähettämiseen. Tiimit jaottelevat yhteystiedot segmentteihin, kirjoittavat viestit hyväksytyistä pohjista, lähettävät kampanjat tarkastettavaksi ja seuraavat toimitus- ja klikkaustuloksia. Ennakkoon ladattava lompakko automaattisella lataamisella pitää kulut näkyvillä ja hallinnassa.",
+      "challenge": "Viestien lähettäminen tuhansille ihmisille on helppo tehdä väärin. Yhteystietolistat hajaantuvat eri taulukoihin, kampanjat lähtevät ilman toista silmäparia, eikä kukaan näe helposti, mitä on toimitettu, paljonko se maksoi tai kuinka paljon saldoa on jäljellä. Seurauksena on hukkaan mennyttä rahaa, alustan sääntöjä rikkovia viestejä ja kohderyhmiä, jotka saavat väärän viestin.",
+      "approach": [
+        "Kohderyhmäsegmentit, jotka ryhmittelevät yhteystiedot niin, että jokainen kampanja tavoittaa oikeat ihmiset",
+        "Uudelleenkäytettävät viestipohjat hyväksyntätilalla, jotta käytetään vain tarkastettua sanamuotoa",
+        "Kampanjoiden tarkastusvaihe, jossa hylätylle viestille annetaan selkeä syy",
+        "Kampanjalista, josta näkee yhdellä silmäyksellä tilan, toimitukset, klikkaukset ja kulut",
+        "Ennakkoon ladattava lompakko automaattisella lataamisella ja tapahtumahistorialla"
+      ],
+      "outcomes": [
+        "Vähemmän virheitä ennen viestin lähettämistä",
+        "Yksi selkeä näkymä toimituksiin, tuloksiin ja kuluihin",
+        "Ennustettavat kulut ilman yllätyslaskuja"
+      ]
     },
     {
-      "id": "iot-monitoring",
-      "title": "IoT-valvonta- ja hälytysjärjestelmä",
-      "category": "IoT ja teollisuusohjelmistot",
-      "service": "iot-industrial",
-      "description": "Reaaliaikainen telemetrian keräys, kojetaulut ja poikkeamahälytykset verkkoon liitetyille laitteille sekä polku kohti ennakoivaa kunnossapitoa.",
-      "tags": ["IoT", "Reaaliaikaisuus", "Poikkeamien tunnistus", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Verkkoon liitetyt laitteet tuottavat dataa, joka harvoin tavoittaa ihmiset, jotka voisivat toimia sen perusteella. Tämä ratkaisumalli kerää laitteiden telemetrian, tallentaa sen tehokkaasti, visualisoi reaaliaikaisen tilan ja antaa hälytyksiä, kun mittaukset poikkeavat odotetusta käyttäytymisestä.",
-      "challenge": "Laitteiden kunto ei näy ennen kuin jokin menee rikki, ja laitedata on lukittuna valmistajakohtaisiin työkaluihin.",
-      "approach": [
-        "Laite- ja yhdyskäytäväintegraatio standardiprotokollilla",
-        "Aikasarjatallennus ja käsittelyputkisto",
-        "Reaaliaikaiset kojetaulut kohteen, laitteen ja anturin mukaan",
-        "Raja-arvo- ja tilastollinen poikkeamahälytys"
+      "id": "doctor-portfolio-website",
+      "title": "Lääkärin esittelysivusto: erikoislääkärin vastaanotto",
+      "category": "Terveydenhuolto ja asiantuntijasivustot",
+      "service": "digital-product",
+      "badge": "Demoprojekti",
+      "description": "Erikoislääkärin ammattimainen esittelysivusto, joka esittelee koulutuksen, palvelut ja painopistealueet selkeästi ja jonka kautta potilas voi pyytää aikaa vastaanotolle verkossa.",
+      "tags": [
+        "Esittelysivusto",
+        "Aikapyynnöt",
+        "Responsiivinen suunnittelu",
+        "Vastaanoton tiedot"
       ],
-      "outcomes": ["Reaaliaikainen näkyvyys laitteisiin", "Vikojen aikaisempi havaitseminen", "Perusta ennakoivalle kunnossapidolle"]
+      "image": "/work/doctor/1-home.jpg",
+      "gallery": [
+        {
+          "src": "/work/doctor/1-home.jpg",
+          "caption": "Etusivu, joka esittelee erikoislääkärin ja vastaanoton"
+        },
+        {
+          "src": "/work/doctor/2-services.jpg",
+          "caption": "Palvelut jaettuna selkeisiin hoitoalueisiin"
+        },
+        {
+          "src": "/work/doctor/3-focus-areas.jpg",
+          "caption": "Painopistealueet, joihin potilas voi tutustua yksi kerrallaan"
+        },
+        {
+          "src": "/work/doctor/4-appointment.jpg",
+          "caption": "Aikapyyntölomake, jossa vastaanoton tiedot ja ohjeet kiireellisiin tilanteisiin"
+        }
+      ],
+      "overview": "Tämä demo on kuvitteellisen kardiologin esittelysivusto, jonka suunnittelimme ja rakensimme itse. Se esittelee lääkärin ja vastaanoton, jakaa palvelut selkeisiin hoitoalueisiin, antaa kävijän tutustua jokaiseen painopistealueeseen, kertoo uratarinan aikajanan ja potilaskertomusten avulla ja päättyy aikapyyntölomakkeeseen ja vastaanoton tietoihin.",
+      "challenge": "Itsenäiset lääkärit ja erikoislääkärit löytyvät usein sairaalan hakemistosta tai vanhentuneelta sivulta. Potilaan on vaikea nähdä, kuka lääkäri on, mitä sairauksia hän hoitaa, millainen kokemus hänellä on ja miten aikaa varataan. Monet päätyvät soittelemaan useaan paikkaan, ja selkeät ohjeet kiireellisiin tilanteisiin jäävät helposti huomaamatta.",
+      "approach": [
+        "Etusivu, joka kertoo nopeasti, kuka lääkäri on ja mitä hän tarjoaa",
+        "Palvelut jaettuna selkeisiin hoitoalueisiin, joissa jokaisessa on toimintakehotus",
+        "Vuorovaikutteiset painopistealueet, joiden avulla potilas voi tutustua itseään kiinnostaviin sairauksiin",
+        "Uran aikajana ja potilaskertomukset, jotka rakentavat luottamusta ilman ylimääräistä sisältöä",
+        "Aikapyyntölomake, jossa näkyvät vastaanottoajat, yhteystiedot ja selkeästi esillä olevat ohjeet kiireellisiin tilanteisiin"
+      ],
+      "outcomes": [
+        "Potilaat ymmärtävät nopeasti, kenen vastaanotolle he olisivat menossa",
+        "Aikapyynnöt saapuvat jäsennellyssä muodossa",
+        "Ohjeet kiireellisiin tilanteisiin pysyvät selvästi näkyvillä"
+      ]
     }
   ]
 }

@@ -74,6 +74,10 @@
       "href": "/faq"
     },
     {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
       "label": "Contacto",
       "href": "/contact"
     }
@@ -174,12 +178,12 @@
       "href": "/work",
       "kicker": "Trabajo destacado",
       "title": "Los sistemas que construimos y para quién los construimos.",
-      "description": "Planos de solución, los sectores a los que servimos y las áreas de investigación en las que seguimos invirtiendo.",
+      "description": "Los proyectos de demostración que hemos creado, los sectores a los que servimos y las áreas de investigación en las que seguimos invirtiendo.",
       "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
       "imageAlt": "Compañeros revisan juntos un proyecto en una pantalla de ordenador",
-      "blurb": "Planos de solución, sectores y líneas de investigación.",
+      "blurb": "Proyectos de demostración, sectores y áreas de investigación.",
       "metaTitle": "Proyectos",
-      "metaDescription": "Planos de solución, los sectores a los que servimos y las áreas técnicas en las que invertimos."
+      "metaDescription": "Los proyectos de demostración que hemos creado, los sectores a los que servimos y las áreas técnicas en las que invertimos."
     },
     "team": {
       "href": "/team",
@@ -213,6 +217,17 @@
       "blurb": "Reserve una llamada o envíe un resumen del proyecto.",
       "metaTitle": "Contacto",
       "metaDescription": "Reserve una llamada de descubrimiento o envíe un resumen del proyecto a Virtanex Labs. Respondemos en un plazo de 24 horas."
+    },
+    "blog": {
+      "href": "/blog",
+      "kicker": "Desde el blog",
+      "title": "Notas sobre nuestro trabajo.",
+      "description": "Artículos breves sobre las decisiones de diseño e ingeniería que hay detrás de nuestros proyectos de demostración.",
+      "image": "https://images.unsplash.com/photo-1609270460854-e8ea8c0b591f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Dos colegas mirando juntos la pantalla de un portátil",
+      "blurb": "Notas sobre las decisiones que hay detrás de nuestros proyectos de demostración.",
+      "metaTitle": "Blog",
+      "metaDescription": "Artículos breves de Virtanex Labs sobre las decisiones de diseño e ingeniería que hay detrás de nuestros proyectos de demostración."
     }
   }
 }

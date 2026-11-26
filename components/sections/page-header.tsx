@@ -2,7 +2,7 @@
 
 import { useContent } from '@/components/ContentProvider';
 
-type PageKey = 'services' | 'process' | 'work' | 'team' | 'faq' | 'contact';
+type PageKey = 'services' | 'process' | 'work' | 'team' | 'faq' | 'blog' | 'contact';
 
 /**
  * Banner for inner pages: each page has its own image, title, and description from data/site.json.

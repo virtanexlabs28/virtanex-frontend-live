@@ -12,6 +12,7 @@ import {
   WhyPreview,
   WorkPreview,
 } from '@/components/sections/home-sections';
+import { BlogPreview } from '@/components/sections/blog-section';
 import { CtaBand } from '@/components/sections/cta-band';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }): Promise<Metadata> {
@@ -30,6 +31,7 @@ export default function Home() {
       <WorkPreview />
       <IndustriesPreview />
       <WhyPreview />
+      <BlogPreview />
       <FaqPreview />
       <CtaBand />
     </>

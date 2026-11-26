@@ -1,81 +1,158 @@
 {
   "intro": {
-    "kicker": "Lösningsritningar",
+    "kicker": "Demoprojekt",
     "title": "Vilka typer av system vi bygger.",
-    "description": "Fyra representativa lösningsdesigner som visar hur vi angriper arkitektur, leverans och resultat. De illustrerar vår kompetens och är inte kundcase."
+    "description": "Tre demoprojekt som vi har byggt och som visar hur vi arbetar med arkitektur, leverans och resultat. De illustrerar vår förmåga och är inga kundcase."
   },
   "items": [
     {
-      "id": "ai-knowledge-platform",
-      "title": "AI-plattform för kunskap och dokument",
-      "category": "AI och arbetsflöden för företag",
-      "service": "ai-ml",
-      "description": "En assistent baserad på informationsåtervinning (RAG) och en pipeline för dokumenthantering som förvandlar avtal, manualer och rapporter till svar som team kan lita på.",
-      "tags": ["LLM-integration", "RAG", "Python / NestJS", "Vektorsökning"],
-      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Team förlorar timmar på att söka bland dokument. Den här lösningsritningen hämtar in filer från befintlig lagring, extraherar och indexerar innehållet och erbjuder ett konversationsgränssnitt som anger sina källor, med rollbaserad åtkomst så att var och en bara ser det den har behörighet till.",
-      "challenge": "Information som är utspridd över delade enheter, e-postbilagor och äldre system, utan något pålitligt sätt att söka eller sammanfatta den.",
-      "approach": [
-        "Inhämtningspipeline med OCR och strukturerad extraktion",
-        "Hybrid sökning med nyckelord och vektorer samt källhänvisningar",
-        "Utvärderingsset för att mäta svarskvaliteten över tid",
-        "Rollbaserad åtkomst och fullständig granskningsloggning"
-      ],
-      "outcomes": ["Snabbare svar från interna dokument", "Spårbara svar med källhänvisningar", "Kontrollerad åtkomst till känsligt innehåll"]
-    },
-    {
-      "id": "saas-platform",
-      "title": "Multi-tenant SaaS-plattform",
-      "category": "Digitala produkter och SaaS",
+      "id": "oivaly-marketplace",
+      "title": "Oivaly: Nordisk marknadsplats för hantverkare",
+      "category": "E-handel och marknadsplatser",
       "service": "digital-product",
-      "description": "En prenumerationsbaserad plattform med isolering mellan kunder, rollbaserad åtkomst, fakturering och en adminkonsol, redo att skala från MVP till produktion.",
-      "tags": ["Next.js", "NestJS", "PostgreSQL", "Prenumerationer"],
-      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "En referensarkitektur för att förvandla en produktidé till en SaaS som går att fakturera. Den omfattar dataisolering mellan kunder, hantering av användare och behörigheter, prenumerationsplaner, användningsspårning och de operativa verktyg som behövs för att driva produkten i vardagen.",
-      "challenge": "Att lansera snabbt utan att köra fast produkten i en arkitektur som senare blockerar multi-tenancy, fakturering eller företagsfunktioner.",
-      "approach": [
-        "Datamodell och åtkomstlager med stöd för flera kunder",
-        "Integration med leverantör för prenumeration och fakturering",
-        "Adminkonsol för support och drift",
-        "CI/CD med test- och produktionsmiljöer"
+      "badge": "Demoprojekt",
+      "description": "En marknadsplats med flera säljare som kopplar samman kunder direkt med oberoende nordiska hantverkare, med verifierade säljare, transparenta avgifter och skyddade betalningar.",
+      "tags": [
+        "Marknadsplats med flera säljare",
+        "Onboarding av säljare",
+        "Köparskydd",
+        "Katalog och sök"
       ],
-      "outcomes": ["MVP snabbt på marknaden", "Arkitektur som skalar med kunderna", "Ren grund för nya funktioner"]
+      "image": "/work/oivaly/1-storefront.jpg",
+      "gallery": [
+        {
+          "src": "/work/oivaly/1-storefront.jpg",
+          "caption": "Webbutik med sök och utvalda hantverkare"
+        },
+        {
+          "src": "/work/oivaly/2-catalog.jpg",
+          "caption": "Kurerade kollektioner för att bläddra efter tema"
+        },
+        {
+          "src": "/work/oivaly/3-seller-onboarding.jpg",
+          "caption": "Onboarding av säljare med kontroll av företagsidentitet"
+        },
+        {
+          "src": "/work/oivaly/4-buyer-protection.jpg",
+          "caption": "Köparskydd och betalningsgarantier, förklarade steg för steg"
+        },
+        {
+          "src": "/work/oivaly/5-trust-standards.jpg",
+          "caption": "Principer för förtroende och marknadsplatsens standarder"
+        },
+        {
+          "src": "/work/oivaly/6-sustainability.jpg",
+          "caption": "Hållbarhetsstadga och materialstandarder"
+        }
+      ],
+      "overview": "Oivaly är en demomarknadsplats som vi har designat och byggt för att visa hur en plattform med flera säljare kan fungera för hantverksföretag. Kunder bläddrar bland avdelningar, söker, sparar favoriter och handlar från många oberoende ateljéer i en enda varukorg, medan hantverkare ansöker om att öppna en verifierad butik och hanterar sina egna annonser.",
+      "challenge": "Oberoende hantverkare har små möjligheter att nå ut på egen hand, och de stora handelsplattformarna som skulle kunna ge dem räckvidd tar samtidigt en stor andel av varje försäljning. Kunder har i sin tur svårt att se vem som egentligen har tillverkat en produkt, var den kommer ifrån eller om betalningen är säker. Gott hantverk är fortsatt svårt att hitta, och att köpa det känns riskabelt.",
+      "approach": [
+        "En webbutik med avdelningar, sök, önskelista och en varukorg som fungerar över många säljare",
+        "Onboarding av säljare som kontrollerar ateljéns officiella företagsidentitet innan butiken går live",
+        "En tydlig, publicerad avgiftsmodell så att merparten av varje försäljning stannar hos hantverkaren",
+        "Köparskydd som håller inne betalningen tills leveransen är bekräftad, med en enkel väg för att lösa problem",
+        "Publicerade standarder för material och förpackning, så att köpare kan se hur produkterna tillverkas och skickas"
+      ],
+      "outcomes": [
+        "Hantverkare når köpare och behåller mer av varje försäljning",
+        "Kunder kan se vem som har tillverkat vad och var det kommer ifrån",
+        "Köp känns trygga, med skyddade betalningar och tydliga returer"
+      ]
     },
     {
-      "id": "data-reporting",
-      "title": "Samlad plattform för data och rapportering",
-      "category": "Datateknik och analys",
-      "service": "data-engineering",
-      "description": "Automatiserade pipelines som samlar data från ekonomi-, försäljnings- och driftsystem i en enda pålitlig modell med dashboards i realtid.",
-      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Dashboards"],
-      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Rapportering innebär ofta manuella exporter och motstridiga kalkylblad. Den här lösningsritningen hämtar data från varje källsystem enligt schema, validerar och stämmer av datan och publicerar en gemensam sanningskälla med dashboards som ledningen kan lita på.",
-      "challenge": "Flera system, inkonsekventa definitioner och manuell månadsrapportering som är långsam och felbenägen.",
-      "approach": [
-        "Källkopplingar med inkrementell inläsning",
-        "Transformationslager med dokumenterade affärsregler",
-        "Automatiska datakvalitetskontroller och varningar",
-        "Dashboards och schemalagd rapportleverans"
+      "id": "sms-messaging-platform",
+      "title": "STSL: Plattform för massutskick av SMS-kampanjer",
+      "category": "Meddelanden och kommunikation",
+      "service": "digital-product",
+      "badge": "Demoprojekt",
+      "description": "En plattform för massutskick av SMS där företag organiserar sina målgrupper, skickar granskade kampanjer från godkända mallar och följer leverans, resultat och kostnader på ett ställe.",
+      "tags": [
+        "SMS-kampanjer",
+        "Målgruppssegment",
+        "Meddelandemallar",
+        "Plånbok och fakturering"
       ],
-      "outcomes": ["En enhetlig bild av verksamheten", "Mindre manuellt rapporteringsarbete", "Tidig varning vid dataproblem"]
+      "image": "/work/stsl/1-campaigns.jpg",
+      "gallery": [
+        {
+          "src": "/work/stsl/1-campaigns.jpg",
+          "caption": "Kampanjlista med granskningsstatus, leverans och kostnad"
+        },
+        {
+          "src": "/work/stsl/2-segments.jpg",
+          "caption": "Målgruppssegment för riktade meddelanden"
+        },
+        {
+          "src": "/work/stsl/3-templates.jpg",
+          "caption": "Meddelandemallar med godkännandestatus"
+        },
+        {
+          "src": "/work/stsl/4-wallet.jpg",
+          "caption": "Förbetald plånbok, automatisk påfyllning och faktureringshistorik"
+        }
+      ],
+      "overview": "STSL är en demoplattform som vi har designat och byggt för utskick av SMS-kampanjer i stor skala. Team organiserar kontakter i segment, skriver meddelanden utifrån godkända mallar, skickar in kampanjer för granskning och följer leverans och klickresultat. En förbetald plånbok med automatisk påfyllning gör att kostnaderna är synliga och under kontroll.",
+      "challenge": "Det är lätt att göra fel när man skickar meddelanden till tusentals människor. Kontaktlistor hamnar utspridda i kalkylblad, kampanjer går iväg utan att någon annan tittat på dem, och ingen kan enkelt se vad som levererats, vad det kostat eller hur mycket saldo som finns kvar. Resultatet blir bortslösade pengar, meddelanden som bryter mot plattformens regler och målgrupper som får fel budskap.",
+      "approach": [
+        "Målgruppssegment som grupperar kontakter så att varje kampanj når rätt personer",
+        "Återanvändbara meddelandemallar med godkännandestatus, så att bara kontrollerad text används",
+        "Ett granskningssteg för kampanjer, med en tydlig orsak när ett meddelande avslås",
+        "En kampanjlista som visar status, leverans, klick och kostnad på ett ögonkast",
+        "En förbetald plånbok med automatisk påfyllning och transaktionshistorik"
+      ],
+      "outcomes": [
+        "Färre misstag innan ett meddelande skickas",
+        "En tydlig överblick över leverans, resultat och kostnader",
+        "Förutsägbara kostnader, utan överraskande fakturor"
+      ]
     },
     {
-      "id": "iot-monitoring",
-      "title": "System för IoT-övervakning och varningar",
-      "category": "IoT och industriell mjukvara",
-      "service": "iot-industrial",
-      "description": "Inhämtning av telemetri i realtid, dashboards och avvikelsevarningar för uppkopplad utrustning, med en väg mot prediktivt underhåll.",
-      "tags": ["IoT", "Realtid", "Avvikelsedetektering", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Uppkopplad utrustning genererar data som sällan når de personer som kan agera på den. Den här lösningsritningen hämtar in enhetstelemetri, lagrar den effektivt, visualiserar aktuell status och skickar varningar när mätvärden avviker från förväntat beteende.",
-      "challenge": "Utrustningens skick är osynligt tills något går sönder, och enhetsdata är inlåst i proprietära verktyg.",
-      "approach": [
-        "Integration av enheter och gateways via standardprotokoll",
-        "Tidsseriebaserad lagring och bearbetningspipeline",
-        "Dashboards i realtid per anläggning, tillgång och sensor",
-        "Varningar baserade på tröskelvärden och statistiska avvikelser"
+      "id": "doctor-portfolio-website",
+      "title": "Läkarportfölj: Webbplats för specialistmottagning",
+      "category": "Vård och professionella webbplatser",
+      "service": "digital-product",
+      "badge": "Demoprojekt",
+      "description": "En professionell portföljwebbplats för en specialistläkare som tydligt presenterar kompetens, tjänster och fokusområden och låter patienter begära en tid online.",
+      "tags": [
+        "Portföljwebbplats",
+        "Tidsbokningsförfrågningar",
+        "Responsiv design",
+        "Mottagningsinformation"
       ],
-      "outcomes": ["Insyn i tillgångar i realtid", "Tidigare upptäckt av fel", "Grund för prediktivt underhåll"]
+      "image": "/work/doctor/1-home.jpg",
+      "gallery": [
+        {
+          "src": "/work/doctor/1-home.jpg",
+          "caption": "Startsida som presenterar specialisten och mottagningen"
+        },
+        {
+          "src": "/work/doctor/2-services.jpg",
+          "caption": "Tjänster grupperade i tydliga vårdområden"
+        },
+        {
+          "src": "/work/doctor/3-focus-areas.jpg",
+          "caption": "Fokusområden som patienter kan utforska ett i taget"
+        },
+        {
+          "src": "/work/doctor/4-appointment.jpg",
+          "caption": "Formulär för tidsbokningsförfrågan med mottagningsuppgifter och vägledning vid akuta situationer"
+        }
+      ],
+      "overview": "Den här demon är en portföljwebbplats för en fiktiv kardiolog, designad och byggd av oss. Den presenterar läkaren och mottagningen, grupperar tjänster i tydliga vårdområden, låter besökare utforska varje fokusområde, berättar om karriären med en tidslinje och patientberättelser och avslutas med ett formulär för tidsbokningsförfrågan och mottagningsuppgifter.",
+      "challenge": "Fristående läkare och specialister hittas ofta via en sjukhuslistning eller en inaktuell sida. Patienter har svårt att se vem läkaren är, vilka tillstånd som behandlas, vilken erfarenhet läkaren har och hur man bokar tid. Många slutar med att ringa runt, och tydlig vägledning vid akuta situationer är lätt att missa.",
+      "approach": [
+        "En startsida som snabbt visar vem läkaren är och vad hen erbjuder",
+        "Tjänster grupperade i tydliga vårdområden, var och en med en uppmaning till handling",
+        "Interaktiva fokusområden så att patienter kan utforska de tillstånd som berör dem",
+        "En karriärtidslinje och patientberättelser som skapar förtroende utan att bli rörigt",
+        "Ett formulär för tidsbokningsförfrågan med mottagningstider, kontaktuppgifter och tydlig vägledning vid akuta situationer"
+      ],
+      "outcomes": [
+        "Patienter förstår snabbt vem de skulle träffa",
+        "Tidsbokningsförfrågningar kommer in i strukturerad form",
+        "Vägledningen vid akuta situationer förblir tydligt synlig"
+      ]
     }
   ]
 }

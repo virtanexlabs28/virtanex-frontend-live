@@ -22,6 +22,7 @@ const FILES = [
   'work',
   'insights',
   'home',
+  'blog',
   'privacy',
   'ui',
 ] as const;
@@ -36,6 +37,7 @@ type Raw = {
   work: typeof import('@/data/en/work.json');
   insights: typeof import('@/data/en/insights.json');
   home: typeof import('@/data/en/home.json');
+  blog: typeof import('@/data/en/blog.json');
   privacy: typeof import('@/data/en/privacy.json');
   ui: typeof import('@/data/en/ui.json');
 };
@@ -51,6 +53,7 @@ export interface Content {
   work: Raw['work'];
   insights: Raw['insights'];
   home: Raw['home'];
+  blog: Raw['blog'];
   privacy: Raw['privacy'];
   ui: Raw['ui'];
 }
@@ -102,6 +105,7 @@ export const getContent = cache(async (locale: Locale): Promise<Content> => {
     work: raw.work,
     insights: raw.insights,
     home: raw.home,
+    blog: raw.blog,
     privacy: raw.privacy,
     ui: raw.ui,
   };

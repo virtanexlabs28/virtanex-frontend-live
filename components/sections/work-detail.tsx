@@ -1,5 +1,6 @@
 'use client';
 
+import Image from 'next/image';
 import { ArrowLeft, ArrowUpRight, CheckCircle2 } from 'lucide-react';
 import { notFound } from 'next/navigation';
 import { Badge } from '@/components/ui/badge';
@@ -10,27 +11,28 @@ import { Link } from '@/components/LocaleLink';
 import { Section, SectionHeader } from './section';
 import { WorkCard } from './work-section';
 
-/** Full page for one solution blueprint (/work/<id>). */
+/** Full page for one demo project (/work/<id>). */
 export function WorkDetail({ id }: { id: string }) {
   const { work, ui } = useContent();
   const { openBooking } = useBooking();
   const t = ui.work;
   const item = work.items.find((i) => i.id === id);
   if (!item) notFound();
-  const others = work.items.filter((i) => i.id !== item.id);
+  const others = work.items.filter((i) => i.id !== item.id).slice(0, 3);
 
   return (
     <>
-      {/* Dark photo banner in both themes, like the other page banners */}
-      <header className="dark relative isolate flex min-h-[52vh] items-end overflow-hidden bg-background px-5 pb-14 pt-36 sm:px-10 sm:pb-20 md:px-14">
+      {/* Full-cover image banner, dark in both themes like the other page banners */}
+      <header className="dark relative isolate flex min-h-[60vh] items-end overflow-hidden bg-background px-5 pb-14 pt-36 sm:px-10 sm:pb-20 md:px-14">
         <div
-          className="absolute inset-0 -z-20 bg-cover bg-center"
+          className="absolute inset-0 -z-20 scale-105 bg-cover bg-top blur-[3px]"
           style={{ backgroundImage: `url('${item.image}')` }}
           role="img"
           aria-label={item.title}
         />
-        <div className="absolute inset-0 -z-10 bg-background/40" />
-        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/30 via-transparent to-background/90" />
+        {/* Darker on the text side so the title stays readable over a busy screenshot */}
+        <div className="absolute inset-0 -z-10 bg-gradient-to-r from-background/95 via-background/75 to-background/30" />
+        <div className="absolute inset-0 -z-10 bg-gradient-to-b from-background/40 via-transparent to-background/90" />
         <div className="mx-auto w-full max-w-7xl">
           <Link
             href="/work"
@@ -39,13 +41,18 @@ export function WorkDetail({ id }: { id: string }) {
             <ArrowLeft className="size-4" aria-hidden="true" />
             {t.back}
           </Link>
-          <p className="mb-4 text-xs font-medium uppercase tracking-[0.25em] text-[#e8b57d] [text-shadow:0_1px_8px_rgba(0,0,0,0.6)]">
-            {item.category}
+          <p className="mb-4 flex flex-wrap items-center gap-3 text-xs font-medium uppercase tracking-[0.25em] text-[#e8b57d] [text-shadow:0_1px_8px_rgba(0,0,0,0.6)]">
+            <span>{item.category}</span>
+            {item.badge && (
+              <span className="rounded-full border border-foreground/30 bg-background/40 px-3 py-1 normal-case tracking-normal text-foreground [text-shadow:none]">
+                {item.badge}
+              </span>
+            )}
           </p>
           <h1 className="max-w-4xl font-fraunces text-4xl font-normal leading-[1.05] tracking-tight text-foreground sm:text-5xl md:text-6xl">
             {item.title}
           </h1>
-          <p className="mt-5 max-w-2xl text-base leading-relaxed text-foreground/80 [text-shadow:0_1px_10px_rgba(0,0,0,0.5)] sm:text-lg">
+          <p className="mt-5 max-w-2xl text-base leading-relaxed text-foreground/85 [text-shadow:0_1px_10px_rgba(0,0,0,0.5)] sm:text-lg">
             {item.description}
           </p>
         </div>
@@ -107,9 +114,30 @@ export function WorkDetail({ id }: { id: string }) {
         </div>
       </Section>
 
+      {item.gallery.length > 0 && (
+        <Section id="screenshots">
+          <SectionHeader kicker={item.category} title={t.screens} />
+          <div className="grid grid-cols-1 gap-6 md:grid-cols-2">
+            {item.gallery.map((shot) => (
+              <figure key={shot.src} className="overflow-hidden rounded-2xl border border-border bg-card">
+                <Image
+                  src={shot.src}
+                  alt={shot.caption}
+                  width={1440}
+                  height={900}
+                  sizes="(min-width: 768px) 50vw, 100vw"
+                  className="h-auto w-full"
+                />
+                <figcaption className="border-t border-border px-5 py-4 text-sm text-foreground/70">{shot.caption}</figcaption>
+              </figure>
+            ))}
+          </div>
+        </Section>
+      )}
+
       <Section id="more-blueprints">
         <SectionHeader kicker={work.intro.kicker} title={t.more} />
-        <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+        <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
           {others.map((o) => (
             <WorkCard key={o.id} id={o.id} />
           ))}

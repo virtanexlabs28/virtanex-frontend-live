@@ -7,7 +7,7 @@ import { alternatesFor } from '@/lib/metadata';
 
 type Params = Promise<{ locale: string; slug: string }>;
 
-// Only the blueprints defined in data/<language>/work.json exist.
+// Only the projects defined in data/<language>/work.json exist.
 export const dynamicParams = false;
 
 export async function generateStaticParams() {

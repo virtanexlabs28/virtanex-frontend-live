@@ -1,0 +1,615 @@
+{
+  "metaTitle": "Blog",
+  "metaDescription": "Artículos breves de Virtanex Labs sobre las decisiones de diseño e ingeniería que hay detrás de nuestros proyectos de demostración.",
+  "posts": [
+    {
+      "id": "designing-trust-into-a-marketplace",
+      "title": "Cómo diseñar la confianza en un marketplace con varios vendedores",
+      "excerpt": "Un marketplace solo funciona cuando los compradores confían en vendedores a los que nunca han conocido. Así abordamos la identidad, las comisiones y la protección de los pagos en nuestro proyecto de demostración Oivaly.",
+      "category": "Diseño de producto",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "/work/oivaly/1-storefront.jpg",
+      "sections": [
+        {
+          "heading": "Dos lados, dos preocupaciones",
+          "paragraphs": [
+            "Un marketplace con varios vendedores tiene dos públicos que se preocupan por cosas distintas. Los compradores quieren saber quién ha hecho realmente un producto y si su dinero está seguro. Los artesanos quieren recibir una parte justa de cada venta y una forma sencilla de empezar. Si uno de los dos pierde la confianza, el otro también se va.",
+            "Cuando creamos nuestro proyecto de demostración Oivaly, tratamos ambas preocupaciones como requisitos de diseño desde el primer boceto, no como funciones que añadir más adelante."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Hacer visible la identidad",
+          "paragraphs": [
+            "Los vendedores anónimos son la forma más rápida de minar la confianza. En el proyecto de demostración, un taller se presenta mediante un breve proceso de alta en el que debe indicar los datos oficiales de su empresa, y la tienda muestra quién está detrás de cada comercio.",
+            "No se trata de papeleo por el papeleo. Se trata de dar a los compradores un motivo para creer el nombre que aparece en la página del producto."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Hablar claro sobre el dinero",
+          "paragraphs": [
+            "Para un artesano importan dos cosas sobre el dinero: qué parte de cada venta se queda y cuándo cobra. Mantuvimos el modelo de comisiones sencillo y lo publicamos, porque una comisión que requiere una hoja de cálculo para entenderse suele parecer injusta.",
+            "A los compradores les explicamos qué ocurre con un pago entre el momento de pagar y la entrega mediante una breve secuencia numerada, en lugar de texto legal."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Prever que algo puede salir mal",
+          "paragraphs": [
+            "La confianza se pone a prueba cuando algo falla: un paquete llega dañado o la descripción no coincide con el producto. Un buen marketplace muestra la respuesta antes de que se haga la pregunta.",
+            "El proyecto de demostración incluye una explicación guiada de lo que ocurre cuando algo sale mal, de modo que los compradores conocen de antemano el siguiente paso."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Qué comprobaríamos a continuación",
+          "paragraphs": [
+            "Una demostración muestra la forma de una solución, no sus resultados. Antes del lanzamiento, probaríamos el proceso de alta con artesanos reales, confirmaríamos los socios de pago y de verificación, y mediríamos en qué momento dudan los compradores.",
+            "Si está planeando un marketplace, esas son las preguntas que conviene responder primero."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "why-bulk-messages-need-a-review-step",
+      "title": "Por qué los mensajes masivos necesitan un paso de revisión",
+      "excerpt": "Enviar un mismo mensaje a miles de personas no deja margen para un error tipográfico. Un repaso a las plantillas, la revisión y los controles de gasto de nuestro proyecto de demostración de campañas de SMS.",
+      "category": "Mensajería",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "/work/stsl/1-campaigns.jpg",
+      "sections": [
+        {
+          "heading": "Errores pequeños, audiencias grandes",
+          "paragraphs": [
+            "Una errata en un correo a un compañero no cuesta nada. La misma errata en un mensaje a diez mil clientes puede costar dinero, confianza y, a veces, sus privilegios de envío. La mensajería masiva necesita algunas salvaguardas que las herramientas habituales no tienen."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Empezar con plantillas",
+          "paragraphs": [
+            "Las plantillas reutilizables ofrecen a los equipos textos que ya han sido revisados. En nuestro proyecto de demostración STSL, cada plantilla lleva un estado de aprobación, de modo que una campaña puede construirse sobre un texto que alguien ha aprobado.",
+            "Los marcadores de posición para nombres o números de pedido mantienen los mensajes personales sin tener que reescribirlos cada vez."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Añadir un paso de revisión",
+          "paragraphs": [
+            "Antes de salir, una campaña pasa por un flujo de estados sencillo: de borrador a revisión y de ahí a aprobada. Cuando se rechaza un mensaje, la plataforma muestra el motivo, para que el autor pueda corregirlo en lugar de adivinar.",
+            "Es la misma idea que la revisión de código: un segundo par de ojos, aplicado a las palabras."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Mantener el gasto a la vista",
+          "paragraphs": [
+            "Los mensajes cuestan dinero, y las facturas sorpresa minan la confianza en cualquier herramienta. Un monedero prepago con saldo visible y recarga automática opcional permite ver lo que cuesta una campaña antes y después de enviarla, con cada recarga y cada cargo recogidos en un historial de transacciones."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Saber quién recibe qué",
+          "paragraphs": [
+            "Los segmentos permiten agrupar contactos, por ejemplo suscriptores del boletín o usuarios de la versión beta, para que un mensaje llegue a las personas para las que fue escrito. Segmentar es a la vez una medida de calidad y una cortesía hacia quienes lo reciben.",
+            "Nada de esto es exótico. Es disciplina de producto corriente aplicada allí donde los errores son difíciles de deshacer. Si envía mensajes a gran escala, estos son buenos hábitos con independencia de la plataforma que utilice."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "what-a-specialists-website-should-do-first",
+      "title": "Qué debe hacer el sitio web de un especialista en sus primeros diez segundos",
+      "excerpt": "Los pacientes llegan con una preocupación y poca paciencia. Cómo construimos el sitio de portafolio de un médico en torno a tres preguntas: quién, qué y cómo reservo cita.",
+      "category": "Diseño web",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "/work/doctor/1-home.jpg",
+      "sections": [
+        {
+          "heading": "Tres preguntas que se hace todo visitante",
+          "paragraphs": [
+            "Quien visita el sitio web de un especialista suele tener tres preguntas: quién es este médico, si puede ayudarme con mi problema y cómo reservo cita. Si la página no las responde con rapidez, muchos visitantes simplemente volverán a los resultados de búsqueda."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Quién",
+          "paragraphs": [
+            "La página de inicio de nuestro proyecto de demostración comienza con una presentación clara, una foto y un breve resumen del enfoque del médico. Después siguen la formación y la experiencia, agrupadas para poder recorrerlas en unos segundos en lugar de leerlas como un muro de texto."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Qué",
+          "paragraphs": [
+            "Los servicios se agrupan en cuatro áreas de atención sencillas, cada una con una lista breve y un botón para consultar sobre ella. Una sección aparte permite explorar cada área de especialidad por separado, de modo que cada visitante pueda leer sobre su propia inquietud sin tener que desplazarse por todo lo demás."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Cómo",
+          "paragraphs": [
+            "El camino hacia la reserva es lo que más importa. El proyecto de demostración termina con un formulario de solicitud de cita, el horario de la consulta y los datos de contacto en un mismo lugar, de manera que el siguiente paso nunca queda oculto. A su lado hay un aviso de urgencias bien visible que indica a quienes tengan síntomas urgentes que no utilicen el formulario."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Una nota sobre confianza y privacidad",
+          "paragraphs": [
+            "La información sobre la salud es sensible. Un sitio real debería decir con claridad qué datos recoge, mantener el formulario corto y evitar pedir datos que un primer contacto no necesita.",
+            "Además, revisaríamos con la consulta cualquier afirmación sobre resultados o premios antes de publicarla, porque en el ámbito de la salud la exactitud importa más que el pulido."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "how-to-scope-a-software-project",
+      "title": "Cómo definir el alcance de un proyecto de software antes de escribir una línea de código",
+      "excerpt": "Un buen alcance es breve, concreto y está acordado por todos los que juzgarán el resultado. Este es el método que usamos para lograrlo.",
+      "category": "Proceso",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1586936893354-362ad6ae47ba?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Empiece por el resultado, no por la lista de funciones",
+          "paragraphs": [
+            "La mayoría de los alcances empiezan como una lista de funciones. Un mejor punto de partida es el cambio que quiere ver: que los clientes reserven sin llamar por teléfono, que un informe que llevaba un día se haga en minutos, que un equipo deje de volver a teclear datos. Las funciones pasan a ser decisiones que sirven a ese resultado y pueden intercambiarse entre sí."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Identifique a quienes deciden",
+          "paragraphs": [
+            "Todo proyecto tiene personas que juzgarán si ha funcionado: quien lo patrocina, los usuarios diarios, a veces finanzas o el área jurídica. Hable con cada una de ellas desde el principio. La mayoría de las sorpresas tardías vienen de un requisito que vivía en la cabeza de alguien y nunca llegó al papel."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Trace el límite",
+          "paragraphs": [
+            "Escriba qué entra, qué queda fuera y qué llegará después. La lista de lo que queda fuera es la más importante, porque ahí es donde aparecen las expectativas ocultas.",
+            "Una breve lista de supuestos, como a qué sistemas nos conectamos y quién aporta el contenido, evita discusiones más adelante."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Divídalo en hitos",
+          "paragraphs": [
+            "Divida el trabajo en pasos que produzcan cada uno algo que pueda ver y valorar. Los hitos pequeños hacen visible el avance, ofrecen puntos naturales para cambiar de rumbo y mantienen las estimaciones realistas, porque cada uno es lo bastante corto como para razonarlo."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Acuerde cómo se gestionan los cambios",
+          "paragraphs": [
+            "El alcance cambiará. Decida de antemano cómo se plantea un cambio, quién lo aprueba y cómo afecta al plazo y al coste. Un proyecto con un cauce claro para los cambios rara vez necesita una conversación difícil."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "choosing-an-engagement-model",
+      "title": "Alcance cerrado, equipo dedicado o colaboración a largo plazo: cómo elegir la forma de trabajar juntos",
+      "excerpt": "El modelo de colaboración adecuado depende de lo bien que sepa lo que necesita y de cuánto tiempo lo va a necesitar. Una breve guía para elegir.",
+      "category": "Colaboración",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1579389083046-e3df9c2b3325?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Alcance cerrado: cuando el objetivo está claro",
+          "paragraphs": [
+            "Un alcance cerrado encaja con trabajos que se pueden describir bien de antemano, como una aplicación definida, una integración o una automatización. Se acuerdan los entregables y los hitos desde el principio, lo que da a ambas partes una visión clara. La contrapartida es la flexibilidad: los cambios pasan por un proceso de gestión de cambios."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Un equipo dedicado: cuando el trabajo cambia continuamente",
+          "paragraphs": [
+            "Si ya tiene un producto y una hoja de ruta que cambia a menudo, puede encajar mejor incorporar ingenieros que trabajen junto a su propio equipo. Se integran en sus herramientas y rutinas, y la capacidad puede aumentar o reducirse según cambien las necesidades. Funciona mejor cuando puede darles dirección con regularidad."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Una colaboración a largo plazo: cuando el producto nunca está terminado",
+          "paragraphs": [
+            "El software en el que la gente confía necesita mantenimiento, actualizaciones de seguridad y mejoras constantes. Un acuerdo continuo mantiene cerca del sistema a las personas que lo conocen, en lugar de tener que explicárselo de nuevo a alguien nuevo cada vez."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Consultoría: cuando necesita una decisión, no un desarrollo",
+          "paragraphs": [
+            "A veces la pregunta es qué arquitectura elegir, si conviene modernizar o cuánto costará realmente una tecnología. Un trabajo de asesoría breve y unas recomendaciones por escrito pueden evitar un error mucho mayor."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Cómo elegir",
+          "paragraphs": [
+            "Hágase tres preguntas. ¿Qué grado de certeza tiene el alcance? ¿Durante cuánto tiempo necesitará ayuda? ¿Cuánta dirección puede dar semana a semana?",
+            "Las respuestas sinceras suelen apuntar a un solo modelo, y no hay inconveniente en empezar con uno y cambiar más adelante."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "before-adding-ai-to-your-product",
+      "title": "Una lista de comprobación práctica antes de añadir IA a su producto",
+      "excerpt": "Las funciones de IA pueden ser realmente útiles, pero también pueden ser distracciones caras. Estas preguntas le ayudan a distinguirlo antes de construir.",
+      "category": "IA",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1531538606174-0f90ff5dce83?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "¿Qué problema estamos resolviendo?",
+          "paragraphs": [
+            "Empiece por una tarea que la gente considere lenta, repetitiva o propensa a errores, como buscar en documentos, clasificar solicitudes o redactar respuestas rutinarias. Si no puede describir la tarea en una frase, la función aún no está lista para construirse."
+          ],
+          "items": []
+        },
+        {
+          "heading": "¿Están listos los datos?",
+          "paragraphs": [
+            "Las funciones de IA dependen de la calidad y de las reglas de acceso de los datos que hay detrás. Compruebe dónde está la información, quién puede verla, qué tan actual es y si puede usarse para este fin. Los datos desordenados o restringidos son el obstáculo más habitual."
+          ],
+          "items": []
+        },
+        {
+          "heading": "¿Cómo sabremos que funciona?",
+          "paragraphs": [
+            "Anote un pequeño conjunto de ejemplos reales y las respuestas que espera, y úselos para probar cada cambio. Sin una forma de medir la calidad, tanto las mejoras como los retrocesos pasan desapercibidos."
+          ],
+          "items": []
+        },
+        {
+          "heading": "¿Qué ocurre cuando se equivoca?",
+          "paragraphs": [
+            "Los modelos cometen errores. Decida en qué punto una persona revisa el resultado, cómo se muestran las fuentes para poder comprobar las respuestas y cuál es la alternativa cuando el sistema no está seguro. Cuanto más alto es lo que está en juego, más revisión se necesita."
+          ],
+          "items": []
+        },
+        {
+          "heading": "¿Cuánto costará mantenerlo en marcha?",
+          "paragraphs": [
+            "El precio por uso, el alojamiento y la evaluación continua se van sumando. Calcule el coste por uso antes del lanzamiento y decida quién se encargará después del seguimiento. A menudo, una función pequeña y bien acotada es mejor que una ambiciosa y difícil de mantener."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "documentation-teams-actually-use",
+      "title": "Documentación que los equipos realmente usan",
+      "excerpt": "La mayor parte de la documentación se queda obsoleta porque se escribe una vez y nunca se necesita. Unos cuantos hábitos la mantienen breve, actualizada y útil.",
+      "category": "Práctica de ingeniería",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Escriba para un lector concreto",
+          "paragraphs": [
+            "Antes de escribir, decida quién lo leerá y qué necesita hacer a continuación: un desarrollador nuevo que prepara el proyecto, un operador que atiende una incidencia, un cliente que comprueba cómo funciona una característica. Una página escrita para todos acaba siendo útil para nadie."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Manténgala cerca del código",
+          "paragraphs": [
+            "La documentación que vive junto al código es más fácil de actualizar en el mismo cambio que modifica el comportamiento. Un README breve, unos pasos de instalación claros y notas sobre las decisiones clave ayudan mucho."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Registre las decisiones, no solo las descripciones",
+          "paragraphs": [
+            "El código muestra qué hace el sistema. Rara vez muestra por qué. Una nota breve que explique por qué se tomó una decisión, y qué se descartó, ahorra horas cuando alguien quiere cambiarla más adelante."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Hágala parte de lo terminado",
+          "paragraphs": [
+            "Si la documentación es una tarea aparte, se omitirá cuando haya presión. Trátela como parte de cerrar el trabajo, revisada junto con el código, y conserve solo lo que alguien leerá de verdad."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Pruébela con alguien nuevo",
+          "paragraphs": [
+            "La mejor comprobación es pedir a alguien que acaba de llegar que siga las instrucciones. Donde se atasque, a la documentación le falta algo. Corríjalo en ese momento y la siguiente persona empezará con más facilidad."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "working-across-time-zones",
+      "title": "Trabajar en distintas zonas horarias: lo que mantiene los proyectos remotos en marcha",
+      "excerpt": "Trabajamos a distancia desde Finlandia con clientes de otros lugares. Estos son los hábitos que hacen de la distancia un detalle menor.",
+      "category": "Trabajo remoto",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1609270460854-e8ea8c0b591f?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Acuerde franjas de coincidencia",
+          "paragraphs": [
+            "No hace falta coincidir durante todo el día. Lo que importa son unas pocas horas a la semana en las que ambas partes estén conectadas a la vez. Acordamos esas franjas con cada cliente al comenzar y las reservamos para dudas, revisiones y decisiones."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Ponga las cosas por escrito",
+          "paragraphs": [
+            "Las actualizaciones escritas viajan mejor entre zonas horarias que las reuniones. Unas notas breves y regulares sobre lo que se ha hecho, lo que sigue y lo que está bloqueado permiten que todos empiecen el día informados, y dejan constancia."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Muestre el avance con frecuencia",
+          "paragraphs": [
+            "Las demostraciones periódicas funcionan mejor que los informes de estado largos. Ver software funcionando en cada sprint genera confianza, detecta malentendidos pronto y mantiene barato el feedback."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Haga visible el trabajo",
+          "paragraphs": [
+            "Un tablero de tareas compartido y revisiones de código abiertas hacen que nadie tenga que preguntar qué está pasando. Cuando la información está disponible a cualquier hora, esperar una respuesta importa mucho menos."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Mantenga un horario sostenible",
+          "paragraphs": [
+            "Una semana estándar con un horario de trabajo claro produce un trabajo más constante que la disponibilidad permanente. Los ritmos predecibles ayudan al equipo y facilitan que los clientes sepan cuándo esperar una respuesta."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "choosing-a-tech-stack-without-chasing-trends",
+      "title": "Elegir una pila tecnológica sin perseguir modas",
+      "excerpt": "La mejor tecnología suele ser la que su equipo puede mantener durante años. Así sopesamos las opciones al empezar un proyecto.",
+      "category": "Tecnología",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Parta de las restricciones",
+          "paragraphs": [
+            "Enumere lo que el proyecto debe hacer y lo que lo limita: las habilidades del equipo, el alojamiento, el presupuesto, las integraciones, la carga prevista y cuánto tiempo debe durar. Estas restricciones reducen las opciones más rápido que cualquier tabla comparativa."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Mejor lo probado que lo llamativo",
+          "paragraphs": [
+            "Las herramientas nuevas pueden ser estupendas, pero también traen menos respuestas en internet, menos desarrolladores con experiencia y más sorpresas. Para el núcleo de un producto, una opción con buen soporte suele ser la más segura."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Piense en las personas",
+          "paragraphs": [
+            "Una pila tecnológica es también una decisión de contratación y de mantenimiento. Si pocas personas la conocen, cada cambio cuesta más. Elija herramientas con las que su equipo, o las personas que quizá contrate, puedan trabajar con confianza."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Evite la dependencia donde importa",
+          "paragraphs": [
+            "Algunas dependencias son aceptables. Otras hacen que salir sea doloroso. Mantenga portables la lógica de negocio y los datos, y sea deliberado al elegir en torno a qué servicios construye."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Revíselo, pero no constantemente",
+          "paragraphs": [
+            "Anote las decisiones junto con sus razones y revíselas cuando cambien las circunstancias, no cada vez que aparezca un nuevo framework. La estabilidad es una característica."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "what-a-good-handover-looks-like",
+      "title": "Cómo es una buena entrega cuando termina un proyecto",
+      "excerpt": "El lanzamiento no es la meta. Una entrega clara significa que quienes heredan el software pueden operarlo y modificarlo con confianza.",
+      "category": "Entrega",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1623303647440-967d26b95b47?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Entregue todo, no solo el código",
+          "paragraphs": [
+            "El código fuente es solo el principio. Una entrega completa incluye también los entornos, los accesos y credenciales, los pasos de despliegue, los modelos de datos, las cuentas de terceros y dónde está cada pieza. La titularidad debe quedar fuera de toda duda."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Documente cómo ponerlo en marcha",
+          "paragraphs": [
+            "Las notas de operación explican cómo desplegar, supervisar, respaldar y recuperar el sistema. Se escriben para la persona de guardia, que quizá no haya visto el proyecto antes."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Recórralo en directo",
+          "paragraphs": [
+            "Una sesión de entrega permite a los nuevos responsables hacer preguntas mientras quienes lo construyeron siguen disponibles. Grabarla crea una referencia para más adelante."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Planifique las primeras semanas",
+          "paragraphs": [
+            "Los primeros cambios tras el lanzamiento son los más arriesgados. Acuerde quién se ocupa de los errores, cómo se plantean las solicitudes y qué soporte hay disponible, para que nadie tenga que improvisar."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Deje la puerta abierta",
+          "paragraphs": [
+            "Algunos equipos continúan por su cuenta y otros mantienen un acuerdo de soporte ligero o de colaboración. Ambas opciones son válidas cuando se eligen de forma deliberada y el sistema no depende de la memoria de una sola persona."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "finding-the-first-process-to-automate",
+      "title": "Cómo encontrar el primer proceso que merece la pena automatizar",
+      "excerpt": "La automatización compensa cuando elimina una tarea repetida y real. Cómo elegir un punto de partida y evitar automatizar lo que no toca.",
+      "category": "Automatización",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1758873269013-d914addd5d3b?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Busque la tarea repetida",
+          "paragraphs": [
+            "Los mejores candidatos son las tareas que se hacen a menudo, a mano y siguiendo reglas claras: copiar datos entre sistemas, preparar informes semanales, perseguir aprobaciones. Pregunte a quienes hacen el trabajo, porque suelen saber exactamente dónde se va el tiempo."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Descríbalo antes de automatizarlo",
+          "paragraphs": [
+            "Anote cada paso, quién lo hace y qué puede salir mal. Al describirlo, a menudo se descubren pasos que ya nadie necesita. Automatizar un proceso defectuoso solo hace que los problemas ocurran más rápido."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Empiece con algo pequeño y visible",
+          "paragraphs": [
+            "Elija un proceso lo bastante sencillo como para terminarlo pronto y lo bastante visible como para que la gente note la mejora. Un primer logro claro genera apoyo para el siguiente."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Mantenga a una persona en el circuito donde importa",
+          "paragraphs": [
+            "Algunas decisiones deben seguir siendo revisadas por una persona, sobre todo las que implican dinero, clientes o compromisos legales. Una buena automatización se encarga de lo rutinario y señala las excepciones."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Mida el cambio",
+          "paragraphs": [
+            "Anote cuánto tardaba la tarea antes y cuánto tarda ahora. Una sencilla comparación de antes y después muestra si el esfuerzo valió la pena y qué proceso abordar a continuación."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "designing-forms-people-finish",
+      "title": "Cómo diseñar formularios que la gente realmente termina",
+      "excerpt": "Los formularios son el punto en que el interés se convierte en acción y en el que muchos visitantes abandonan en silencio. Pequeñas decisiones de diseño marcan una gran diferencia.",
+      "category": "Diseño UX",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1761653457994-f216b01302bd?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Pida menos",
+          "paragraphs": [
+            "Cada campo es una razón para parar. Pida solo lo que necesita para el primer paso y recoja el resto más tarde. Si no va a usar una respuesta, no haga la pregunta."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Etiquete con claridad y mantenga las etiquetas visibles",
+          "paragraphs": [
+            "Los textos de ejemplo desaparecen cuando alguien empieza a escribir. Use una etiqueta visible para cada campo, palabras sencillas y pistas breves cuando importe el formato, por ejemplo cómo debe escribirse un número de teléfono."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Diseñe pensando en los pulgares",
+          "paragraphs": [
+            "Mucha gente rellenará el formulario en el móvil. Use áreas táctiles grandes, el teclado adecuado para cada campo y una sola columna que no obligue a ampliar ni a desplazarse hacia los lados."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Haga que los errores ayuden",
+          "paragraphs": [
+            "Indique qué ha fallado y cómo corregirlo, junto al campo al que se refiere, y conserve lo que la persona ya ha escrito. Un error que borra el formulario suele poner fin a la visita."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Diga qué ocurre a continuación",
+          "paragraphs": [
+            "La gente duda cuando no sabe qué hará un clic. Explique quién leerá el mensaje, cuándo puede esperar una respuesta y cómo se usarán sus datos, con un enlace a la política de privacidad."
+          ],
+          "items": []
+        }
+      ]
+    },
+    {
+      "id": "testing-without-drama",
+      "title": "Pruebas sin dramas: una estrategia sencilla para equipos pequeños",
+      "excerpt": "No necesita un conjunto enorme de pruebas para publicar con confianza. Unas pocas comprobaciones bien elegidas detectan la mayoría de los problemas.",
+      "category": "Calidad",
+      "date": "2026-11-26",
+      "author": "El equipo de Virtanex Labs",
+      "image": "https://images.unsplash.com/photo-1525130413817-d45c1d127c42?auto=format&fit=crop&w=1200&q=75",
+      "sections": [
+        {
+          "heading": "Pruebe lo que dolería",
+          "paragraphs": [
+            "Empiece por las partes del producto donde un fallo costaría más: el inicio de sesión, los pagos, los cambios en los datos y las reglas de negocio clave. Cubrirlas primero da la mejor protección por el esfuerzo invertido."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Combine comprobaciones pequeñas y grandes",
+          "paragraphs": [
+            "Las pruebas automáticas rápidas sobre piezas individuales detectan errores pronto. Unas pocas comprobaciones de extremo a extremo que siguen el recorrido de un usuario real detectan los problemas que solo aparecen cuando las piezas se juntan. Ambas tienen su lugar."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Ejecútelas en cada cambio",
+          "paragraphs": [
+            "Las pruebas solo ayudan si se ejecutan automáticamente. Un flujo que comprueba cada cambio antes de integrarlo convierte las pruebas en un hábito y no en una carga."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Reserve una pasada manual para lo que las máquinas no ven",
+          "paragraphs": [
+            "Antes de una versión, una persona debe probar el producto como lo haría un usuario: datos inusuales, conexiones lentas, pantallas pequeñas. Unos ojos nuevos notan lo que los scripts nunca notarán."
+          ],
+          "items": []
+        },
+        {
+          "heading": "Trate los fallos como información",
+          "paragraphs": [
+            "Cuando se cuela un error, añada una prueba para él y anote por qué se pasó por alto. Con el tiempo, el conjunto de pruebas crece en torno a problemas reales, no imaginarios."
+          ],
+          "items": []
+        }
+      ]
+    }
+  ]
+}

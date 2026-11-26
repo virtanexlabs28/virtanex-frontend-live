@@ -68,7 +68,7 @@
         "href": "/process#security"
       },
       {
-        "label": "Lösungskonzepte",
+        "label": "Demoprojekte",
         "href": "/work"
       },
       {
@@ -78,6 +78,10 @@
       {
         "label": "Team & Werte",
         "href": "/team"
+      },
+      {
+        "label": "Blog",
+        "href": "/blog"
       },
       {
         "label": "FAQ",
@@ -160,13 +164,22 @@
     "outputs": "Was Sie erhalten"
   },
   "work": {
-    "viewBlueprint": "Lösungskonzept ansehen: {title}",
+    "viewBlueprint": "Projekt ansehen: {title}",
     "challenge": "Die Herausforderung",
     "approach": "Unser Vorgehen",
     "outcomes": "Angestrebte Ergebnisse",
     "similar": "Sie benötigen etwas Ähnliches?",
-    "back": "Zurück zu allen Lösungskonzepten",
+    "back": "Zurück zu allen Projekten",
     "tags": "Technologien und Schwerpunkte",
-    "more": "Weitere Lösungskonzepte"
+    "more": "Weitere Projekte",
+    "screens": "Screenshots"
+  },
+  "blog": {
+    "minRead": "{minutes} Min. Lesezeit",
+    "by": "Von {author}",
+    "back": "Zurück zum Blog",
+    "more": "Weitere Artikel",
+    "readMore": "Artikel lesen",
+    "cta": "Möchten Sie über Ihr eigenes Projekt sprechen?"
   }
 }

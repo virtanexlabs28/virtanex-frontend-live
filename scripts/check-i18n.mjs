@@ -5,10 +5,10 @@ import { readFileSync, existsSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 
 const root = join(import.meta.dirname, '..', 'data');
-const FILES = ['site', 'services', 'technologies', 'process', 'company', 'faq', 'work', 'insights', 'home', 'privacy', 'ui'];
+const FILES = ['site', 'services', 'technologies', 'process', 'company', 'faq', 'work', 'insights', 'home', 'blog', 'privacy', 'ui'];
 
 // Keys that must be byte-identical in every language (ids, icon names, links, images, numbering).
-const FIXED_KEYS = new Set(['id', 'icon', 'href', 'image', 'number']);
+const FIXED_KEYS = new Set(['id', 'icon', 'href', 'image', 'number', 'src', 'date']);
 // Extra fixed values, by file and dotted path (array indexes written as *).
 const FIXED_PATHS = {
   site: ['name', 'founded', 'contact.email', 'contact.website', 'contact.websiteLabel'],

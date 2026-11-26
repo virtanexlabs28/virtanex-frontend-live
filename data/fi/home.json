@@ -16,10 +16,10 @@
     "cta": "Katso koko prosessi"
   },
   "work": {
-    "kicker": "Ratkaisumallit",
+    "kicker": "Demoprojektit",
     "title": "Mitä voimme rakentaa sinulle.",
-    "description": "Edustavia ratkaisusuunnitelmia, jotka näyttävät, miten lähestymme arkkitehtuuria, toteutusta ja tuloksia.",
-    "cta": "Katso kaikki ratkaisumallit"
+    "description": "Itse rakentamamme demoprojektit, jotka näyttävät, miten lähestymme arkkitehtuuria, toteutusta ja tuloksia.",
+    "cta": "Katso kaikki projektit"
   },
   "industries": {
     "kicker": "Toimialat",
@@ -32,6 +32,12 @@
     "title": "Teknologiakumppani pitkäjänteiseen yhteistyöhön.",
     "description": "Nykyaikaiset työkalut, selkeä viestintä ja tiimi, joka pysyy tuotteesi mukana julkaisun jälkeen.",
     "cta": "Tutustu tiimiin"
+  },
+  "blog": {
+    "kicker": "Blogista",
+    "title": "Muistiinpanoja työstämme.",
+    "description": "Lyhyitä kirjoituksia demoprojektiemme taustalla olevista suunnitteluratkaisuista.",
+    "cta": "Lue blogia"
   },
   "faq": {
     "kicker": "Nopeat vastaukset",

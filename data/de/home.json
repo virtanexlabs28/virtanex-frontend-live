@@ -16,10 +16,10 @@
     "cta": "Den gesamten Ablauf ansehen"
   },
   "work": {
-    "kicker": "Lösungskonzepte",
+    "kicker": "Demoprojekte",
     "title": "Was wir für Sie entwickeln können.",
-    "description": "Repräsentative Lösungsentwürfe, die zeigen, wie wir Architektur, Umsetzung und Ergebnisse angehen.",
-    "cta": "Alle Lösungskonzepte ansehen"
+    "description": "Von uns entwickelte Demoprojekte, die zeigen, wie wir Architektur, Umsetzung und Ergebnisse angehen.",
+    "cta": "Alle Projekte ansehen"
   },
   "industries": {
     "kicker": "Branchen",
@@ -32,6 +32,12 @@
     "title": "Ein Technologiepartner für die lange Strecke.",
     "description": "Moderne Werkzeuge, klare Kommunikation und ein Team, das auch nach dem Launch bei Ihrem Produkt bleibt.",
     "cta": "Das Team kennenlernen"
+  },
+  "blog": {
+    "kicker": "Aus dem Blog",
+    "title": "Notizen aus unserer Arbeit.",
+    "description": "Kurze Artikel über die Designentscheidungen hinter unseren Demoprojekten.",
+    "cta": "Zum Blog"
   },
   "faq": {
     "kicker": "Schnelle Antworten",

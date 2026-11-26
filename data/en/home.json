@@ -16,10 +16,10 @@
     "cta": "See the full process"
   },
   "work": {
-    "kicker": "Solution Blueprints",
+    "kicker": "Demo Projects",
     "title": "What we can build for you.",
-    "description": "Representative solution designs that show how we approach architecture, delivery, and outcomes.",
-    "cta": "View all blueprints"
+    "description": "Demo projects we built that show how we approach architecture, delivery, and outcomes.",
+    "cta": "View all projects"
   },
   "industries": {
     "kicker": "Sectors",
@@ -32,6 +32,12 @@
     "title": "A technology partner for the long run.",
     "description": "Modern tooling, clear communication, and a team that stays with your product after launch.",
     "cta": "Meet the team"
+  },
+  "blog": {
+    "kicker": "From the blog",
+    "title": "Notes from our work.",
+    "description": "Short articles on the design decisions behind our demo projects.",
+    "cta": "Read the blog"
   },
   "faq": {
     "kicker": "Quick Answers",

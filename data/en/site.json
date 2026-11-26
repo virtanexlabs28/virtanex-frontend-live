@@ -74,6 +74,10 @@
       "href": "/faq"
     },
     {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
       "label": "Contact",
       "href": "/contact"
     }
@@ -174,12 +178,12 @@
       "href": "/work",
       "kicker": "Selected Work",
       "title": "The systems we build, and who we build them for.",
-      "description": "Solution blueprints, the industries we serve, and the areas of research we keep investing in.",
+      "description": "Demo projects we built, the industries we serve, and the areas of research we keep investing in.",
       "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
       "imageAlt": "Colleagues reviewing a project together on a computer screen",
-      "blurb": "Solution blueprints, industries, and research focus.",
+      "blurb": "Demo projects, industries, and research focus.",
       "metaTitle": "Work",
-      "metaDescription": "Solution blueprints, the industries we serve, and the technical areas we invest in."
+      "metaDescription": "Demo projects we built, the industries we serve, and the technical areas we invest in."
     },
     "team": {
       "href": "/team",
@@ -213,6 +217,17 @@
       "blurb": "Book a call or send a project brief.",
       "metaTitle": "Contact",
       "metaDescription": "Book a discovery call or send Virtanex Labs a project brief. We reply within 24 hours."
+    },
+    "blog": {
+      "href": "/blog",
+      "kicker": "From the Blog",
+      "title": "Notes from our work.",
+      "description": "Short articles on the design and engineering decisions behind our demo projects.",
+      "image": "https://images.unsplash.com/photo-1609270460854-e8ea8c0b591f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Two colleagues looking at a laptop screen together",
+      "blurb": "Notes on the decisions behind our demo projects.",
+      "metaTitle": "Blog",
+      "metaDescription": "Short articles from Virtanex Labs on the design and engineering decisions behind our demo projects."
     }
   }
 }

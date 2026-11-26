@@ -74,6 +74,10 @@
       "href": "/faq"
     },
     {
+      "label": "Blog",
+      "href": "/blog"
+    },
+    {
       "label": "Kontakt",
       "href": "/contact"
     }
@@ -174,12 +178,12 @@
       "href": "/work",
       "kicker": "Ausgewählte Projekte",
       "title": "Die Systeme, die wir bauen, und für wen wir sie bauen.",
-      "description": "Lösungskonzepte, die Branchen, für die wir arbeiten, und die Forschungsfelder, in die wir weiter investieren.",
+      "description": "Von uns entwickelte Demoprojekte, die Branchen, für die wir arbeiten, und die Forschungsbereiche, in die wir weiter investieren.",
       "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
       "imageAlt": "Kolleginnen und Kollegen besprechen gemeinsam ein Projekt am Bildschirm",
-      "blurb": "Lösungskonzepte, Branchen und Forschungsschwerpunkte.",
+      "blurb": "Demoprojekte, Branchen und Forschungsschwerpunkte.",
       "metaTitle": "Projekte",
-      "metaDescription": "Lösungskonzepte, die Branchen, die wir bedienen, und die technischen Bereiche, in die wir investieren."
+      "metaDescription": "Von uns entwickelte Demoprojekte, die Branchen, die wir bedienen, und die technischen Bereiche, in die wir investieren."
     },
     "team": {
       "href": "/team",
@@ -213,6 +217,17 @@
       "blurb": "Gespräch buchen oder Projektbriefing senden.",
       "metaTitle": "Kontakt",
       "metaDescription": "Buchen Sie ein Discovery-Gespräch oder senden Sie Virtanex Labs ein Projektbriefing. Wir antworten innerhalb von 24 Stunden."
+    },
+    "blog": {
+      "href": "/blog",
+      "kicker": "Aus dem Blog",
+      "title": "Notizen aus unserer Arbeit.",
+      "description": "Kurze Artikel über die Design- und Technikentscheidungen hinter unseren Demoprojekten.",
+      "image": "https://images.unsplash.com/photo-1609270460854-e8ea8c0b591f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Zwei Kolleginnen oder Kollegen betrachten gemeinsam einen Laptop-Bildschirm",
+      "blurb": "Notizen zu den Entscheidungen hinter unseren Demoprojekten.",
+      "metaTitle": "Blog",
+      "metaDescription": "Kurze Artikel von Virtanex Labs über die Design- und Technikentscheidungen hinter unseren Demoprojekten."
     }
   }
 }

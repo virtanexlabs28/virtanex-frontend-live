@@ -29,6 +29,11 @@ export function WorkCard({ id }: { id: string }) {
             aria-label={item.title}
           />
           <div className="absolute inset-0 bg-gradient-to-t from-card via-card/20 to-transparent opacity-80" />
+          {item.badge && (
+            <span className="absolute left-4 top-4 rounded-full border border-foreground/20 bg-background/80 px-3 py-1 text-xs font-medium text-foreground backdrop-blur-md">
+              {item.badge}
+            </span>
+          )}
           <div className="absolute right-4 top-4 flex size-9 items-center justify-center rounded-full border border-foreground/20 bg-background/70 text-foreground backdrop-blur-md transition-colors group-hover:border-accent group-hover:bg-accent group-hover:text-accent-foreground">
             <ArrowUpRight className="size-4" aria-hidden="true" />
           </div>

@@ -1,81 +1,158 @@
 {
   "intro": {
-    "kicker": "Solution Blueprints",
+    "kicker": "Demo Projects",
     "title": "The kinds of systems we build.",
-    "description": "Four representative solution designs showing how we approach architecture, delivery, and outcomes. They illustrate our capabilities and are not client case studies."
+    "description": "Three demo projects we built, showing how we approach architecture, delivery, and outcomes. They illustrate our capabilities and are not client case studies."
   },
   "items": [
     {
-      "id": "ai-knowledge-platform",
-      "title": "AI Knowledge & Document Platform",
-      "category": "Enterprise AI & Workflow",
-      "service": "ai-ml",
-      "description": "A retrieval-augmented assistant and document-processing pipeline that turns contracts, manuals, and reports into answers teams can trust.",
-      "tags": ["LLM Integration", "RAG", "Python / NestJS", "Vector Search"],
-      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Teams lose hours searching across documents. This blueprint ingests files from existing storage, extracts and indexes their content, and exposes a conversational interface that cites its sources, with role-based access so people only see what they are permitted to.",
-      "challenge": "Information scattered across shared drives, email attachments, and legacy systems, with no reliable way to search or summarize it.",
-      "approach": [
-        "Ingestion pipeline with OCR and structured extraction",
-        "Hybrid keyword and vector retrieval with citations",
-        "Evaluation set to measure answer quality over time",
-        "Role-based access and full audit logging"
-      ],
-      "outcomes": ["Faster answers from internal documents", "Traceable, source-cited responses", "Controlled access to sensitive content"]
-    },
-    {
-      "id": "saas-platform",
-      "title": "Multi-Tenant SaaS Platform",
-      "category": "Digital Product & SaaS",
+      "id": "oivaly-marketplace",
+      "title": "Oivaly: Nordic Maker Marketplace",
+      "category": "E-commerce & Marketplace",
       "service": "digital-product",
-      "description": "A subscription-based platform with tenant isolation, role-based access, billing, and an admin console, ready to scale from MVP to production.",
-      "tags": ["Next.js", "NestJS", "PostgreSQL", "Subscriptions"],
-      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "A reference architecture for turning a product idea into a billable SaaS. It covers tenant data isolation, user and permission management, subscription plans, usage tracking, and the operational tooling needed to run the product day to day.",
-      "challenge": "Launching quickly without painting the product into an architectural corner that blocks multi-tenancy, billing, or enterprise features later.",
-      "approach": [
-        "Tenant-aware data model and access layer",
-        "Subscription and billing provider integration",
-        "Admin console for support and operations",
-        "CI/CD with staging and production environments"
+      "badge": "Demo project",
+      "description": "A multi-vendor marketplace that connects shoppers directly with independent Nordic makers, with verified sellers, transparent fees, and protected payments.",
+      "tags": [
+        "Multi-vendor marketplace",
+        "Seller onboarding",
+        "Buyer protection",
+        "Catalog & search"
       ],
-      "outcomes": ["MVP in market quickly", "Architecture that scales with customers", "Clean base for new features"]
+      "image": "/work/oivaly/1-storefront.jpg",
+      "gallery": [
+        {
+          "src": "/work/oivaly/1-storefront.jpg",
+          "caption": "Storefront with search and featured makers"
+        },
+        {
+          "src": "/work/oivaly/2-catalog.jpg",
+          "caption": "Curated collections for browsing by theme"
+        },
+        {
+          "src": "/work/oivaly/3-seller-onboarding.jpg",
+          "caption": "Seller onboarding with business identity checks"
+        },
+        {
+          "src": "/work/oivaly/4-buyer-protection.jpg",
+          "caption": "Buyer protection and payment safeguards, explained step by step"
+        },
+        {
+          "src": "/work/oivaly/5-trust-standards.jpg",
+          "caption": "Trust principles and marketplace standards"
+        },
+        {
+          "src": "/work/oivaly/6-sustainability.jpg",
+          "caption": "Sustainability charter and material standards"
+        }
+      ],
+      "overview": "Oivaly is a demo marketplace we designed and built to show how a multi-vendor platform can work for craft businesses. Shoppers browse departments, search, save favourites, and check out from many independent studios in one cart, while makers apply to open a verified shop and manage their own listings.",
+      "challenge": "Independent makers have little reach on their own, and the large retail platforms that could give them reach also take a big share of every sale. Shoppers, meanwhile, cannot easily tell who really made a product, where it comes from, or whether their payment is safe. Good craft stays hard to find, and buying it feels risky.",
+      "approach": [
+        "A storefront with departments, search, wishlist, and a cart that works across many sellers",
+        "Seller onboarding that checks a studio's official business identity before its shop goes live",
+        "A clear, published fee model so most of each sale stays with the maker",
+        "Buyer protection that holds payment until delivery is confirmed, with a simple path to resolve problems",
+        "Published material and packaging standards, so buyers can see how products are made and shipped"
+      ],
+      "outcomes": [
+        "Makers reach buyers and keep more of each sale",
+        "Shoppers can see who made what and where it comes from",
+        "Purchases feel safe, with protected payments and clear returns"
+      ]
     },
     {
-      "id": "data-reporting",
-      "title": "Unified Data & Reporting Platform",
-      "category": "Data Engineering & Analytics",
-      "service": "data-engineering",
-      "description": "Automated pipelines that consolidate data from finance, sales, and operations systems into one trusted model with live dashboards.",
-      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Dashboards"],
-      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Reporting often means manual exports and conflicting spreadsheets. This blueprint pulls from each source system on a schedule, validates and reconciles the data, and publishes a single source of truth with dashboards leaders can rely on.",
-      "challenge": "Multiple systems, inconsistent definitions, and manual month-end reporting that is slow and error-prone.",
-      "approach": [
-        "Source connectors with incremental loading",
-        "Transformation layer with documented business rules",
-        "Automated data quality checks and alerts",
-        "Dashboards and scheduled report delivery"
+      "id": "sms-messaging-platform",
+      "title": "STSL: Bulk SMS Campaign Platform",
+      "category": "Messaging & Communications",
+      "service": "digital-product",
+      "badge": "Demo project",
+      "description": "A bulk SMS platform where businesses organize audiences, send reviewed campaigns from approved templates, and track delivery, results, and spend in one place.",
+      "tags": [
+        "SMS campaigns",
+        "Audience segments",
+        "Message templates",
+        "Wallet & billing"
       ],
-      "outcomes": ["One consistent view of the business", "Less manual reporting effort", "Early warning on data problems"]
+      "image": "/work/stsl/1-campaigns.jpg",
+      "gallery": [
+        {
+          "src": "/work/stsl/1-campaigns.jpg",
+          "caption": "Campaign list with review status, delivery, and cost"
+        },
+        {
+          "src": "/work/stsl/2-segments.jpg",
+          "caption": "Audience segments for targeted messaging"
+        },
+        {
+          "src": "/work/stsl/3-templates.jpg",
+          "caption": "Message templates with approval status"
+        },
+        {
+          "src": "/work/stsl/4-wallet.jpg",
+          "caption": "Prepaid wallet, auto-recharge, and billing history"
+        }
+      ],
+      "overview": "STSL is a demo platform we designed and built for sending bulk SMS campaigns. Teams organize contacts into segments, write messages from approved templates, submit campaigns for review, and follow delivery and click results. A prepaid wallet with auto-recharge keeps spending visible and under control.",
+      "challenge": "Sending messages to thousands of people is easy to get wrong. Contact lists end up scattered across spreadsheets, campaigns go out without a second pair of eyes, and nobody can easily see what was delivered, what it cost, or how much balance is left. The result is wasted spend, messages that break platform rules, and audiences that receive the wrong message.",
+      "approach": [
+        "Audience segments that group contacts so each campaign reaches the right people",
+        "Reusable message templates with an approval status, so only checked wording is used",
+        "A review step for campaigns, with a clear reason when a message is rejected",
+        "A campaign list showing status, delivery, clicks, and cost at a glance",
+        "A prepaid wallet with auto-recharge and a transaction history"
+      ],
+      "outcomes": [
+        "Fewer mistakes before a message is sent",
+        "One clear view of delivery, results, and spend",
+        "Predictable spending, with no surprise bills"
+      ]
     },
     {
-      "id": "iot-monitoring",
-      "title": "IoT Monitoring & Alerting System",
-      "category": "IoT & Industrial Software",
-      "service": "iot-industrial",
-      "description": "Real-time telemetry ingestion, dashboards, and anomaly alerts for connected equipment, with a path towards predictive maintenance.",
-      "tags": ["IoT", "Real-time", "Anomaly Detection", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Connected equipment generates data that rarely reaches the people who can act on it. This blueprint ingests device telemetry, stores it efficiently, visualizes live status, and raises alerts when readings drift outside expected behavior.",
-      "challenge": "Equipment health is invisible until something fails, and device data is locked in proprietary tools.",
-      "approach": [
-        "Device and gateway integration over standard protocols",
-        "Time-series storage and processing pipeline",
-        "Live dashboards by site, asset, and sensor",
-        "Threshold and statistical anomaly alerting"
+      "id": "doctor-portfolio-website",
+      "title": "Doctor Portfolio: Specialist Practice Website",
+      "category": "Healthcare & Professional Websites",
+      "service": "digital-product",
+      "badge": "Demo project",
+      "description": "A professional portfolio site for a medical specialist that presents credentials, services, and focus areas clearly, and lets patients request an appointment online.",
+      "tags": [
+        "Portfolio website",
+        "Appointment requests",
+        "Responsive design",
+        "Clinic information"
       ],
-      "outcomes": ["Real-time visibility of assets", "Earlier detection of faults", "Foundation for predictive maintenance"]
+      "image": "/work/doctor/1-home.jpg",
+      "gallery": [
+        {
+          "src": "/work/doctor/1-home.jpg",
+          "caption": "Home page introducing the specialist and the practice"
+        },
+        {
+          "src": "/work/doctor/2-services.jpg",
+          "caption": "Services grouped into clear care areas"
+        },
+        {
+          "src": "/work/doctor/3-focus-areas.jpg",
+          "caption": "Focus areas patients can explore one by one"
+        },
+        {
+          "src": "/work/doctor/4-appointment.jpg",
+          "caption": "Appointment request form with clinic details and emergency guidance"
+        }
+      ],
+      "overview": "This demo is a portfolio website for a fictional cardiologist, designed and built by us. It introduces the doctor and the practice, groups services into clear care areas, lets visitors explore each focus area, tells the career story through a timeline and patient stories, and ends with an appointment request form and clinic details.",
+      "challenge": "Independent doctors and specialists are often found through a hospital listing or an out-of-date page. Patients struggle to see who the doctor is, which conditions they treat, what experience they have, and how to book. Many end up phoning around, and clear guidance for urgent situations is easy to miss.",
+      "approach": [
+        "A home page that quickly shows who the doctor is and what they offer",
+        "Services grouped into clear care areas, each with a call to action",
+        "Interactive focus areas so patients can explore the conditions they care about",
+        "A career timeline and patient stories that build trust without clutter",
+        "An appointment request form with clinic hours, contact details, and visible emergency guidance"
+      ],
+      "outcomes": [
+        "Patients understand quickly who they would be seeing",
+        "Appointment requests arrive in a structured form",
+        "Emergency guidance stays clearly visible"
+      ]
     }
   ]
 }

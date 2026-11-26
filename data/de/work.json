@@ -1,81 +1,158 @@
 {
   "intro": {
-    "kicker": "Lösungskonzepte",
+    "kicker": "Demoprojekte",
     "title": "Die Art von Systemen, die wir bauen.",
-    "description": "Vier repräsentative Lösungsentwürfe, die zeigen, wie wir Architektur, Umsetzung und Ergebnisse angehen. Sie veranschaulichen unsere Fähigkeiten und sind keine Kundenreferenzen."
+    "description": "Drei Demoprojekte, die wir selbst entwickelt haben und die zeigen, wie wir Architektur, Umsetzung und Ergebnisse angehen. Sie veranschaulichen unsere Fähigkeiten und sind keine Kundenreferenzen."
   },
   "items": [
     {
-      "id": "ai-knowledge-platform",
-      "title": "KI-Wissens- und Dokumentenplattform",
-      "category": "Enterprise-KI & Workflow",
-      "service": "ai-ml",
-      "description": "Ein Retrieval-Augmented-Assistent mit Dokumentenverarbeitungs-Pipeline, der Verträge, Handbücher und Berichte in Antworten verwandelt, auf die sich Teams verlassen können.",
-      "tags": ["LLM-Integration", "RAG", "Python / NestJS", "Vektorsuche"],
-      "image": "https://images.unsplash.com/photo-1758611972678-bc3b29b4718f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Teams verlieren Stunden mit der Suche in Dokumenten. Dieses Konzept übernimmt Dateien aus bestehenden Ablagen, extrahiert und indexiert deren Inhalte und stellt eine Dialogschnittstelle bereit, die ihre Quellen belegt – mit rollenbasierten Zugriffen, sodass jeder nur sieht, was er sehen darf.",
-      "challenge": "Informationen sind über Netzlaufwerke, E-Mail-Anhänge und Altsysteme verstreut, ohne verlässliche Möglichkeit, sie zu durchsuchen oder zusammenzufassen.",
-      "approach": [
-        "Ingestion-Pipeline mit OCR und strukturierter Extraktion",
-        "Hybrides Retrieval aus Stichwort- und Vektorsuche mit Quellenangaben",
-        "Evaluierungsdatensatz zur Messung der Antwortqualität im Zeitverlauf",
-        "Rollenbasierte Zugriffe und vollständiges Audit-Logging"
-      ],
-      "outcomes": ["Schnellere Antworten aus internen Dokumenten", "Nachvollziehbare Antworten mit Quellenangaben", "Kontrollierter Zugriff auf sensible Inhalte"]
-    },
-    {
-      "id": "saas-platform",
-      "title": "Mandantenfähige SaaS-Plattform",
-      "category": "Digitales Produkt & SaaS",
+      "id": "oivaly-marketplace",
+      "title": "Oivaly: Marktplatz für nordische Kunsthandwerker",
+      "category": "E-Commerce & Marktplatz",
       "service": "digital-product",
-      "description": "Eine abonnementbasierte Plattform mit Mandantentrennung, rollenbasierten Zugriffen, Abrechnung und Admin-Konsole, bereit zur Skalierung vom MVP bis in die Produktion.",
-      "tags": ["Next.js", "NestJS", "PostgreSQL", "Abonnements"],
-      "image": "https://images.unsplash.com/photo-1758876203026-99a024dc43b9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Eine Referenzarchitektur, um aus einer Produktidee ein abrechenbares SaaS zu machen. Sie umfasst die Datentrennung zwischen Mandanten, Benutzer- und Rechteverwaltung, Abonnementpläne, Nutzungserfassung und die operativen Werkzeuge, die für den täglichen Betrieb des Produkts nötig sind.",
-      "challenge": "Schnell starten, ohne das Produkt architektonisch in eine Sackgasse zu manövrieren, die später Mandantenfähigkeit, Abrechnung oder Enterprise-Funktionen blockiert.",
-      "approach": [
-        "Mandantenfähiges Datenmodell und Zugriffsschicht",
-        "Integration von Abonnement- und Abrechnungsanbietern",
-        "Admin-Konsole für Support und Betrieb",
-        "CI/CD mit Staging- und Produktionsumgebungen"
+      "badge": "Demoprojekt",
+      "description": "Ein Multi-Vendor-Marktplatz, der Käuferinnen und Käufer direkt mit unabhängigen nordischen Kunsthandwerkern verbindet – mit verifizierten Verkäufern, transparenten Gebühren und geschützten Zahlungen.",
+      "tags": [
+        "Multi-Vendor-Marktplatz",
+        "Verkäufer-Onboarding",
+        "Käuferschutz",
+        "Katalog & Suche"
       ],
-      "outcomes": ["MVP schnell am Markt", "Architektur, die mit den Kunden mitwächst", "Saubere Basis für neue Funktionen"]
+      "image": "/work/oivaly/1-storefront.jpg",
+      "gallery": [
+        {
+          "src": "/work/oivaly/1-storefront.jpg",
+          "caption": "Storefront mit Suche und hervorgehobenen Kunsthandwerkern"
+        },
+        {
+          "src": "/work/oivaly/2-catalog.jpg",
+          "caption": "Kuratierte Kollektionen zum thematischen Stöbern"
+        },
+        {
+          "src": "/work/oivaly/3-seller-onboarding.jpg",
+          "caption": "Verkäufer-Onboarding mit Prüfung der Unternehmensidentität"
+        },
+        {
+          "src": "/work/oivaly/4-buyer-protection.jpg",
+          "caption": "Käuferschutz und Zahlungsabsicherung, Schritt für Schritt erklärt"
+        },
+        {
+          "src": "/work/oivaly/5-trust-standards.jpg",
+          "caption": "Vertrauensprinzipien und Marktplatzstandards"
+        },
+        {
+          "src": "/work/oivaly/6-sustainability.jpg",
+          "caption": "Nachhaltigkeitscharta und Materialstandards"
+        }
+      ],
+      "overview": "Oivaly ist ein Demo-Marktplatz, den wir konzipiert und entwickelt haben, um zu zeigen, wie eine Multi-Vendor-Plattform für Handwerksbetriebe funktionieren kann. Käuferinnen und Käufer stöbern in Kategorien, suchen, merken sich Favoriten und bestellen bei vielen unabhängigen Ateliers in einem einzigen Warenkorb, während Kunsthandwerker sich für einen verifizierten Shop bewerben und ihre Angebote selbst verwalten.",
+      "challenge": "Unabhängige Kunsthandwerker haben allein nur wenig Reichweite, und die großen Handelsplattformen, die ihnen diese Reichweite verschaffen könnten, behalten zugleich einen erheblichen Anteil jedes Verkaufs ein. Käuferinnen und Käufer wiederum können kaum erkennen, wer ein Produkt tatsächlich gefertigt hat, woher es stammt oder ob ihre Zahlung sicher ist. Gutes Handwerk bleibt schwer auffindbar, und der Kauf fühlt sich riskant an.",
+      "approach": [
+        "Eine Storefront mit Kategorien, Suche, Merkliste und einem Warenkorb, der über viele Verkäufer hinweg funktioniert",
+        "Ein Verkäufer-Onboarding, das die offizielle Unternehmensidentität eines Ateliers prüft, bevor sein Shop live geht",
+        "Ein klares, veröffentlichtes Gebührenmodell, damit der größte Teil jedes Verkaufs beim Kunsthandwerker bleibt",
+        "Ein Käuferschutz, der die Zahlung bis zur bestätigten Lieferung zurückhält, mit einem einfachen Weg zur Klärung von Problemen",
+        "Veröffentlichte Material- und Verpackungsstandards, damit Käufer nachvollziehen können, wie Produkte hergestellt und versandt werden"
+      ],
+      "outcomes": [
+        "Kunsthandwerker erreichen Käufer und behalten mehr von jedem Verkauf",
+        "Käuferinnen und Käufer sehen, wer was gefertigt hat und woher es stammt",
+        "Käufe fühlen sich sicher an – dank geschützter Zahlungen und klarer Rückgaberegeln"
+      ]
     },
     {
-      "id": "data-reporting",
-      "title": "Einheitliche Daten- und Reporting-Plattform",
-      "category": "Data Engineering & Analytics",
-      "service": "data-engineering",
-      "description": "Automatisierte Pipelines, die Daten aus Finanz-, Vertriebs- und Betriebssystemen in einem verlässlichen Modell mit Live-Dashboards zusammenführen.",
-      "tags": ["ETL / ELT", "PostgreSQL", "Python", "Dashboards"],
-      "image": "https://images.unsplash.com/photo-1630487656049-6db93a53a7e9?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Reporting bedeutet oft manuelle Exporte und widersprüchliche Tabellen. Dieses Konzept bezieht Daten zeitgesteuert aus jedem Quellsystem, validiert und gleicht sie ab und stellt eine einheitliche, verlässliche Datenbasis mit Dashboards bereit, auf die sich Führungskräfte stützen können.",
-      "challenge": "Mehrere Systeme, uneinheitliche Definitionen und ein manueller Monatsabschluss, der langsam und fehleranfällig ist.",
-      "approach": [
-        "Quell-Konnektoren mit inkrementellem Laden",
-        "Transformationsschicht mit dokumentierten Geschäftsregeln",
-        "Automatisierte Datenqualitätsprüfungen und Alarme",
-        "Dashboards und zeitgesteuerte Berichtsauslieferung"
+      "id": "sms-messaging-platform",
+      "title": "STSL: Plattform für SMS-Massenkampagnen",
+      "category": "Messaging & Kommunikation",
+      "service": "digital-product",
+      "badge": "Demoprojekt",
+      "description": "Eine Plattform für den SMS-Massenversand, auf der Unternehmen Zielgruppen organisieren, geprüfte Kampagnen aus freigegebenen Vorlagen versenden und Zustellung, Ergebnisse und Kosten an einem Ort im Blick behalten.",
+      "tags": [
+        "SMS-Kampagnen",
+        "Zielgruppensegmente",
+        "Nachrichtenvorlagen",
+        "Guthaben & Abrechnung"
       ],
-      "outcomes": ["Eine konsistente Sicht auf das Unternehmen", "Weniger manueller Reporting-Aufwand", "Frühwarnung bei Datenproblemen"]
+      "image": "/work/stsl/1-campaigns.jpg",
+      "gallery": [
+        {
+          "src": "/work/stsl/1-campaigns.jpg",
+          "caption": "Kampagnenliste mit Prüfstatus, Zustellung und Kosten"
+        },
+        {
+          "src": "/work/stsl/2-segments.jpg",
+          "caption": "Zielgruppensegmente für gezielte Ansprache"
+        },
+        {
+          "src": "/work/stsl/3-templates.jpg",
+          "caption": "Nachrichtenvorlagen mit Freigabestatus"
+        },
+        {
+          "src": "/work/stsl/4-wallet.jpg",
+          "caption": "Prepaid-Guthaben, automatische Aufladung und Abrechnungsverlauf"
+        }
+      ],
+      "overview": "STSL ist eine Demoplattform, die wir für den Versand von SMS-Massenkampagnen konzipiert und entwickelt haben. Teams ordnen Kontakte in Segmente, verfassen Nachrichten aus freigegebenen Vorlagen, reichen Kampagnen zur Prüfung ein und verfolgen Zustellung und Klickergebnisse. Ein Prepaid-Guthaben mit automatischer Aufladung hält die Ausgaben sichtbar und unter Kontrolle.",
+      "challenge": "Nachrichten an Tausende von Personen zu versenden, geht schnell schief. Kontaktlisten sind über Tabellen verstreut, Kampagnen gehen ohne Vier-Augen-Prinzip hinaus, und niemand erkennt leicht, was zugestellt wurde, was es gekostet hat oder wie viel Guthaben noch übrig ist. Die Folgen sind verschwendete Ausgaben, Nachrichten, die gegen Plattformregeln verstoßen, und Zielgruppen, die die falsche Nachricht erhalten.",
+      "approach": [
+        "Zielgruppensegmente, die Kontakte bündeln, sodass jede Kampagne die richtigen Personen erreicht",
+        "Wiederverwendbare Nachrichtenvorlagen mit Freigabestatus, damit nur geprüfte Formulierungen zum Einsatz kommen",
+        "Ein Prüfschritt für Kampagnen, mit einer klaren Begründung, wenn eine Nachricht abgelehnt wird",
+        "Eine Kampagnenliste, die Status, Zustellung, Klicks und Kosten auf einen Blick zeigt",
+        "Ein Prepaid-Guthaben mit automatischer Aufladung und einem Transaktionsverlauf"
+      ],
+      "outcomes": [
+        "Weniger Fehler, bevor eine Nachricht versendet wird",
+        "Ein klarer Überblick über Zustellung, Ergebnisse und Ausgaben",
+        "Planbare Kosten, ohne böse Überraschungen auf der Rechnung"
+      ]
     },
     {
-      "id": "iot-monitoring",
-      "title": "IoT-Monitoring- und Alarmierungssystem",
-      "category": "IoT & Industriesoftware",
-      "service": "iot-industrial",
-      "description": "Echtzeit-Erfassung von Telemetriedaten, Dashboards und Anomalie-Alarme für vernetzte Anlagen, mit einem Weg hin zur vorausschauenden Wartung.",
-      "tags": ["IoT", "Echtzeit", "Anomalieerkennung", "Python / Node.js"],
-      "image": "https://images.unsplash.com/photo-1668511238537-bb2d2c1e005f?auto=format&fit=crop&w=1200&q=80",
-      "overview": "Vernetzte Anlagen erzeugen Daten, die selten bei denen ankommen, die darauf reagieren können. Dieses Konzept nimmt Gerätetelemetrie auf, speichert sie effizient, visualisiert den Live-Status und löst Alarme aus, wenn Messwerte vom erwarteten Verhalten abweichen.",
-      "challenge": "Der Zustand der Anlagen ist unsichtbar, bis etwas ausfällt, und Gerätedaten sind in proprietären Werkzeugen eingeschlossen.",
-      "approach": [
-        "Anbindung von Geräten und Gateways über Standardprotokolle",
-        "Zeitreihenspeicherung und Verarbeitungspipeline",
-        "Live-Dashboards nach Standort, Anlage und Sensor",
-        "Alarmierung über Schwellenwerte und statistische Anomalieerkennung"
+      "id": "doctor-portfolio-website",
+      "title": "Doctor Portfolio: Website für eine Facharztpraxis",
+      "category": "Gesundheitswesen & Websites für Fachleute",
+      "service": "digital-product",
+      "badge": "Demoprojekt",
+      "description": "Eine professionelle Portfolio-Website für eine Fachärztin bzw. einen Facharzt, die Qualifikationen, Leistungen und Schwerpunkte übersichtlich darstellt und es Patientinnen und Patienten ermöglicht, online einen Termin anzufragen.",
+      "tags": [
+        "Portfolio-Website",
+        "Terminanfragen",
+        "Responsive Design",
+        "Praxisinformationen"
       ],
-      "outcomes": ["Echtzeit-Transparenz über Anlagen", "Frühere Erkennung von Störungen", "Grundlage für vorausschauende Wartung"]
+      "image": "/work/doctor/1-home.jpg",
+      "gallery": [
+        {
+          "src": "/work/doctor/1-home.jpg",
+          "caption": "Startseite mit Vorstellung der Fachärztin bzw. des Facharztes und der Praxis"
+        },
+        {
+          "src": "/work/doctor/2-services.jpg",
+          "caption": "Leistungen, gegliedert in klare Behandlungsbereiche"
+        },
+        {
+          "src": "/work/doctor/3-focus-areas.jpg",
+          "caption": "Schwerpunkte, die Patientinnen und Patienten einzeln erkunden können"
+        },
+        {
+          "src": "/work/doctor/4-appointment.jpg",
+          "caption": "Formular für Terminanfragen mit Praxisdetails und Hinweisen für Notfälle"
+        }
+      ],
+      "overview": "Dieses Demoprojekt ist eine Portfolio-Website für einen fiktiven Kardiologen, die wir selbst konzipiert und entwickelt haben. Sie stellt den Arzt und die Praxis vor, gliedert die Leistungen in klare Behandlungsbereiche, lässt Besucherinnen und Besucher jeden Schwerpunkt erkunden, erzählt den beruflichen Werdegang über eine Zeitleiste und Patientenberichte und endet mit einem Formular für Terminanfragen und den Praxisdetails.",
+      "challenge": "Niedergelassene Ärztinnen und Fachärzte werden oft nur über einen Klinikeintrag oder eine veraltete Seite gefunden. Patientinnen und Patienten können kaum erkennen, wer der Arzt ist, welche Erkrankungen behandelt werden, welche Erfahrung vorliegt und wie sich ein Termin vereinbaren lässt. Viele telefonieren deshalb mehrere Praxen ab, und klare Hinweise für dringende Situationen werden leicht übersehen.",
+      "approach": [
+        "Eine Startseite, die schnell zeigt, wer der Arzt ist und was die Praxis anbietet",
+        "Leistungen, gegliedert in klare Behandlungsbereiche, jeweils mit einem Handlungsaufruf",
+        "Interaktive Schwerpunkte, damit Patientinnen und Patienten die für sie relevanten Erkrankungen erkunden können",
+        "Eine Zeitleiste des Werdegangs und Patientenberichte, die Vertrauen schaffen, ohne zu überladen",
+        "Ein Formular für Terminanfragen mit Sprechzeiten, Kontaktdaten und gut sichtbaren Hinweisen für Notfälle"
+      ],
+      "outcomes": [
+        "Patientinnen und Patienten erkennen schnell, wen sie aufsuchen würden",
+        "Terminanfragen gehen in strukturierter Form ein",
+        "Hinweise für Notfälle bleiben deutlich sichtbar"
+      ]
     }
   ]
 }

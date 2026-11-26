@@ -68,7 +68,7 @@
         "href": "/process#security"
       },
       {
-        "label": "Ratkaisumallit",
+        "label": "Demoprojektit",
         "href": "/work"
       },
       {
@@ -78,6 +78,10 @@
       {
         "label": "Tiimi ja arvot",
         "href": "/team"
+      },
+      {
+        "label": "Blogi",
+        "href": "/blog"
       },
       {
         "label": "UKK",
@@ -160,13 +164,22 @@
     "outputs": "Mitä saat"
   },
   "work": {
-    "viewBlueprint": "Katso ratkaisumalli: {title}",
+    "viewBlueprint": "Avaa projekti: {title}",
     "challenge": "Haaste",
     "approach": "Lähestymistapamme",
     "outcomes": "Tavoitellut tulokset",
     "similar": "Tarvitsetko jotain vastaavaa?",
-    "back": "Takaisin kaikkiin ratkaisumalleihin",
+    "back": "Takaisin kaikkiin projekteihin",
     "tags": "Teknologiat ja painopisteet",
-    "more": "Lisää ratkaisumalleja"
+    "more": "Lisää projekteja",
+    "screens": "Näyttökuvat"
+  },
+  "blog": {
+    "minRead": "{minutes} min lukuaika",
+    "by": "Kirjoittaja: {author}",
+    "back": "Takaisin blogiin",
+    "more": "Lisää artikkeleita",
+    "readMore": "Lue artikkeli",
+    "cta": "Haluatko keskustella omasta projektistasi?"
   }
 }

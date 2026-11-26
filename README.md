@@ -109,6 +109,16 @@ headers listed in `COUNTRY_HEADERS`.
 - Use `useContent()` in client components and `Link` from `components/LocaleLink` so links keep the language.
 - Emails to your team are always written in English and include a "Site language" line.
 
+## Blog
+
+Articles live in `data/<language>/blog.json` (one entry per article in `posts`) and are shown at `/<language>/blog` and
+`/<language>/blog/<id>`, on the home page (latest three), in the navigation, and in the footer.
+
+To add an article: copy a post object in `data/en/blog.json`, give it a new `id` (the URL slug), a `date`
+(`YYYY-MM-DD`), a cover `image` (a path under `public/`), and `sections` (a `heading`, `paragraphs`, and optional
+`items` bullets). Add the translated version to each language folder, then run `bun run i18n:check`.
+Reading time is calculated automatically. Newest articles are listed first.
+
 ## Finnish time zone
 
 The site works on Finnish time (`Europe/Helsinki`, which is EET in winter and EEST in summer):

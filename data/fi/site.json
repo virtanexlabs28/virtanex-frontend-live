@@ -74,6 +74,10 @@
       "href": "/faq"
     },
     {
+      "label": "Blogi",
+      "href": "/blog"
+    },
+    {
       "label": "Yhteystiedot",
       "href": "/contact"
     }
@@ -174,12 +178,12 @@
       "href": "/work",
       "kicker": "Valittuja töitä",
       "title": "Järjestelmät, joita rakennamme, ja ne, joille niitä rakennamme.",
-      "description": "Ratkaisumallit, palvelemamme toimialat ja tutkimusalueet, joihin jatkuvasti panostamme.",
+      "description": "Itse rakentamamme demoprojektit, palvelemamme toimialat ja tutkimusalueet, joihin panostamme jatkuvasti.",
       "image": "https://images.unsplash.com/photo-1758873268745-dd2cf0d677b5?auto=format&fit=crop&w=1800&q=75",
       "imageAlt": "Työtoverit katsovat yhdessä projektia tietokoneen näytöltä",
-      "blurb": "Ratkaisumallit, toimialat ja tutkimuksen painopisteet.",
+      "blurb": "Demoprojektit, toimialat ja tutkimuksen painopisteet.",
       "metaTitle": "Työt",
-      "metaDescription": "Ratkaisumallit, palvelemamme toimialat ja tekniset osaamisalueet, joihin panostamme."
+      "metaDescription": "Itse rakentamamme demoprojektit, palvelemamme toimialat ja tekniset osaamisalueet, joihin panostamme."
     },
     "team": {
       "href": "/team",
@@ -213,6 +217,17 @@
       "blurb": "Varaa puhelu tai lähetä projektikuvaus.",
       "metaTitle": "Yhteystiedot",
       "metaDescription": "Varaa kartoituspuhelu tai lähetä Virtanex Labsille projektikuvaus. Vastaamme 24 tunnin kuluessa."
+    },
+    "blog": {
+      "href": "/blog",
+      "kicker": "Blogista",
+      "title": "Muistiinpanoja työstämme.",
+      "description": "Lyhyitä kirjoituksia demoprojektiemme taustalla olevista suunnittelu- ja tekniikkaratkaisuista.",
+      "image": "https://images.unsplash.com/photo-1609270460854-e8ea8c0b591f?auto=format&fit=crop&w=1800&q=75",
+      "imageAlt": "Kaksi työtoveria katsoo yhdessä kannettavan näyttöä",
+      "blurb": "Muistiinpanoja demoprojektiemme taustalla olevista ratkaisuista.",
+      "metaTitle": "Blogi",
+      "metaDescription": "Virtanex Labsin lyhyitä kirjoituksia demoprojektiemme taustalla olevista suunnittelu- ja tekniikkaratkaisuista."
     }
   }
 }

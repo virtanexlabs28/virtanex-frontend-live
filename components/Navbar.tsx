@@ -72,7 +72,7 @@ export function Navbar() {
       </Link>
 
       {/* Desktop pill */}
-      <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 rounded-full border border-foreground/15 bg-foreground/10 px-2 py-1.5 shadow-lg shadow-black/20 backdrop-blur-md lg:flex">
+      <ul className="absolute left-1/2 hidden -translate-x-1/2 items-center gap-1 rounded-full border border-foreground/15 bg-foreground/10 px-2 py-1.5 shadow-lg shadow-black/20 backdrop-blur-md xl:flex">
         {site.nav.map((link) => (
           <li key={link.href}>
             <Link
@@ -97,7 +97,7 @@ export function Navbar() {
 
         <Button
           onClick={openBooking}
-          className="hidden whitespace-nowrap rounded-full px-5 font-semibold shadow-md shadow-black/30 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground lg:inline-flex"
+          className="hidden whitespace-nowrap rounded-full px-5 font-semibold shadow-md shadow-black/30 transition-colors duration-300 hover:bg-accent hover:text-accent-foreground xl:inline-flex"
         >
           {ui.nav.bookCall}
         </Button>
@@ -108,7 +108,7 @@ export function Navbar() {
             <Button
               variant="outline"
               size="icon"
-              className="rounded-full border-foreground/20 bg-foreground/10 text-foreground hover:bg-foreground/20 lg:hidden"
+              className="rounded-full border-foreground/20 bg-foreground/10 text-foreground hover:bg-foreground/20 xl:hidden"
               aria-label={ui.nav.openMenu}
             >
               <Menu className="size-4" />

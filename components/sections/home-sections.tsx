@@ -96,7 +96,7 @@ export function ProcessPreview() {
   );
 }
 
-/** Four solution blueprints with imagery. */
+/** The demo projects with imagery. */
 export function WorkPreview() {
   const { home, work } = useContent();
   const c = home.work;
@@ -105,8 +105,8 @@ export function WorkPreview() {
       <Reveal>
         <SectionHeader kicker={c.kicker} title={c.title} description={c.description} />
       </Reveal>
-      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
-        {work.items.map((item, i) => (
+      <div className="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+        {work.items.slice(0, 3).map((item, i) => (
           <Reveal key={item.id} delay={i * 80}>
             <Link href={`/work/${item.id}`} className="group block h-full rounded-2xl outline-none focus-visible:ring-2 focus-visible:ring-ring">
               <Card className="h-full gap-0 overflow-hidden rounded-2xl border-border bg-card p-0 transition-all duration-300 group-hover:-translate-y-1 group-hover:border-accent/50">

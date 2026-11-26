@@ -68,7 +68,7 @@
         "href": "/process#security"
       },
       {
-        "label": "Lösningsritningar",
+        "label": "Demoprojekt",
         "href": "/work"
       },
       {
@@ -78,6 +78,10 @@
       {
         "label": "Team och värderingar",
         "href": "/team"
+      },
+      {
+        "label": "Blogg",
+        "href": "/blog"
       },
       {
         "label": "FAQ",
@@ -160,13 +164,22 @@
     "outputs": "Vad ni får"
   },
   "work": {
-    "viewBlueprint": "Visa lösningsritning: {title}",
+    "viewBlueprint": "Visa projekt: {title}",
     "challenge": "Utmaningen",
     "approach": "Vårt arbetssätt",
     "outcomes": "Avsedda resultat",
     "similar": "Behöver ni något liknande?",
-    "back": "Tillbaka till alla lösningsritningar",
+    "back": "Tillbaka till alla projekt",
     "tags": "Teknik och fokus",
-    "more": "Fler lösningsritningar"
+    "more": "Fler projekt",
+    "screens": "Skärmbilder"
+  },
+  "blog": {
+    "minRead": "{minutes} min läsning",
+    "by": "Av {author}",
+    "back": "Tillbaka till bloggen",
+    "more": "Fler artiklar",
+    "readMore": "Läs artikeln",
+    "cta": "Vill ni prata om ert eget projekt?"
   }
 }

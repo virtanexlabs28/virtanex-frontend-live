@@ -16,10 +16,10 @@
     "cta": "Voir le processus complet"
   },
   "work": {
-    "kicker": "Plans de solution",
+    "kicker": "Projets de démonstration",
     "title": "Ce que nous pouvons construire pour vous.",
-    "description": "Des conceptions de solutions représentatives qui montrent notre approche de l'architecture, de la livraison et des résultats.",
-    "cta": "Voir tous les plans de solution"
+    "description": "Des projets de démonstration réalisés par nos soins, qui montrent notre approche de l'architecture, de la livraison et des résultats.",
+    "cta": "Voir tous les projets"
   },
   "industries": {
     "kicker": "Secteurs",
@@ -32,6 +32,12 @@
     "title": "Un partenaire technologique sur la durée.",
     "description": "Des outils modernes, une communication claire et une équipe qui reste aux côtés de votre produit après son lancement.",
     "cta": "Rencontrer l'équipe"
+  },
+  "blog": {
+    "kicker": "Depuis le blog",
+    "title": "Notes issues de notre travail.",
+    "description": "Courts articles sur les décisions de conception derrière nos projets de démonstration.",
+    "cta": "Lire le blog"
   },
   "faq": {
     "kicker": "Réponses rapides",
